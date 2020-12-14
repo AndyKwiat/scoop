@@ -1,12 +1,48 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useRef } from "react";
+import { Animated, View, StyleSheet, PanResponder, Text,Image } from "react-native";
+let pics =["https://homepages.cae.wisc.edu/~ece533/images/airplane.png"]
+const App = () => {
+  const pan = useRef(new Animated.ValueXY()).current;
 
-export default function App() {
+  const panResponder = useRef(
+    PanResponder.create({
+      onMoveShouldSetPanResponder: () => true,
+      onPanResponderGrant: () => {
+        pan.setOffset({
+          x: pan.x._value,
+          y: pan.y._value
+        });
+      },
+      onPanResponderMove: Animated.event(
+        [
+          null,
+          { dx: pan.x, dy: pan.y }
+        ],{useNativeDriver:false}
+      ),
+
+      onPanResponderRelease: () => {
+        pan.flattenOffset();
+      }
+    })
+  ).current;
+
+  function myPan(){
+    return pan.x
+  }
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.titleText}>Drag this box!</Text>
+      <Animated.View
+        style={{
+          transform: [{ translateX:pan.x }, { translateY: pan.y }]
+        }}
+        {...panResponder.panHandlers}
+      >
+       
+        <Image style={styles.box} source={{uri:pics[0]}}/>
+        <Text>{JSON.stringify(pan)}</Text>
+      </Animated.View>
     </View>
   );
 }
@@ -14,8 +50,20 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center"
   },
+  titleText: {
+    fontSize: 14,
+    lineHeight: 24,
+    fontWeight: "bold"
+  },
+  box: {
+    height: 150,
+    width: 150,
+    backgroundColor: "blue",
+    borderRadius: 5
+  }
 });
+
+export default App;

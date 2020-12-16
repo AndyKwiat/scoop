@@ -1,6 +1,6 @@
 import { setStatusBarNetworkActivityIndicatorVisible } from "expo-status-bar";
 import React, { useRef,useState } from "react";
-import { Animated, View, StyleSheet, PanResponder, Text,Image ,Easing, Dimensions} from "react-native";
+import { Animated, View, StyleSheet, PanResponder, Text,Image ,Easing, Dimensions, TouchableHighlight} from "react-native";
 let pics =["https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
 "https://static-ssl.businessinsider.com/image/5d9b5bff52887931e8497a36-1405/141222twnmustang.jpg",
 "https://d33wubrfki0l68.cloudfront.net/200d166fc3dff29e5b8a6703d8e83cc25821bcf4/10dd6/media/2018/08/kitten.jpg",
@@ -15,16 +15,22 @@ const App = () => {
   const [nextIdea, setNextIdea] = useState(1);
   const mypos = useRef(new Animated.ValueXY()).current;
   const [opacity,setOpacity] = useState(1);
-  
+  const [touchTime, setTouchTime] = useState(0);
 
   const panResponder = PanResponder.create({
-    onStartShouldSetPanResponder: () => true,
+    onStartShouldSetPanResponder: (ev, gestureState) => {  
+      setTouchTime((new Date()).getTime()) 
+      return true },
     onPanResponderMove: (event, gesture) => {
     //   console.log(gesture);
        mypos.setValue({ x: gesture.dx*.8 , y: 0 });
      
     },
     onPanResponderRelease:(event,gesture)=>{
+      if ( (new Date()).getTime() - touchTime < 150 && gesture.vx < .1 && gesture.vy < .1 && Math.abs(gesture.dx) < 10 && Math.abs(gesture.dy) < 10 ){
+        alert(ideas[frontIdea].name)
+        return
+      }
       console.log("RELEASE")
       console.log( gesture.vx )
    
@@ -90,14 +96,18 @@ const App = () => {
     <View style={styles.container} >
      
       <Image style={[styles.boxBack]} source={{uri:getPicUri(ideas[nextIdea])} } resizeMode="cover"/>
+     
       <Animated.View
+       oncClick={() => alert('You click by View')}
         style={[mypos.getLayout(),{width:"100%", height:"100%"}]}
         {...panResponder.panHandlers}
       >
        
         <Image style={[styles.box, {opacity:opacity}]} source={{uri:getPicUri(ideas[frontIdea])} } resizeMode="cover"/>
+       
     
       </Animated.View>
+     
     </View>
     </View>
   );

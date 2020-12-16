@@ -5,13 +5,18 @@ let pics =["https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
 "https://static-ssl.businessinsider.com/image/5d9b5bff52887931e8497a36-1405/141222twnmustang.jpg",
 "https://d33wubrfki0l68.cloudfront.net/200d166fc3dff29e5b8a6703d8e83cc25821bcf4/10dd6/media/2018/08/kitten.jpg",
 "https://guelphpolitico.files.wordpress.com/2020/02/misersky_dogpark-e1582571255961.jpg?w=940",
-"https://geo0.ggpht.com/maps/photothumb/fd/v1?bpb=ChEKD3NlYXJjaC5nd3MtcHJvZBIgChIJg41l1rWaK4gRQ_nNQZ4p_78qCg0AAAAAFQAAAAAaBgjwARCYAw&gl=CA"]
+"https://geo0.ggpht.com/maps/photothumb/fd/v1?bpb=ChEKD3NlYXJjaC5nd3MtcHJvZBIgChIJg41l1rWaK4gRQ_nNQZ4p_78qCg0AAAAAFQAAAAAaBgjwARCYAw&gl=CA",
+"https://www.stirfrygames.com/img/ATtYBwIEv71DK4B8CVkwyNTTSnNqsjbMla4Gq3L98wa968u4iUVfEtJ6yGOj5XFwliHLel123dVwB3rr6CH9GWHXukYP0TVlfuuIOsNAQRK5mFtkznGt1QGYaMYv3-bz8ENicrBs6VgUXxCNV__5okHI3ZpILpxegRdtHQBtfVFo-2LOtgEG.jpg"]
+
+const ideasRaw = require('./ideas.parks.json');
 const App = () => {
+  const ideas = ideasRaw.results;
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
   const mypos = useRef(new Animated.ValueXY()).current;
   const [opacity,setOpacity] = useState(1);
- 
+  
+
   const panResponder = PanResponder.create({
     onStartShouldSetPanResponder: () => true,
     onPanResponderMove: (event, gesture) => {
@@ -45,7 +50,7 @@ const App = () => {
           setOpacity(0);
           setImmediate(()=>{
             setFrontIdea(nextIdea)
-            setNextIdea((nextIdea+1) %pics.length)
+            setNextIdea((nextIdea+1) %ideas.length)
             setOpacity(1);
           })})
         
@@ -78,24 +83,29 @@ const App = () => {
     }});
  
  
-
+  
 
   return (
     <View style={{backgroundColor:"black", height:"100%"}}>
     <View style={styles.container} >
      
-      <Image style={[styles.boxBack]} source={{uri:pics[nextIdea]} } resizeMode="cover"/>
+      <Image style={[styles.boxBack]} source={{uri:getPicUri(ideas[nextIdea])} } resizeMode="cover"/>
       <Animated.View
         style={[mypos.getLayout(),{width:"100%", height:"100%"}]}
         {...panResponder.panHandlers}
       >
        
-        <Image style={[styles.box, {opacity:opacity}]} source={{uri:pics[frontIdea]} } resizeMode="cover"/>
+        <Image style={[styles.box, {opacity:opacity}]} source={{uri:getPicUri(ideas[frontIdea])} } resizeMode="cover"/>
     
       </Animated.View>
     </View>
     </View>
   );
+}
+
+function getPicUri( idea ){
+    return "https://www.stirfrygames.com/img/" +idea.photos[0].photo_reference+ ".jpg";
+    
 }
 
 const styles = StyleSheet.create({

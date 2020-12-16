@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path')
 const http = require('https');
 const imgFolder = './images/';
 
@@ -16,23 +17,67 @@ console.log("done.")
 allRefs = getNestedValuesByKey(data, "photo_reference")
 console.log("photosFound", Object.keys(allRefs).length)
 
-downloadFile("https://googlechrome.github.io/samples/picture-element/images/kitten-small.png", "kat")
+let dupes = 0
+fs.readdirSync(imgFolder).forEach(file => {
+    let key = file.split('.').slice(0, -1).join('.')
+
+    if (key in allRefs) {
+        dupes++
+        delete allRefs[key]
+    }
+});
+
+
+console.log("removed " + dupes + " exisiting images")
+
+for (ref in allRefs) {
+    let uri = createGETUri("https://maps.googleapis.com/maps/api/place/photo", {
+        maxwidth: 16000,
+        photoreference: ref,
+        key: process.env.PLACESAPI
+    })
+    console.log("URI: " + uri )
+    
+    downloadFile(uri, imgFolder + ref )
+   
+}
+
+function createGETUri(base, params) {
+
+    let first = true
+    for (k in params) {
+        if (first) {
+            base += "?"
+        } else {
+            base += "&"
+        }
+        base += k + "=" + params[k]
+        first = false
+    }
+    return base
+}
 function downloadFile(url, destFile) {
     if (fs.existsSync(destFile)) throw "FILE EXISTS!! NOT DOWNLOADING" + destFile
-    if (fs.existsSync(destFile+".jpg")) throw "FILE EXISTS!! NOT DOWNLOADING" + destFile
-    if (fs.existsSync(destFile+".png")) throw "FILE EXISTS!! NOT DOWNLOADING" + destFile
-    const file = fs.createWriteStream(destFile);
+    if (fs.existsSync(destFile + ".jpg")) throw "FILE EXISTS!! NOT DOWNLOADING" + destFile
+    if (fs.existsSync(destFile + ".png")) throw "FILE EXISTS!! NOT DOWNLOADING" + destFile
+    
     console.log("download begins: " + url)
     const request = http.get(url, function (response) {
+        if ( response.statusCode == 302 ){ // moved
+            console.log(JSON.stringify(response.headers))
+            let newUri = response.headers.location; //"https://" + response.req.socket._host + response.req.path
+           console.log("OK: 302: " + newUri )
+           fs.appendFileSync("download302list.txt","\n" +url + " ---> " + newUri)
+            downloadFile( newUri, destFile  )
+            return
+        }
+       
         let ext = ""
         if (response.headers['content-type'].includes("jpeg")) ext = ".jpg"
         if (response.headers['content-type'].includes("png")) ext = ".png"
-        response.pipe(file);
-        console.log("download ends:" + destFile)
-        if (ext.length > 0) {
-            console.log("adding extension: " + destFile + "  ->" + ext)
-            fs.renameSync(destFile, destFile + ext)
-        }
+        destFile += ext
+        const file = fs.createWriteStream(destFile);
+        response.pipe(file);       
     });
 }
 

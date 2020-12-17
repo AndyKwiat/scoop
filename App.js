@@ -127,6 +127,10 @@ const App = () => {
           color:"white",
         opacity:detailsModeAnim
         }}>{ideas[frontIdea].name}</Animated.Text>
+         <Animated.Text style = {{
+          color:"white",
+        opacity:detailsModeAnim
+        }}>{ideas[frontIdea].vicinity}</Animated.Text>
       </Animated.View>
      
     </View>

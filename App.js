@@ -8,17 +8,26 @@ let pics =["https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
 "https://geo0.ggpht.com/maps/photothumb/fd/v1?bpb=ChEKD3NlYXJjaC5nd3MtcHJvZBIgChIJg41l1rWaK4gRQ_nNQZ4p_78qCg0AAAAAFQAAAAAaBgjwARCYAw&gl=CA",
 "https://www.stirfrygames.com/img/ATtYBwIEv71DK4B8CVkwyNTTSnNqsjbMla4Gq3L98wa968u4iUVfEtJ6yGOj5XFwliHLel123dVwB3rr6CH9GWHXukYP0TVlfuuIOsNAQRK5mFtkznGt1QGYaMYv3-bz8ENicrBs6VgUXxCNV__5okHI3ZpILpxegRdtHQBtfVFo-2LOtgEG.jpg"]
 
-const ideasRaw = require('./ideas.parks.json');
+const ideasRaw = []
+ideasRaw[0] = require('./ideas.parks.json');
+ideasRaw[1] = require('./ideas.bars.json');
+ideasRaw[2] = require('./ideas.night_club.json');
+ideasRaw[3] = require('./ideas.tourist_attraction.json');
+const ideas = ideasRaw[0].results.concat(ideasRaw[1].results, ideasRaw[2].results, ideasRaw[3].results);
+shuffleArray(ideas)
 const App = () => {
-  const ideas = ideasRaw.results;
+  
+
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
   const mypos = useRef(new Animated.ValueXY()).current;
   const detailsModeAnim = useRef(new Animated.Value(0)).current 
+
   const [opacity,setOpacity] = useState(1);
   const [touchTime, setTouchTime] = useState(0);
+  
   const [isDetailsMode,setIsDetailsMode] = useState(false);
-
+  
   const panResponder = PanResponder.create({
     onStartShouldSetPanResponder: (ev, gestureState) => {  
       setTouchTime((new Date()).getTime()) 
@@ -60,6 +69,8 @@ const App = () => {
           setImmediate(()=>{
             setFrontIdea(nextIdea)
             setNextIdea((nextIdea+1) %ideas.length)
+      
+            Image.prefetch(getPicUri(ideas[nextIdea+1]))
             setOpacity(1);
           })})
         
@@ -77,7 +88,7 @@ const App = () => {
         }     
     }});
  
- 
+    
   
 
   return (
@@ -89,6 +100,7 @@ const App = () => {
       <Animated.View
          style={[mypos.getLayout(),{
           width:"100%", 
+          overflow:"hidden",
         height:detailsModeAnim.interpolate({inputRange:[0,1], outputRange:["100%","50%"]}),
         transform: [{
           translateY: detailsModeAnim.interpolate({
@@ -99,7 +111,9 @@ const App = () => {
         {...panResponder.panHandlers}
       >
        
-        <Image style={[styles.box, {opacity:opacity}]} source={{uri:getPicUri(ideas[frontIdea])} } resizeMode="cover"/>
+        <Animated.Image style={[styles.box,           
+          {
+               opacity:opacity}]} source={{uri:getPicUri(ideas[frontIdea])} } resizeMode="cover"/>
            
       </Animated.View>
       <Animated.View style = {{
@@ -137,7 +151,9 @@ function onTapPic(myHt,isDetailsMode, setIsDetailsMode){
 }
 
 function getPicUri( idea ){
+  if ( idea.photos && idea.photos.length > 0 )
     return "https://www.stirfrygames.com/img/" +idea.photos[0].photo_reference+ ".jpg";
+    return "https://cdn4.vectorstock.com/i/thumb-large/19/58/no-image-vector-30371958.jpg"
     
 }
 
@@ -163,10 +179,17 @@ const styles = StyleSheet.create({
     //  flex:1,
     height: "100%",
     width:"100%",
-   // width: 150,
+     // width: 150,
     backgroundColor: "blue",
     borderRadius: 15,
    }
 });
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+  }
+}
 
 export default App;

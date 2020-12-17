@@ -5,3 +5,6 @@ https://maps.googleapis.com/maps/api/place/photo?maxwidth=16000&photoreference=A
 postman url for downloading park search from guelph: (only returns first 20)
 
 https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=YOUR_GOOGLE_API_KEY&type=park&radius=20000&location=43.538708,-80.246738
+
+
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=YOUR_GOOGLE_API_KEY&type=bar&radius=20000&location=43.538708,-80.246738

@@ -104,9 +104,15 @@ const App = () => {
       </Animated.View>
       <Animated.View style = {{
         backgroundColor:"rgb(50,50,50)",
-        height:detailsModeAnim.interpolate({inputRange:[0,1], outputRange:["0%","50%"]})}
+        height:detailsModeAnim.interpolate({inputRange:[0,1], outputRange:["0%","50%"]}),
+        justifyContent:"center",
+        alignItems:"center"
+      }
       }>
-        
+        <Animated.Text style = {{
+          color:"white",
+        opacity:detailsModeAnim
+        }}>{ideas[frontIdea].name}</Animated.Text>
       </Animated.View>
      
     </View>

@@ -14,30 +14,33 @@ const App = () => {
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
   const mypos = useRef(new Animated.ValueXY()).current;
+  const detailsModeAnim = useRef(new Animated.Value(0)).current 
   const [opacity,setOpacity] = useState(1);
   const [touchTime, setTouchTime] = useState(0);
+  const [isDetailsMode,setIsDetailsMode] = useState(false);
 
   const panResponder = PanResponder.create({
     onStartShouldSetPanResponder: (ev, gestureState) => {  
       setTouchTime((new Date()).getTime()) 
+  
       return true },
     onPanResponderMove: (event, gesture) => {
-    //   console.log(gesture);
+   
+     if ( isDetailsMode ){
+       return
+     }
        mypos.setValue({ x: gesture.dx*.8 , y: 0 });
+   // }
      
     },
     onPanResponderRelease:(event,gesture)=>{
-      if ( (new Date()).getTime() - touchTime < 150 && gesture.vx < .1 && gesture.vy < .1 && Math.abs(gesture.dx) < 10 && Math.abs(gesture.dy) < 10 ){
-        alert(ideas[frontIdea].name)
+      if (  (new Date()).getTime() - touchTime < 150 && gesture.vx < .1 && gesture.vy < .1 && Math.abs(gesture.dx) < 10 && Math.abs(gesture.dy) < 10 ){
+     
+        onTapPic(detailsModeAnim, isDetailsMode, setIsDetailsMode)
         return
       }
-      console.log("RELEASE")
-      console.log( gesture.vx )
-   
-    //  mypos.setValue({x:offset.x, y:offset.y  })
-   
-      
-        console.log("DONE1!")
+      if ( isDetailsMode ) return
+     
         
         if (  Math.abs(gesture.vx) > 0.15 || Math.abs(gesture.dx) >  Dimensions.get('window').width*.5 ){
          
@@ -61,23 +64,9 @@ const App = () => {
           })})
         
 
-        //  setFrontIdea(nextIdea)
-        //  setNextIdea((nextIdea+1) %pics.length)},0)
+       
+      //    console.log(`${frontIdea} is the front idea` + JSON.stringify(mypos))
          
-         // mypos.setValue({x:0, y:0})
-          console.log(`${frontIdea} is the front idea` + JSON.stringify(mypos))
-          // Animated.timing( mypos,{
-          //   toValue:{x: Dimensions.get('window').width, y:0},
-          //   duration:1000,
-          //   useNativeDriver:false,
-          //   easing:Easing.linear
-          // }).start(()=>{
-          //   mypos.setValue({x:0, y:0})
-          //   setFrontIdea(nextIdea)
-          //   setNextIdea((nextIdea+1) %pics.length)
-          //   console.log(`${frontIdea} is the front idea` + JSON.stringify(mypos))
-           
-        // })
         }else{
           Animated.timing(mypos,{
             toValue:{x:0, y:0},
@@ -98,19 +87,47 @@ const App = () => {
       <Image style={[styles.boxBack]} source={{uri:getPicUri(ideas[nextIdea])} } resizeMode="cover"/>
      
       <Animated.View
-       oncClick={() => alert('You click by View')}
-        style={[mypos.getLayout(),{width:"100%", height:"100%"}]}
+         style={[mypos.getLayout(),{
+          width:"100%", 
+        height:detailsModeAnim.interpolate({inputRange:[0,1], outputRange:["100%","50%"]}),
+        transform: [{
+          translateY: detailsModeAnim.interpolate({
+            inputRange: [0, 1],
+            outputRange: [0,0]  // 0 : 150, 0.5 : 75, 1 : 0
+          })}]      
+      }]}
         {...panResponder.panHandlers}
       >
        
         <Image style={[styles.box, {opacity:opacity}]} source={{uri:getPicUri(ideas[frontIdea])} } resizeMode="cover"/>
-       
-    
+           
+      </Animated.View>
+      <Animated.View style = {{
+        backgroundColor:"rgb(50,50,50)",
+        height:detailsModeAnim.interpolate({inputRange:[0,1], outputRange:["0%","50%"]})}
+      }>
+        
       </Animated.View>
      
     </View>
     </View>
   );
+}
+function onTapPic(myHt,isDetailsMode, setIsDetailsMode){
+  console.log("tappa")
+  console.log("isDetialsMode1" + isDetailsMode)
+  let DesiredMode = !isDetailsMode
+ 
+  let target = DesiredMode? 1:0
+  setIsDetailsMode(DesiredMode)
+
+   
+  Animated.timing( myHt,{
+    toValue:target,
+    duration:200,
+    useNativeDriver:false,
+    easing:Easing.quad
+  }).start()
 }
 
 function getPicUri( idea ){
@@ -123,8 +140,7 @@ const styles = StyleSheet.create({
   //  flex: 1,
     width:"100%",
     height:"90%",
-    alignItems: "center",
-    justifyContent: "center"
+  
   },
   boxBack:{
     position:"absolute",

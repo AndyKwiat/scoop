@@ -23,7 +23,9 @@ const App = () => {
   const mypos = useRef(new Animated.ValueXY()).current;
   const detailsModeAnim = useRef(new Animated.Value(0)).current
 
-  const [opacity, setOpacity] = useState(1);
+ 
+  const [loaded, setLoaded] = useState(false);
+
   const [touchTime, setTouchTime] = useState(0);
 
   const [isDetailsMode, setIsDetailsMode] = useState(false);
@@ -65,21 +67,13 @@ const App = () => {
           easing: Easing.linear
         }).start(() => {
           //swipe is over
-         
-          setOpacity(0);
+         setLoaded(false)
 
           setFrontIdea(nextIdea)
           
           mypos.setValue({ x: 0, y: 0 });
 
-
-          Image.prefetch(getPicUri(ideas[nextIdea + 1]))
-
-          // setOpacity(1);
-          setTimeout(() => {
-            setOpacity(1);
-            setNextIdea((nextIdea + 1) % ideas.length)
-          }, 10);
+          Image.prefetch(getPicUri(ideas[nextIdea + 1]%ideas.length))
 
         })
 
@@ -124,9 +118,11 @@ const App = () => {
         >
 
           <Animated.Image style={[styles.ideaCard,
-          {
-            opacity: opacity
-          }]} source={{ uri: getPicUri(ideas[frontIdea]) }} resizeMode="cover" />
+        
+          loaded ? {} : { display: 'none' }
+          ]} source={{ uri: getPicUri(ideas[frontIdea]) }} resizeMode="cover" onLoad={() => {setLoaded(true);
+            setNextIdea((nextIdea + 1) % ideas.length)}
+          }/>
 
         </Animated.View>
 

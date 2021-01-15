@@ -53,7 +53,7 @@ const App = () => {
 
 
       if (Math.abs(gesture.vx) > 0.15 || Math.abs(gesture.dx) > Dimensions.get('window').width * .5) {
-
+        // swipe occured, launch the card off the screen
         let target = Dimensions.get('window').width;
         if (mypos.x._value < 0) {
           target *= -1;
@@ -64,19 +64,22 @@ const App = () => {
           useNativeDriver: false,
           easing: Easing.linear
         }).start(() => {
-
-          mypos.setValue({ x: 0, y: 0 });
+          //swipe is over
+         
           setOpacity(0);
 
           setFrontIdea(nextIdea)
-         
+          
+          mypos.setValue({ x: 0, y: 0 });
+
 
           Image.prefetch(getPicUri(ideas[nextIdea + 1]))
 
-         // setOpacity(1);
-          setTimeout(()=>{setOpacity(1);
+          // setOpacity(1);
+          setTimeout(() => {
+            setOpacity(1);
             setNextIdea((nextIdea + 1) % ideas.length)
-          },200);
+          }, 10);
 
         })
 
@@ -102,7 +105,8 @@ const App = () => {
     <View style={{ backgroundColor: "black", height: "100%" }}>
       <View style={styles.container} >
 
-        <Image style={[styles.boxBack]} source={{ uri: getPicUri(ideas[nextIdea]) }} resizeMode="cover" />
+        
+        <Image style={[styles.ideaCard]} source={{ uri: getPicUri(ideas[nextIdea]) }} resizeMode="cover" />
 
         <Animated.View
           style={[mypos.getLayout(), {
@@ -119,12 +123,14 @@ const App = () => {
           {...panResponder.panHandlers}
         >
 
-          <Animated.Image style={[styles.box,
+          <Animated.Image style={[styles.ideaCard,
           {
             opacity: opacity
           }]} source={{ uri: getPicUri(ideas[frontIdea]) }} resizeMode="cover" />
 
         </Animated.View>
+
+       
         <Animated.View style={{
           backgroundColor: "rgb(50,50,50)",
           height: detailsModeAnim.interpolate({ inputRange: [0, 1], outputRange: ["0%", "50%"] }),
@@ -132,14 +138,14 @@ const App = () => {
           alignItems: "center"
         }
         }>
-          <Animated.Text style={{
-            color: "white",
-            opacity: detailsModeAnim
-          }}>{ideas[frontIdea].name}</Animated.Text>
-          <Animated.Text style={{
-            color: "white",
-            opacity: detailsModeAnim
-          }}>{ideas[frontIdea].vicinity}</Animated.Text>
+            <Animated.Text style={{
+              color: "white",
+              opacity: detailsModeAnim
+            }}>{ideas[frontIdea].name}</Animated.Text>
+            <Animated.Text style={{
+              color: "white",
+              opacity: detailsModeAnim
+            }}>{ideas[frontIdea].vicinity}</Animated.Text>
         </Animated.View>
 
       </View>
@@ -177,7 +183,7 @@ const styles = StyleSheet.create({
     height: "90%",
 
   },
-  boxBack: {
+  ideaCard: {
     position: "absolute",
     height: "100%",
     width: "100%",
@@ -187,15 +193,8 @@ const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 24,
     fontWeight: "bold"
-  },
-  box: {
-    //  flex:1,
-    height: "100%",
-    width: "100%",
-    // width: 150,
-    backgroundColor: "blue",
-    borderRadius: 15,
   }
+ 
 });
 
 function shuffleArray(array) {

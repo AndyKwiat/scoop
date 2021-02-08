@@ -1,16 +1,27 @@
 var AWS = require("aws-sdk");const fs = require('fs');
-let inputFile = "places_raw/ideas.bars.json"
+
 AWS.config.update({
     region: "ca-central-1",
 });
 
-data = readAndCleanupData(inputFile)
+let inputFolder = "places_raw"
+// Loop through all the files in the temp directory
+fs.readdir(inputFolder, function (err, files) {
+    if (err) {
+      console.error("Could not list the directory.", err);
+      process.exit(1);
+    }
+     files.forEach(function(filename){processFile(inputFolder + "/" + filename)})
+})
 
-console.log("DataCount: " , data.length)
-console.log (JSON.stringify(data[0]))
+function processFile( inputFile ){
+    data = readAndCleanupData(inputFile)
 
-uploadToTable( "scoop-prod-places",data)
+    console.log("DataCount: " , data.length)
+    console.log (JSON.stringify(data[0]))
 
+    uploadToTable( "scoop-prod-places",data)
+    }
 
 function readAndCleanupData(sourceFile ){
     console.log('reading sourceFile: ', sourceFile);

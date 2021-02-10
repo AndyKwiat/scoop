@@ -12,11 +12,8 @@ var docClient = new AWS.DynamoDB.DocumentClient();
 var express = require('express');
 var app = express();
 var fs = require("fs");
-
-app.get('/listUsers', function (req, res) {
-   fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
-      console.log( data );
-     // res.send(data)
+app.use(checkAuth)
+app.get('/places', function (req, res) {
 
 var params = {
    TableName: "scoop-prod-places"
@@ -37,7 +34,7 @@ console.log("Scanning entire table");
      // res.send( data );
       onScanWrapper( params, res, docClient)
     
-   });
+  
 })
 
 var server = app.listen(3000, function () {
@@ -68,5 +65,11 @@ function onScanWrapper( params, response, docClient ){
       }
    }
    docClient.scan(params, scanFunc);
-  
+;}
+
+function checkAuth(req,res,next){
+   if ( req.headers.authorization == "CHANGE_ME_APP_KEY") 
+      next()
+   else
+      res.send(401)
 }

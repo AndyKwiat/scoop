@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+
 var AWS = require("aws-sdk");
 
 
@@ -11,7 +12,9 @@ var docClient = new AWS.DynamoDB.DocumentClient();
 
 var express = require('express');
 var app = express();
-var fs = require("fs");
+var cors = require('cors');
+
+app.use(cors());
 app.use(checkAuth)
 app.get('/places', function (req, res) {
 

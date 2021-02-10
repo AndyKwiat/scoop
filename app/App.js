@@ -1,34 +1,64 @@
 import { setStatusBarNetworkActivityIndicatorVisible } from "expo-status-bar";
 import React, { useRef, useState } from "react";
 import { Animated, View, StyleSheet, PanResponder, Text, Image, Easing, Dimensions, TouchableHighlight } from "react-native";
-let pics = ["https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
-  "https://static-ssl.businessinsider.com/image/5d9b5bff52887931e8497a36-1405/141222twnmustang.jpg",
-  "https://d33wubrfki0l68.cloudfront.net/200d166fc3dff29e5b8a6703d8e83cc25821bcf4/10dd6/media/2018/08/kitten.jpg",
-  "https://guelphpolitico.files.wordpress.com/2020/02/misersky_dogpark-e1582571255961.jpg?w=940",
-  "https://geo0.ggpht.com/maps/photothumb/fd/v1?bpb=ChEKD3NlYXJjaC5nd3MtcHJvZBIgChIJg41l1rWaK4gRQ_nNQZ4p_78qCg0AAAAAFQAAAAAaBgjwARCYAw&gl=CA",
-  "https://www.stirfrygames.com/img/ATtYBwIEv71DK4B8CVkwyNTTSnNqsjbMla4Gq3L98wa968u4iUVfEtJ6yGOj5XFwliHLel123dVwB3rr6CH9GWHXukYP0TVlfuuIOsNAQRK5mFtkznGt1QGYaMYv3-bz8ENicrBs6VgUXxCNV__5okHI3ZpILpxegRdtHQBtfVFo-2LOtgEG.jpg"]
 
-const ideasRaw = []
-ideasRaw[0] = require('./ideas.parks.json');
-ideasRaw[1] = require('./ideas.bars.json');
-ideasRaw[2] = require('./ideas.night_club.json');
-ideasRaw[3] = require('./ideas.tourist_attraction.json');
-const ideas = ideasRaw[0].results.concat(ideasRaw[1].results, ideasRaw[2].results, ideasRaw[3].results);
-shuffleArray(ideas)
+let ideas = null;
+let msg = "kewl"
+
 const App = () => {
 
 
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
+  const [isReady, setIsReady] = useState(false);
   const mypos = useRef(new Animated.ValueXY()).current;
   const detailsModeAnim = useRef(new Animated.Value(0)).current
-
- 
   const [loaded, setLoaded] = useState(false);
-
   const [touchTime, setTouchTime] = useState(0);
-
   const [isDetailsMode, setIsDetailsMode] = useState(false);
+
+  if ( !isReady){
+    
+    fetch('https://your-server.example.com/places', { 
+      method: 'get', 
+      headers: new Headers({
+        'Authorization': 'CHANGE_ME_APP_KEY'
+ 
+      })})
+    .then((response) => {
+      if ( response.status != 200 ){
+        throw "Response Status: "+ response.status
+      }
+      return response.json()
+    })
+    .then((json) => {     
+      console.log(json)
+      ideas = json.Items;
+      //shuffleArray(ideas)
+      setIsReady(true)
+     // return json.movies;
+    })
+    .catch((error) => {
+      console.error(error);
+      msg = error.toString();
+
+      ideas = null;
+      setIsReady(true);
+    });
+    return (
+      <View style={{   backgroundColor: "rgb(50,50,50)",   justifyContent: "center", alignItems:"center",height:"100%"}}>
+      <Text style ={{color: "white"}}>Fetching Data...</Text>
+      </View>
+    );
+  }
+  if ( ideas == null ){
+    return (
+      <View style={{   backgroundColor: "rgb(50,50,50)",   justifyContent: "center", alignItems:"center",height:"100%"}}>
+      <Text style ={{color: "white"}}>{msg}</Text>
+      </View>
+    ); 
+  }
+  
 
   const panResponder = PanResponder.create({
     onStartShouldSetPanResponder: (ev, gestureState) => {
@@ -92,6 +122,7 @@ const App = () => {
     }
   });
 
+  console.log("idea" + frontIdea)
 
 
 
@@ -120,8 +151,13 @@ const App = () => {
           <Animated.Image style={[styles.ideaCard,
         
           loaded ? {} : { display: 'none' }
-          ]} source={{ uri: getPicUri(ideas[frontIdea]) }} resizeMode="cover" onLoad={() => {setLoaded(true);
-            setNextIdea((nextIdea + 1) % ideas.length)}
+          ]} source={{ uri: getPicUri(ideas[frontIdea]) }} resizeMode="cover" onLoad={() => {
+            if ( !loaded){
+            setNextIdea((nextIdea +1) % ideas.length)
+            }
+            setLoaded(true);
+            
+            }
           }/>
 
         </Animated.View>

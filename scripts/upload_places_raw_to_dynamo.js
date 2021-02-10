@@ -1,4 +1,6 @@
-var AWS = require("aws-sdk");const fs = require('fs');
+const fs = require('fs');
+var AWS = require("aws-sdk");
+
 
 AWS.config.update({
     region: "ca-central-1",

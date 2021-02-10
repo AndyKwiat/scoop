@@ -1,5 +1,13 @@
 #!/usr/bin/env node
 
+var AWS = require("aws-sdk");
+
+
+AWS.config.update({
+    region: "ca-central-1",
+});
+
+var docClient = new AWS.DynamoDB.DocumentClient();
 
 var express = require('express');
 var app = express();
@@ -8,7 +16,27 @@ var fs = require("fs");
 app.get('/listUsers', function (req, res) {
    fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
       console.log( data );
-      res.end( data );
+     // res.send(data)
+
+var params = {
+   TableName: "scoop-prod-places"
+  /* ProjectionExpression: "#yr, title, info.rating",
+   FilterExpression: "#yr between :start_yr and :end_yr",
+   ExpressionAttributeNames: {
+       "#yr": "year",
+   },
+   ExpressionAttributeValues: {
+        ":start_yr": 1950,
+        ":end_yr": 1959 
+   }
+   */
+};
+
+console.log("Scanning entire table");
+
+     // res.send( data );
+      onScanWrapper( params, res, docClient)
+    
    });
 })
 
@@ -17,3 +45,28 @@ var server = app.listen(3000, function () {
    var port = server.address().port
    console.log("Example app listening at http://%s:%s", host, port)
 })
+
+function onScanWrapper( params, response, docClient ){
+  
+   let scanFunc = function onScan(err, data) {
+      if (err) {
+          console.error("Unable to scan the table. Error JSON:", JSON.stringify(err, null, 2));
+      } else {
+          // print all the stuff
+          console.log("Scan succeeded.");
+          response.send(data)
+         return
+   
+          // continue scanning if we have more movies, because
+          // scan can retrieve a maximum of 1MB of data
+          if (typeof data.LastEvaluatedKey != "undefined") {
+              console.log("Scanning for more...");
+              params.ExclusiveStartKey = data.LastEvaluatedKey;
+              onScanWrapper( params, response, docClient)
+             // docClient.scan(params, scanFunc);
+          }
+      }
+   }
+   docClient.scan(params, scanFunc);
+  
+}

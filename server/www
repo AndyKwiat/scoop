@@ -16,7 +16,7 @@ var cors = require('cors');
 
 app.use(cors());
 //app.use(checkAuth)
-app.use( express.static("../../../editor/public"))
+app.use( express.static("../editor/public"))
 app.get('/places', function (req, res) {
 
 var params = {

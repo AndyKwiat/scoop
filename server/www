@@ -15,8 +15,8 @@ var app = express();
 var cors = require('cors');
 
 app.use(cors());
-//app.use(checkAuth)
-app.use( express.static("../editor/public"))
+app.use(checkAuth)
+app.use( express.static("editor/public"))
 app.get('/places', function (req, res) {
 
 var params = {
@@ -72,6 +72,11 @@ function onScanWrapper( params, response, docClient ){
 ;}
 
 function checkAuth(req,res,next){
+ 
+   if ( req.path.startsWith("/editor") ){
+      next();
+      return;
+   }
    if ( req.headers.authorization == "CHANGE_ME_APP_KEY") 
       next()
    else

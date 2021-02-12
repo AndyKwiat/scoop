@@ -1,7 +1,14 @@
 <script>
+	import Auth from './Auth.svelte'
 	let data =[{desc:"kewl",id:1,tags:[]},{desc:"not kewl",id:2,tags:[]},{desc:"noice",id:3,tags:["star","bob"]}]
 	let searchTerm = null
 </script>
+<style>
+	:root{
+        background-image: linear-gradient(rgb(53, 31, 247), rgb(19, 12, 69));
+    }
+</style>
+<Auth>
 <input bind:value={searchTerm}>
 {searchTerm}
 <table>
@@ -12,3 +19,4 @@
 		{/if}
 	{/each}
 </table>
+</Auth>

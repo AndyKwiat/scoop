@@ -12,14 +12,31 @@
         
         msg = "Logging in..."
         fetchPromise = fetchCredentials()
-        fetchPromise.then((val)=>{msg=val; loggedIn = true; credentials="superValid"}).catch((val)=>{msg=val + " ERROR"}).finally(()=>{fetchPromise=null})
+        fetchPromise.then((res)=>{ 
+            res.text().then((txt)=>
+         
+                console.log(txt + " " + res.status +  " RESPONSE")
+
+            )
+          /*  if ( res.status != 200 ) throw (res)
+            msg=val;  
+            console.log(val); 
+            credentials="superValid"}
+            ).catch((val)=>{
+                msg=val + " ERROR"
+            }).finally(()=>{
+                fetchPromise=null
+            })*/
+        }).finally(()=>{fetchPromise=null})
 
     }
     function fetchCredentials(){
         const headers = new Headers();
         headers.append("Authorization", "Basic " + btoa(username + ":" + password))
-        let p = new Promise((resolve,reject)=>{
-        setTimeout(()=>{resolve("noice")},1000)
+
+        let p = fetch("login", {
+            method:"get",
+            Headers:headers
         })
         return p
     }

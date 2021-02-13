@@ -13,10 +13,23 @@ var docClient = new AWS.DynamoDB.DocumentClient();
 var express = require('express');
 var app = express();
 var cors = require('cors');
-
+function log ( str ){
+   console.log( str)
+}
 app.use(cors());
 app.use(checkAuth)
+app.get( '/editor/login', function(req,res ) {
+   if ( req.headers.authorization == "QmFzaWMgdG9tOmJvb2JpZXM=" ){
+      log("logged in noice")
+      res.send(authKeyEditor)
+   }else{
+      log("log in bad " + req.headers.authorization)
+      log ( JSON.stringify(req.headers))
+      res.send(401)
+   }
+})
 app.use( express.static("editor/public"))
+
 app.get('/places', function (req, res) {
 
 var params = {
@@ -71,13 +84,16 @@ function onScanWrapper( params, response, docClient ){
    docClient.scan(params, scanFunc);
 ;}
 
+let authKeyEditor = "thricethepriceisnice"
 function checkAuth(req,res,next){
  
-   if ( req.path.startsWith("/editor") ){
+   if ( req.path.startsWith("/editor") ){ // just serve static files
       next();
       return;
    }
-   if ( req.headers.authorization == "CHANGE_ME_APP_KEY") 
+   if ( req.headers.authorization == "CHANGE_ME_APP_KEY" // the app
+      || req.headers.authorization == authKeyEditor
+   ) 
       next()
    else
       res.send(401)

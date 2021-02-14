@@ -3,6 +3,7 @@
 
 var AWS = require("aws-sdk");
 
+const { v4: uuid } = require('uuid');
 
 AWS.config.update({
     region: "ca-central-1",
@@ -19,7 +20,7 @@ function log ( str ){
 app.use(cors());
 app.use(checkAuth)
 app.get( '/editor/login', function(req,res ) {
-   if ( req.headers.authorization == "QmFzaWMgdG9tOmJvb2JpZXM=" ){
+   if ( req.headers.authorization == "Basic +CHANGE_ME_EDITOR_LOGIN" ){
       log("logged in noice")
       res.send(authKeyEditor)
    }else{
@@ -84,9 +85,9 @@ function onScanWrapper( params, response, docClient ){
    docClient.scan(params, scanFunc);
 ;}
 
-let authKeyEditor = "thricethepriceisnice"
+let authKeyEditor = uuid()
 function checkAuth(req,res,next){
- 
+   console.log( "REQ PATH: " + req.path)
    if ( req.path.startsWith("/editor") ){ // just serve static files
       next();
       return;
@@ -96,5 +97,5 @@ function checkAuth(req,res,next){
    ) 
       next()
    else
-      res.send(401)
+      res.send(402)
 }

@@ -1,4 +1,5 @@
 <script>
+    const SERVER_URL = "http://localhost:3000"
     import Frame from './Frame.svelte'
     let loggedIn=false
     let username=""
@@ -14,10 +15,10 @@
         fetchPromise = fetchCredentials()
         fetchPromise.then((res)=>{ 
             res.text().then((txt)=>
-         
+            {
+                msg = txt + " " + res.status +  " RESPONSE"
                 console.log(txt + " " + res.status +  " RESPONSE")
-
-            )
+            }       )
           /*  if ( res.status != 200 ) throw (res)
             msg=val;  
             console.log(val); 
@@ -31,13 +32,14 @@
 
     }
     function fetchCredentials(){
-        const headers = new Headers();
-        headers.append("Authorization", "Basic " + btoa(username + ":" + password))
+        
 
-        let p = fetch("login", {
-            method:"get",
-            Headers:headers
-        })
+        let p = fetch(SERVER_URL + "/editor/login", {
+            method: 'get', 
+      headers: new Headers({
+        'Authorization': 'Basic +' + btoa(btoa(username + ":" + password))
+ 
+        })})
         return p
     }
 </script>

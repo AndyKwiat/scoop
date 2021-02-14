@@ -521,7 +521,7 @@ var app = (function () {
     const get_default_slot_changes = dirty => ({});
     const get_default_slot_context = ctx => ({ auth: /*credentials*/ ctx[5] });
 
-    // (67:0) {:else}
+    // (69:0) {:else}
     function create_else_block(ctx) {
     	let current;
     	const default_slot_template = /*#slots*/ ctx[7].default;
@@ -563,14 +563,14 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(67:0) {:else}",
+    		source: "(69:0) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (51:0) {#if !loggedIn}
+    // (53:0) {#if !loggedIn}
     function create_if_block(ctx) {
     	let frame;
     	let current;
@@ -618,14 +618,14 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(51:0) {#if !loggedIn}",
+    		source: "(53:0) {#if !loggedIn}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (62:0) {#if fetchPromise== null }
+    // (64:0) {#if fetchPromise== null }
     function create_if_block_1(ctx) {
     	let button;
     	let mounted;
@@ -636,7 +636,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Log in";
     			attr_dev(button, "class", "svelte-io4rr2");
-    			add_location(button, file$1, 62, 0, 1388);
+    			add_location(button, file$1, 64, 0, 1495);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -658,14 +658,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(62:0) {#if fetchPromise== null }",
+    		source: "(64:0) {#if fetchPromise== null }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (52:0) <Frame>
+    // (54:0) <Frame>
     function create_default_slot(ctx) {
     	let h1;
     	let t1;
@@ -701,14 +701,14 @@ var app = (function () {
     			t6 = space();
     			p = element("p");
     			t7 = text(/*msg*/ ctx[3]);
-    			add_location(h1, file$1, 52, 4, 1196);
-    			add_location(input0, file$1, 55, 4, 1243);
-    			add_location(label0, file$1, 53, 0, 1217);
+    			add_location(h1, file$1, 54, 4, 1303);
+    			add_location(input0, file$1, 57, 4, 1350);
+    			add_location(label0, file$1, 55, 0, 1324);
     			attr_dev(input1, "type", "password");
-    			add_location(input1, file$1, 59, 4, 1308);
-    			add_location(label1, file$1, 57, 0, 1282);
+    			add_location(input1, file$1, 61, 4, 1415);
+    			add_location(label1, file$1, 59, 0, 1389);
     			set_style(p, "color", "white");
-    			add_location(p, file$1, 64, 0, 1444);
+    			add_location(p, file$1, 66, 0, 1551);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -780,7 +780,7 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(52:0) <Frame>",
+    		source: "(54:0) <Frame>",
     		ctx
     	});
 
@@ -845,6 +845,8 @@ var app = (function () {
     	return block;
     }
 
+    const SERVER_URL = "http://localhost:3000";
+
     function instance$1($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Auth", slots, ['default']);
@@ -860,7 +862,10 @@ var app = (function () {
     		$$invalidate(2, fetchPromise = fetchCredentials());
 
     		fetchPromise.then(res => {
-    			res.text().then(txt => console.log(txt + " " + res.status + " RESPONSE"));
+    			res.text().then(txt => {
+    				$$invalidate(3, msg = txt + " " + res.status + " RESPONSE");
+    				console.log(txt + " " + res.status + " RESPONSE");
+    			});
     		}).finally(() => {
     			$$invalidate(2, fetchPromise = null); /*  if ( res.status != 200 ) throw (res)
       msg=val;  
@@ -875,9 +880,13 @@ var app = (function () {
     	}
 
     	function fetchCredentials() {
-    		const headers = new Headers();
-    		headers.append("Authorization", "Basic " + btoa(username + ":" + password));
-    		let p = fetch("login", { method: "get", Headers: headers });
+    		let p = fetch(SERVER_URL + "/editor/login", {
+    			method: "get",
+    			headers: new Headers({
+    					"Authorization": "Basic +" + btoa(btoa(username + ":" + password))
+    				})
+    		});
+
     		return p;
     	}
 
@@ -902,6 +911,7 @@ var app = (function () {
     	};
 
     	$$self.$capture_state = () => ({
+    		SERVER_URL,
     		Frame,
     		loggedIn,
     		username,

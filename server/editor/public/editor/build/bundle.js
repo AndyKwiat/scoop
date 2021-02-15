@@ -1113,11 +1113,11 @@ var app = (function () {
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[8] = list[i];
+    	child_ctx[7] = list[i];
     	return child_ctx;
     }
 
-    // (33:0) {:else}
+    // (44:0) {:else}
     function create_else_block(ctx) {
     	let appframe;
     	let current;
@@ -1141,7 +1141,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const appframe_changes = {};
 
-    			if (dirty & /*$$scope, data, searchTerm*/ 2051) {
+    			if (dirty & /*$$scope, promise, searchTerm*/ 2051) {
     				appframe_changes.$$scope = { dirty, ctx };
     			}
 
@@ -1165,14 +1165,14 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(33:0) {:else}",
+    		source: "(44:0) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (30:0) {#if !$AuthStore.loggedIn}
+    // (41:0) {#if !$AuthStore.loggedIn}
     function create_if_block$1(ctx) {
     	let auth;
     	let current;
@@ -1213,28 +1213,68 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(30:0) {#if !$AuthStore.loggedIn}",
+    		source: "(41:0) {#if !$AuthStore.loggedIn}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (44:0) {:else}
-    function create_else_block_1(ctx) {
-    	let span;
+    // (65:1) {:catch error}
+    function create_catch_block(ctx) {
+    	let p;
+    	let t_value = /*error*/ ctx[10].message + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			p = element("p");
+    			t = text(t_value);
+    			set_style(p, "color", "red");
+    			attr_dev(p, "class", "svelte-1h94xj");
+    			add_location(p, file$3, 65, 2, 1408);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, p, anchor);
+    			append_dev(p, t);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*promise*/ 2 && t_value !== (t_value = /*error*/ ctx[10].message + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(p);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_catch_block.name,
+    		type: "catch",
+    		source: "(65:1) {:catch error}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (50:1) {:then places}
+    function create_then_block(ctx) {
+    	let t0_value = /*places*/ ctx[6].Items.length + "";
+    	let t0;
     	let t1;
+    	let span;
+    	let t3;
     	let input;
-    	let t2;
+    	let t4;
     	let table;
     	let thead;
     	let tr;
     	let th0;
     	let th1;
-    	let t5;
+    	let t7;
     	let mounted;
     	let dispose;
-    	let each_value = /*data*/ ctx[0];
+    	let each_value = /*places*/ ctx[6].Items;
     	validate_each_argument(each_value);
     	let each_blocks = [];
 
@@ -1244,11 +1284,13 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
+    			t0 = text(t0_value);
+    			t1 = text(" is how may places yo got..,\n\n\t\t");
     			span = element("span");
     			span.textContent = "Search";
-    			t1 = space();
+    			t3 = space();
     			input = element("input");
-    			t2 = space();
+    			t4 = space();
     			table = element("table");
     			thead = element("thead");
     			tr = element("tr");
@@ -1256,7 +1298,7 @@ var app = (function () {
     			th0.textContent = "Desc";
     			th1 = element("th");
     			th1.textContent = "Id";
-    			t5 = space();
+    			t7 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
@@ -1266,53 +1308,57 @@ var app = (function () {
     			set_style(span, "margin-right", "20px");
     			set_style(span, "font-size", "25px");
     			attr_dev(span, "class", "svelte-1h94xj");
-    			add_location(span, file$3, 45, 0, 862);
+    			add_location(span, file$3, 52, 2, 898);
     			attr_dev(input, "type", "text");
     			set_style(input, "width", "50%");
     			set_style(input, "height", "40px");
     			set_style(input, "font-size", "29px");
     			attr_dev(input, "class", "svelte-1h94xj");
-    			add_location(input, file$3, 46, 0, 944);
+    			add_location(input, file$3, 53, 1, 981);
     			attr_dev(th0, "class", "svelte-1h94xj");
-    			add_location(th0, file$3, 49, 12, 1057);
+    			add_location(th0, file$3, 56, 13, 1096);
     			attr_dev(th1, "class", "svelte-1h94xj");
-    			add_location(th1, file$3, 49, 25, 1070);
+    			add_location(th1, file$3, 56, 26, 1109);
     			attr_dev(tr, "class", "svelte-1h94xj");
-    			add_location(tr, file$3, 49, 8, 1053);
+    			add_location(tr, file$3, 56, 9, 1092);
     			attr_dev(thead, "class", "svelte-1h94xj");
-    			add_location(thead, file$3, 49, 1, 1046);
+    			add_location(thead, file$3, 56, 2, 1085);
     			attr_dev(table, "class", "svelte-1h94xj");
-    			add_location(table, file$3, 48, 0, 1037);
+    			add_location(table, file$3, 55, 1, 1075);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, span, anchor);
+    			insert_dev(target, t0, anchor);
     			insert_dev(target, t1, anchor);
+    			insert_dev(target, span, anchor);
+    			insert_dev(target, t3, anchor);
     			insert_dev(target, input, anchor);
-    			set_input_value(input, /*searchTerm*/ ctx[1]);
-    			insert_dev(target, t2, anchor);
+    			set_input_value(input, /*searchTerm*/ ctx[0]);
+    			insert_dev(target, t4, anchor);
     			insert_dev(target, table, anchor);
     			append_dev(table, thead);
     			append_dev(thead, tr);
     			append_dev(tr, th0);
     			append_dev(tr, th1);
-    			append_dev(table, t5);
+    			append_dev(table, t7);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(table, null);
     			}
 
     			if (!mounted) {
-    				dispose = listen_dev(input, "input", /*input_input_handler*/ ctx[5]);
+    				dispose = listen_dev(input, "input", /*input_input_handler*/ ctx[4]);
     				mounted = true;
     			}
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*searchTerm*/ 2 && input.value !== /*searchTerm*/ ctx[1]) {
-    				set_input_value(input, /*searchTerm*/ ctx[1]);
+    			if (dirty & /*promise*/ 2 && t0_value !== (t0_value = /*places*/ ctx[6].Items.length + "")) set_data_dev(t0, t0_value);
+
+    			if (dirty & /*searchTerm*/ 1 && input.value !== /*searchTerm*/ ctx[0]) {
+    				set_input_value(input, /*searchTerm*/ ctx[0]);
     			}
 
-    			if (dirty & /*data, searchTerm*/ 3) {
-    				each_value = /*data*/ ctx[0];
+    			if (dirty & /*promise, searchTerm*/ 3) {
+    				each_value = /*places*/ ctx[6].Items;
     				validate_each_argument(each_value);
     				let i;
 
@@ -1336,10 +1382,12 @@ var app = (function () {
     			}
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(span);
+    			if (detaching) detach_dev(t0);
     			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(span);
+    			if (detaching) detach_dev(t3);
     			if (detaching) detach_dev(input);
-    			if (detaching) detach_dev(t2);
+    			if (detaching) detach_dev(t4);
     			if (detaching) detach_dev(table);
     			destroy_each(each_blocks, detaching);
     			mounted = false;
@@ -1349,83 +1397,26 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_1.name,
-    		type: "else",
-    		source: "(44:0) {:else}",
+    		id: create_then_block.name,
+    		type: "then",
+    		source: "(50:1) {:then places}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (35:0) {#if data==null}
+    // (59:3) {#if ( item.tags?.filter(t=>t.startsWith(searchTerm)).length>0 || searchTerm == null || searchTerm.length <=0)}
     function create_if_block_1(ctx) {
-    	let await_block_anchor;
-
-    	let info = {
-    		ctx,
-    		current: null,
-    		token: null,
-    		hasCatch: true,
-    		pending: create_pending_block,
-    		then: create_then_block,
-    		catch: create_catch_block,
-    		value: 6,
-    		error: 7
-    	};
-
-    	handle_promise(/*promise*/ ctx[3], info);
-
-    	const block = {
-    		c: function create() {
-    			await_block_anchor = empty();
-    			info.block.c();
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, await_block_anchor, anchor);
-    			info.block.m(target, info.anchor = anchor);
-    			info.mount = () => await_block_anchor.parentNode;
-    			info.anchor = await_block_anchor;
-    		},
-    		p: function update(new_ctx, dirty) {
-    			ctx = new_ctx;
-
-    			{
-    				const child_ctx = ctx.slice();
-    				child_ctx[6] = child_ctx[7] = info.resolved;
-    				info.block.p(child_ctx, dirty);
-    			}
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(await_block_anchor);
-    			info.block.d(detaching);
-    			info.token = null;
-    			info = null;
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_1.name,
-    		type: "if",
-    		source: "(35:0) {#if data==null}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (52:2) {#if ( item.tags?.filter(t=>t.startsWith(searchTerm)).length>0 || searchTerm == null || searchTerm.length <=0)}
-    function create_if_block_2(ctx) {
     	let tr;
     	let td0;
-    	let t0_value = /*item*/ ctx[8].desc + "";
+    	let t0_value = /*item*/ ctx[7].desc + "";
     	let t0;
     	let td1;
-    	let t1_value = /*item*/ ctx[8].id + "";
+    	let t1_value = /*item*/ ctx[7].id + "";
     	let t1;
     	let td2;
-    	let t2_value = /*item*/ ctx[8].tags.length + "";
+    	let t2_value = /*item*/ ctx[7].tags.length + "";
     	let t2;
 
     	const block = {
@@ -1438,13 +1429,13 @@ var app = (function () {
     			td2 = element("td");
     			t2 = text(t2_value);
     			attr_dev(td0, "class", "svelte-1h94xj");
-    			add_location(td0, file$3, 52, 7, 1239);
+    			add_location(td0, file$3, 59, 8, 1289);
     			attr_dev(td1, "class", "svelte-1h94xj");
-    			add_location(td1, file$3, 52, 27, 1259);
+    			add_location(td1, file$3, 59, 28, 1309);
     			attr_dev(td2, "class", "svelte-1h94xj");
-    			add_location(td2, file$3, 52, 45, 1277);
+    			add_location(td2, file$3, 59, 46, 1327);
     			attr_dev(tr, "class", "svelte-1h94xj");
-    			add_location(tr, file$3, 52, 3, 1235);
+    			add_location(tr, file$3, 59, 4, 1285);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -1456,9 +1447,9 @@ var app = (function () {
     			append_dev(td2, t2);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*data*/ 1 && t0_value !== (t0_value = /*item*/ ctx[8].desc + "")) set_data_dev(t0, t0_value);
-    			if (dirty & /*data*/ 1 && t1_value !== (t1_value = /*item*/ ctx[8].id + "")) set_data_dev(t1, t1_value);
-    			if (dirty & /*data*/ 1 && t2_value !== (t2_value = /*item*/ ctx[8].tags.length + "")) set_data_dev(t2, t2_value);
+    			if (dirty & /*promise*/ 2 && t0_value !== (t0_value = /*item*/ ctx[7].desc + "")) set_data_dev(t0, t0_value);
+    			if (dirty & /*promise*/ 2 && t1_value !== (t1_value = /*item*/ ctx[7].id + "")) set_data_dev(t1, t1_value);
+    			if (dirty & /*promise*/ 2 && t2_value !== (t2_value = /*item*/ ctx[7].tags.length + "")) set_data_dev(t2, t2_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(tr);
@@ -1467,20 +1458,20 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_2.name,
+    		id: create_if_block_1.name,
     		type: "if",
-    		source: "(52:2) {#if ( item.tags?.filter(t=>t.startsWith(searchTerm)).length>0 || searchTerm == null || searchTerm.length <=0)}",
+    		source: "(59:3) {#if ( item.tags?.filter(t=>t.startsWith(searchTerm)).length>0 || searchTerm == null || searchTerm.length <=0)}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (51:1) {#each data as item }
+    // (58:2) {#each places.Items as item }
     function create_each_block(ctx) {
-    	let show_if = /*item*/ ctx[8].tags?.filter(/*func*/ ctx[4]).length > 0 || /*searchTerm*/ ctx[1] == null || /*searchTerm*/ ctx[1].length <= 0;
+    	let show_if = /*item*/ ctx[7].tags?.filter(/*func*/ ctx[3]).length > 0 || /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0;
     	let if_block_anchor;
-    	let if_block = show_if && create_if_block_2(ctx);
+    	let if_block = show_if && create_if_block_1(ctx);
 
     	const block = {
     		c: function create() {
@@ -1492,13 +1483,13 @@ var app = (function () {
     			insert_dev(target, if_block_anchor, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*data, searchTerm*/ 3) show_if = /*item*/ ctx[8].tags?.filter(/*func*/ ctx[4]).length > 0 || /*searchTerm*/ ctx[1] == null || /*searchTerm*/ ctx[1].length <= 0;
+    			if (dirty & /*promise, searchTerm*/ 3) show_if = /*item*/ ctx[7].tags?.filter(/*func*/ ctx[3]).length > 0 || /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0;
 
     			if (show_if) {
     				if (if_block) {
     					if_block.p(ctx, dirty);
     				} else {
-    					if_block = create_if_block_2(ctx);
+    					if_block = create_if_block_1(ctx);
     					if_block.c();
     					if_block.m(if_block_anchor.parentNode, if_block_anchor);
     				}
@@ -1517,82 +1508,14 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(51:1) {#each data as item }",
+    		source: "(58:2) {#each places.Items as item }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (40:0) {:catch error}
-    function create_catch_block(ctx) {
-    	let p;
-    	let t_value = /*error*/ ctx[7].message + "";
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			p = element("p");
-    			t = text(t_value);
-    			set_style(p, "color", "red");
-    			attr_dev(p, "class", "svelte-1h94xj");
-    			add_location(p, file$3, 40, 1, 801);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, p, anchor);
-    			append_dev(p, t);
-    		},
-    		p: noop,
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(p);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_catch_block.name,
-    		type: "catch",
-    		source: "(40:0) {:catch error}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (38:0) {:then places}
-    function create_then_block(ctx) {
-    	let t0_value = /*places*/ ctx[6].Items.length + "";
-    	let t0;
-    	let t1;
-
-    	const block = {
-    		c: function create() {
-    			t0 = text(t0_value);
-    			t1 = text(" is how may places yo got..,");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t0, anchor);
-    			insert_dev(target, t1, anchor);
-    		},
-    		p: noop,
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t0);
-    			if (detaching) detach_dev(t1);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_then_block.name,
-    		type: "then",
-    		source: "(38:0) {:then places}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (36:16)   WAITING... {:then places}
+    // (48:17)    WAITING...  {:then places}
     function create_pending_block(ctx) {
     	let t;
 
@@ -1613,50 +1536,58 @@ var app = (function () {
     		block,
     		id: create_pending_block.name,
     		type: "pending",
-    		source: "(36:16)   WAITING... {:then places}",
+    		source: "(48:17)    WAITING...  {:then places}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (34:0) <AppFrame>
+    // (45:0) <AppFrame>
     function create_default_slot_1(ctx) {
-    	let if_block_anchor;
+    	let await_block_anchor;
+    	let promise_1;
 
-    	function select_block_type_1(ctx, dirty) {
-    		if (/*data*/ ctx[0] == null) return create_if_block_1;
-    		return create_else_block_1;
-    	}
+    	let info = {
+    		ctx,
+    		current: null,
+    		token: null,
+    		hasCatch: true,
+    		pending: create_pending_block,
+    		then: create_then_block,
+    		catch: create_catch_block,
+    		value: 6,
+    		error: 10
+    	};
 
-    	let current_block_type = select_block_type_1(ctx);
-    	let if_block = current_block_type(ctx);
+    	handle_promise(promise_1 = /*promise*/ ctx[1], info);
 
     	const block = {
     		c: function create() {
-    			if_block.c();
-    			if_block_anchor = empty();
+    			await_block_anchor = empty();
+    			info.block.c();
     		},
     		m: function mount(target, anchor) {
-    			if_block.m(target, anchor);
-    			insert_dev(target, if_block_anchor, anchor);
+    			insert_dev(target, await_block_anchor, anchor);
+    			info.block.m(target, info.anchor = anchor);
+    			info.mount = () => await_block_anchor.parentNode;
+    			info.anchor = await_block_anchor;
     		},
-    		p: function update(ctx, dirty) {
-    			if (current_block_type === (current_block_type = select_block_type_1(ctx)) && if_block) {
-    				if_block.p(ctx, dirty);
-    			} else {
-    				if_block.d(1);
-    				if_block = current_block_type(ctx);
+    		p: function update(new_ctx, dirty) {
+    			ctx = new_ctx;
+    			info.ctx = ctx;
 
-    				if (if_block) {
-    					if_block.c();
-    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
-    				}
+    			if (dirty & /*promise*/ 2 && promise_1 !== (promise_1 = /*promise*/ ctx[1]) && handle_promise(promise_1, info)) ; else {
+    				const child_ctx = ctx.slice();
+    				child_ctx[6] = child_ctx[10] = info.resolved;
+    				info.block.p(child_ctx, dirty);
     			}
     		},
     		d: function destroy(detaching) {
-    			if_block.d(detaching);
-    			if (detaching) detach_dev(if_block_anchor);
+    			if (detaching) detach_dev(await_block_anchor);
+    			info.block.d(detaching);
+    			info.token = null;
+    			info = null;
     		}
     	};
 
@@ -1664,7 +1595,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(34:0) <AppFrame>",
+    		source: "(45:0) <AppFrame>",
     		ctx
     	});
 
@@ -1753,28 +1684,32 @@ var app = (function () {
     	return block;
     }
 
-    async function fetchData() {
-    	const response = await self.fetch("http://localhost:3000/places");
-
-    	if (response.ok) {
-    		return response.json();
-    	} else {
-    		throw new Error("Something went wrong" + response.statusText);
-    	}
-    }
-
     function instance$3($$self, $$props, $$invalidate) {
     	let $AuthStore;
     	validate_store(AuthStore, "AuthStore");
     	component_subscribe($$self, AuthStore, $$value => $$invalidate(2, $AuthStore = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("App", slots, []);
-    	let data = null;
     	let searchTerm = null;
-    	let promise = fetchData();
+    	let promise = null;
 
-    	promise.then(places => {
-    		$$invalidate(0, data = places.Items);
+    	async function fetchData() {
+    		const response = await self.fetch("http://localhost:3000/places", {
+    			method: "get",
+    			headers: new Headers({ "Authorization": $AuthStore.key })
+    		});
+
+    		if (response.ok) {
+    			return response.json();
+    		} else {
+    			throw new Error("Something went wrong" + response.statusText);
+    		}
+    	}
+
+    	AuthStore.subscribe(as => {
+    		if (as.loggedIn) {
+    			$$invalidate(1, promise = fetchData());
+    		}
     	});
 
     	const writable_props = [];
@@ -1787,31 +1722,29 @@ var app = (function () {
 
     	function input_input_handler() {
     		searchTerm = this.value;
-    		$$invalidate(1, searchTerm);
+    		$$invalidate(0, searchTerm);
     	}
 
     	$$self.$capture_state = () => ({
     		AuthStore,
     		Auth,
     		AppFrame,
-    		data,
     		searchTerm,
-    		fetchData,
     		promise,
+    		fetchData,
     		$AuthStore
     	});
 
     	$$self.$inject_state = $$props => {
-    		if ("data" in $$props) $$invalidate(0, data = $$props.data);
-    		if ("searchTerm" in $$props) $$invalidate(1, searchTerm = $$props.searchTerm);
-    		if ("promise" in $$props) $$invalidate(3, promise = $$props.promise);
+    		if ("searchTerm" in $$props) $$invalidate(0, searchTerm = $$props.searchTerm);
+    		if ("promise" in $$props) $$invalidate(1, promise = $$props.promise);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [data, searchTerm, $AuthStore, promise, func, input_input_handler];
+    	return [searchTerm, promise, $AuthStore, func, input_input_handler];
     }
 
     class App extends SvelteComponentDev {

@@ -77,6 +77,10 @@
         }
         return "";
     }
+//DEV
+    username= ""
+    password = ""
+    onLoginClicked()
 </script>
 
 <Frame>

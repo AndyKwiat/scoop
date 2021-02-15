@@ -61,14 +61,20 @@ var server = app.listen(3000, function () {
    console.log("Example app listening at http://%s:%s", host, port)
 })
 
+let cache = null;
 function onScanWrapper( params, response, docClient ){
-  
+   if (cache != null ){
+      console.log("CACHED RESPONSE!" )
+      response.send(cache);
+      return;
+   }
    let scanFunc = function onScan(err, data) {
       if (err) {
           console.error("Unable to scan the table. Error JSON:", JSON.stringify(err, null, 2));
       } else {
           // print all the stuff
           console.log("Scan succeeded.");
+          cache=data;
           response.send(data)
          return
    

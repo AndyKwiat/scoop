@@ -1152,33 +1152,96 @@ var app = (function () {
 
     const file$3 = "src/ActivityRow.svelte";
 
+    // (44:8) {#if item.photos?.length > 0 }
+    function create_if_block$1(ctx) {
+    	let img;
+    	let img_src_value;
+    	let img_alt_value;
+
+    	const block = {
+    		c: function create() {
+    			img = element("img");
+    			attr_dev(img, "height", "125px");
+    			attr_dev(img, "max-width", "20%");
+    			if (img.src !== (img_src_value = "https://www.stirfrygames.com/img/" + /*item*/ ctx[0].photos[0].photo_reference + ".jpg")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "alt", img_alt_value = /*item*/ ctx[0].name);
+    			add_location(img, file$3, 44, 8, 911);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, img, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*item*/ 1 && img.src !== (img_src_value = "https://www.stirfrygames.com/img/" + /*item*/ ctx[0].photos[0].photo_reference + ".jpg")) {
+    				attr_dev(img, "src", img_src_value);
+    			}
+
+    			if (dirty & /*item*/ 1 && img_alt_value !== (img_alt_value = /*item*/ ctx[0].name)) {
+    				attr_dev(img, "alt", img_alt_value);
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(img);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block$1.name,
+    		type: "if",
+    		source: "(44:8) {#if item.photos?.length > 0 }",
+    		ctx
+    	});
+
+    	return block;
+    }
+
     function create_fragment$3(ctx) {
     	let tr;
     	let td;
-    	let div;
+    	let div4;
+    	let div1;
     	let t0_value = /*item*/ ctx[0].name + "";
     	let t0;
     	let t1;
+    	let div0;
     	let t2_value = /*item*/ ctx[0].vicinity + "";
     	let t2;
     	let t3;
+    	let div2;
     	let t4_value = /*item*/ ctx[0].types + "";
     	let t4;
+    	let t5;
+    	let div3;
+    	let if_block = /*item*/ ctx[0].photos?.length > 0 && create_if_block$1(ctx);
 
     	const block = {
     		c: function create() {
     			tr = element("tr");
     			td = element("td");
-    			div = element("div");
+    			div4 = element("div");
+    			div1 = element("div");
     			t0 = text(t0_value);
     			t1 = space();
+    			div0 = element("div");
     			t2 = text(t2_value);
     			t3 = space();
+    			div2 = element("div");
     			t4 = text(t4_value);
-    			attr_dev(div, "class", "svelte-1msqat3");
-    			add_location(div, file$3, 13, 0, 219);
-    			add_location(td, file$3, 12, 4, 214);
-    			add_location(tr, file$3, 12, 0, 210);
+    			t5 = space();
+    			div3 = element("div");
+    			if (if_block) if_block.c();
+    			attr_dev(div0, "class", "vicinity svelte-t90tch");
+    			add_location(div0, file$3, 39, 34, 746);
+    			attr_dev(div1, "class", "name svelte-t90tch");
+    			add_location(div1, file$3, 39, 4, 716);
+    			attr_dev(div2, "class", "types svelte-t90tch");
+    			add_location(div2, file$3, 41, 4, 804);
+    			attr_dev(div3, "class", "pic svelte-t90tch");
+    			add_location(div3, file$3, 42, 4, 846);
+    			attr_dev(div4, "class", "container svelte-t90tch");
+    			add_location(div4, file$3, 38, 0, 688);
+    			add_location(td, file$3, 37, 4, 683);
+    			add_location(tr, file$3, 37, 0, 679);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1186,22 +1249,42 @@ var app = (function () {
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
     			append_dev(tr, td);
-    			append_dev(td, div);
-    			append_dev(div, t0);
-    			append_dev(div, t1);
-    			append_dev(div, t2);
-    			append_dev(div, t3);
-    			append_dev(div, t4);
+    			append_dev(td, div4);
+    			append_dev(div4, div1);
+    			append_dev(div1, t0);
+    			append_dev(div1, t1);
+    			append_dev(div1, div0);
+    			append_dev(div0, t2);
+    			append_dev(div4, t3);
+    			append_dev(div4, div2);
+    			append_dev(div2, t4);
+    			append_dev(div4, t5);
+    			append_dev(div4, div3);
+    			if (if_block) if_block.m(div3, null);
     		},
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*item*/ 1 && t0_value !== (t0_value = /*item*/ ctx[0].name + "")) set_data_dev(t0, t0_value);
     			if (dirty & /*item*/ 1 && t2_value !== (t2_value = /*item*/ ctx[0].vicinity + "")) set_data_dev(t2, t2_value);
     			if (dirty & /*item*/ 1 && t4_value !== (t4_value = /*item*/ ctx[0].types + "")) set_data_dev(t4, t4_value);
+
+    			if (/*item*/ ctx[0].photos?.length > 0) {
+    				if (if_block) {
+    					if_block.p(ctx, dirty);
+    				} else {
+    					if_block = create_if_block$1(ctx);
+    					if_block.c();
+    					if_block.m(div3, null);
+    				}
+    			} else if (if_block) {
+    				if_block.d(1);
+    				if_block = null;
+    			}
     		},
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(tr);
+    			if (if_block) if_block.d();
     		}
     	};
 
@@ -1274,7 +1357,7 @@ var app = (function () {
 
     /* src/App.svelte generated by Svelte v3.32.3 */
 
-    const { Error: Error_1, console: console_1 } = globals;
+    const { Error: Error_1 } = globals;
     const file$4 = "src/App.svelte";
 
     function get_each_context(ctx, list, i) {
@@ -1339,7 +1422,7 @@ var app = (function () {
     }
 
     // (50:0) {#if !$AuthStore.loggedIn}
-    function create_if_block$1(ctx) {
+    function create_if_block$2(ctx) {
     	let auth;
     	let current;
     	auth = new Auth({ $$inline: true });
@@ -1377,7 +1460,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block$1.name,
+    		id: create_if_block$2.name,
     		type: "if",
     		source: "(50:0) {#if !$AuthStore.loggedIn}",
     		ctx
@@ -1398,7 +1481,7 @@ var app = (function () {
     			t = text(t_value);
     			set_style(p, "color", "red");
     			attr_dev(p, "class", "svelte-1h94xj");
-    			add_location(p, file$4, 76, 2, 1684);
+    			add_location(p, file$4, 76, 2, 1693);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1469,15 +1552,15 @@ var app = (function () {
     			set_style(span, "margin-right", "20px");
     			set_style(span, "font-size", "25px");
     			attr_dev(span, "class", "svelte-1h94xj");
-    			add_location(span, file$4, 61, 2, 1197);
+    			add_location(span, file$4, 61, 2, 1206);
     			attr_dev(input, "type", "text");
     			set_style(input, "width", "50%");
     			set_style(input, "height", "40px");
     			set_style(input, "font-size", "29px");
     			attr_dev(input, "class", "svelte-1h94xj");
-    			add_location(input, file$4, 62, 1, 1280);
+    			add_location(input, file$4, 62, 1, 1289);
     			attr_dev(table, "class", "svelte-1h94xj");
-    			add_location(table, file$4, 64, 1, 1374);
+    			add_location(table, file$4, 64, 1, 1383);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -1805,7 +1888,7 @@ var app = (function () {
     	let if_block;
     	let if_block_anchor;
     	let current;
-    	const if_block_creators = [create_if_block$1, create_else_block];
+    	const if_block_creators = [create_if_block$2, create_else_block];
     	const if_blocks = [];
 
     	function select_block_type(ctx, dirty) {
@@ -1912,17 +1995,14 @@ var app = (function () {
     	AuthStore.subscribe(as => {
     		if (as.loggedIn) {
     			$$invalidate(1, promise = fetchData());
-
-    			promise.then(d => {
-    				console.log(JSON.stringify(d));
-    			});
-    		}
-    	});
+    		} // promise.then(d=>{
+    		// 	console.log( JSON.stringify(d))
+    	}); // })
 
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn(`<App> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<App> was created with unknown prop '${key}'`);
     	});
 
     	const func = t => t.startsWith(searchTerm);

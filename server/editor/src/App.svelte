@@ -22,6 +22,10 @@
   			return response.json();
 			
 		} else {
+			if ( response.status == 401 ){
+				AuthStore.set( {loggedIn:false})
+				
+			}
 			throw new Error("Something went wrong" + response.statusText);
 		}
 	}

@@ -2,9 +2,11 @@
 	import { AuthStore } from './stores.js';
 	import Auth from './Auth.svelte'
 	import AppFrame from './AppFrame.svelte'
+	import ActivityRow from './ActivityRow.svelte'
 
 	let searchTerm = null;
 	let promise = null; 
+	const visibleFields= [ "id", "name","vicinity", "types", "rating","user_ratings_total",  "business_status"]
 	
 	async function fetchData() {
 		
@@ -26,6 +28,9 @@
 	AuthStore.subscribe( as =>{
 		if ( as.loggedIn  ){
 			promise=fetchData();
+			promise.then(d=>{
+				console.log( JSON.stringify(d))
+			})
 		
 		}
 	})
@@ -56,8 +61,10 @@
 	<table>
 		<thead><tr><th>Desc</th><th>Id</th></tr></thead>
 		{#each places.Items as item }
-			{#if ( item.tags?.filter(t=>t.startsWith(searchTerm)).length>0 || searchTerm == null || searchTerm.length <=0)}
-				<tr><td>{item.desc}</td><td>{item.id}</td><td>{item.tags.length}</td></tr>
+		{#if ( item.types?.filter(t=>t.startsWith(searchTerm)).length>0 || searchTerm == null || searchTerm.length <=0)}
+			<ActivityRow {item}></ActivityRow>
+			
+				
 			{/if}
 		{/each}
 	</table>

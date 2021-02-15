@@ -1,6 +1,6 @@
 <script>
     const COOKIE = "auth";
-    const SERVER_URL = "http://localhost:3000";
+    
     import Frame from "./Frame.svelte";
     import { AuthStore } from "./stores.js";
 

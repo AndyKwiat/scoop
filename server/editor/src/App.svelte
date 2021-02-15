@@ -1,16 +1,18 @@
 <script>
-	import { AuthStore } from './stores.js';
+	import { AuthStore ,SERVER_URL} from './stores.js';
 	import Auth from './Auth.svelte'
 	import AppFrame from './AppFrame.svelte'
 	import ActivityRow from './ActivityRow.svelte'
+	
 
 	let searchTerm = null;
 	let promise = null; 
+	
 //	const visibleFields= [ "id", "name","vicinity", "types", "rating","user_ratings_total",  "business_status"]
 	
 	async function fetchData() {
 		
-		const response = await self.fetch('http://localhost:3000/places',
+		const response = await self.fetch(SERVER_URL + '/places',
 		{
 			
 			method: 'get', 

@@ -1150,7 +1150,49 @@ var app = (function () {
 
     const file$3 = "src/ActivityRow.svelte";
 
-    // (44:8) {#if item.photos?.length > 0 }
+    function get_each_context(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[1] = list[i];
+    	return child_ctx;
+    }
+
+    // (58:8) {#each item.types as tag }
+    function create_each_block(ctx) {
+    	let span;
+    	let t_value = /*tag*/ ctx[1] + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			t = text(t_value);
+    			attr_dev(span, "class", "svelte-1l1ze24");
+    			add_location(span, file$3, 58, 12, 1271);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+    			append_dev(span, t);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*item*/ 1 && t_value !== (t_value = /*tag*/ ctx[1] + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block.name,
+    		type: "each",
+    		source: "(58:8) {#each item.types as tag }",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (63:8) {#if item.photos?.length > 0 }
     function create_if_block$1(ctx) {
     	let img;
     	let img_src_value;
@@ -1163,7 +1205,7 @@ var app = (function () {
     			attr_dev(img, "max-width", "20%");
     			if (img.src !== (img_src_value = "https://www.stirfrygames.com/img/" + /*item*/ ctx[0].photos[0].photo_reference + ".jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*item*/ ctx[0].name);
-    			add_location(img, file$3, 44, 8, 911);
+    			add_location(img, file$3, 63, 8, 1388);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -1186,7 +1228,7 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(44:8) {#if item.photos?.length > 0 }",
+    		source: "(63:8) {#if item.photos?.length > 0 }",
     		ctx
     	});
 
@@ -1196,8 +1238,8 @@ var app = (function () {
     function create_fragment$3(ctx) {
     	let tr;
     	let td;
-    	let div4;
-    	let div1;
+    	let div5;
+    	let div2;
     	let t0_value = /*item*/ ctx[0].name + "";
     	let t0;
     	let t1;
@@ -1205,41 +1247,62 @@ var app = (function () {
     	let t2_value = /*item*/ ctx[0].vicinity + "";
     	let t2;
     	let t3;
-    	let div2;
-    	let t4_value = /*item*/ ctx[0].types + "";
+    	let div1;
     	let t4;
+    	let t5_value = /*item*/ ctx[0].business_status + "";
     	let t5;
+    	let t6;
     	let div3;
+    	let t7;
+    	let div4;
+    	let each_value = /*item*/ ctx[0].types;
+    	validate_each_argument(each_value);
+    	let each_blocks = [];
+
+    	for (let i = 0; i < each_value.length; i += 1) {
+    		each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
+    	}
+
     	let if_block = /*item*/ ctx[0].photos?.length > 0 && create_if_block$1(ctx);
 
     	const block = {
     		c: function create() {
     			tr = element("tr");
     			td = element("td");
-    			div4 = element("div");
-    			div1 = element("div");
+    			div5 = element("div");
+    			div2 = element("div");
     			t0 = text(t0_value);
     			t1 = space();
     			div0 = element("div");
     			t2 = text(t2_value);
     			t3 = space();
-    			div2 = element("div");
-    			t4 = text(t4_value);
-    			t5 = space();
+    			div1 = element("div");
+    			t4 = text("Status:");
+    			t5 = text(t5_value);
+    			t6 = space();
     			div3 = element("div");
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].c();
+    			}
+
+    			t7 = space();
+    			div4 = element("div");
     			if (if_block) if_block.c();
-    			attr_dev(div0, "class", "vicinity svelte-t90tch");
-    			add_location(div0, file$3, 39, 34, 746);
-    			attr_dev(div1, "class", "name svelte-t90tch");
-    			add_location(div1, file$3, 39, 4, 716);
-    			attr_dev(div2, "class", "types svelte-t90tch");
-    			add_location(div2, file$3, 41, 4, 804);
-    			attr_dev(div3, "class", "pic svelte-t90tch");
-    			add_location(div3, file$3, 42, 4, 846);
-    			attr_dev(div4, "class", "container svelte-t90tch");
-    			add_location(div4, file$3, 38, 0, 688);
-    			add_location(td, file$3, 37, 4, 683);
-    			add_location(tr, file$3, 37, 0, 679);
+    			attr_dev(div0, "class", "vicinity svelte-1l1ze24");
+    			add_location(div0, file$3, 54, 34, 1081);
+    			attr_dev(div1, "class", "business_status svelte-1l1ze24");
+    			add_location(div1, file$3, 54, 78, 1125);
+    			attr_dev(div2, "class", "name svelte-1l1ze24");
+    			add_location(div2, file$3, 54, 4, 1051);
+    			attr_dev(div3, "class", "types svelte-1l1ze24");
+    			add_location(div3, file$3, 56, 4, 1204);
+    			attr_dev(div4, "class", "pic svelte-1l1ze24");
+    			add_location(div4, file$3, 61, 4, 1323);
+    			attr_dev(div5, "class", "container svelte-1l1ze24");
+    			add_location(div5, file$3, 53, 0, 1023);
+    			add_location(td, file$3, 52, 4, 1018);
+    			add_location(tr, file$3, 52, 0, 1014);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1247,23 +1310,55 @@ var app = (function () {
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
     			append_dev(tr, td);
-    			append_dev(td, div4);
-    			append_dev(div4, div1);
-    			append_dev(div1, t0);
-    			append_dev(div1, t1);
-    			append_dev(div1, div0);
+    			append_dev(td, div5);
+    			append_dev(div5, div2);
+    			append_dev(div2, t0);
+    			append_dev(div2, t1);
+    			append_dev(div2, div0);
     			append_dev(div0, t2);
-    			append_dev(div4, t3);
-    			append_dev(div4, div2);
-    			append_dev(div2, t4);
-    			append_dev(div4, t5);
-    			append_dev(div4, div3);
-    			if (if_block) if_block.m(div3, null);
+    			append_dev(div2, t3);
+    			append_dev(div2, div1);
+    			append_dev(div1, t4);
+    			append_dev(div1, t5);
+    			append_dev(div5, t6);
+    			append_dev(div5, div3);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].m(div3, null);
+    			}
+
+    			append_dev(div5, t7);
+    			append_dev(div5, div4);
+    			if (if_block) if_block.m(div4, null);
     		},
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*item*/ 1 && t0_value !== (t0_value = /*item*/ ctx[0].name + "")) set_data_dev(t0, t0_value);
     			if (dirty & /*item*/ 1 && t2_value !== (t2_value = /*item*/ ctx[0].vicinity + "")) set_data_dev(t2, t2_value);
-    			if (dirty & /*item*/ 1 && t4_value !== (t4_value = /*item*/ ctx[0].types + "")) set_data_dev(t4, t4_value);
+    			if (dirty & /*item*/ 1 && t5_value !== (t5_value = /*item*/ ctx[0].business_status + "")) set_data_dev(t5, t5_value);
+
+    			if (dirty & /*item*/ 1) {
+    				each_value = /*item*/ ctx[0].types;
+    				validate_each_argument(each_value);
+    				let i;
+
+    				for (i = 0; i < each_value.length; i += 1) {
+    					const child_ctx = get_each_context(ctx, each_value, i);
+
+    					if (each_blocks[i]) {
+    						each_blocks[i].p(child_ctx, dirty);
+    					} else {
+    						each_blocks[i] = create_each_block(child_ctx);
+    						each_blocks[i].c();
+    						each_blocks[i].m(div3, null);
+    					}
+    				}
+
+    				for (; i < each_blocks.length; i += 1) {
+    					each_blocks[i].d(1);
+    				}
+
+    				each_blocks.length = each_value.length;
+    			}
 
     			if (/*item*/ ctx[0].photos?.length > 0) {
     				if (if_block) {
@@ -1271,7 +1366,7 @@ var app = (function () {
     				} else {
     					if_block = create_if_block$1(ctx);
     					if_block.c();
-    					if_block.m(div3, null);
+    					if_block.m(div4, null);
     				}
     			} else if (if_block) {
     				if_block.d(1);
@@ -1282,6 +1377,7 @@ var app = (function () {
     		o: noop,
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(tr);
+    			destroy_each(each_blocks, detaching);
     			if (if_block) if_block.d();
     		}
     	};
@@ -1358,7 +1454,7 @@ var app = (function () {
     const { Error: Error_1 } = globals;
     const file$4 = "src/App.svelte";
 
-    function get_each_context(ctx, list, i) {
+    function get_each_context$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
     	child_ctx[7] = list[i];
     	return child_ctx;
@@ -1524,7 +1620,7 @@ var app = (function () {
     	let each_blocks = [];
 
     	for (let i = 0; i < each_value.length; i += 1) {
-    		each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
+    		each_blocks[i] = create_each_block$1(get_each_context$1(ctx, each_value, i));
     	}
 
     	const out = i => transition_out(each_blocks[i], 1, 1, () => {
@@ -1594,13 +1690,13 @@ var app = (function () {
     				let i;
 
     				for (i = 0; i < each_value.length; i += 1) {
-    					const child_ctx = get_each_context(ctx, each_value, i);
+    					const child_ctx = get_each_context$1(ctx, each_value, i);
 
     					if (each_blocks[i]) {
     						each_blocks[i].p(child_ctx, dirty);
     						transition_in(each_blocks[i], 1);
     					} else {
-    						each_blocks[i] = create_each_block(child_ctx);
+    						each_blocks[i] = create_each_block$1(child_ctx);
     						each_blocks[i].c();
     						transition_in(each_blocks[i], 1);
     						each_blocks[i].m(table, null);
@@ -1708,7 +1804,7 @@ var app = (function () {
     }
 
     // (67:2) {#each places.Items as item }
-    function create_each_block(ctx) {
+    function create_each_block$1(ctx) {
     	let show_if = /*item*/ ctx[7].types?.filter(/*func*/ ctx[3]).length > 0 || /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0;
     	let if_block_anchor;
     	let current;
@@ -1767,7 +1863,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_each_block.name,
+    		id: create_each_block$1.name,
     		type: "each",
     		source: "(67:2) {#each places.Items as item }",
     		ctx

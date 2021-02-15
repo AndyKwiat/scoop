@@ -11,14 +11,15 @@
     let msg = "";
 
     let cook = getCookie(COOKIE);
+    console.log ("GOT THE COOKIE: " + cook );
     if (cook.length > 0) {
         AuthStore.set({ loggedIn: true, key: cook });
     }
 
     AuthStore.subscribe( as =>{
-		if ( as.loggedIn == false  ){
-            createCookie(COOKIE, "" ) // delete		
-		}
+		if ( as.loggedIn == false ) {
+            createCookie(COOKIE,"" ) // delete
+        }
 	})
 
     function onLoginClicked() {
@@ -78,9 +79,7 @@
         return "";
     }
 //DEV
-    username= ""
-    password = ""
-    onLoginClicked()
+  
 </script>
 
 <Frame>

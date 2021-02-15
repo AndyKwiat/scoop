@@ -43,7 +43,7 @@
 </script>
 <style>
 	:root{
-        background-image: linear-gradient(rgb(53, 31, 247), rgb(19, 12, 69));
+		background-color: cornflowerblue;
     }
 </style>
 

@@ -91,7 +91,7 @@ function onScanWrapper( params, response, docClient ){
    docClient.scan(params, scanFunc);
 ;}
 
-let authKeyEditor = uuid()
+let authKeyEditor = "CHANGE_ME_EDITOR_KEY" ; // uuid()
 
 function checkAuth(req,res,next){
   

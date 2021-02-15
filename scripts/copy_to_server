@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -avzh ~/ark/scoop/server/projects/sample user@your-server:~/projects
+rsync -avzh ~/ark/scoop/server user@your-server:~/projects

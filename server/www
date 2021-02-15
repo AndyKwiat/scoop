@@ -86,7 +86,9 @@ function onScanWrapper( params, response, docClient ){
 ;}
 
 let authKeyEditor = uuid()
+
 function checkAuth(req,res,next){
+  
    console.log( "REQ PATH: " + req.path)
    console.log ( JSON.stringify(req.headers))
    if ( req.path.startsWith("/editor") ){ // just serve static files

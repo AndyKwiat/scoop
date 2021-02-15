@@ -1149,40 +1149,49 @@ var app = (function () {
 
     function create_fragment$3(ctx) {
     	let tr;
-    	let td0;
+    	let td;
+    	let div;
     	let t0_value = /*item*/ ctx[0].name + "";
     	let t0;
     	let t1;
-    	let td1;
     	let t2_value = /*item*/ ctx[0].vicinity + "";
     	let t2;
+    	let t3;
+    	let t4_value = /*item*/ ctx[0].types + "";
+    	let t4;
 
     	const block = {
     		c: function create() {
     			tr = element("tr");
-    			td0 = element("td");
+    			td = element("td");
+    			div = element("div");
     			t0 = text(t0_value);
     			t1 = space();
-    			td1 = element("td");
     			t2 = text(t2_value);
-    			add_location(td0, file$3, 4, 0, 45);
-    			add_location(td1, file$3, 5, 0, 66);
-    			add_location(tr, file$3, 3, 0, 40);
+    			t3 = space();
+    			t4 = text(t4_value);
+    			attr_dev(div, "class", "svelte-1msqat3");
+    			add_location(div, file$3, 13, 0, 219);
+    			add_location(td, file$3, 12, 4, 214);
+    			add_location(tr, file$3, 12, 0, 210);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
-    			append_dev(tr, td0);
-    			append_dev(td0, t0);
-    			append_dev(tr, t1);
-    			append_dev(tr, td1);
-    			append_dev(td1, t2);
+    			append_dev(tr, td);
+    			append_dev(td, div);
+    			append_dev(div, t0);
+    			append_dev(div, t1);
+    			append_dev(div, t2);
+    			append_dev(div, t3);
+    			append_dev(div, t4);
     		},
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*item*/ 1 && t0_value !== (t0_value = /*item*/ ctx[0].name + "")) set_data_dev(t0, t0_value);
     			if (dirty & /*item*/ 1 && t2_value !== (t2_value = /*item*/ ctx[0].vicinity + "")) set_data_dev(t2, t2_value);
+    			if (dirty & /*item*/ 1 && t4_value !== (t4_value = /*item*/ ctx[0].types + "")) set_data_dev(t4, t4_value);
     		},
     		i: noop,
     		o: noop,
@@ -1265,7 +1274,7 @@ var app = (function () {
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[8] = list[i];
+    	child_ctx[7] = list[i];
     	return child_ctx;
     }
 
@@ -1293,7 +1302,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const appframe_changes = {};
 
-    			if (dirty & /*$$scope, promise, searchTerm*/ 4099) {
+    			if (dirty & /*$$scope, promise, searchTerm*/ 2051) {
     				appframe_changes.$$scope = { dirty, ctx };
     			}
 
@@ -1341,7 +1350,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const auth_changes = {};
 
-    			if (dirty & /*$$scope*/ 4096) {
+    			if (dirty & /*$$scope*/ 2048) {
     				auth_changes.$$scope = { dirty, ctx };
     			}
 
@@ -1375,7 +1384,7 @@ var app = (function () {
     // (76:1) {:catch error}
     function create_catch_block(ctx) {
     	let p;
-    	let t_value = /*error*/ ctx[11].message + "";
+    	let t_value = /*error*/ ctx[10].message + "";
     	let t;
 
     	const block = {
@@ -1384,14 +1393,14 @@ var app = (function () {
     			t = text(t_value);
     			set_style(p, "color", "red");
     			attr_dev(p, "class", "svelte-1h94xj");
-    			add_location(p, file$4, 76, 2, 1677);
+    			add_location(p, file$4, 76, 2, 1684);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
     			append_dev(p, t);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*promise*/ 2 && t_value !== (t_value = /*error*/ ctx[11].message + "")) set_data_dev(t, t_value);
+    			if (dirty & /*promise*/ 2 && t_value !== (t_value = /*error*/ ctx[10].message + "")) set_data_dev(t, t_value);
     		},
     		i: noop,
     		o: noop,
@@ -1413,7 +1422,7 @@ var app = (function () {
 
     // (59:1) {:then places}
     function create_then_block(ctx) {
-    	let t0_value = /*places*/ ctx[7].Items.length + "";
+    	let t0_value = /*places*/ ctx[6].Items.length + "";
     	let t0;
     	let t1;
     	let span;
@@ -1421,15 +1430,10 @@ var app = (function () {
     	let input;
     	let t4;
     	let table;
-    	let thead;
-    	let tr;
-    	let th0;
-    	let th1;
-    	let t7;
     	let current;
     	let mounted;
     	let dispose;
-    	let each_value = /*places*/ ctx[7].Items;
+    	let each_value = /*places*/ ctx[6].Items;
     	validate_each_argument(each_value);
     	let each_blocks = [];
 
@@ -1451,13 +1455,6 @@ var app = (function () {
     			input = element("input");
     			t4 = space();
     			table = element("table");
-    			thead = element("thead");
-    			tr = element("tr");
-    			th0 = element("th");
-    			th0.textContent = "Desc";
-    			th1 = element("th");
-    			th1.textContent = "Id";
-    			t7 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
@@ -1467,23 +1464,15 @@ var app = (function () {
     			set_style(span, "margin-right", "20px");
     			set_style(span, "font-size", "25px");
     			attr_dev(span, "class", "svelte-1h94xj");
-    			add_location(span, file$4, 61, 2, 1199);
+    			add_location(span, file$4, 61, 2, 1197);
     			attr_dev(input, "type", "text");
     			set_style(input, "width", "50%");
     			set_style(input, "height", "40px");
     			set_style(input, "font-size", "29px");
     			attr_dev(input, "class", "svelte-1h94xj");
-    			add_location(input, file$4, 62, 1, 1282);
-    			attr_dev(th0, "class", "svelte-1h94xj");
-    			add_location(th0, file$4, 65, 13, 1397);
-    			attr_dev(th1, "class", "svelte-1h94xj");
-    			add_location(th1, file$4, 65, 26, 1410);
-    			attr_dev(tr, "class", "svelte-1h94xj");
-    			add_location(tr, file$4, 65, 9, 1393);
-    			attr_dev(thead, "class", "svelte-1h94xj");
-    			add_location(thead, file$4, 65, 2, 1386);
+    			add_location(input, file$4, 62, 1, 1280);
     			attr_dev(table, "class", "svelte-1h94xj");
-    			add_location(table, file$4, 64, 1, 1376);
+    			add_location(table, file$4, 64, 1, 1374);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -1494,11 +1483,6 @@ var app = (function () {
     			set_input_value(input, /*searchTerm*/ ctx[0]);
     			insert_dev(target, t4, anchor);
     			insert_dev(target, table, anchor);
-    			append_dev(table, thead);
-    			append_dev(thead, tr);
-    			append_dev(tr, th0);
-    			append_dev(tr, th1);
-    			append_dev(table, t7);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(table, null);
@@ -1512,14 +1496,14 @@ var app = (function () {
     			}
     		},
     		p: function update(ctx, dirty) {
-    			if ((!current || dirty & /*promise*/ 2) && t0_value !== (t0_value = /*places*/ ctx[7].Items.length + "")) set_data_dev(t0, t0_value);
+    			if ((!current || dirty & /*promise*/ 2) && t0_value !== (t0_value = /*places*/ ctx[6].Items.length + "")) set_data_dev(t0, t0_value);
 
     			if (dirty & /*searchTerm*/ 1 && input.value !== /*searchTerm*/ ctx[0]) {
     				set_input_value(input, /*searchTerm*/ ctx[0]);
     			}
 
     			if (dirty & /*promise, searchTerm*/ 3) {
-    				each_value = /*places*/ ctx[7].Items;
+    				each_value = /*places*/ ctx[6].Items;
     				validate_each_argument(each_value);
     				let i;
 
@@ -1595,7 +1579,7 @@ var app = (function () {
     	let current;
 
     	activityrow = new ActivityRow({
-    			props: { item: /*item*/ ctx[8] },
+    			props: { item: /*item*/ ctx[7] },
     			$$inline: true
     		});
 
@@ -1609,7 +1593,7 @@ var app = (function () {
     		},
     		p: function update(ctx, dirty) {
     			const activityrow_changes = {};
-    			if (dirty & /*promise*/ 2) activityrow_changes.item = /*item*/ ctx[8];
+    			if (dirty & /*promise*/ 2) activityrow_changes.item = /*item*/ ctx[7];
     			activityrow.$set(activityrow_changes);
     		},
     		i: function intro(local) {
@@ -1639,7 +1623,7 @@ var app = (function () {
 
     // (67:2) {#each places.Items as item }
     function create_each_block(ctx) {
-    	let show_if = /*item*/ ctx[8].types?.filter(/*func*/ ctx[3]).length > 0 || /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0;
+    	let show_if = /*item*/ ctx[7].types?.filter(/*func*/ ctx[3]).length > 0 || /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0;
     	let if_block_anchor;
     	let current;
     	let if_block = show_if && create_if_block_1(ctx);
@@ -1655,7 +1639,7 @@ var app = (function () {
     			current = true;
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*promise, searchTerm*/ 3) show_if = /*item*/ ctx[8].types?.filter(/*func*/ ctx[3]).length > 0 || /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0;
+    			if (dirty & /*promise, searchTerm*/ 3) show_if = /*item*/ ctx[7].types?.filter(/*func*/ ctx[3]).length > 0 || /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0;
 
     			if (show_if) {
     				if (if_block) {
@@ -1750,8 +1734,8 @@ var app = (function () {
     		pending: create_pending_block,
     		then: create_then_block,
     		catch: create_catch_block,
-    		value: 7,
-    		error: 11,
+    		value: 6,
+    		error: 10,
     		blocks: [,,,]
     	};
 
@@ -1775,7 +1759,7 @@ var app = (function () {
 
     			if (dirty & /*promise*/ 2 && promise_1 !== (promise_1 = /*promise*/ ctx[1]) && handle_promise(promise_1, info)) ; else {
     				const child_ctx = ctx.slice();
-    				child_ctx[7] = child_ctx[11] = info.resolved;
+    				child_ctx[6] = child_ctx[10] = info.resolved;
     				info.block.p(child_ctx, dirty);
     			}
     		},
@@ -1902,16 +1886,7 @@ var app = (function () {
     	let searchTerm = null;
     	let promise = null;
 
-    	const visibleFields = [
-    		"id",
-    		"name",
-    		"vicinity",
-    		"types",
-    		"rating",
-    		"user_ratings_total",
-    		"business_status"
-    	];
-
+    	//	const visibleFields= [ "id", "name","vicinity", "types", "rating","user_ratings_total",  "business_status"]
     	async function fetchData() {
     		const response = await self.fetch("http://localhost:3000/places", {
     			method: "get",
@@ -1959,7 +1934,6 @@ var app = (function () {
     		ActivityRow,
     		searchTerm,
     		promise,
-    		visibleFields,
     		fetchData,
     		$AuthStore
     	});

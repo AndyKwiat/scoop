@@ -6,7 +6,7 @@
 
 	let searchTerm = null;
 	let promise = null; 
-	const visibleFields= [ "id", "name","vicinity", "types", "rating","user_ratings_total",  "business_status"]
+//	const visibleFields= [ "id", "name","vicinity", "types", "rating","user_ratings_total",  "business_status"]
 	
 	async function fetchData() {
 		
@@ -24,7 +24,7 @@
 		} else {
 			if ( response.status == 401 ){
 				AuthStore.set( {loggedIn:false})
-				
+
 			}
 			throw new Error("Something went wrong" + response.statusText);
 		}
@@ -63,7 +63,7 @@
 	<input type="text" bind:value={searchTerm} style=" width:50%; height:40px; font-size:29px">
 
 	<table>
-		<thead><tr><th>Desc</th><th>Id</th></tr></thead>
+		<!-- <thead><tr><th>Desc</th><th>Id</th></tr></thead> -->
 		{#each places.Items as item }
 		{#if ( item.types?.filter(t=>t.startsWith(searchTerm)).length>0 || searchTerm == null || searchTerm.length <=0)}
 			<ActivityRow {item}></ActivityRow>

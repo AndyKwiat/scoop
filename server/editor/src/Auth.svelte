@@ -2,7 +2,7 @@
     const COOKIE = "auth";
     
     import Frame from "./Frame.svelte";
-    import { AuthStore } from "./stores.js";
+    import { AuthStore,SERVER_URL } from "./stores.js";
 
     let username = "";
     let password = "";

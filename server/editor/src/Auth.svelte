@@ -1,6 +1,7 @@
 <script>
     const SERVER_URL = "http://localhost:3000"
     import Frame from './Frame.svelte'
+    import { AuthStore } from './stores.js';
     let loggedIn=false
     let username=""
     let password=""
@@ -16,8 +17,13 @@
         fetchPromise.then((res)=>{ 
             res.text().then((txt)=>
             {
-                msg = txt + " " + res.status +  " RESPONSE"
-                console.log(txt + " " + res.status +  " RESPONSE")
+              
+               // console.log(txt + " " + res.status +  " RESPONSE")
+                if ( res.ok ){
+                    AuthStore.set( { loggedIn:true, key: txt})
+                }else{
+                     msg = txt + " " + res.status ;
+                }
             }       )
           /*  if ( res.status != 200 ) throw (res)
             msg=val;  
@@ -50,7 +56,7 @@
     
 </style>
 
-{#if !loggedIn}
+
 <Frame>
     <h1>Scoop it Up</h1>
 <label>
@@ -66,8 +72,5 @@
 {/if}
 <p style="color: white">{msg}</p>
 </Frame>
-{:else}
-<slot auth={credentials}>
-</slot>
-{/if}
+
 

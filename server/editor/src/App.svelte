@@ -1,4 +1,5 @@
 <script>
+	import { AuthStore } from './stores.js';
 	import Auth from './Auth.svelte'
 	import AppFrame from './AppFrame.svelte'
 	let data =null;
@@ -25,7 +26,11 @@
         background-image: linear-gradient(rgb(53, 31, 247), rgb(19, 12, 69));
     }
 </style>
-<!-- <Auth> -->
+
+{#if !$AuthStore.loggedIn}
+ <Auth>
+</Auth>
+{:else}
 <AppFrame>
 {#if data==null}
 {#await promise}
@@ -53,6 +58,6 @@
 
 
 {/if}
+</AppFrame>
+{/if} 
 
-</AppFrame>	
-<!-- </Auth> -->

@@ -97,5 +97,5 @@ function checkAuth(req,res,next){
    ) 
       next()
    else
-      res.send(402)
+      res.send(401)
 }

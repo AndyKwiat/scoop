@@ -40,15 +40,15 @@ function uploadToTable( tableName, data ){
     data.forEach(function(item) {
         var params = {
             TableName: tableName,
-            Item:  item
-            
+            Item:  item,
+            Key: {"id": item.id }            
         };
     
-        docClient.put(params, function(err, data) {
+        docClient.update(params, function(err, data) {
            if (err) {
-               console.error("Unable to add item", item.id, ". Error JSON:", JSON.stringify(err, null, 2));
+               console.error("Unable to update item", item.id, ". Error JSON:", JSON.stringify(err, null, 2));
            } else {
-               console.log("PutItem succeeded:", item.id);
+               console.log("UpdateItem succeeded:", item.id);
            }
         });
     });

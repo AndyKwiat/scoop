@@ -1,0 +1,888 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4719963,
+               "lng" : -79.9513183
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.47328848029149,
+                  "lng" : -79.94976326970848
+               },
+               "southwest" : {
+                  "lat" : 43.47059051970849,
+                  "lng" : -79.95246123029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Crawford Lake Conservation Area (Reservations Required)",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3904,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111056222073496480369\"\u003eJustin Tiu\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI5TL_zOWxCfLQyyWcGVRs0_OE6RZzXxdLjsNmzLOsEnfWW9jkqBWdtbyFYaWT0Y_dCIFPVzWl2IauGvXka-WnQzmNuIDa4B6aiPnE-F8_bJ1p3jOkaSNPgl630qRvFxgImzaJUkiPMxXoZ1o-6vXufAMPBmtO-zx4TSqY8LDRkDz1d",
+               "width" : 6016
+            }
+         ],
+         "place_id" : "ChIJD51cZeV6K4gRAdvlWSRwAJU",
+         "plus_code" : {
+            "compound_code" : "F2CX+QF Milton, ON, Canada",
+            "global_code" : "87M2F2CX+QF"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJD51cZeV6K4gRAdvlWSRwAJU",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2265,
+         "vicinity" : "3115 Conservation Road, Milton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4124828,
+               "lng" : -80.1292347
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4139289802915,
+                  "lng" : -80.12806006970848
+               },
+               "southwest" : {
+                  "lat" : 43.4112310197085,
+                  "lng" : -80.1307580302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Emerald Lake",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 535,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102038131695333770687\"\u003eTri-Cities360 Scott Rawlings\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKQOTJ8lRf6nkgOuxXtTPfqSg_6TenRy1V6-b7cJn4s8zDWdDkt8kCe5WUj1fShBFFheMkPWkzIXeHNKJC7bEhCzScb4c5UIdWZbOhW1gedIx8DHWYEBBfBleRezQrOh_AlubybFAPvfsWWShvdV-62D6GI66PdXdGL9XZJYHs0jJAh",
+               "width" : 958
+            }
+         ],
+         "place_id" : "ChIJo7QjWbCBK4gRxtpDxp4qlzA",
+         "plus_code" : {
+            "compound_code" : "CV6C+X8 Puslinch, ON, Canada",
+            "global_code" : "86MXCV6C+X8"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJo7QjWbCBK4gRxtpDxp4qlzA",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 500,
+         "vicinity" : "7248 Gore Road, Puslinch"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4525201,
+               "lng" : -80.44916669999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45354143029149,
+                  "lng" : -80.4479261197085
+               },
+               "southwest" : {
+                  "lat" : 43.4508434697085,
+                  "lng" : -80.4506240802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Crosby Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104808949543753156470\"\u003eCarl Lobis\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIw7it1SdwpA3GTXVpe7oFky0IsaKIErO1utBwt0f0v7HF8PCmIGGbNPoSRsLert8WIwwRftGDqDXcB0-dNcbA7z1W_I3XwDFgDRjh14gq6ATQi0rItogs4VNs3gJ3qS2FMK5QWvOMs5W900-JaxIbYoiFvNE2HcZCMPZJvM4SGqoIh",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ931cXkmLK4gRo3JYMxafMoo",
+         "plus_code" : {
+            "compound_code" : "FH32+28 Kitchener, ON, Canada",
+            "global_code" : "86MXFH32+28"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ931cXkmLK4gRo3JYMxafMoo",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 30,
+         "vicinity" : "85 Crosby Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3838977,
+               "lng" : -80.2930822
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3852590802915,
+                  "lng" : -80.2918384197085
+               },
+               "southwest" : {
+                  "lat" : 43.3825611197085,
+                  "lng" : -80.2945363802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Duncan Ferguson Homestead",
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117894859007598175067\"\u003eMike Hexamer\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIdRITcHdA51bEUrR2adfYruFCanX4TIGdbtr4lqnYERX-cRBYgEM1qHxdEnEdIRX7ESFqddS4hRGQB14dVpP6KZqTWELj4ezLeK2CELNWI7Rq7hMipHUP3O-7hm_1FSO3R_B5IY3fbSUpFFbNbciY0UU4y5H5P8wLSPCY8VwJ-1OFi",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJMU8PnhmIK4gRztHxw3AlxX0",
+         "plus_code" : {
+            "compound_code" : "9PM4+HQ Cambridge, ON, Canada",
+            "global_code" : "86MX9PM4+HQ"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJMU8PnhmIK4gRztHxw3AlxX0",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 18,
+         "vicinity" : "71 Cowan Boulevard, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.422885,
+               "lng" : -80.41207399999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4242339802915,
+                  "lng" : -80.41072501970849
+               },
+               "southwest" : {
+                  "lat" : 43.4215360197085,
+                  "lng" : -80.4134229802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Schneider Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101528657312900022770\"\u003eAlex Parmar\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLCs-UU3sx3J8unyRrkohMdGJ06PJPFoPZVlIkugyCj3Eb98n3XGw3RQL1_mFMeeZyPlMZxdFI7sHxN43ui3XFpBNRxowOis_1td1p984vrxULIrlaaAIQ8xEUXZfwBgAnktKkf-wU7pWg0ncdkcxFJ8n9-T3LPaenPkkfb5ggmdczG",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJnYs9v_6KK4gRgnoFS1HQWLw",
+         "plus_code" : {
+            "compound_code" : "CHFQ+55 Kitchener, ON, Canada",
+            "global_code" : "86MXCHFQ+55"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJnYs9v_6KK4gRgnoFS1HQWLw",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 75,
+         "vicinity" : "3595 King Street East, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4008014,
+               "lng" : -80.3658531
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4021503802915,
+                  "lng" : -80.3645041197085
+               },
+               "southwest" : {
+                  "lat" : 43.3994524197085,
+                  "lng" : -80.36720208029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Riverside Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113403359880785492734\"\u003eRachelle Laurin\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJwLzS1zpI_16cDaV24Of_BjeIsXZGI8-SbZjuuFLsAI1sbZsaKUkrVWyqoHKJ_zfrDpCOpoPSv30_azu0uy-qTkIt7JyXZAUd9oZGZ1kj1HFzDmYCsf8YqVtwzDc-_9Xfu6rDALtyzz6PJECY_3dGAvbllQBdNpTitcYQZ3BqNCMrz",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJhaFUSPWJK4gRkYsNbNOY-WA",
+         "plus_code" : {
+            "compound_code" : "CJ2M+8M Cambridge, ON, Canada",
+            "global_code" : "86MXCJ2M+8M"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJhaFUSPWJK4gRkYsNbNOY-WA",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1025,
+         "vicinity" : "49 King Street West, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3965975,
+               "lng" : -80.35952689999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3978964802915,
+                  "lng" : -80.35822621970848
+               },
+               "southwest" : {
+                  "lat" : 43.39519851970851,
+                  "lng" : -80.36092418029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Central Park - Preston Cenotaph",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105483798995403785128\"\u003echris rothon\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJEH5wVlD3sJZfsDEkTfcCx6u7imYAVSexQM5193kSPATPL_OdJL0ZxztKWH3X4RzcN3uohLYzGCiiHMGzQNOvWLj4BRjVAYNdUBrozhHVqeXe2EatolI98_VPeLvZ7Xfx1PpLfEsx5L6p1hfK6Gz6g_yYRkNuOb9hKdVqfcaQKPun3",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJta9hOvGJK4gRiC36UXXxp5Q",
+         "plus_code" : {
+            "compound_code" : "9JWR+J5 Cambridge, ON, Canada",
+            "global_code" : "86MX9JWR+J5"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJta9hOvGJK4gRiC36UXXxp5Q",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 114,
+         "vicinity" : "615 King Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.61950709999999,
+               "lng" : -80.0475546
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6208594802915,
+                  "lng" : -80.0462205697085
+               },
+               "southwest" : {
+                  "lat" : 43.6181615197085,
+                  "lng" : -80.0489185302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Smallwood Acres",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104414660072300521772\"\u003eCaroline McIntosh McIntosh\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKsVyZup4QXNZ0sI-BOg6TlHNXFyGgegL5F5gqjHmzLDkmTLMeXgPY87j3yM0cosGCcgE0yhQcvPGRkNPKLreLZkrMXR3ypH26uMO0kMEWajMooBR5KcDc0biebsiCBe8t5npNfzrTWxsi35ob5cnMJWzcQarkfJI1En8q7YlgWyAnY",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJNaku8VN0K4gREXdT4XCfOGY",
+         "plus_code" : {
+            "compound_code" : "JX92+RX Acton, ON, Canada",
+            "global_code" : "86MXJX92+RX"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJNaku8VN0K4gREXdT4XCfOGY",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 61,
+         "vicinity" : "13411 Dublin Line, Acton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4068906,
+               "lng" : -80.4036132
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.40796573029149,
+                  "lng" : -80.40225691970849
+               },
+               "southwest" : {
+                  "lat" : 43.40526776970849,
+                  "lng" : -80.4049548802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Settlers Grove Park",
+         "photos" : [
+            {
+               "height" : 2736,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111940468428482413008\"\u003eAbid Khan\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwICZp4WGCuSNgddBKUN6teHhWDv2ZEF1xUxAzx_pU1y034HzlIdzTSW5OK8ujVUNZs6oA9aBOXKNxZB2-ASCKuqELOIqoWGT2XKtRugC-3mur8A79X7kzX5P8mKEH8T0yiFgt-CI29-OQCYtbOd7l_PsvjONH0GpJU-Af4gzJ4dq68k",
+               "width" : 2736
+            }
+         ],
+         "place_id" : "ChIJh1NKk12KK4gR-kR0VfRNHg0",
+         "plus_code" : {
+            "compound_code" : "CH4W+QH Kitchener, ON, Canada",
+            "global_code" : "86MXCH4W+QH"
+         },
+         "rating" : 4,
+         "reference" : "ChIJh1NKk12KK4gR-kR0VfRNHg0",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 11,
+         "vicinity" : "182 Pioneer Tower Road, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4286494,
+               "lng" : -80.4216541
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.42993343029151,
+                  "lng" : -80.42032751970849
+               },
+               "southwest" : {
+                  "lat" : 43.42723546970851,
+                  "lng" : -80.4230254802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Chicopee Park Centre",
+         "photos" : [
+            {
+               "height" : 2704,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104316970011103658181\"\u003eAnne D\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLRU2Phqvejr6voZXmq2hzAFZ4pIwws1CjTKW-VvIhlGN0Ml1QU_OZG7oR3oNox_lUFjt9yc-foI7D8XPZFl8AGKvrQt239d5W3d7P-CnVdulxNlowRxuhjeHU-2T78VN4RyebFcqHXXOInTgGoPA5cJL2APpqbNMkMdok2aQMG81Jc",
+               "width" : 4056
+            }
+         ],
+         "place_id" : "ChIJb2IntAKLK4gR84N0yrCoSFQ",
+         "plus_code" : {
+            "compound_code" : "CHHH+F8 Kitchener, ON, Canada",
+            "global_code" : "86MXCHHH+F8"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJb2IntAKLK4gR84N0yrCoSFQ",
+         "scope" : "GOOGLE",
+         "types" : [ "shopping_mall", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 268,
+         "vicinity" : "1600 River Road East, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3877615,
+               "lng" : -80.1451392
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.38911048029149,
+                  "lng" : -80.14379021970849
+               },
+               "southwest" : {
+                  "lat" : 43.38641251970849,
+                  "lng" : -80.1464881802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Valens Lake Conservation Area",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3648,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100551127802632282871\"\u003eValens Lake Conservation Area\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKaHvZjDs1lAIw43W93Y_9iHKuelpsfgZdDDsyzUqpm7YwzYYN0wIohJGiMDVOUdOErUBkS5dYMrP14gtT4Zbg_0fGwb3Wpami0RG28G8zLK6gUcDnSAjbfA2m-8FQdvNBbcKpYsupw39s8mF6jMAnXXTMC2a_oE2WcpfLGv4QBdvVt",
+               "width" : 5472
+            }
+         ],
+         "place_id" : "ChIJJ7seHGKAK4gRWU9vOz_uRDw",
+         "plus_code" : {
+            "compound_code" : "9VQ3+4W Hamilton, ON, Canada",
+            "global_code" : "86MX9VQ3+4W"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJJ7seHGKAK4gRWU9vOz_uRDw",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1242,
+         "vicinity" : "Regional 97 Road, Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.37442550000001,
+               "lng" : -80.31075249999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3757868302915,
+                  "lng" : -80.30943731970849
+               },
+               "southwest" : {
+                  "lat" : 43.3730888697085,
+                  "lng" : -80.31213528029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Gordon Chaplin Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103596774083614654206\"\u003eAmanda M.S\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJNGFyl7Ng9YFIQ_p8OvHBMtjrc8S7FKamn0VwQNkxxo0HRJJt2W9rlDtOWnUOIkp3nq8MemSd2dEP-Szj7Lu8egJ0qGmj5T8Szi75C5eRXi2_ij8kJRJo1hil0V3bkmHmTaqjv3XqX8rLkI-JFz_CuRS0kvLT7gdvikyo5Bs6KaLP3",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ4UyRr9B3LIgRbpsizw_5CdU",
+         "plus_code" : {
+            "compound_code" : "9MFQ+QM Cambridge, ON, Canada",
+            "global_code" : "86MX9MFQ+QM"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ4UyRr9B3LIgRbpsizw_5CdU",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 81,
+         "vicinity" : "Roxboro Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4882097,
+               "lng" : -80.484358
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4896272302915,
+                  "lng" : -80.48317986970849
+               },
+               "southwest" : {
+                  "lat" : 43.4869292697085,
+                  "lng" : -80.4858778302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Exmoor Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117826641852775804770\"\u003eJennifer Robertson\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJYdy_dbfkh0rgDhpRpYIYtXiAH-qjybLqIbkCVshRKAafW2BMvorK9wocBn-W3pUmZGEkACympiEyu6BsEau9p5G20kXd9utTrVn5_dNX_rsoevCMYLKA-wh8zguLRhAeVmHx6vzyhtzqfopM7GnHEx50k4rzpLVAaRFYXINTEBJIa",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJhUft7WzzK4gRnVOKCzMheMQ",
+         "plus_code" : {
+            "compound_code" : "FGQ8+77 Waterloo, ON, Canada",
+            "global_code" : "86MXFGQ8+77"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJhUft7WzzK4gRnVOKCzMheMQ",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 22,
+         "vicinity" : "448 Exmoor Street, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3866016,
+               "lng" : -80.36095349999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3879512802915,
+                  "lng" : -80.35956396970849
+               },
+               "southwest" : {
+                  "lat" : 43.3852533197085,
+                  "lng" : -80.36226193029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Linear Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110477470316896351355\"\u003eNathaniel Stacey\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKjk3-tdL_QPq95SxE3GVK5a7w3xebbp_it2CDov9pWPr0fiNauQopzPEtrInb5Cw1OyFUQe1E0lCKZTAvexKbkhxSOESnNpbqSqediDEPQRg1K0_GK-eC2pBADIFc0hKVRTi26QolHU916y3F_la0Yk4hAQCHMzep_tMxwfEImJ6C5",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJG16Mmf6JK4gRvQEiJL_xwi8",
+         "plus_code" : {
+            "compound_code" : "9JPQ+JJ Cambridge, ON, Canada",
+            "global_code" : "86MX9JPQ+JJ"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJG16Mmf6JK4gRvQEiJL_xwi8",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 189,
+         "vicinity" : "825 Lowther Street South, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.48039579999999,
+               "lng" : -80.48096980000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.48174478029149,
+                  "lng" : -80.47962081970852
+               },
+               "southwest" : {
+                  "lat" : 43.47904681970849,
+                  "lng" : -80.48231878029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Joe Thompson Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112965529806846302367\"\u003eShannelle Ringel\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI5XV93uWey40Ck1_vbeezY1Krsa9-gnjPboRMFUGdQ-0cxGvdz0GzeGnjSNFL_incLbaxZuD2bL_dWDVQ7qVjkse8tam2DpHv8GVQmA_uGSHaOLxmbimp9gZBQqRy8LR17_OOZEb4TfPoCnoiCdAHHxAWy501d8ydVd4D8rUOMQgIy",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJF6nkmmjzK4gRB88CWhFNPA4",
+         "plus_code" : {
+            "compound_code" : "FGJ9+5J Kitchener, ON, Canada",
+            "global_code" : "86MXFGJ9+5J"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJF6nkmmjzK4gRB88CWhFNPA4",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 40,
+         "vicinity" : "8 Bridge Street East, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4864886,
+               "lng" : -80.4856176
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4878780302915,
+                  "lng" : -80.48427611970848
+               },
+               "southwest" : {
+                  "lat" : 43.4851800697085,
+                  "lng" : -80.4869740802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Shadowood Parkette",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113047064415135911608\"\u003eNathan Peter\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKWdDMRNiKMwUiEa4CobxQII6CABI7zpno-3vZTrrtI0C297O6ThmJT5jh1bN8-iVFpQWcBBqJnEK9LTp-AzZPooT9x0mO2CWKd6Et3j8JIkxz-P2NGh0oIjAAOq4w0u03w-dO2p__2_EVxHrmyvpEs4V8TWLS9OyIynikAE0fETyIJ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ9VKYym3zK4gRi8awB0sytg4",
+         "plus_code" : {
+            "compound_code" : "FGP7+HQ Waterloo, ON, Canada",
+            "global_code" : "86MXFGP7+HQ"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ9VKYym3zK4gRi8awB0sytg4",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 6,
+         "vicinity" : "110 Bridle Trail, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4342991,
+               "lng" : -80.04237359999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4357279302915,
+                  "lng" : -80.04086121970849
+               },
+               "southwest" : {
+                  "lat" : 43.4330299697085,
+                  "lng" : -80.0435591802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Mountsberg Hall Park",
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100603311497887124027\"\u003eRemi Parent\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLpOukCd2WFENWdj4x9LaulwICHmg8bI5kPPSSbsAAEwWLLyP82riCLQSjHP--Wam5BKkkd3OSjDiywzviAkpuV9R35MJAHqkmrEsO89aNcIoONOKftXPV2rET2afM04d8EaUFAk-SAN9hfgeRewFdYkfse23GmlwV6e7jIHJl0RXf1",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJdZQyYC15K4gRkG23k4G6YwQ",
+         "plus_code" : {
+            "compound_code" : "CXM5+P3 Hamilton, ON, Canada",
+            "global_code" : "86MXCXM5+P3"
+         },
+         "rating" : 4,
+         "reference" : "ChIJdZQyYC15K4gRkG23k4G6YwQ",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "2133 Centre Road, Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3641694,
+               "lng" : -80.3052323
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3657240302915,
+                  "lng" : -80.30405681970849
+               },
+               "southwest" : {
+                  "lat" : 43.3630260697085,
+                  "lng" : -80.3067547802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Soper Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2736,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116786259495558954417\"\u003eHassan A.\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKE6HiRZ4RJUxUgc0MroghyrtEXLoyeS2-JGyZRDsRsfEx8rH5KRBri54ctv8pnOGbteAhKgdbc6nofGYFuV73ObZwfC_T1wz0YwppCWtjihKkMQG2V2GdcxA4uBmQztICwgPU2ZmOInv8hN6EzeEXwxIiJ3pI9RMJuxLZ8JcOP6DCX",
+               "width" : 3648
+            }
+         ],
+         "place_id" : "ChIJM8nXC8N3LIgRyKQdanUsdyQ",
+         "plus_code" : {
+            "compound_code" : "9M7V+MW Cambridge, ON, Canada",
+            "global_code" : "86MX9M7V+MW"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJM8nXC8N3LIgRyKQdanUsdyQ",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 331,
+         "vicinity" : "120 Shade Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5086081,
+               "lng" : -80.499212
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5103584802915,
+                  "lng" : -80.49783651970849
+               },
+               "southwest" : {
+                  "lat" : 43.5076605197085,
+                  "lng" : -80.50053448029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Yarmouth Retention Pond",
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117557456058902157675\"\u003eNogame noname\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL1hfgLXWuoz5Zwh2lnjjc1euWnV3Y6vWfFZVexYKD2uHo3nNaKy2D-y9ZsMeZH4DwgsciivlxfpQJA6Xv6yQm2y6mL0mjbHUwew-fjVLotsoKkQSyWWU3eVQwGlOtjUrb5AEjxEQeGV2KP4bnA6mR8u2hQnl0JdbEaVD2f0Qap7bhf",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJf7OndgDzK4gRFjy-zgDTDvY",
+         "plus_code" : {
+            "compound_code" : "GG52+C8 Waterloo, ON, Canada",
+            "global_code" : "86MXGG52+C8"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJf7OndgDzK4gRFjy-zgDTDvY",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 16,
+         "vicinity" : "618 Yarmouth Drive, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.49380389999999,
+               "lng" : -80.49330549999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.49554353029149,
+                  "lng" : -80.49235416970849
+               },
+               "southwest" : {
+                  "lat" : 43.49284556970849,
+                  "lng" : -80.49505213029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Auburn Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110093161492238644235\"\u003eJane Yang\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLLNwW2XaR4zk49Ng5NMT_Q4S-ngYdLOZzxA4WRsJUHLmA7MQPkN6UkUhD-thfV0I-WsP_EaDY9NZjvNQaWRf32puziV_4FuJ58bCPZTIaTgw7S_v7W-t4k2Uz9xs0iwDX_FoQu7c0rR9qWML3sQuejpPFBSEfIizPswCM_ptcEMRJX",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJxWmXcAzzK4gRDne49GGRanc",
+         "plus_code" : {
+            "compound_code" : "FGV4+GM Waterloo, ON, Canada",
+            "global_code" : "86MXFGV4+GM"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJxWmXcAzzK4gRDne49GGRanc",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 22,
+         "vicinity" : "304 Auburn Drive, Waterloo"
+      }
+   ],
+   "status" : "OK"
+}

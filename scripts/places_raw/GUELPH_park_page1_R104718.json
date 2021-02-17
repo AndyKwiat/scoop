@@ -1,0 +1,900 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwJnSnFAzPXyc2FZ31K-k0HnKWrogQoiQW0sa2bo7SqknBPpdOgtZGK6effptw_BV8SErrnqFtQFjrPElVUwk-hb2w2ic3KldQnpl7j7nTMLX5VmdxcOtaOcLW1FfHtZrIFMtRlr1Q02Mrm6X_pRVUWIVl3nuHBVRtVnZF8ddTZax9tlqYMpYyjgpDqv21LbyI-EaNua_J8QKCCkgUd3rJXZ-DA016lBDwzyda-SKerrI2bjsqmR-sxF8JvPPKPcmZMtjZm00w71UsIZAFEIpLwyPxYeb9QlehQcCoT4Ttvo7ef0bsZPwVSwWt87fEN5ABmtuWwPKo_WysuSZiVei1G4szOnNyXHyxtyNcsxXC5JtVBjWBb56u_OFCwHseux-z68UX04i1HM4BU9g0kCQlepmH1l8xT8l28NlpFDTh72K3c0vvai",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4735004,
+               "lng" : -80.4500826
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4751583302915,
+                  "lng" : -80.44931665000001
+               },
+               "southwest" : {
+                  "lat" : 43.4724603697085,
+                  "lng" : -80.45238044999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Bingemans",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2992,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118020791279124849696\"\u003eBingemans\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLx1qD1WEqfqpTaFwY1anb4nK8s7qti_O2rrDrk8axY3CQgJMHnX6B96FSFDs3RTxf3sElYovDAT5a6I7n_JqFiqH2Lz-UMUTzFC9MPWkO0mkUVFqy5SSdJLJ_pCtwivChdqLfW48k7hWjYgxreT75CT6KNIFBeQetGJ7z1GDGYXwvL",
+               "width" : 3992
+            }
+         ],
+         "place_id" : "ChIJ1V_snq6MK4gRA8suIZwOe_4",
+         "plus_code" : {
+            "compound_code" : "FGFX+CX Kitchener, ON, Canada",
+            "global_code" : "86MXFGFX+CX"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ1V_snq6MK4gRA8suIZwOe_4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bowling_alley",
+            "campground",
+            "lodging",
+            "amusement_park",
+            "park",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 4460,
+         "vicinity" : "425 Bingemans Centre Drive, Kitchener"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.502557,
+               "lng" : -80.4756673
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.50390598029149,
+                  "lng" : -80.4743183197085
+               },
+               "southwest" : {
+                  "lat" : 43.50120801970849,
+                  "lng" : -80.47701628029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Kiwanis Park",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117676539468048015018\"\u003eMarcel Gagne\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKAZVLsGUzkBi_F6_B-_uqTojTs6UM6bKrE2Px9okbe8feiyhSBguciJ4g9E4IHP8enfOBYPMM5rWxZxRyv5GNYuPueVjBgrAdOBPHSBOEi5zF_RNiG6eKS_0yKcS7dP-X2xrWwCdmX7vOgdri1XBMrgZRtjUwUrCTftfE9ZwmZBXk2",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ_cjk7iPzK4gROQ1WCcStu-c",
+         "plus_code" : {
+            "compound_code" : "GG3F+2P Kitchener, ON, Canada",
+            "global_code" : "86MXGG3F+2P"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ_cjk7iPzK4gROQ1WCcStu-c",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 751,
+         "vicinity" : "1000 Kiwanis Park Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5020754,
+               "lng" : -80.0606883
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5035391302915,
+                  "lng" : -80.05953881970849
+               },
+               "southwest" : {
+                  "lat" : 43.5008411697085,
+                  "lng" : -80.0622367802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Moffat Park",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115294009103693827368\"\u003eMichael D\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKgzMbymNBp6Dz-zWJc3f9PGiSwiFoKvVZUsKRRAs6jd6eRESYENr68VNtuewKJfqUUjpxBGZJLCHLlGlJGVLOnaEvNOcve49jfUg2uyExPwVsoa55nBnjv0G3hjrH0j3wAsYW_G97j9cze4hq8io3NzeLm__tcTV1BgpoGAlLrwXnT",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJL475PC54K4gRl5WOu59YgfE",
+         "plus_code" : {
+            "compound_code" : "GW2Q+RP Milton, ON, Canada",
+            "global_code" : "86MXGW2Q+RP"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJL475PC54K4gRl5WOu59YgfE",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8,
+         "vicinity" : "Regional Road 15, Milton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4627546,
+               "lng" : -80.0259102
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4641771302915,
+                  "lng" : -80.02461356970849
+               },
+               "southwest" : {
+                  "lat" : 43.4614791697085,
+                  "lng" : -80.0273115302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Mountsberg Conservation Area (Reservations Required)",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 396,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105981847060996493473\"\u003eHarry\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLv6ArCvlvDnGlyX1ka5yL2V9GBv6e4etxUe_IOkvOmpcnbndGItGw2PQOdLNluYQ49TjMNzI3bcuJFxvnL-iPVniMTIzrzQ_FM3j4DQ6TJ-d5-J4qi2joKYXeaFxjLss1oqiDBdzYfdgwfeze-MtYGGzHzgMkzIaDr6B9Kdw9BIzp3",
+               "width" : 600
+            }
+         ],
+         "place_id" : "ChIJk7RjO0F6K4gRCHsEEc6BPjw",
+         "plus_code" : {
+            "compound_code" : "FX7F+4J Hamilton, ON, Canada",
+            "global_code" : "86MXFX7F+4J"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJk7RjO0F6K4gRCHsEEc6BPjw",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1485,
+         "vicinity" : "2259 Milburough Line, Campbellville"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.508534,
+               "lng" : -79.942617
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.50979858029149,
+                  "lng" : -79.94113071970848
+               },
+               "southwest" : {
+                  "lat" : 43.5071006197085,
+                  "lng" : -79.9438286802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Glen Eden",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118150561753857648519\"\u003eLisa Yang\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLjXdVhU_fa2EDrY6FwTZqBeBq-7fgxsZp9d_QETZxrOaer7H7D7HHlYkD7sTSaM0ToOLHU9a2us6-uBG9FVwrFjDuJjPvizV_PY4cEydZi1tfhs-2CYOvV92xsTA7dn10OJoFuFU8_EIqBzsFCU1-Bwa155ldpCW-ClGwgRYcUUto7",
+               "width" : 3888
+            }
+         ],
+         "place_id" : "ChIJPSqgxnJwK4gR8Z5jQ6SR5pI",
+         "plus_code" : {
+            "compound_code" : "G354+CX Milton, ON, Canada",
+            "global_code" : "87M2G354+CX"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJPSqgxnJwK4gR8Z5jQ6SR5pI",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1574,
+         "vicinity" : "5234 Kelso Road, Milton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4639429,
+               "lng" : -80.5223647
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4653122802915,
+                  "lng" : -80.52087056970849
+               },
+               "southwest" : {
+                  "lat" : 43.4626143197085,
+                  "lng" : -80.52356853029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Waterloo Public Square",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 400,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114504923265559535702\"\u003eWaterloo Public Square\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ0PZZ5b5ThB8A9RbP-nQ5afx15ARKIeSIWyYn6NQWr4BvmdoWIT4dTQieGHsGSP-F04lAWyXsneyhyTtG3VPduF2cS2dEKOHrPGz0ubp7cuABVZq_UUaQkve45lbDvXeaQeaY8F8wPOMSeLazWgxJr2xS7HQrOHlIAqB1Tdm1dQQWu",
+               "width" : 600
+            }
+         ],
+         "place_id" : "ChIJrYsz7hL0K4gRUgMpn1AVjw0",
+         "plus_code" : {
+            "compound_code" : "FF7H+H3 Waterloo, ON, Canada",
+            "global_code" : "86MXFF7H+H3"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJrYsz7hL0K4gRUgMpn1AVjw0",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1004,
+         "vicinity" : "75 King Street South, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.57039049999999,
+               "lng" : -80.28356339999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.57190668029149,
+                  "lng" : -80.28222491970848
+               },
+               "southwest" : {
+                  "lat" : 43.56920871970849,
+                  "lng" : -80.2849228802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Ignatius Jesuit Centre",
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104220636826265965695\"\u003eLisa Taylor\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIsykg6nEF078zFcA5aFpatEVktBpZOU8nvN6MLiQHT0XQGv5-tLs5oWQl-10nmnzxXx7PbCd5rMXJsk5HyZdYhpI_rlqFKBma7HLJm_MNSFuFvZmjDAerCkuqor0EUDjsuX4yuePBgwO604am3c8Mx6_Qo1tY3pEvcbnK2_BIhHYjf",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ-ao5GoGQK4gRHo_mo7o7aTs",
+         "plus_code" : {
+            "compound_code" : "HPC8+5H Guelph, ON, Canada",
+            "global_code" : "86MXHPC8+5H"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ-ao5GoGQK4gRHo_mo7o7aTs",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 67,
+         "vicinity" : "5420 Ontario 6, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5503538,
+               "lng" : -80.2533516
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5515387302915,
+                  "lng" : -80.25218546970849
+               },
+               "southwest" : {
+                  "lat" : 43.5488407697085,
+                  "lng" : -80.25488343029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Goldie Mill Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIKVeNHbX-OiZkro10cOxumRMawISb5JxiyD1xGKCX3A7R_J3ilHgg5rRM0mAtXhzmQrv0BOuy7whWEqKisZmmBxRgvhs_lMF47YTXWgYAnCwE7zjJCkaSiDFQjHxQ_B7LZMUlInEdAXYLPelmfvtKQkRTnVIlT7hbHdxaO1iQzOdo5",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJa4ttQeuaK4gRDTvRB1BhzcU",
+         "plus_code" : {
+            "compound_code" : "HP2W+4M Guelph, ON, Canada",
+            "global_code" : "86MXHP2W+4M"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJa4ttQeuaK4gRDTvRB1BhzcU",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 40,
+         "vicinity" : "75 Cardigan Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.62916670000001,
+               "lng" : -80.0458333
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6305655802915,
+                  "lng" : -80.04459026970849
+               },
+               "southwest" : {
+                  "lat" : 43.62786761970851,
+                  "lng" : -80.0472882302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Prospect Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3464,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104931036860052284794\"\u003eJack Huang\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJRDnoh4kBbvA8eG8oRqo3vyi0opNJaFLlv4rHWfoOiqHSg5jsUf37bVfgjC-6BLu8S_biHizXXGTyO6glT0ixrTnLdidG24GwXAwBSqtFzDEV4qLqtyXESEJ1RJvmsB29frHlQSCONc69d7A9QaqccAYvBXKXj8iqufdOxEWNpTVxK",
+               "width" : 4618
+            }
+         ],
+         "place_id" : "ChIJC8KW2_t0K4gRi-7iU-G5rKM",
+         "plus_code" : {
+            "compound_code" : "JXH3+MM Acton, ON, Canada",
+            "global_code" : "86MXJXH3+MM"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJC8KW2_t0K4gRi-7iU-G5rKM",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 384,
+         "vicinity" : "Acton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5463235,
+               "lng" : -80.2454619
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5477191302915,
+                  "lng" : -80.24402281970849
+               },
+               "southwest" : {
+                  "lat" : 43.54502116970851,
+                  "lng" : -80.2467207802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Priory Park",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI6QS9wApD1Twao1YB7F9Vv91J1g13_WPFOFF_-Tiuu68tqu3DpMKUNU0opomaeXv7db2AslJgncwh2i1sIYcDd0bRrJ9g5WyGSd5oA6rR7vQtd812fmx2fXgauoW5cUipGwzejqZTCUA3GovRElTVO0iJ4RJBv-4jgkukcmuaOrlLE",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJvy3RLuiaK4gR3hkA4VaYRK4",
+         "plus_code" : {
+            "compound_code" : "GQW3+GR Guelph, ON, Canada",
+            "global_code" : "86MXGQW3+GR"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJvy3RLuiaK4gR3hkA4VaYRK4",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "140 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.536842,
+               "lng" : -80.2889601
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5385929302915,
+                  "lng" : -80.28730726970849
+               },
+               "southwest" : {
+                  "lat" : 43.5358949697085,
+                  "lng" : -80.29000523029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Marksam Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1440,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102134275859615659911\"\u003eMichael Lemieux\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK0xi6MnOb73f3fcKLQ-RcsF82uZ8CT7XFS0pcIu73coxsW-zsBKMVWGTbnEyEd4X0aMCO-VHYepZQhg68YguZRgpm4PFJC3GAJhxGHx0qbDhMiu2pHnQnk_k0ugs-u4sx6PK5QZWgY1UZviIiHQyZm47yvfxPhVhVj0zcJlGNJuODc",
+               "width" : 2560
+            }
+         ],
+         "place_id" : "ChIJQZ--QRuQK4gRgDMHioB2oDU",
+         "plus_code" : {
+            "compound_code" : "GPP6+PC Guelph, ON, Canada",
+            "global_code" : "86MXGPP6+PC"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJQZ--QRuQK4gRgDMHioB2oDU",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 57,
+         "vicinity" : "146 Marksam Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4195775,
+               "lng" : -80.3156558
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4211334302915,
+                  "lng" : -80.31428056970849
+               },
+               "southwest" : {
+                  "lat" : 43.4184354697085,
+                  "lng" : -80.31697853029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Weaver Park",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111245183392443846595\"\u003echad lloyd\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJm0mKe8bEzOFVj8ImSC6SK-Kbyx0fiD2AriHLLlNU247CUWp0lQMWWqju0gZ8vgnlPT0120LOE97lk_CEn-NCl3qms4FhOXBwTXi-PwYUELfsSyPyOveof9kXtR9IOuNb6MjDKGtDmbK9ncx6w1iVoengMZWrsYRCFvyhHqqx-SijR",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ35ZGWeKKK4gRWD-imELNNUk",
+         "plus_code" : {
+            "compound_code" : "CM9M+RP Cambridge, ON, Canada",
+            "global_code" : "86MXCM9M+RP"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ35ZGWeKKK4gRWD-imELNNUk",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 31,
+         "vicinity" : "188 Weaver Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5044444,
+               "lng" : -80.1891667
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5056840802915,
+                  "lng" : -80.1877797197085
+               },
+               "southwest" : {
+                  "lat" : 43.5029861197085,
+                  "lng" : -80.19047768029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Clair Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118304143561267991670\"\u003eSteven Harris\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJfRuXUFMGeoNyLmEacMfMtAuTEVDRZBCQjwfFZGxBFQd5tM69ifpFSbLEbxNxHDHU1gnawZdYYSU8Dgyn2CgxVFozmf34a9jOthK4YGbraTuu8jnvb_V9a8aI9_9M94DuSfiK69VzzoRZcE0KrfVz_imiHJGLmUYgc9PC1rQ_1SqCE",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJZUqdQqCEK4gR7tEElQuqjIE",
+         "plus_code" : {
+            "compound_code" : "GR36+Q8 Guelph, ON, Canada",
+            "global_code" : "86MXGR36+Q8"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJZUqdQqCEK4gR7tEElQuqjIE",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 21,
+         "vicinity" : "22 Eugene Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5174497,
+               "lng" : -80.1816324
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5188209802915,
+                  "lng" : -80.18025276970849
+               },
+               "southwest" : {
+                  "lat" : 43.5161230197085,
+                  "lng" : -80.18295073029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Colonial Drive Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105312004793749233828\"\u003eAsim Biswas\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKUb69EJlHnqBmrkEw81OL-p1YiAfqsAv5PuVejvTl0MqRfi9FcWiLzzyKEYEy8QOLaxxiWEY1IeaxkapHWnB7NVwAzSe1qdJhlK6cTOQodNQiEa9iKAq8Cw-9ZCGAOaiHr3rgny9PGrxDVITnnwaQLqniNZe97o2W5hn5rD1YUAx89",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJwx-MAVSDK4gRss6EqnLkjHo",
+         "plus_code" : {
+            "compound_code" : "GR89+X8 Guelph, ON, Canada",
+            "global_code" : "86MXGR89+X8"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJwx-MAVSDK4gRss6EqnLkjHo",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 49,
+         "vicinity" : "181 Colonial Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5183982,
+               "lng" : -80.2420321
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5199472802915,
+                  "lng" : -80.24019836970849
+               },
+               "southwest" : {
+                  "lat" : 43.5172493197085,
+                  "lng" : -80.2428963302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "W.E. Hamilton Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100268218320402775203\"\u003eJames McGarry\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIWTNuVMqx7btlOcT2CG7SrUPPtzfGUS2nFWtMldEVHXNkr1EJP5p1ph_va-c1rrey5wsGQOuTVA_Y97AYR_sjjEcpa4pKtH-Cal_jEtPC9hb4Xw7vx4C2yfBJsxvmUQGnJ7nBjOXt3_dNBqM3XUfq0iKVuqKQOQkfH3jTpu_Hx8Npe",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJvywylS-FK4gRbtfNTfdAxMU",
+         "plus_code" : {
+            "compound_code" : "GQ95+95 Guelph, ON, Canada",
+            "global_code" : "86MXGQ95+95"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJvywylS-FK4gRbtfNTfdAxMU",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 99,
+         "vicinity" : "565 Scottsdale Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.549529,
+               "lng" : -80.221863
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5510790302915,
+                  "lng" : -80.22077611970849
+               },
+               "southwest" : {
+                  "lat" : 43.5483810697085,
+                  "lng" : -80.22347408029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Eramosa River Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2432,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109542499512567531183\"\u003epamela erickson\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKyXbBHWNg0i6WL3KamS-ja0nPesXNxfwFl8-gxJPcdcD-FZ9TE2U87-SxkfDKY7ppBrGf39XuFzFrm5rjDKp_LEzZiCWpozLt9K2tzOOBgEsVT66NbRpf7CDN_8T54uMnXmRz9o--eJJCXyYI_hoG-s7u-Bs-4EcMAZUIqFqZcNYJe",
+               "width" : 3286
+            }
+         ],
+         "place_id" : "ChIJvXzhLxmbK4gROPmr0H65w3k",
+         "plus_code" : {
+            "compound_code" : "GQXH+R7 Guelph, ON, Canada",
+            "global_code" : "86MXGQXH+R7"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJvXzhLxmbK4gROPmr0H65w3k",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 278,
+         "vicinity" : "259 Victoria Road South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4378644,
+               "lng" : -80.30598959999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.43921338029149,
+                  "lng" : -80.30464061970849
+               },
+               "southwest" : {
+                  "lat" : 43.4365154197085,
+                  "lng" : -80.3073385802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Hespeler Mill Pond",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103260114262688898216\"\u003eAnwar Darsot\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJkDmB7gyDrhsUgB8sqjezwNHPKz84FoVEqWT9dnWUYPm2TDoG6wCZei-EOSSpeRmRboI4MUwf6v7NRgqFN7z2fLPfDLddWHbL8zFQZpb8mR2fvA3ZHnkNUErNY4eormfB4u0CDDISGe3aIIHLxBt5Z718NcBiqqJ-EAdGT8OdgHg8G",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJvenMFcKIK4gRCSXmgNC2sew",
+         "plus_code" : {
+            "compound_code" : "CMQV+4J Cambridge, ON, Canada",
+            "global_code" : "86MXCMQV+4J"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJvenMFcKIK4gRCSXmgNC2sew",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 179,
+         "vicinity" : "235 Queen Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5330895,
+               "lng" : -80.23265409999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5344356302915,
+                  "lng" : -80.2312926197085
+               },
+               "southwest" : {
+                  "lat" : 43.5317376697085,
+                  "lng" : -80.23399058029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Donald Forster Sculpture Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3744,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114762792257232539871\"\u003eAshraf Youssef\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKGo3mLMtZV4uB2NeYBVZQmH35lh0cN6GUn0Eq79DAkBp-ASKuLOZf4MEuH3X1q9YVBkLigzfsuwjN-nBHNxMj4U9Z6yVXhtAj31Ku5qVSekN9dDgZKQgPksdX6PIaYBQHG3B9FQXawvnWoXnDhXvmF3hdH8T08FMMsqz8YKv5kAQlE",
+               "width" : 5616
+            }
+         ],
+         "place_id" : "ChIJP8ZVzdeaK4gRJ9m9oLgJ2T0",
+         "plus_code" : {
+            "compound_code" : "GQM8+6W Guelph, ON, Canada",
+            "global_code" : "86MXGQM8+6W"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJP8ZVzdeaK4gRJ9m9oLgJ2T0",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 30,
+         "vicinity" : "358 Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.429713,
+               "lng" : -80.322683
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4310619802915,
+                  "lng" : -80.3213340197085
+               },
+               "southwest" : {
+                  "lat" : 43.4283640197085,
+                  "lng" : -80.32403198029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Chilligo Conservation Area",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108084935809631148690\"\u003eTrevor Heywood\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLY_2DByu9TLY3KQUX1YwChO-z36I0R12IDGJR94Ou9LzNWg8LizJqESCnFXAFn0cXb7rMVrjf4bcOYCwNZjrOKwFKokWq4_QlzaJWM2qxbSj6fzYo1AfuVnHHbkJyaMvUPUB1wJox-Zp9ECx9DhRHwthfhnY7JznmCAvW2bV_G-eT7",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJXx_WKR2JK4gRrkZxDJDDpwE",
+         "plus_code" : {
+            "compound_code" : "CMHG+VW Cambridge, ON, Canada",
+            "global_code" : "86MXCMHG+VW"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJXx_WKR2JK4gRrkZxDJDDpwE",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 69,
+         "vicinity" : "Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5138761,
+               "lng" : -80.18937059999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.51515648029149,
+                  "lng" : -80.18784066970849
+               },
+               "southwest" : {
+                  "lat" : 43.5124585197085,
+                  "lng" : -80.1905386302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Jenson Boulevard Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114099258472681724835\"\u003eJason McCrossan\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK5z2sKm2enfuEhzv8_D2mpHD7d9soHOZHYGh6HIZKH6bLjZfUiauDZEnzaypuc3YKunk6qH4J-Ufp1ijbP6uGDqNyj44XIgT8z-2U5A9zxU9UimE_8MufCUs1ept-H2CicweR3_qLOx2Ya6j7TORZCrJvIk-m5Pm4Nbn9f39l3gQSq",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ8exNQqiEK4gRTHZK7z96vM4",
+         "plus_code" : {
+            "compound_code" : "GR76+H7 Guelph, ON, Canada",
+            "global_code" : "86MXGR76+H7"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ8exNQqiEK4gRTHZK7z96vM4",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 24,
+         "vicinity" : "11 Jenson Boulevard, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

@@ -8,5 +8,6 @@
 </style>
 
 <div>
+    <button>FlushCache</button>
     <slot></slot>
 </div>

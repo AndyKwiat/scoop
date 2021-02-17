@@ -8,7 +8,7 @@ const { v4: uuid } = require('uuid');
 AWS.config.update({
     region: "ca-central-1",
 });
-
+let cache = null;
 var docClient = new AWS.DynamoDB.DocumentClient();
 
 var express = require('express');
@@ -29,6 +29,12 @@ app.get( '/editor/login', function(req,res ) {
       res.send(401)
    }
 })
+app.get('/flushcache', function (req, res ){
+   log ("Flush cache requested..." )
+   cache = null;
+   res.send(200)
+})
+
 app.use( express.static("editor/public"))
 
 app.get('/places', function (req, res) {
@@ -61,7 +67,7 @@ var server = app.listen(3000, function () {
    console.log("Example app listening at http://%s:%s", host, port)
 })
 
-let cache = null;
+
 function onScanWrapper( params, response, docClient ){
    if (cache != null ){
       console.log("CACHED RESPONSE!" )

@@ -34,9 +34,11 @@
 	AuthStore.subscribe( as =>{
 		if ( as.loggedIn  ){
 			promise=fetchData();
-			// promise.then(d=>{
-			// 	console.log( JSON.stringify(d))
-			// })
+			promise.then(d=>{
+				//console.log( JSON.stringify(d))
+				console.log(d.Items.length);
+				console.log("LENGTH")
+			})
 		
 		}
 	})

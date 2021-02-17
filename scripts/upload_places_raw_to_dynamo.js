@@ -23,7 +23,8 @@ function processFile( inputFile ){
     console.log (JSON.stringify(data[0]))
 
     uploadToTable( "scoop-prod-places",data)
-    }
+  
+}
 
 function readAndCleanupData(sourceFile ){
     console.log('reading sourceFile: ', sourceFile);
@@ -38,17 +39,18 @@ function readAndCleanupData(sourceFile ){
 function uploadToTable( tableName, data ){
     var docClient = new AWS.DynamoDB.DocumentClient();
     data.forEach(function(item) {
-        var params = {
+       
+        let params = {
             TableName: tableName,
             Item:  item,
-            Key: {"id": item.id }            
+       
         };
     
-        docClient.update(params, function(err, data) {
+        docClient.put(params, function(err, data) {
            if (err) {
-               console.error("Unable to update item", item.id, ". Error JSON:", JSON.stringify(err, null, 2));
+               console.error("Unable to add item", item.id, ". Error JSON:", JSON.stringify(err, null, 2));
            } else {
-               console.log("UpdateItem succeeded:", item.id);
+               console.log("PutItem succeeded:", item.id);
            }
         });
     });

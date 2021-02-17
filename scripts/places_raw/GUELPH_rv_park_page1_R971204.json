@@ -1,0 +1,149 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4129447,
+               "lng" : -80.07508850000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.41486689999999,
+                  "lng" : -80.0731889697085
+               },
+               "southwest" : {
+                  "lat" : 43.40717810000001,
+                  "lng" : -80.0758869302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "name" : "Rocky Ridge Estates",
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116951153542431152574\"\u003eChantal Stone\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLnGaalwP8xUw1p9IZlyPVqIxaSPM8QXgud4wQl2tlg2ydOFmS9gZSn5FIX_XTMMdeCEaxkvXxHM4t1reS26M5qyp6sUfsAUPEBsQjALBC8xGJELoSdcSfpKaVDoadAUvM04ZvGebOlAKJAtg8y2S1zcHONBEXim8qn-w5pWsK9tTmT",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJrwxiFBF_K4gRc0fSiW8YnDk",
+         "plus_code" : {
+            "compound_code" : "CW7F+5X Freelton, Hamilton, ON, Canada",
+            "global_code" : "86MXCW7F+5X"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJrwxiFBF_K4gRc0fSiW8YnDk",
+         "scope" : "GOOGLE",
+         "types" : [ "rv_park", "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 25,
+         "vicinity" : "1085 Concession Road 10 West, Freelton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4839001,
+               "lng" : -80.0035599
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4852629302915,
+                  "lng" : -80.00219526970849
+               },
+               "southwest" : {
+                  "lat" : 43.4825649697085,
+                  "lng" : -80.0048932302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Toronto West KOA Holiday",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 681,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102406653697982281862\"\u003eToronto West KOA Holiday\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLr1PvWQ4NMqQv1B-MKN5twGpgUEhYndWeW_LzfdFkN_iDVm7oAu5yIqt2fBTnDzm6YNjB9UtIRRfvmvB8DJABIKg3AOMnWqM6dG-RgP3QaYJn1NQN6oh5PEiPNq6vpFzME5ji4R-qODTENqHrJnm5qmqE9dCV7BNzpfDdBMF4adUIw",
+               "width" : 1021
+            }
+         ],
+         "place_id" : "ChIJoR8ffSF6K4gRdG7zq1ewcsc",
+         "plus_code" : {
+            "compound_code" : "FXMW+HH Milton, ON, Canada",
+            "global_code" : "86MXFXMW+HH"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJoR8ffSF6K4gRdG7zq1ewcsc",
+         "scope" : "GOOGLE",
+         "types" : [
+            "campground",
+            "rv_park",
+            "lodging",
+            "park",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 347,
+         "vicinity" : "9301 Nassagaweya 2nd Line RR #1, Campbellville"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4745105,
+               "lng" : -80.44372349999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.47590213029149,
+                  "lng" : -80.44220746970849
+               },
+               "southwest" : {
+                  "lat" : 43.4732041697085,
+                  "lng" : -80.44490543029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Bingemans Camping Resort",
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108908011889920527735\"\u003eBingemans Camping Resort\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKcV2LJfebu3ufDUI80AyzTfnz-r0ilp83PPFb2k4KuxJ6PEk8UWpN1xzSL1_4safRkOHDQ5gsf9HlSxlEhcUyGWhJsABq3-uNfSVwredkqMPcqOY9zXjZLOfSr8HXDcAqihtI1YyEPelUp7IKh7ls41u2ziwv4PaUc34bib3Yg0h41",
+               "width" : 6000
+            }
+         ],
+         "place_id" : "ChIJsR6h_66NK4gR4eHSxdt-bM4",
+         "plus_code" : {
+            "compound_code" : "FHF4+RG Kitchener, ON, Canada",
+            "global_code" : "86MXFHF4+RG"
+         },
+         "rating" : 4,
+         "reference" : "ChIJsR6h_66NK4gR4eHSxdt-bM4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "campground",
+            "rv_park",
+            "lodging",
+            "park",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 131,
+         "vicinity" : "425 Bingemans Centre Drive, Kitchener"
+      }
+   ],
+   "status" : "OK"
+}

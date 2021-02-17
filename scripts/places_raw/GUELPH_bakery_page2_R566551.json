@@ -1,0 +1,925 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwKhdhhuSqJqYdn-Dbww-odW9YtNOlcdXs-3WNZIzuMUracGR1zTe0E7t6OV_69s8tTzZeSYDE4bdxv5xTR-EBik78jAEHY_nsg1Gt9XnmWbgU6nFaQgev5I2yooSYAfijGTfbD2asfdl2ANB77X3eiB3I3n_EGAtcijYeDvI9L2i6JnVPx-cmUvtb-z2kPFkXw11sAMh6F6PePFJPbYJsxdw0ZciqbsZEn83wZlvxGyHyJeh7Z_Utvmbw-Gy-DaE6tTjzsEPcF0WR2gh8R-jI-QkblY-GcTEULpbzX0Y9DGvsUuvnGtqoOc5V7y_3xgs8S652Mwn6drnTDK4L3UZ0MrjVaVW0a3sD5ixbw49GqUbjnqXnf03fJp8wTXAXUTNWN7LuA1V45ve7eVINnAWgwbU-xN_KJr0iG1eGssR0kvCAanXC4x_Jw0Qg2iXnzI_WRqcrbwXtkIUalieqZ4v1eBLqOyNWUn5bHT8uRRJSRAnhlbsaKC-nZ-LGCPptFvSYYinffm4zdKP15GH3H4faAR9R_iRyLx3vLvQwbg-y9I0Whv6pIynpAyClmTY-3uRzFGOWdnAspaiV9ExsFcgtkXhm2ax9SwiQnUcDRZ1GO0RjevOKYsTW-114vyuXwQhw0rIS_Nk6Ol",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3889723,
+               "lng" : -80.30935939999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3903595802915,
+                  "lng" : -80.30786946970851
+               },
+               "southwest" : {
+                  "lat" : 43.3876616197085,
+                  "lng" : -80.31056743029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Design Me A Cupcake (Custom Cake Studio - No Store Front)",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115371562770377514024\"\u003eDesign Me A Cupcake (Custom Cake Studio - No Store Front)\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKO7wGe_eo2UMVrKgp-ap2_dvyJ5cqrNyDW6uV5cmMEda46v8T8hmCnFuN6ZmU_-VXNxphajagyCDdkOTkdy94KB-7gLH-RjKl3OnNXiowrCmw3zTRcPbhEvFgmSvpC0tCWDMTwKOnClO1TqO9dc7elhEvipwQZFpRy7XbsbfU_Ytvr",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJnROYSyWIK4gRL42rNAINZiw",
+         "plus_code" : {
+            "compound_code" : "9MQR+H7 Cambridge, ON, Canada",
+            "global_code" : "86MX9MQR+H7"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJnROYSyWIK4gRL42rNAINZiw",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 24,
+         "vicinity" : "16 Bowie Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4452729,
+               "lng" : -80.30708990000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4466026802915,
+                  "lng" : -80.3058141697085
+               },
+               "southwest" : {
+                  "lat" : 43.4439047197085,
+                  "lng" : -80.3085121302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "The Cake Place",
+         "photos" : [
+            {
+               "height" : 1402,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105900491115548695157\"\u003eThe Cake Place\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKJYDFcnk2Cr76qGpiCeV7TiKR1nIJGK5dDqPrqwLSXbwD0KQabPKb2FjHHEPyf8BvYzlaADYN1bxp4zpehnSVQ5yz0J-MQh2UPtiJpBEH0sdFoLJxDlmBM68DSj4uhj1Wbal4zvV1-Ssm4Fgs6jsIkT7P2km_22Hic0ZQJbx6odqba",
+               "width" : 940
+            }
+         ],
+         "place_id" : "ChIJ7wAAn8WIK4gRTO5pLIv9WW8",
+         "plus_code" : {
+            "compound_code" : "CMWV+45 Cambridge, ON, Canada",
+            "global_code" : "86MXCMWV+45"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJ7wAAn8WIK4gRTO5pLIv9WW8",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 18,
+         "vicinity" : "120 Callaway Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.61753269999999,
+               "lng" : -80.14270569999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.61893538029149,
+                  "lng" : -80.14128696970849
+               },
+               "southwest" : {
+                  "lat" : 43.61623741970849,
+                  "lng" : -80.1439849302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Goodfellow's Field to Fork",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106011417126857070919\"\u003eGoodfellow&#39;s Field to Fork\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL_esYImTlDmjDDxHQE4YRvx8csahessHTdwhqgujK247GQHWjIphKmELbfdZeNVXjokFagPJ7sk8qcf-0uBkz9fW-_91emxfbpkiygwWQOMZDK4O90UwyGsn0kHtBPbwZx7GrQ_m9YUMcK39TPouoCsAhWzbZUeqbGBwQmmnSxDTip",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJ310C_vWeK4gRx5x68du3mCM",
+         "plus_code" : {
+            "compound_code" : "JV94+2W Rockwood, ON, Canada",
+            "global_code" : "86MXJV94+2W"
+         },
+         "price_level" : 2,
+         "rating" : 4.8,
+         "reference" : "ChIJ310C_vWeK4gRx5x68du3mCM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bakery",
+            "cafe",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 138,
+         "vicinity" : "155 Main Street South, Rockwood"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4010139,
+               "lng" : -80.322097
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4023845302915,
+                  "lng" : -80.32062021970849
+               },
+               "southwest" : {
+                  "lat" : 43.3996865697085,
+                  "lng" : -80.32331818029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Donuts Donuts",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJrU0MObWJK4gRtKjOCeAuo9c",
+         "plus_code" : {
+            "compound_code" : "CM2H+C5 Cambridge, ON, Canada",
+            "global_code" : "86MXCM2H+C5"
+         },
+         "rating" : 3.1,
+         "reference" : "ChIJrU0MObWJK4gRtKjOCeAuo9c",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "520 Collier Macmillan Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.415797,
+               "lng" : -80.32365
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4171555302915,
+                  "lng" : -80.32255731970849
+               },
+               "southwest" : {
+                  "lat" : 43.4144575697085,
+                  "lng" : -80.3252552802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Zehrs",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2304,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110731669891128922205\"\u003eSam Blakeney\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIiMyV8lreaDpUSkdmj_7fWkvpRaoAfaJtpq8qoZ5zyjjla-kYeElRk5ZSrEEUYXFQ1rVC80858UStBcflTUKM6bhDDk2WjW0eSxDk3bxgLeLStpRqHSHuqs9Ji4GBmMid7uqawtAw4r5fCENNneWPIedQ7b0Kguf74iqlkBqeqUKOt",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJtahFb6qJK4gRATRWp-9HotM",
+         "plus_code" : {
+            "compound_code" : "CM8G+8G Cambridge, ON, Canada",
+            "global_code" : "86MXCM8G+8G"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJtahFb6qJK4gRATRWp-9HotM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "pharmacy",
+            "bakery",
+            "food",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1135,
+         "vicinity" : "180 Holiday Inn Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4098174,
+               "lng" : -80.3328265
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.41152758029151,
+                  "lng" : -80.33159361970849
+               },
+               "southwest" : {
+                  "lat" : 43.40882961970851,
+                  "lng" : -80.33429158029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Sopas Kitchen",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1821,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114872569062953852869\"\u003eSopas Kitchen\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKWti-AIAlNv4NKaDY8B3_vds39YX4g_M5s4NsXPIRTXxI8A8MyfL4sxZyknlk8IfL2FogP1kJ6YipFtbCaSS0ASKN7APOmr7AWshG16CbJkkZnA6o50QKIBC7JLhygNEvRyGCQUduMuuaiwsqkpULBQGummE2PoKDl9QWRl5kMJXJZ",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJ2Xno1g32K4gRLATKwUTkV8M",
+         "plus_code" : {
+            "compound_code" : "CM58+WV Cambridge, ON, Canada",
+            "global_code" : "86MXCM58+WV"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ2Xno1g32K4gRLATKwUTkV8M",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bakery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 10,
+         "vicinity" : "140 McGovern Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.681875,
+               "lng" : -80.2306474
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6827377802915,
+                  "lng" : -80.22994831970848
+               },
+               "southwest" : {
+                  "lat" : 43.6800398197085,
+                  "lng" : -80.23264628029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Thatcher Farms Butcher Shop, Bakery & Farm Market",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4195,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110860958731899896969\"\u003eThatcher Farms Butcher Shop, Bakery &amp; Farm Market\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIbtTdAtRPMds71B0Ieqgx-TYMJTNzQY6gPivtcWNjBbleKdNNgDEwu-MbFFpOMa90A4lOQ5fnskyyW9vdlsaI7V0IKhGqFjsHo36_CZtPmUt5ST1-tVGg82E39gIVbkhWIV17rQlF7I6qZvle8IZOJmykZzzoNRIdICIRvqB1M1_X6",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJ0yfvzcuYK4gR-7Ui5E0oJ2M",
+         "plus_code" : {
+            "compound_code" : "MQJ9+PP Guelph/Eramosa, ON, Canada",
+            "global_code" : "86MXMQJ9+PP"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJ0yfvzcuYK4gR-7Ui5E0oJ2M",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 79,
+         "vicinity" : "5727 5th Line, Guelph/Eramosa"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.39305599999999,
+               "lng" : -80.303957
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3942526802915,
+                  "lng" : -80.3024701197085
+               },
+               "southwest" : {
+                  "lat" : 43.3915547197085,
+                  "lng" : -80.30516808029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Gibson's No Frills",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102965016108805096676\"\u003eLaura Haas\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIhONuBPN2tIrQYtC4lsRLX84_-Iz0dkdjkdGXm1XUQl9EgtkE20OiqEtE-E61ZT4NWV1u5kehykQW-7XGEMpxVafrFDQEoq1HM-81wO_6jLT5fb2bUm6uOJjZ6yxszznPYAsGKk04xENQRlXekjOEKsBR4DrqzMpTfY3IoRGyiyrE8",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJC29jEDyIK4gRLO6gUdDq3dw",
+         "plus_code" : {
+            "compound_code" : "9MVW+6C Cambridge, ON, Canada",
+            "global_code" : "86MX9MVW+6C"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJC29jEDyIK4gRLO6gUdDq3dw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "bakery",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1996,
+         "vicinity" : "980 Franklin Boulevard, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4185372,
+               "lng" : -80.37933129999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.41986328029149,
+                  "lng" : -80.37810856970849
+               },
+               "southwest" : {
+                  "lat" : 43.4171653197085,
+                  "lng" : -80.38080653029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Pepsi Co Foods",
+         "place_id" : "ChIJewryhDGKK4gRZaZCqtVCkew",
+         "plus_code" : {
+            "compound_code" : "CJ9C+C7 Cambridge, ON, Canada",
+            "global_code" : "86MXCJ9C+C7"
+         },
+         "rating" : 3,
+         "reference" : "ChIJewryhDGKK4gRZaZCqtVCkew",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "75 Saltsman Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3953161,
+               "lng" : -80.3570797
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3966180302915,
+                  "lng" : -80.35577706970849
+               },
+               "southwest" : {
+                  "lat" : 43.3939200697085,
+                  "lng" : -80.3584750302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Cake Lovers Unite",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 622,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112290697131976929242\"\u003eCake Lovers Unite\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKFdtP7xWQRSqP2BwZBydOBWnXFJDLPYHuUtbm6XegjZBdzGeo_UZW29iqgmtT-Oc3EZiPtmzT9bc-ewTaoX653MNxzgWKtbhyIrI09Ov_BHgycZehcv5zNRZdm6-yNY9PX48QgzIOSquSR98DJYCEZZlhCs3VePT5WcnoYs2OMlOzq",
+               "width" : 1104
+            }
+         ],
+         "place_id" : "ChIJ__HPVvCJK4gRtgEriZHIbBo",
+         "plus_code" : {
+            "compound_code" : "9JWV+45 Cambridge, ON, Canada",
+            "global_code" : "86MX9JWV+45"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJ__HPVvCJK4gRtgEriZHIbBo",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 43,
+         "vicinity" : "769 King Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.389931,
+               "lng" : -80.345485
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39111158029149,
+                  "lng" : -80.3444275697085
+               },
+               "southwest" : {
+                  "lat" : 43.38841361970849,
+                  "lng" : -80.34712553029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Ross & Lindsay's No Frills",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116048362825661455711\"\u003ePaul S\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKRea3IKLrvJxX3sJs5f00yAEA0Cu9wzf6QfrUwkzVoSBo11dF7tHPPuCtJcJIjaVH0Fol1aewlCq3BNT_AULECsQVZzp3HOKSbdFKmkr_22Xrlo-O3FxwLwrC03gWaHR4g-wMpSmMmb-qLqmZqJsJ4QCjelj27myZzy-_h54EAQ6k",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJhcxACOeJK4gRuAAScBNzat8",
+         "plus_code" : {
+            "compound_code" : "9MQ3+XR Cambridge, ON, Canada",
+            "global_code" : "86MX9MQ3+XR"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJhcxACOeJK4gRuAAScBNzat8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "bakery",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1009,
+         "vicinity" : "1515 King Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.36003699999999,
+               "lng" : -80.292197
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3616001302915,
+                  "lng" : -80.29094376970849
+               },
+               "southwest" : {
+                  "lat" : 43.3589021697085,
+                  "lng" : -80.2936417302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Silva's Portuguese Bakery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4056,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105165682174585467828\"\u003eConnie Siebert\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL4xScrWBX4g8yiPXoy_Mh2ViSDtKQsSvYVhtLb-HgW-Y-lo7o-KkUAMmOuyq90qTS_OF0y1IYWEzlMng20TLP0iH242SAWr9y3jyVMUXty2ZKi5cWP71NFBJfOAIfbI_6PKNgv61kRC6D4HImw0Fw9rpCUcnnpQGhm0fNHu76VxLZm",
+               "width" : 2704
+            }
+         ],
+         "place_id" : "ChIJ3Wh-Le82V0ARfzVNc_OLjWI",
+         "plus_code" : {
+            "compound_code" : "9P65+24 Cambridge, ON, Canada",
+            "global_code" : "86MX9P65+24"
+         },
+         "price_level" : 1,
+         "rating" : 4.6,
+         "reference" : "ChIJ3Wh-Le82V0ARfzVNc_OLjWI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bakery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 134,
+         "vicinity" : "45 McLaren Avenue, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4345572,
+               "lng" : -80.4528021
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4359490802915,
+                  "lng" : -80.4514278697085
+               },
+               "southwest" : {
+                  "lat" : 43.4332511197085,
+                  "lng" : -80.4541258302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Woodfire Bagels",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103039520885361804338\"\u003eBenjamin Lin\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJWqhuvrFp3xpfFhfaGYZVsplpiBri7KmljjvUHvPdbDJjmTIPosNzosQ8Tm4pqOKxVLuaPMjS46Pa6GDgZjGCqiwaFbd-0bRGklQ4yinwzgz3olxWT-sCx7dlcoQQqVn89e7M1P0twBgu7OhnfDOw8aJe7rSOEu1vq6qy7LdbH3LB9",
+               "width" : 3120
+            }
+         ],
+         "place_id" : "ChIJQZFVfCuLK4gRTMhrh2p455I",
+         "plus_code" : {
+            "compound_code" : "CGMW+RV Kitchener, ON, Canada",
+            "global_code" : "86MXCGMW+RV"
+         },
+         "price_level" : 1,
+         "rating" : 4.8,
+         "reference" : "ChIJQZFVfCuLK4gRTMhrh2p455I",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 94,
+         "vicinity" : "2161 Kingsway Dr, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.432098,
+               "lng" : -80.44113399999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.43359703029149,
+                  "lng" : -80.4400147697085
+               },
+               "southwest" : {
+                  "lat" : 43.4308990697085,
+                  "lng" : -80.4427127302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Zehrs",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115430621031518240136\"\u003eSteffen Lindner\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKyTxfsRGPuf8pUOZGiXVGPE6Vo6XMSQ36HsA6kXUuoS3byt3d3eHqnN741ZITNnXO0jNZOVmYzFq_qhYJOtM7zLBoo0FxofOP6RHYzAt2fkA-r93ISykTsdvrGMz-JSGcPOhVFfzjW32t-2VlKXmyR2BoGSAIbtbdkSw9Get84zHFY",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJk2UTcCaLK4gRkCvMqivnfKw",
+         "plus_code" : {
+            "compound_code" : "CHJ5+RG Kitchener, ON, Canada",
+            "global_code" : "86MXCHJ5+RG"
+         },
+         "rating" : 4,
+         "reference" : "ChIJk2UTcCaLK4gRkCvMqivnfKw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "pharmacy",
+            "bakery",
+            "food",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1250,
+         "vicinity" : "1375 Weber Street East, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.69811,
+               "lng" : -80.368782
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6991814302915,
+                  "lng" : -80.36732496970849
+               },
+               "southwest" : {
+                  "lat" : 43.6964834697085,
+                  "lng" : -80.37002293029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Zehrs",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2340,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113404799259876383084\"\u003edylan Van Veen\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLED5H7__L1-ZMjZiPlt5kF2jxaoOWPTk-Wy-o-yDbJVocXIWgFCxWcRDwyIliNH7h90UVAE9cSGvQcRBDd22dZVo3Sy7BzQsDb_qOze09w_pnyXABdZekl1cOH9UlBrrSGKcYczY84UNBnpP-gt4B2fgW-fx37nb2F5i1MCNNWF_Gg",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJXW2vDga-K4gRHsv6U5Fg7Zs",
+         "plus_code" : {
+            "compound_code" : "MJXJ+6F Fergus, ON, Canada",
+            "global_code" : "86MXMJXJ+6F"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJXW2vDga-K4gRHsv6U5Fg7Zs",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "pharmacy",
+            "bakery",
+            "food",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 649,
+         "vicinity" : "800 Tower Street South, Fergus"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3616211,
+               "lng" : -80.3144276
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3631450802915,
+                  "lng" : -80.3130835697085
+               },
+               "southwest" : {
+                  "lat" : 43.3604471197085,
+                  "lng" : -80.3157815302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Great British Bake",
+         "place_id" : "ChIJQxI_6Ml3LIgRUrCN_R7VxFg",
+         "plus_code" : {
+            "compound_code" : "9M6P+J6 Cambridge, ON, Canada",
+            "global_code" : "86MX9M6P+J6"
+         },
+         "reference" : "ChIJQxI_6Ml3LIgRUrCN_R7VxFg",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "vicinity" : "Location Varies, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3600588,
+               "lng" : -80.3134127
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.36132173029149,
+                  "lng" : -80.3120673197085
+               },
+               "southwest" : {
+                  "lat" : 43.35862376970849,
+                  "lng" : -80.31476528029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "British Baked Goods",
+         "place_id" : "ChIJ135tMbZ3LIgRNzl4OHxgfx4",
+         "plus_code" : {
+            "compound_code" : "9M6P+2J Cambridge, ON, Canada",
+            "global_code" : "86MX9M6P+2J"
+         },
+         "reference" : "ChIJ135tMbZ3LIgRNzl4OHxgfx4",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "vicinity" : "40 Dickson Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.358692,
+               "lng" : -80.3123574
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.36013223029151,
+                  "lng" : -80.3110072697085
+               },
+               "southwest" : {
+                  "lat" : 43.35743426970851,
+                  "lng" : -80.3137052302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "The Bake Shop On Main",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 810,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114963327456091135944\"\u003eThe Bake Shop On Main\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKh4yySca21OAzeQpjPOI2lMRUBSsXJeH1SzxANV0cZibluL-EiV0eRZ24BtTAT29AeBuE5HtkcPzMkE4pwRD4gtT1C_W4zRpgP1P5KxXsCfouqk__aZ220cjjKRTJm3VsKFpe3WI6WC5oFIqHKhcCS8kOOGQhq1S81j9kTRK1Mdw8",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJK-RjYbZ3LIgREwZW3zLM3bg",
+         "plus_code" : {
+            "compound_code" : "9M5Q+F3 Cambridge, ON, Canada",
+            "global_code" : "86MX9M5Q+F3"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJK-RjYbZ3LIgREwZW3zLM3bg",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 52,
+         "vicinity" : "89 Main Street Unit 107, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.639004,
+               "lng" : -80.024591
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.64039873029149,
+                  "lng" : -80.02337701970851
+               },
+               "southwest" : {
+                  "lat" : 43.63770076970849,
+                  "lng" : -80.02607498029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Luciano & Sarah's No Frills",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108243332530836832583\"\u003ePaul Alves\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLJBL8WYJew1OvByuaHYfsEnatkbCtF4J8tgcboMUajv0eZ9XIo7PW-pu1dH6dphfpNu-IdjeRAsyxEH15GpwEzDV3-FAEkPquUy9UxG6yItQayYNKYrDc4bqJq1dPrX330T-my7dOm1miURqB8eEIyd2HFCFX0gjyBkEtctJn-WOJX",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJh1YqzpV0K4gRnmHwAET8fe0",
+         "plus_code" : {
+            "compound_code" : "JXQG+J5 Acton, ON, Canada",
+            "global_code" : "86MXJXQG+J5"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJh1YqzpV0K4gRnmHwAET8fe0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "bakery",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 530,
+         "vicinity" : "380 Queen Street, Acton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.682825,
+               "lng" : -80.43018900000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6841624802915,
+                  "lng" : -80.42890306970851
+               },
+               "southwest" : {
+                  "lat" : 43.6814645197085,
+                  "lng" : -80.43160103029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "E&G Bakery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 640,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111563336048191811592\"\u003eE&amp;G Bakery\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLwmT3rov1MnwO6IFmcDkjjjYWlZDwl4Vs0HLX1OlQBTaOPiCUFccakSgqK8wrICSqQgABxKA-B2UJqlB2dEUKBax0K7tIl8tsGJNB5lbVKGD1BPhOxkU4yy9h98YOH-1exa4SYaM0bigL_8Oiqp1Ks0y6OB8gip-ej5rarXPGtIgcs",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJg7ODq2mVK4gRiqdz2ObAVZs",
+         "plus_code" : {
+            "compound_code" : "MHM9+4W Elora, ON, Canada",
+            "global_code" : "86MXMHM9+4W"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJg7ODq2mVK4gRiqdz2ObAVZs",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 54,
+         "vicinity" : "133 Metcalfe Street, Elora"
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,862 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4735004,
+               "lng" : -80.4500826
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4751583302915,
+                  "lng" : -80.44931665000001
+               },
+               "southwest" : {
+                  "lat" : 43.4724603697085,
+                  "lng" : -80.45238044999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Bingemans",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2992,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118020791279124849696\"\u003eBingemans\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIHWqIH5sZPVVTG382moGUl0UEckx0iExgQA9ZacpZFqUhGseqZJI5k8iqOGTzTIJ-X-bGwXox4fT6XeUVU3sN1IJnzZDsCyBrEa6xDNAqEp3e5RcJdScwnuUavPOAZ7iDVBhF1a_S1WRltYGxnEm-cAw5lD58noe2iBDZEhInMiDGL",
+               "width" : 3992
+            }
+         ],
+         "place_id" : "ChIJ1V_snq6MK4gRA8suIZwOe_4",
+         "plus_code" : {
+            "compound_code" : "FGFX+CX Kitchener, ON, Canada",
+            "global_code" : "86MXFGFX+CX"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ1V_snq6MK4gRA8suIZwOe_4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bowling_alley",
+            "campground",
+            "lodging",
+            "amusement_park",
+            "park",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 4460,
+         "vicinity" : "425 Bingemans Centre Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5898468,
+               "lng" : -80.4743278
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5913113802915,
+                  "lng" : -80.47285651970849
+               },
+               "southwest" : {
+                  "lat" : 43.5886134197085,
+                  "lng" : -80.47555448029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "West Montrose Family Camp",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113583446070010000139\"\u003eRicky Dorscht\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK48ktcB8KyiG7GxpBoa9FKCriMBR7-bTja4xEltIE8cSdXcFQWM3nD_oFkj2neqQKDhlWfgoacKExP-vzGpKvi3SX40xwO7kFpFe-bcjAjPpKnVvgejuGF9SkgDmbCkEL7JirG99wNYIlQhvvdbJqp7TapW8ESQ1l6tyJXudfXW0ZK",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJD8g2eefsK4gR86oSlJcKv_c",
+         "plus_code" : {
+            "compound_code" : "HGQG+W7 West Montrose, ON, Canada",
+            "global_code" : "86MXHGQG+W7"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJD8g2eefsK4gR86oSlJcKv_c",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 137,
+         "vicinity" : "6344 Line 86, West Montrose"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4124828,
+               "lng" : -80.1292347
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4139289802915,
+                  "lng" : -80.12806006970848
+               },
+               "southwest" : {
+                  "lat" : 43.4112310197085,
+                  "lng" : -80.1307580302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Emerald Lake",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 535,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102038131695333770687\"\u003eTri-Cities360 Scott Rawlings\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJRG0YucRHgDn_rsLk0wpU7Apg3bY9ceOBFDDMQ2dnpIpf1rq1YXm96oARSryZQmtvHYlRg7uC-LDhISwNBYDTg_wqzakkcc4zaVvV2_lw1EUAM6VtnQpSX0DaB_LZEUm9HJBjENzIEiFAUdVcp2C3NfVgkHPmMFbOlTQw1CrHiWvHY",
+               "width" : 958
+            }
+         ],
+         "place_id" : "ChIJo7QjWbCBK4gRxtpDxp4qlzA",
+         "plus_code" : {
+            "compound_code" : "CV6C+X8 Puslinch, ON, Canada",
+            "global_code" : "86MXCV6C+X8"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJo7QjWbCBK4gRxtpDxp4qlzA",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 500,
+         "vicinity" : "7248 Gore Road, Puslinch"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.363195,
+               "lng" : -80.40729899999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3641418802915,
+                  "lng" : -80.4058317197085
+               },
+               "southwest" : {
+                  "lat" : 43.36144391970851,
+                  "lng" : -80.40852968029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Whistle Bare Campground",
+         "photos" : [
+            {
+               "height" : 576,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107895055872815327488\"\u003eWhistle Bare Campground\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKQhPPYKt9kX88EwMJYM6ffjL_jZdNd45Y2IFBjv6lHIVd-a0cRL7NUKz6tPoeb_we5q7TcF6oSHbT3O5YeXwr91lqktR0XIX2BZ71yvnvmHx0i3nlQwvyMoetDghN8UYMw6WcsHIt_DoWIhcoZ4q51KsWk9P-6XskqeelQYYi_Spo",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJn_lc2aZ1LIgR-1NUI4F2Hyw",
+         "plus_code" : {
+            "compound_code" : "9H7V+73 Cambridge, ON, Canada",
+            "global_code" : "86MX9H7V+73"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJn_lc2aZ1LIgR-1NUI4F2Hyw",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 51,
+         "vicinity" : "1912 Whistle Bare Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.416397,
+               "lng" : -79.999566
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4177720802915,
+                  "lng" : -79.99818446970849
+               },
+               "southwest" : {
+                  "lat" : 43.4150741197085,
+                  "lng" : -80.00088243029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Lawson Park",
+         "photos" : [
+            {
+               "height" : 2340,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104758716425285485190\"\u003eLyne Poulin\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwItE4_oW7yqpZGM8bj3oqO1vST9xlxzQH9wF9U64TcyEzF4dBEwKJ-BbtbyR8k5jtec1ue4kg5qUzlJHwq-e1zLHXIMgVtX9f7WCoZ3eG75tJWumgzjNNOU2KXVdEEFPiHtWBxMPBIZzZSFTKQSEOFzNERk5QMtlilsYY0aQnBD5poJ",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ7W-PHJd-K4gRGPnEmBOYnX8",
+         "plus_code" : {
+            "compound_code" : "C282+H5 Freelton, Hamilton, ON, Canada",
+            "global_code" : "87M2C282+H5"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ7W-PHJd-K4gRGPnEmBOYnX8",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 74,
+         "vicinity" : "322 Concession 11 East, Freelton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.41030000000001,
+               "lng" : -80.12612899999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4116664302915,
+                  "lng" : -80.12478546970851
+               },
+               "southwest" : {
+                  "lat" : 43.4089684697085,
+                  "lng" : -80.12748343029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Maple Grove RV Resort",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 490,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108740095525185767668\"\u003eMaple Grove Resort\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJw36b96zjdsaXyMbyPfrieKaBocqsxFLWkgMzbN_RsUJVe7bZSVY9ebH_5GN9p73JRSKWIW9rDHIQdnGL8gv2lwmyBYbTujSB4LocR7he0Mu5fYo0zetF7-419V9K7mAKa-xGYJ3-Zk3qkUVuC_TyAFfk-n2rTdLjvJOdzrbioGbT1",
+               "width" : 800
+            }
+         ],
+         "place_id" : "ChIJUfxB9D5_K4gR3ecHNa2A8rk",
+         "plus_code" : {
+            "compound_code" : "CV6F+4G Puslinch, ON, Canada",
+            "global_code" : "86MXCV6F+4G"
+         },
+         "rating" : 4,
+         "reference" : "ChIJUfxB9D5_K4gR3ecHNa2A8rk",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 79,
+         "vicinity" : "1488 Gore Road, Puslinch"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.38705889999999,
+               "lng" : -80.1456496
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.38856718029149,
+                  "lng" : -80.14419781970849
+               },
+               "southwest" : {
+                  "lat" : 43.3858692197085,
+                  "lng" : -80.1468957802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Valens Lake Conservation Area",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105199835673449441322\"\u003eyukti makalikal\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJFWofAUx8YEWFDhzHeP6_C73LBeM_5jrdB0WialK1KBYbSH5OjdnZ0M_RJlD_O4qtaHlAf2rYNe3RcPpYEXfaY7X8S_WD46TAj8mofotj3FdZc0zPsSea1F3XZAt4jJFAGHbo6BMsaOgmjj9zvRgYRrIFEckvnV-TJp6vMtcle5fTR",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJFfgasIqAK4gRcMpqs7ZK7tM",
+         "plus_code" : {
+            "compound_code" : "9VP3+RP Cambridge, ON, Canada",
+            "global_code" : "86MX9VP3+RP"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJFfgasIqAK4gRcMpqs7ZK7tM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "park",
+            "campground",
+            "tourist_attraction",
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 418,
+         "vicinity" : "1691 Regional 97 Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4972669,
+               "lng" : -80.2489035
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.49861818029149,
+                  "lng" : -80.2475157197085
+               },
+               "southwest" : {
+                  "lat" : 43.49592021970849,
+                  "lng" : -80.25021368029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "River Bend Park Pioneer Trail",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114354298504158633736\"\u003eMike O&#39;Brien\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKauUie_9kMRxgluGkuzd5ID_drna7RVhDGV-XmS3nGEZr-SQVtGq25Qbkq0_waEHce_B9gxOIerqL-TnpnxjHYEisAk5AfZkPeIaNfLXziwuknMAEszNXpHiE-3CXxBXZKqHfSGiIot-6u9IZSUucPyIxf8ApLVLVylyX24J_QAjTW",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJhS2W_w2FK4gRCXPAG9WnQIA",
+         "plus_code" : {
+            "compound_code" : "FQW2+WC Guelph, ON, Canada",
+            "global_code" : "86MXFQW2+WC"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJhS2W_w2FK4gRCXPAG9WnQIA",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 13,
+         "vicinity" : "4838 Pioneer Trail, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.422449,
+               "lng" : -80.262551
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.42382868029151,
+                  "lng" : -80.26119291970851
+               },
+               "southwest" : {
+                  "lat" : 43.42113071970851,
+                  "lng" : -80.26389088029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "McClintocks Trailer Resort",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117481933337340000682\"\u003eMcClintocks Trailer Resort\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLL3EyC-ZZKMyAaxjk7-5fYkfHz2Bn1BRs4yhpaKnT5Q9hGC7FdTF1KOfI03KIuVA00QfjiJRNYSJ1gjrHvaX2TXUnhCD4qL2yI9ux7y2rF6702wqYMlSC0GrJTANi_7BJ3YuNYO9KuSc34NkGai9zgMEg1Nt7aiz8e-eiuma7P1up7",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJs8ZIfjCGK4gRWfMUyzpUzcI",
+         "plus_code" : {
+            "compound_code" : "CPCP+XX Cambridge, ON, Canada",
+            "global_code" : "86MXCPCP+XX"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJs8ZIfjCGK4gRWfMUyzpUzcI",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 72,
+         "vicinity" : "43 McClintock Drive, Cambridge"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3858966,
+               "lng" : -80.07717699999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3872569302915,
+                  "lng" : -80.0757142697085
+               },
+               "southwest" : {
+                  "lat" : 43.3845589697085,
+                  "lng" : -80.07841223029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Flamboro Valley Camping Resort",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 2304,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101536431328477997734\"\u003eFlamboro Valley Camping Resort\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLjq4OSn9j7cEWKXLzOYXMWpQd0OvJzOTZ68dHK1JOHZ6A68U7gxWTgC77FqN-m2Bv_NYmvuWoZqBCb9Uj4c1UJSmDcWXPOSYO9L3J5hirVqynp1CTQcc3IRZEAm2qfqPnYXXSx30xcx_FgZuMoCxzLPulkTkaGNYfr9GRxJ0DWgf4D",
+               "width" : 3456
+            }
+         ],
+         "place_id" : "ChIJNeksnaJ_K4gROxjnvJVQcW4",
+         "plus_code" : {
+            "compound_code" : "9WPF+94 Puslinch, ON, Canada",
+            "global_code" : "86MX9WPF+94"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJNeksnaJ_K4gROxjnvJVQcW4",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 230,
+         "vicinity" : "1158 Hamilton 97, Puslinch"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4839001,
+               "lng" : -80.0035599
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4852629302915,
+                  "lng" : -80.00219526970849
+               },
+               "southwest" : {
+                  "lat" : 43.4825649697085,
+                  "lng" : -80.0048932302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Toronto West KOA Holiday",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 681,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102406653697982281862\"\u003eToronto West KOA Holiday\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLjCDh4tfXrxxl2attB_MMJemOiEz2TFeYkJMehh0LMdPO6UjE_K-Ez9FvH35TfTz1lbWsdUFrHTRMRKsd-XKLAFrHip8eZhkgXZ1iF2rv8dbDc9BCOHP65Hp7qCP-YeZrUo6NPRPLUodFWCh06MghFgwDmYp2cH0F8sl6DODhxc4s5",
+               "width" : 1021
+            }
+         ],
+         "place_id" : "ChIJoR8ffSF6K4gRdG7zq1ewcsc",
+         "plus_code" : {
+            "compound_code" : "FXMW+HH Milton, ON, Canada",
+            "global_code" : "86MXFXMW+HH"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJoR8ffSF6K4gRdG7zq1ewcsc",
+         "scope" : "GOOGLE",
+         "types" : [
+            "campground",
+            "rv_park",
+            "lodging",
+            "park",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 347,
+         "vicinity" : "9301 Nassagaweya 2nd Line RR #1, Campbellville"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4745105,
+               "lng" : -80.44372349999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.47590213029149,
+                  "lng" : -80.44220746970849
+               },
+               "southwest" : {
+                  "lat" : 43.4732041697085,
+                  "lng" : -80.44490543029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Bingemans Camping Resort",
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108908011889920527735\"\u003eBingemans Camping Resort\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIR7uynef5CIykBCqY_kYZt6cnQ2ta4TTwniA8mcV_61sLt8dLRGmj2JmUZvUwddh7N_JY9WEoLeaUp0yXmQD1wHUkNva8BKd3sWyoPF3RahWMro818FEujjyqGcpQlY5_lgmzOL_P1K9aKqydqDskOLPgobJbeSrf18HsPCeihMalU",
+               "width" : 6000
+            }
+         ],
+         "place_id" : "ChIJsR6h_66NK4gR4eHSxdt-bM4",
+         "plus_code" : {
+            "compound_code" : "FHF4+RG Kitchener, ON, Canada",
+            "global_code" : "86MXFHF4+RG"
+         },
+         "rating" : 4,
+         "reference" : "ChIJsR6h_66NK4gR4eHSxdt-bM4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "campground",
+            "rv_park",
+            "lodging",
+            "park",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 131,
+         "vicinity" : "425 Bingemans Centre Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.604394,
+               "lng" : -80.044972
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.60577993029149,
+                  "lng" : -80.04368856970849
+               },
+               "southwest" : {
+                  "lat" : 43.6030819697085,
+                  "lng" : -80.04638653029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Nor Halton Campground",
+         "photos" : [
+            {
+               "height" : 1920,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118183770599132385577\"\u003eNick Q\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJHFdnNyXQ99a95afnX-gBKqV9yUrCjUtbrqpMBJrG1umWspW4EIAdtgUO1sr4Bx0ezjIgzX25XkSktwVb4adTMyBwW4DYzPDD9LwNXNmCwgBLWmH05nX6z5-E3Vy7SjLGNrEGJRjN8CkdkVFAp-y_xNrSLJdqc8ufPv_2Pj5qwJj3C",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJlxl70zd0K4gRzcnFaTLZc8E",
+         "plus_code" : {
+            "compound_code" : "JX34+Q2 Acton, ON, Canada",
+            "global_code" : "86MXJX34+Q2"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJlxl70zd0K4gRzcnFaTLZc8E",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "6288 25 Side Road, Acton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.60499610000001,
+               "lng" : -80.04402809999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.60643213029149,
+                  "lng" : -80.04282526970849
+               },
+               "southwest" : {
+                  "lat" : 43.6037341697085,
+                  "lng" : -80.04552323029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Nor Halton Park",
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114752664128834631531\"\u003eMonika Zieba\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLIQ8ue-qF7qGl2_kJCZWHBjdgTrblPkgPnlcQarcCUzAdJubB-7JfA0zJr94LiMTgyjQdxY2opUpI-NMF-55yeAI_C9eF0LXaFULfYoyXqLaqu4MiATSzycUMV-qGR-7RLcbewtAffJ2REq58WIj7geB2XjvVRPvDg-YKWgsopeXD9",
+               "width" : 4928
+            }
+         ],
+         "place_id" : "ChIJ_____0h0K4gRBmTRaB-N71k",
+         "plus_code" : {
+            "compound_code" : "JX34+X9 Acton, ON, Canada",
+            "global_code" : "86MXJX34+X9"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ_____0h0K4gRBmTRaB-N71k",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 45,
+         "vicinity" : "6230 25 Side Road, Acton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6603437,
+               "lng" : -80.45463199999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6616799302915,
+                  "lng" : -80.4532657197085
+               },
+               "southwest" : {
+                  "lat" : 43.6589819697085,
+                  "lng" : -80.45596368029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Upper Pines",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117903271948411361608\"\u003eMatthew Roberts\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKpc2DkiQ6JY1OKga5HvID4VZljVkLY-YOhKQFg5WF0wV9Y7Y-v5wo4c9ZYfkmlyRJ7krmXL_40crWL4E0ROb3Wu64OFKWIgP_piDatQQroZQPXgogQmvXI26c7Y9OHpJ1jHYYXOL4r5Q65hzoOUP9XduJl-VcnFSuGk_d1GGU7KC2V",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ9X7tyyqVK4gRbR73kLXgf24",
+         "plus_code" : {
+            "compound_code" : "MG6W+44 Elora, ON, Canada",
+            "global_code" : "86MXMG6W+44"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJ9X7tyyqVK4gRbR73kLXgf24",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8,
+         "vicinity" : "7301 Middlebrook Road, Elora"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3663134,
+               "lng" : -80.07700029999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3676311802915,
+                  "lng" : -80.07564136970849
+               },
+               "southwest" : {
+                  "lat" : 43.3649332197085,
+                  "lng" : -80.0783393302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Ponderosa Nature Resort",
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108859732342961074863\"\u003eJessica Smillie\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIQsd7bNzZ1NdUFPlmn2-fFGi976olCyxfAJXBi-IXY8glj_A5Y49mOOj1mN_lnqUqTMTvpn1BsATiys5bSvQR9ORxkwqjdQ8er7ES7qC-R6WbVGSviQYKB53uV3sVJwdAVAN4yIk8RVd7wIOVGmOyWehl63Xa0VMxRQBu1YZpR5EpA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJ3TINJWp-K4gRb8oCe4vUURM",
+         "plus_code" : {
+            "compound_code" : "9W8F+G5 Freelton, Hamilton, ON, Canada",
+            "global_code" : "86MX9W8F+G5"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ3TINJWp-K4gRb8oCe4vUURM",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 146,
+         "vicinity" : "1218 Concession 8 West, Freelton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.73187300000001,
+               "lng" : -80.13139099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.7332344302915,
+                  "lng" : -80.13002386970849
+               },
+               "southwest" : {
+                  "lat" : 43.7305364697085,
+                  "lng" : -80.1327218302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Kids Inc Camp",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 394,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100382305107166360938\"\u003eKids Inc Camp\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKehXfEcXOnVUmFg6RteI5i__3PRz9U1lIVk1rrOvcifVD3etbxKMY2YFY5eIOURU-gD5Snt9hT5woQTfUZ-x12RI_nY2wV5-dqIxGVmaCtxVyjNO1YuXGoSFiYRt4F3dIj3kcmBifj8uRzDU1Ff4NL2h_uHZvEJNylSxQexJ6yA9ZR",
+               "width" : 526
+            }
+         ],
+         "place_id" : "ChIJn2Qm_Q5rK4gR4lHBaRVKKb8",
+         "plus_code" : {
+            "compound_code" : "PVJ9+PC Erin, ON, Canada",
+            "global_code" : "86MXPVJ9+PC"
+         },
+         "rating" : 4,
+         "reference" : "ChIJn2Qm_Q5rK4gR4lHBaRVKKb8",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 32,
+         "vicinity" : "5567 Fourth Line, Hillsburgh"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.522069,
+               "lng" : -79.93928600000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5233275302915,
+                  "lng" : -79.93672264999999
+               },
+               "southwest" : {
+                  "lat" : 43.52062956970851,
+                  "lng" : -79.94014045000003
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Milton Heights Campground",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 898,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113120923262773750576\"\u003eMilton Heights Campground\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwInWm5nKw-iGRDex9vnaAaEqzgn0Cft3zWaPdoeV5UbpRhG4-9perRy37sFmwEexM-LNvRUTzZrKRnM-2hn-3aRG28EWrGshPmTQTvubxVEXJN94eZbgQaj3GnrlsnWtAIPH0O4--d9_-_Of3HMHANtiyCanxDFsS_eR4uWDc5iWMj5",
+               "width" : 1348
+            }
+         ],
+         "place_id" : "ChIJa082_T5wK4gRLEHvmbkOq-w",
+         "plus_code" : {
+            "compound_code" : "G3C6+R7 Milton, ON, Canada",
+            "global_code" : "87M2G3C6+R7"
+         },
+         "rating" : 4,
+         "reference" : "ChIJa082_T5wK4gRLEHvmbkOq-w",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 326,
+         "vicinity" : "8690 Tremaine Road, Milton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.41789299999999,
+               "lng" : -79.992447
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4193712302915,
+                  "lng" : -79.9909005697085
+               },
+               "southwest" : {
+                  "lat" : 43.4166732697085,
+                  "lng" : -79.99359853029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/camping-71.png",
+         "name" : "Parcul Romanesc",
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102510158820886209869\"\u003eMarcel Negru\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIX2xXc1lwpfu1ALIf06xmeIEQCmblZI1uoYK-74Jxz6JIqS19Ty2T_807vgMjnpF7giRIDassPQR7yJC96kAA65lqMVd-4WtM2IKRsk5f-Ij6VrPUOlZ2b8F90M_PTlg0TlXWVVnVvyJOYm2mn-wRnNFj-tkPxUDKZ5QqbQjSjoE3X",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJPdrkWJZ9K4gRH1tcZOxCHYI",
+         "plus_code" : {
+            "compound_code" : "C295+52 Hamilton, ON, Canada",
+            "global_code" : "87M2C295+52"
+         },
+         "rating" : 5,
+         "reference" : "ChIJPdrkWJZ9K4gRH1tcZOxCHYI",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "lodging", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4,
+         "vicinity" : "Hamilton"
+      }
+   ],
+   "status" : "OK"
+}

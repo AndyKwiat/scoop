@@ -1,0 +1,954 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.7049939,
+               "lng" : -80.3786719
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.7063249302915,
+                  "lng" : -80.3772760697085
+               },
+               "southwest" : {
+                  "lat" : 43.7036269697085,
+                  "lng" : -80.37997403029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Fergies Fine Foods",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 716,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117975632132524957759\"\u003eFergies Fine Foods\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ5P4cXgHSu_SLBLqBuNbLlMRJl10nVrEW0Dh7hPXxODO7iAKDvbj4dFGLQSiBAq9RSYksg-2Y-fV_VRsJBkjPnDX_f-4nSLOdo7R8lBQfysr6RuVJ5d0yf4b0HCFZeL6gZZp9OMSzooBmQWR9jNqGG7D0Erml6xn-5YYIZAmFacCEZ",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJdddAIRK-K4gRInlfdAN4B0A",
+         "plus_code" : {
+            "compound_code" : "PJ3C+XG Fergus, ON, Canada",
+            "global_code" : "86MXPJ3C+XG"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJdddAIRK-K4gRInlfdAN4B0A",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 34,
+         "vicinity" : "187 Saint Andrew Street West, Fergus"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6818307,
+               "lng" : -80.4295674
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6831471302915,
+                  "lng" : -80.42836366970849
+               },
+               "southwest" : {
+                  "lat" : 43.6804491697085,
+                  "lng" : -80.4310616302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Elora Bread Trading Co.",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111252794572399458919\"\u003eShawn Bremner\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIAvDTK6kyEnQqcu9i7kqQai_8RNfZwEfljV6cX63MojSZ8oeCcyJf1j9UwRJFXftcc_21jI4lI1PvWgeROphN3A_mdudT7Yp0otyL1rxZT8pf6T7xY48_01tsj8uQziVIUmCWO3oFaXtXPWbXVZ_cud_HqN5M_HGrwvearifiFqT5x",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJ5cHSCmmVK4gRH6b2haNdnsE",
+         "plus_code" : {
+            "compound_code" : "MHJC+P5 Elora, ON, Canada",
+            "global_code" : "86MXMHJC+P5"
+         },
+         "price_level" : 2,
+         "rating" : 4.7,
+         "reference" : "ChIJ5cHSCmmVK4gRH6b2haNdnsE",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 59,
+         "vicinity" : "73 Metcalfe Street, Elora"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.483104,
+               "lng" : -80.506311
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4843514802915,
+                  "lng" : -80.50504701970848
+               },
+               "southwest" : {
+                  "lat" : 43.4816535197085,
+                  "lng" : -80.50774498029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Zehrs",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2050,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111754842364130279449\"\u003eRenata Kuss\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJx91ha_JCYNwrgtqYFyqllWpzMjtI68N3_DS-e376Ej1cBLV5K1kzKDsJ3vNvQ21DsUsjufaGDcwo2ox1P4zGKlB2j3KURnHKMMxpLzD0vPmraQHSRR_E-tx-bVH2Nlkg-7OR393AdrKTifmwdVKz_JM5AfDEQGV_uITcTiarpIHNm",
+               "width" : 3644
+            }
+         ],
+         "place_id" : "ChIJlyzZkXb0K4gRpudbdQzzeeo",
+         "plus_code" : {
+            "compound_code" : "FFMV+6F Waterloo, ON, Canada",
+            "global_code" : "86MXFFMV+6F"
+         },
+         "rating" : 4,
+         "reference" : "ChIJlyzZkXb0K4gRpudbdQzzeeo",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "pharmacy",
+            "bakery",
+            "food",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 687,
+         "vicinity" : "315 Lincoln Road, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4507838,
+               "lng" : -80.4901553
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45211723029149,
+                  "lng" : -80.48876796970849
+               },
+               "southwest" : {
+                  "lat" : 43.44941926970849,
+                  "lng" : -80.49146593029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Unity Baking",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102897264368226118141\"\u003eEric Blondeel\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIIXVXAM-yYN_KVdW9qSqEgzzpq9xkGoO7htjwb2vrvnQAI7iUSqHkic3ZbFYxwD3I-uXdoEQoRq8Ww6tNyK0LcpuFz9AsN2-eDD-ozdF0AGO55RnsexxRARFuY0wxE8JAWt3RpPJJ9nJt4Cs8ouvtYJzzj7yxBgiwFJtGz6rO0BtYH",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJn0gkx_T0K4gRH0T3ZAO-4-k",
+         "plus_code" : {
+            "compound_code" : "FG25+8W Kitchener, ON, Canada",
+            "global_code" : "86MXFG25+8W"
+         },
+         "price_level" : 2,
+         "rating" : 3.9,
+         "reference" : "ChIJn0gkx_T0K4gRH0T3ZAO-4-k",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 72,
+         "vicinity" : "30 Ontario Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.35977409999999,
+               "lng" : -80.31199029999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.36116868029149,
+                  "lng" : -80.31064076970848
+               },
+               "southwest" : {
+                  "lat" : 43.35847071970849,
+                  "lng" : -80.31333873029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Tiny Cakes",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102846438802786364728\"\u003eTiny Cakes\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJlwAKD0BVGcBpDiGQAYhbGaJ-7IIg1L_0VYYH57nl3sB5D1DoDga6-wRgfJB9hXzl645qcHCyl2eUUffy_modINDop3aZtAfApKUiNApFY-KZgFPTfGtm5xAs-ONs8fBXWY6Ub5sT9nTppSJvCKHTvcYoa884u9ATAs92OJ5_iE8Hi",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJwa2kxrd3LIgR9DqsyVCRA6w",
+         "plus_code" : {
+            "compound_code" : "9M5Q+W6 Cambridge, ON, Canada",
+            "global_code" : "86MX9M5Q+W6"
+         },
+         "price_level" : 2,
+         "rating" : 4.8,
+         "reference" : "ChIJwa2kxrd3LIgR9DqsyVCRA6w",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 196,
+         "vicinity" : "65 Dickson Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.46189469999999,
+               "lng" : -80.5055507
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.46315913029149,
+                  "lng" : -80.5042865697085
+               },
+               "southwest" : {
+                  "lat" : 43.46046116970849,
+                  "lng" : -80.5069845302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Sweet Treats By Jen",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJ54aYomT0K4gRoHwfbygcN7s",
+         "plus_code" : {
+            "compound_code" : "FF6V+QQ Waterloo, ON, Canada",
+            "global_code" : "86MXFF6V+QQ"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ54aYomT0K4gRoHwfbygcN7s",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "142 Waterloo Street, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4869008,
+               "lng" : -80.51732869999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4882488802915,
+                  "lng" : -80.51603206970849
+               },
+               "southwest" : {
+                  "lat" : 43.4855509197085,
+                  "lng" : -80.51873003029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Circle of Life",
+         "place_id" : "ChIJzyQl6pPzK4gRNgG6PslHwhc",
+         "plus_code" : {
+            "compound_code" : "FFPM+Q3 Waterloo, ON, Canada",
+            "global_code" : "86MXFFPM+Q3"
+         },
+         "rating" : 5,
+         "reference" : "ChIJzyQl6pPzK4gRNgG6PslHwhc",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "105 Lexington Road, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4164245,
+               "lng" : -80.01555610000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4179852302915,
+                  "lng" : -80.0140926697085
+               },
+               "southwest" : {
+                  "lat" : 43.41528726970851,
+                  "lng" : -80.01679063029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Fleetwood Acres Home Style Bakery Ltd",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101761115658790418347\"\u003eTammy Frakking\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIef3U3-3yTCv5mTIYsw0Y3KriZj3cj4sPOC-9Ven0RIP_kYeznkJHJS-M9JKowhX1Q_JMLA6GLYUJApe9IP6BwvtAK6esxE84AJmaNSBKVO1DdTwcLTjfjE7Fu_DSiej5AdNcnRQAGBFGIOJGEjr90qzvz5hYGYqFceMGyRM78hN3c",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJ-dUjtaZ-K4gRukyhTdYNu6w",
+         "plus_code" : {
+            "compound_code" : "CX8M+HQ Hamilton, ON, Canada",
+            "global_code" : "86MXCX8M+HQ"
+         },
+         "price_level" : 2,
+         "rating" : 4.7,
+         "reference" : "ChIJ-dUjtaZ-K4gRukyhTdYNu6w",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 48,
+         "vicinity" : "1847 Centre Road, Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4627308,
+               "lng" : -80.51030569999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.46404238029149,
+                  "lng" : -80.50902156970849
+               },
+               "southwest" : {
+                  "lat" : 43.46134441970849,
+                  "lng" : -80.5117195302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Ce Food Experience, The Bakery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117565427286511939801\"\u003eYen Ho\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJnosasVXwOaiDPl-kZzTr88nSRf6vfxvwPYDR4eit0qaMlOKgp49T4Fqx6ZF8x0ZyxFw_tP5HTgl4BqGyWL5-TsW8u8WgNPa1tFe0WkFTIAXVKVePHWhh7BCwNXb9SQiF75_ZCBiVEhWHL8neAO_D4-4o48NaH0-tilkiVcqP7BljL",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJaYmT92_0K4gRo3PfZycEcm0",
+         "plus_code" : {
+            "compound_code" : "FF7Q+3V Waterloo, ON, Canada",
+            "global_code" : "86MXFF7Q+3V"
+         },
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "ChIJaYmT92_0K4gRo3PfZycEcm0",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 277,
+         "vicinity" : "136 Moore Avenue South, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.496854,
+               "lng" : -80.52506
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4983887802915,
+                  "lng" : -80.52365841970851
+               },
+               "southwest" : {
+                  "lat" : 43.49569081970851,
+                  "lng" : -80.52635638029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Zehrs",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKFTh8E4Hs-Y6epm_2IW2ugnvT1vYT_I1ix6K1S0laDzbMGvk9K8vtKwuTVuSItKmd3YYG0fCRGZ3Hx5gTh6EqRjgwnPyxtj4g0_Ra-hWyzZ_P4ZU9XGtTs6trwypwL3rlpsUtBEJCBhuFwnCnYFc3-zCEggtw62l8byelOEilONU3-",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJd6wbGMHzK4gReedkfyXzm3Q",
+         "plus_code" : {
+            "compound_code" : "FFWF+PX Waterloo, ON, Canada",
+            "global_code" : "86MXFFWF+PX"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJd6wbGMHzK4gReedkfyXzm3Q",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "pharmacy",
+            "bakery",
+            "food",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1395,
+         "vicinity" : "555 Davenport Road, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.42376199999999,
+               "lng" : -80.48751799999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4250207302915,
+                  "lng" : -80.48651126970849
+               },
+               "southwest" : {
+                  "lat" : 43.4223227697085,
+                  "lng" : -80.48920923029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Zehrs",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104338751294581844198\"\u003epaolo tranquilino\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIBd6ZmSSM94Yxi6FPyRFXZv8mVMCNmmNplLHfDxyl8uMR0eorKN2yAkYxiXkdqbIju-5Kda65tfSmqZd98FeciY52MbbYo0ToJHxBgGk7e_iepxHj_JHfShwvsb806GOoCK_lXDsrC7YG-xK-FJrrk31LOAMDsIWaXJ8Xq-CNzwY3w",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJa0Z_BRD1K4gRiJEkLHEQ7zg",
+         "plus_code" : {
+            "compound_code" : "CGF6+GX Kitchener, ON, Canada",
+            "global_code" : "86MXCGF6+GX"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJa0Z_BRD1K4gRiJEkLHEQ7zg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "pharmacy",
+            "bakery",
+            "food",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1781,
+         "vicinity" : "750 Ottawa Street South, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4981038,
+               "lng" : -80.529718
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.49927308029149,
+                  "lng" : -80.52741444999999
+               },
+               "southwest" : {
+                  "lat" : 43.4965751197085,
+                  "lng" : -80.53048585000002
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Cinnabon",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 500,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111850311539777089645\"\u003eCinnabon\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKhenFG-L2_wh89n8NRjpRiG7tbK5nRa5YjWWjFIA5KJqVQRsAu5kB4YXluYn4s5A7ktZ8ypPoT33qpaudx9LmvzZpGhGDAYO7ht8N2P5pM-7wJl66-t54U4wZa5qHaSUbcEV1ScteX60KcGakQ6vuzKaR4I3PEsbRmdfI1WaxzPcYC",
+               "width" : 500
+            }
+         ],
+         "place_id" : "ChIJn57J_sPzK4gREUrCQ3Q1sIg",
+         "plus_code" : {
+            "compound_code" : "FFXC+64 Waterloo, ON, Canada",
+            "global_code" : "86MXFFXC+64"
+         },
+         "rating" : 4,
+         "reference" : "ChIJn57J_sPzK4gREUrCQ3Q1sIg",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 41,
+         "vicinity" : "550 King Street North Unit B17, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5051114,
+               "lng" : -80.0582903
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5064834302915,
+                  "lng" : -80.05688036970851
+               },
+               "southwest" : {
+                  "lat" : 43.5037854697085,
+                  "lng" : -80.05957833029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Dar's Delights",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108689979177017593867\"\u003eAllen Beiko\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIKpKqjYTHHG18OPzkeHkvj0tA9_PvpwlxgkcZ3hfpWR-euluuK7DqF65i-uZnY-JkRI9H2Zrg_ug5TZvunAva-hPLdFunTtXKPVsA57clUocWmhXLesvHQZIeP_A0jp8VeGM0yr7jhwUff2ZehNd0IUNHGTqSZttipLM6t2FwbTK4K",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ51yKS4B5K4gRG0DN-rD--dk",
+         "plus_code" : {
+            "compound_code" : "GW4R+2M Milton, ON, Canada",
+            "global_code" : "86MXGW4R+2M"
+         },
+         "price_level" : 1,
+         "rating" : 4.4,
+         "reference" : "ChIJ51yKS4B5K4gRG0DN-rD--dk",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 168,
+         "vicinity" : "11004 First Line Nassagaweya, Moffat"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.41353899999999,
+               "lng" : -80.48049200000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.41532058029149,
+                  "lng" : -80.4793563197085
+               },
+               "southwest" : {
+                  "lat" : 43.41262261970849,
+                  "lng" : -80.48205428029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Brent's No Frills",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105960662924194362939\"\u003eGeorge B\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLFKhJeU7wXLQCErNCBig8y5JuoIrDWjWnvVfe7kZuLPq2kQXqzkSakMUt5G6-FYSaiLY22D_NkO580ysP5cHRoRo4NFpM7UktaL3Baa8vaigWKx1W90RN05hR7Ex8Huyk7ZuTaXg8krKnlRPzh8kkRQWjEOVe0SjYwshLGYnpEHee-",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJpZR1xBT1K4gRz1QoeicVts0",
+         "plus_code" : {
+            "compound_code" : "CG79+CR Kitchener, ON, Canada",
+            "global_code" : "86MXCG79+CR"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJpZR1xBT1K4gRz1QoeicVts0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "bakery",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1357,
+         "vicinity" : "700 Strasburg Road, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4130275,
+               "lng" : -80.4801458
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4144349802915,
+                  "lng" : -80.47870056970849
+               },
+               "southwest" : {
+                  "lat" : 43.4117370197085,
+                  "lng" : -80.4813985302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Debrodniks Donuts",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102824176067937656860\"\u003eF. T.\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL3MCsiBoX-OgOhy8WSWug0JiecdkJKZZ-GsC7VWq2-H5rADi6wqYIAyNY-GTmyQYPXt_5zU4nWC5si8HqmInhGtGp6Q_wSfBKPq16u0H0q__7x1ixXnTvujwYgoBRWtMtNCzIdDXBONgjcn2BnOly7Ttao9dFTrx90W9tMJCVaAYzl",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJJe9Yy2r1K4gRwoCf5gHHoVc",
+         "plus_code" : {
+            "compound_code" : "CG79+6W Kitchener, ON, Canada",
+            "global_code" : "86MXCG79+6W"
+         },
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "ChIJJe9Yy2r1K4gRwoCf5gHHoVc",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 508,
+         "vicinity" : "700 Strasburg Road unit 8, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4590172,
+               "lng" : -80.4723686
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.46036618029149,
+                  "lng" : -80.47101961970849
+               },
+               "southwest" : {
+                  "lat" : 43.45766821970849,
+                  "lng" : -80.47371758029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Norris Bakery Limited",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100418632128446255334\"\u003eMark Carter\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLyJTlOFxo_6OMcgdWWz-THNpnkUyKcy5ayUpS4Y5W5mpEx1nwG9UyWnagdCkVFxH1_1wxX3h52m0KdcbN_1IJe7HrisA-YdxMpfnZHpB_G5tS64WFsCfatSiqltDdtBPTZ6b7pKSiP5xlIz_qZOtoGepxCKxrd9f6T4nTQEMFa-pTs",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJnzyVmbz0K4gRm0l2Cj8LFVs",
+         "plus_code" : {
+            "compound_code" : "FG5H+J3 Kitchener, ON, Canada",
+            "global_code" : "86MXFG5H+J3"
+         },
+         "price_level" : 1,
+         "rating" : 4.4,
+         "reference" : "ChIJnzyVmbz0K4gRm0l2Cj8LFVs",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 411,
+         "vicinity" : "460 Frederick Street, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.550342,
+               "lng" : -80.25684099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5514757802915,
+                  "lng" : -80.25569461970851
+               },
+               "southwest" : {
+                  "lat" : 43.5487778197085,
+                  "lng" : -80.25839258029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "With the Grain Bakery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101102808126446713359\"\u003eSabrina Paez-Parent\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIIeohrnEgXXpbzo8zndifwm2Xf2uP8SWlNbfhYQrAkpjudkFZmiMSwr9sC3Zyeo5b3km0bdc1s_rPuBVD6uSb3U6h7MOFSWxcVu-sTxlPFXaelzgVq18f7KHOB3R5BFTo0YCxGAPDReDfIggx8OX3keUiXmmnZQHlNZxai6YGefGwA",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJod-29pSaK4gRuiof8G5UtnM",
+         "plus_code" : {
+            "compound_code" : "HP2V+47 Guelph, ON, Canada",
+            "global_code" : "86MXHP2V+47"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJod-29pSaK4gRuiof8G5UtnM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bakery",
+            "meal_takeaway",
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 317,
+         "vicinity" : "295 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4411048,
+               "lng" : -80.50663809999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4422366302915,
+                  "lng" : -80.50516251970849
+               },
+               "southwest" : {
+                  "lat" : 43.4395386697085,
+                  "lng" : -80.50786048029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Oma Fresh Foods",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115965587614776950049\"\u003eOma Fresh Foods\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ26JWD0-fhuknJ4Kcz6ipekMy9s83Xrra9HGc2Z5efbTnfI-KqR4NAR5__OP4jnlxUbsATPdxpnQSPVrwm1lO9K9MBWFgOamu9zTGovPajkZ0rrNRxTrO7zaG_lFoQuCpLMNTLFhiv4K6omsgNRy2zT4zrHJ3ILfknw4Flzbbpf2ax",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJu7pLBDT0K4gRi71i2htmKwc",
+         "plus_code" : {
+            "compound_code" : "CFRV+C8 Kitchener, ON, Canada",
+            "global_code" : "86MXCFRV+C8"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJu7pLBDT0K4gRi71i2htmKwc",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "bakery",
+            "home_goods_store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 348,
+         "vicinity" : "200 Highland Road West, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54866800000001,
+               "lng" : -80.2790677
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5500705802915,
+                  "lng" : -80.27764646970849
+               },
+               "southwest" : {
+                  "lat" : 43.5473726197085,
+                  "lng" : -80.28034443029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Quality Bakery And Deli",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2848,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJQqYaPRyTGU-up0k_coRBwSpwXGc5YcyYEEwk3_YgqHvUoLG_WQusaFRVoRJwEuaGTCfyVtNRDowEp9iwp1EddMdK0vF8n626EqNMduBnaTXkh8P782Wwo8eVHV7MjTRFfYnSboIKk-FZCBD2D7zXuxnQp6knu98Ppx964dAFfOUbb",
+               "width" : 4288
+            }
+         ],
+         "place_id" : "ChIJIffM0QqQK4gRzB97zRFbbL0",
+         "plus_code" : {
+            "compound_code" : "GPXC+F9 Guelph, ON, Canada",
+            "global_code" : "86MXGPXC+F9"
+         },
+         "price_level" : 1,
+         "rating" : 4.5,
+         "reference" : "ChIJIffM0QqQK4gRzB97zRFbbL0",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 67,
+         "vicinity" : "86 Dawson Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.522611,
+               "lng" : -80.289429
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5240487302915,
+                  "lng" : -80.28769661970848
+               },
+               "southwest" : {
+                  "lat" : 43.5213507697085,
+                  "lng" : -80.2903945802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Zehrs",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1707,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIUjwFN7MdVXXhKJDiVPN54p-KbtuthZ-SIuEhYFwdLT6HxBMYelPwmB7vE5GIfbkUxc7-kC28eVBqrnorYCnJ3iwlE7fWKZpz0DMMmMH8qmM4koPsE96MNzo5Vzpl4pNjRdtIBShQU0-pbQXY2RNFqxJsGcQwQO8cMFeZXyHvITWuX",
+               "width" : 3058
+            }
+         ],
+         "place_id" : "ChIJ5-bdZPuPK4gR0m_vbdgRZKM",
+         "plus_code" : {
+            "compound_code" : "GPF6+26 Guelph, ON, Canada",
+            "global_code" : "86MXGPF6+26"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ5-bdZPuPK4gR0m_vbdgRZKM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "pharmacy",
+            "bakery",
+            "food",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1471,
+         "vicinity" : "1045 Paisley Road, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

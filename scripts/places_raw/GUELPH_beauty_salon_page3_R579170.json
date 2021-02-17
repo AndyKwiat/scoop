@@ -1,0 +1,945 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5434132,
+               "lng" : -80.24968199999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5448295802915,
+                  "lng" : -80.24820231970848
+               },
+               "southwest" : {
+                  "lat" : 43.54213161970851,
+                  "lng" : -80.2509002802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Meghan Barbour - brow + beauty",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117767674736857556640\"\u003eMeghan Barbour - brow + beauty\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKzUOcQhuuz-_drpyOqUs2Qz4hH62PG1V-iI9P4tqOd_lIfFFkIK4trPnfW-ui-_gNYpK-in2l0uRUrJ0mDDVVKWSOzrruk4f8c4eDeyRY28kYcjq3S1yky9ZRKIlayFaucFuWxcZQ6renkY7_biPwEE-7usz_blpeHG6ETZentL6h1",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJlSlU3bqaK4gRjGhunwvePBA",
+         "plus_code" : {
+            "compound_code" : "GQV2+94 Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+94"
+         },
+         "rating" : 5,
+         "reference" : "ChIJlSlU3bqaK4gRjGhunwvePBA",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "hair_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 19,
+         "vicinity" : "26 Wilson Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5442392,
+               "lng" : -80.2488578
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5456463802915,
+                  "lng" : -80.2475650197085
+               },
+               "southwest" : {
+                  "lat" : 43.5429484197085,
+                  "lng" : -80.25026298029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Nova Nails & Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1440,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116658351016279212021\"\u003eNova Nails &amp; Spa\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJZYapfdbMgxGK-CntcvUsO3OYB1tj1yvoRRkd8mbV53tsKy3ErDSFaqtHiM9AgTWM_J135rwkAq2mwlEd4sqLNEuut1SNCF9iF7AkIWu4yeCAO0BgVmnk4QKIww_VwRPPUbFVzwLUAdEEE7P-gq-R9Dr_0OT09QYFsDdIb1g4yvqKL",
+               "width" : 1152
+            }
+         ],
+         "place_id" : "ChIJ7Y7fKcKaK4gRl91SpmHbKco",
+         "plus_code" : {
+            "compound_code" : "GQV2+MF Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+MF"
+         },
+         "rating" : 1,
+         "reference" : "ChIJ7Y7fKcKaK4gRl91SpmHbKco",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "39 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5453711,
+               "lng" : -80.2509937
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5468239302915,
+                  "lng" : -80.24967706970848
+               },
+               "southwest" : {
+                  "lat" : 43.5441259697085,
+                  "lng" : -80.2523750302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "THE TEN SPOT guelph",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 587,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104480201842549138488\"\u003eTHE TEN SPOT guelph\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJeL52MArgB4SChSMrex7fZ6e5icQiHugY9Zcamj5xEQ_hoUCS1AVv0RE7nHewMW68HI4KP00B19Rk1-o8fhhvjYYjKfInc6oZBV7sOIHztfKrR62j_sl-wECXY6j3qLdzqd2gdgJwN-4hSjRrFnp2RPo4AXF1TSYZARwj2TRUMJhuw",
+               "width" : 1043
+            }
+         ],
+         "place_id" : "ChIJ4ac1ycGaK4gRI-wgUb6ntLQ",
+         "plus_code" : {
+            "compound_code" : "GPWX+4J Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+4J"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ4ac1ycGaK4gRI-wgUb6ntLQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 294,
+         "vicinity" : "19 Quebec Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5457376,
+               "lng" : -80.24342779999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5471523302915,
+                  "lng" : -80.24187926970849
+               },
+               "southwest" : {
+                  "lat" : 43.5444543697085,
+                  "lng" : -80.2445772302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Butterfly Salon & Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105694773404439658014\"\u003eA Hammoud\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJTWnkfjuSifFaNPQgidrXUlXTRa0jAwyb7NXoWZxOsiw5cnZCe6ePhESozy17gnwBsZpHXasiZfIgTzCQgMcB9FjDGzlUsFQQAOd01oImm1ObBI9wrNK1h5cu5NJN1eGA22tFXy7xXU-Nfr-tA_nvTPeM7qZwzAJiLeb_945wtdVSh",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJfVrC4OmaK4gRahteTMVPAqE",
+         "plus_code" : {
+            "compound_code" : "GQW4+7J Guelph, ON, Canada",
+            "global_code" : "86MXGQW4+7J"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJfVrC4OmaK4gRahteTMVPAqE",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 43,
+         "vicinity" : "150 Wellington Street East Unit 102, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5450395,
+               "lng" : -80.2507925
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5463525302915,
+                  "lng" : -80.24940866970849
+               },
+               "southwest" : {
+                  "lat" : 43.5436545697085,
+                  "lng" : -80.25210663029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Kathleen Sou Hair Artists",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3840,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114621156131476871049\"\u003eRabin Ramah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ8OBnZZsVpKKUo9nP4Hf2FoirCpanazPmboVXiY2AQ2FfXS9IU6kOYCBBq3Wue3R7xPH13IYZPKpJy8XDdejMwaPrFzXmG3AlUih4E_DhQiTlcBce22cmwiWpLk6SeJbOVXCTzYwpCS6r8D27TDJmv5-0_MHiDRNFMAv94BtkAe8Mn",
+               "width" : 2160
+            }
+         ],
+         "place_id" : "ChIJlasyF6Q0K4gRWuHZTVOippk",
+         "plus_code" : {
+            "compound_code" : "GPWX+2M Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+2M"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJlasyF6Q0K4gRWuHZTVOippk",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 27,
+         "vicinity" : "8 Church Lane, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54633,
+               "lng" : -80.24401499999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5475753302915,
+                  "lng" : -80.24275296970849
+               },
+               "southwest" : {
+                  "lat" : 43.5448773697085,
+                  "lng" : -80.2454509302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Butterfly Salon And Spa",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115690988347422747577\"\u003eAdam\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIhbI3G4AUCI28dbTuPHl_6WB0m0DYjG2x-XoQKCzRg4coKVaE2lf1gByHnEGmftMjGzmqIMTYwikKsX7eYNR6ThlLUVVeL88DZ3ShPToDNKjK7dXIQydvOb3zeFxFPWwgcWuZIkWKeM5cyZE1LWFdapRAZxuZ0CxxC0xHEXUX5aKfK",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJbwwNWcyaK4gRhO4wce_AM6Y",
+         "plus_code" : {
+            "compound_code" : "GQW4+G9 Guelph, ON, Canada",
+            "global_code" : "86MXGQW4+G9"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJbwwNWcyaK4gRhO4wce_AM6Y",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 33,
+         "vicinity" : "150 Wellington Street East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54764799999999,
+               "lng" : -80.250359
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5489311802915,
+                  "lng" : -80.24916806970849
+               },
+               "southwest" : {
+                  "lat" : 43.5462332197085,
+                  "lng" : -80.2518660302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Polish'em Nails",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116534380843682585597\"\u003eValentina Zinkevich\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKbLYJyq30bqlYnVBxrPxMFiy3_XpUsFHBPxGCQCmGTgaShJMsQyE1cVSmQqtRbKre513aI86q9-pH5-agZvK8q7zk1QGiq3MQ8Fl9Yj6hr3D60aj5ZFMdr6HtvPMiVdtV6T5iaKPSh2L9e8OocGxCq2yVmH2vS3bRshyxNi167m3zp",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJASVBQOqaK4gR2zfN6GLHm5s",
+         "plus_code" : {
+            "compound_code" : "GPXX+3V Guelph, ON, Canada",
+            "global_code" : "86MXGPXX+3V"
+         },
+         "rating" : 5,
+         "reference" : "ChIJASVBQOqaK4gR2zfN6GLHm5s",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "147 Wyndham Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5479049,
+               "lng" : -80.25331919999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5493121302915,
+                  "lng" : -80.25202276970849
+               },
+               "southwest" : {
+                  "lat" : 43.5466141697085,
+                  "lng" : -80.2547207302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "AFYA Skin and Body Laser Clinic",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115576951119469175070\"\u003eAFYA Skin and Body Laser Clinic\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJQob3CDTq6Qtbmp8qGeWQVQ4nFn6M9xYUQBsbzvEj_RmoTHtNZLbDsTeZGC-jKardPJZdcOMUD9UT_Xm0SM4Gl3_SWGkG7cRK4t0xm3OSNs-ovjPlOXADPH0tNam68wOGUmHFgm6thJrhqHDg_jXcviCcNxI5Y2LC1wXqAv3iN5URS",
+               "width" : 540
+            }
+         ],
+         "place_id" : "ChIJdUDBwOqaK4gRreg14yEPgm8",
+         "plus_code" : {
+            "compound_code" : "GPXW+5M Guelph, ON, Canada",
+            "global_code" : "86MXGPXW+5M"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJdUDBwOqaK4gRreg14yEPgm8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 42,
+         "vicinity" : "17 Suffolk Street East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.53241349999999,
+               "lng" : -80.2598216
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.53367828029149,
+                  "lng" : -80.2583292197085
+               },
+               "southwest" : {
+                  "lat" : 43.53098031970849,
+                  "lng" : -80.26102718029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Aromatic Wholistic Health Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3300,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103972258224830028540\"\u003eAromatic Wholistic Health Spa\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIRqGvuLwZpi2ELZUGWrHazLimIt2KvdwWW23czUj1YBl6CaTfWwpOG4C7i5YUCtjqYR2Y8uvs9oVjlw5Ju-zLFBOoFPN4lX407PKqLyAC0Zcwx5cWwFPmKRd1ZVD3Tj8PJnzcKMoxnK2NjF3OkMABC0jGAqDCu15bJRiretuu3s1tM",
+               "width" : 2200
+            }
+         ],
+         "place_id" : "ChIJo09SBrSaK4gRpsJz-hmR598",
+         "plus_code" : {
+            "compound_code" : "GPJR+X3 Guelph, ON, Canada",
+            "global_code" : "86MXGPJR+X3"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJo09SBrSaK4gRpsJz-hmR598",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 14,
+         "vicinity" : "343 Waterloo Avenue b, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.552102,
+               "lng" : -80.2592478
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.55338583029151,
+                  "lng" : -80.25798741970848
+               },
+               "southwest" : {
+                  "lat" : 43.55068786970851,
+                  "lng" : -80.26068538029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Bare Skin Body Works",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1530,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109134689854535480780\"\u003eBare Skin Body Works\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLcUJJagOcKYWDfM74HsPQFc7QrBqXl0bGO-0sN42mGJmokEbM7-8rw4BWZ0Cw8O_5Cp92NZA0qJvQtAEAQzPBlxVg61BRsLD3ljo3YdI-ep9zQv3sUbGCfc3ANJMK3-grDpqTfI0hsV6Vc0aocwdldBjWUONNHGqFWzNAj0q7hxHzW",
+               "width" : 2774
+            }
+         ],
+         "place_id" : "ChIJuye2jRqbK4gRAxbHWR02wVQ",
+         "plus_code" : {
+            "compound_code" : "HP2R+R8 Guelph, ON, Canada",
+            "global_code" : "86MXHP2R+R8"
+         },
+         "rating" : 5,
+         "reference" : "ChIJuye2jRqbK4gRAxbHWR02wVQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 27,
+         "vicinity" : "379 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5571088,
+               "lng" : -80.2485621
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5584823802915,
+                  "lng" : -80.24762396970848
+               },
+               "southwest" : {
+                  "lat" : 43.5557844197085,
+                  "lng" : -80.25032193029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "First Choice Haircutters",
+         "photos" : [
+            {
+               "height" : 1192,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114304312430755812973\"\u003eFirst Choice Haircutters\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLng2HBCCRiDy9FnyiZQNMrt8gKqoHnkj3DL-wCWsdeItaiLCJs85O1gT57ALdvzBXRbgPto6CH_dL3-ezNiRUZnwnq_GDc4UX6N0JZFJy9nowUri04FlwkiPE-x8zFIQntAu5oNuYtdp9PaPkTWNgVzkaRzrJN3HO-kg9TY7HzPmo",
+               "width" : 2120
+            }
+         ],
+         "place_id" : "ChIJL_V4JPKaK4gRAI8In6eo4E0",
+         "plus_code" : {
+            "compound_code" : "HQ42+RH Guelph, ON, Canada",
+            "global_code" : "86MXHQ42+RH"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJL_V4JPKaK4gRAI8In6eo4E0",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 69,
+         "vicinity" : "265 Eramosa Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5216375,
+               "lng" : -80.23535869999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5229299802915,
+                  "lng" : -80.23393531970851
+               },
+               "southwest" : {
+                  "lat" : 43.5202320197085,
+                  "lng" : -80.23663328029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "EDINBURGH Clinic",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108504686517434455903\"\u003eEDINBURGH Clinic\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKDcuOwNRvkHrMXBsA6Z9xtseOpILvy1ghrKYgsvbu5qoNrDZ_uFOLOqbJz239br-S-beoVONUO5wRjcW99xcNYOTitrbcN7X_E60lzF_PZ33dB8uOKaHdkksbrEL2oOArSguGb4lC41bToCXe00s6bRj9gyllaAu6qEYht9-ZlR3D4",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJCzkV0SuFK4gRhZ47CpYwPic",
+         "plus_code" : {
+            "compound_code" : "GQC7+MV Guelph, ON, Canada",
+            "global_code" : "86MXGQC7+MV"
+         },
+         "rating" : 4,
+         "reference" : "ChIJCzkV0SuFK4gRhZ47CpYwPic",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "pharmacy",
+            "physiotherapist",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 196,
+         "vicinity" : "492 Edinburgh Road South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5517897,
+               "lng" : -80.2255722
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5528712802915,
+                  "lng" : -80.22384451970849
+               },
+               "southwest" : {
+                  "lat" : 43.5501733197085,
+                  "lng" : -80.2265424802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Loft 199 Hair Studio",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100046401575414531944\"\u003eLoft 199 Hair Studio\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIxE3IriihzA0DaE2J-F_Du4tqWnCrgqdrn8ctcKzbByQOMypxudlZ7fvT6vNcjtv-rkN7pFj-sKVlKtPGcGHvaxW4riEm7vjcLOFqh4dwKAnHiUMSwPWaUFKCMn_lk4aPanxzYYMkRcS_NLAjw4gztDS1zBR8r8urr8Os0wejK-hDF",
+               "width" : 1125
+            }
+         ],
+         "place_id" : "ChIJ_QMUZRubK4gRlNQsdNt2_vI",
+         "plus_code" : {
+            "compound_code" : "HQ2F+PQ Guelph, ON, Canada",
+            "global_code" : "86MXHQ2F+PQ"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ_QMUZRubK4gRlNQsdNt2_vI",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 65,
+         "vicinity" : "490 York Road Building D, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.518738,
+               "lng" : -80.23733469999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5199727802915,
+                  "lng" : -80.2358132697085
+               },
+               "southwest" : {
+                  "lat" : 43.5172748197085,
+                  "lng" : -80.23851123029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Trade Secrets | Stone Road Mall",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLZkgnTgLjKOi4EZymqzogRYh4MxcHou8YyLLJWuCsRok-YXIIsj9ySS6bMK3qQiKut-j5rxk3zl0LFXIIYjeRvAkxsi1uBbhpTNBUSEayDfB1JOOYFP0GxhhF3Zbv8LDJi9LZikCDC-EaRg7NCyeG-BIdoUsCUym-KfoLnp9kr-YWp",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJORZeGCmFK4gR0TxOwEMhbxk",
+         "plus_code" : {
+            "compound_code" : "GQ97+F3 Guelph, ON, Canada",
+            "global_code" : "86MXGQ97+F3"
+         },
+         "rating" : 4,
+         "reference" : "ChIJORZeGCmFK4gR0TxOwEMhbxk",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 35,
+         "vicinity" : "Stone Road Mall, 435 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5243803,
+               "lng" : -80.22331389999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5256882802915,
+                  "lng" : -80.22190916970848
+               },
+               "southwest" : {
+                  "lat" : 43.5229903197085,
+                  "lng" : -80.22460713029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Fabutan / Hush Lash Studio",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107393290930414058395\"\u003eFabutan / Hush Lash Studio\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJMLpll5skAA7nkAXTexaJWNQA1PAGWkCtqWu-9u8phmDc7O6fiel6bSHywMoq6NdfBPsk3NjRrjH-_MPoXM0-FN4kr-wroLIIuVgDnc3qpIt9I5CxvtDu18HFuW1E8yuf_S_Zf7RM1njOsCQWFJ9hg5HbfloZ1HiqpU-fVaZQ7TXRH",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJ3zqgpTKbK4gRXHKML4Yh99Y",
+         "plus_code" : {
+            "compound_code" : "GQFG+QM Guelph, ON, Canada",
+            "global_code" : "86MXGQFG+QM"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJ3zqgpTKbK4gRXHKML4Yh99Y",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 26,
+         "vicinity" : "35 Harvard Road Unit 25, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5251665,
+               "lng" : -80.22213839999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5263470802915,
+                  "lng" : -80.22055781970849
+               },
+               "southwest" : {
+                  "lat" : 43.5236491197085,
+                  "lng" : -80.22325578029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Hair Cues",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJF5erINOEK4gREGsJAFL4Bos",
+         "plus_code" : {
+            "compound_code" : "GQGH+34 Guelph, ON, Canada",
+            "global_code" : "86MXGQGH+34"
+         },
+         "reference" : "ChIJF5erINOEK4gREGsJAFL4Bos",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "35 Harvard Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5322664,
+               "lng" : -80.21540069999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5334567802915,
+                  "lng" : -80.21383391970849
+               },
+               "southwest" : {
+                  "lat" : 43.5307588197085,
+                  "lng" : -80.2165318802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "RiverStone Spa and Salon",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJl4hgJTGbK4gRQnWAcVNpYFk",
+         "plus_code" : {
+            "compound_code" : "GQJM+WR Guelph, ON, Canada",
+            "global_code" : "86MXGQJM+WR"
+         },
+         "rating" : 3.3,
+         "reference" : "ChIJl4hgJTGbK4gRQnWAcVNpYFk",
+         "scope" : "GOOGLE",
+         "types" : [
+            "spa",
+            "beauty_salon",
+            "hair_care",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 3,
+         "vicinity" : "32 Bayberry Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5599716,
+               "lng" : -80.27106259999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5614322802915,
+                  "lng" : -80.26956146970849
+               },
+               "southwest" : {
+                  "lat" : 43.5587343197085,
+                  "lng" : -80.2722594302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Skin Studio Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108881692196278981285\"\u003eSkin Studio Spa\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKhRLXvZXUIGjPd5E30f-dpNNc_QzXdyceNzRlR0zMXfhT5POmWHDReMU7j8TA0-5whDyDQED3ElRtPb5M83ncCnNuRdnA31CvUrsXhzSbh3DSVRQyajZTHTFD7YSgaON-XjKqEwiDaNKs33v45NQnnl7bpG4OajnRkWqT4RPXL1KG2",
+               "width" : 6720
+            }
+         ],
+         "place_id" : "ChIJZxKjf4SaK4gRW7zSKQwS1kM",
+         "plus_code" : {
+            "compound_code" : "HP5H+XH Guelph, ON, Canada",
+            "global_code" : "86MXHP5H+XH"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJZxKjf4SaK4gRW7zSKQwS1kM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 68,
+         "vicinity" : "672 Woolwich Street #5, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.56711469999999,
+               "lng" : -80.258697
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5685384802915,
+                  "lng" : -80.2574486697085
+               },
+               "southwest" : {
+                  "lat" : 43.5658405197085,
+                  "lng" : -80.2601466302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Great Clips",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111677980693719688418\"\u003eGreat Clips\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKg2FS1Y5R9yyTqef8jV8zXEteiRyAC8klX8IXjNDCbRerY_plOj3aOHYyMfpG_nkH_22XhlF1KC60zunKibpq-iLPyOVE4FHfedid5fa_ZP8A011z0Dz_CdTUsWLpdTIfcz0icJtRySd19lPPLmVkJZS_UB5NIb2bUSxtv8tMMfUid",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJB2kw1mGaK4gRJxWkAvv4wus",
+         "plus_code" : {
+            "compound_code" : "HP8R+RG Guelph, ON, Canada",
+            "global_code" : "86MXHP8R+RG"
+         },
+         "rating" : 4,
+         "reference" : "ChIJB2kw1mGaK4gRJxWkAvv4wus",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "hair_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 118,
+         "vicinity" : "328 Speedvale Avenue East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5638915,
+               "lng" : -80.27982209999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5651386802915,
+                  "lng" : -80.27861176970848
+               },
+               "southwest" : {
+                  "lat" : 43.5624407197085,
+                  "lng" : -80.2813097302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Julia's nail salon",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 810,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110732086860792967570\"\u003eJulia&#39;s nail salon\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKN7gJ00qwP4sErxNc_TUtTayjD1jWCzOCWSqGXE9HZjfJlWY4YNbfWvWFJCyPSp5jLCY_-bVq1O7dV3IhRHUlmRhjRy44a2wsPtSh-ixmQ8uhOIp86sZzOlHjCndh-9-ZUjchsRHfIIoNpH6_mOLHPsH18bk2zsPJKn6hxFk1f3Y8",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJiQeQ2X6QK4gRvxjQrM98rwk",
+         "plus_code" : {
+            "compound_code" : "HP7C+H3 Guelph, ON, Canada",
+            "global_code" : "86MXHP7C+H3"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJiQeQ2X6QK4gRvxjQrM98rwk",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 110,
+         "vicinity" : "27 Woodlawn Road West, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

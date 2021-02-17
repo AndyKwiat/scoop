@@ -1,0 +1,760 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5026956,
+               "lng" : -80.18790969999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.50408468029149,
+                  "lng" : -80.18639326970849
+               },
+               "southwest" : {
+                  "lat" : 43.5013867197085,
+                  "lng" : -80.1890912302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Guelph Public Library - Westminster Square Branch",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108802005084952161198\"\u003eGuelph Public Library - Westminster Square Branch\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKE8mjJcIhMjMN_gPEOgoG7CvEl5YGs638va8XfpEjJ7HgdzMNhKH3c7YD2Ef06-0Yfb2Rn-6T-4G7N2jaiaRbXG-R5f9am-Bior2054rcdoAJEmCRJ-Y0Ju7qKw6XK0UMNEy0ejwRJ_t5ff04OOScT57iTGUEfvbVowR3gVK21i_Kr",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJG6Ms_J-EK4gRdawY690mu0Q",
+         "plus_code" : {
+            "compound_code" : "GR36+3R Guelph, ON, Canada",
+            "global_code" : "86MXGR36+3R"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJG6Ms_J-EK4gRdawY690mu0Q",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 83,
+         "vicinity" : "31 Farley Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4320116,
+               "lng" : -80.4452991
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4334683802915,
+                  "lng" : -80.44388376970851
+               },
+               "southwest" : {
+                  "lat" : 43.4307704197085,
+                  "lng" : -80.44658173029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Unity Canada",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJj7bAjCiLK4gRTV-CWWnneyo",
+         "plus_code" : {
+            "compound_code" : "CHJ3+RV Kitchener, ON, Canada",
+            "global_code" : "86MXCHJ3+RV"
+         },
+         "rating" : 5,
+         "reference" : "ChIJj7bAjCiLK4gRTV-CWWnneyo",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "library",
+            "book_store",
+            "church",
+            "place_of_worship",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 2,
+         "vicinity" : "2631 Kingsway Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4066778,
+               "lng" : -80.46957669999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4081821802915,
+                  "lng" : -80.46830116970848
+               },
+               "southwest" : {
+                  "lat" : 43.40548421970851,
+                  "lng" : -80.4709991302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Library Services Centre The",
+         "place_id" : "ChIJsVzrLkT1K4gRdBQR0E0bHj4",
+         "plus_code" : {
+            "compound_code" : "CG4J+M5 Kitchener, ON, Canada",
+            "global_code" : "86MXCG4J+M5"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJsVzrLkT1K4gRdBQR0E0bHj4",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5,
+         "vicinity" : "131 Shoemaker Street, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.51496789999999,
+               "lng" : -80.2378399
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5163949802915,
+                  "lng" : -80.23637566970849
+               },
+               "southwest" : {
+                  "lat" : 43.5136970197085,
+                  "lng" : -80.23907363029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Guelph Public Library - Scottsdale Branch",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2992,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107544429784052806596\"\u003eGuelph Public Library - Scottsdale Branch\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI36CJYa5qXm8bUWIYIiytolQwnc4tkXC1pSdLigsYRcqVryjQNYxqsb96zqHwBSPyX9E_faKI5pQ-KOyclTdQJDjv13dSLZskBaTc71eRyR6dkgnRhwhFga4-U7RePJK90hIMK6lVA_lBTbqvKVl22RT-zy-wBcv4ApTGqUguqf9Ir",
+               "width" : 2992
+            }
+         ],
+         "place_id" : "ChIJKy_P1SWFK4gRMyTYhqWX_cs",
+         "plus_code" : {
+            "compound_code" : "GQ76+XV Guelph, ON, Canada",
+            "global_code" : "86MXGQ76+XV"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJKy_P1SWFK4gRMyTYhqWX_cs",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 21,
+         "vicinity" : "650 Scottsdale Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5367969,
+               "lng" : -80.2437587
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5382193302915,
+                  "lng" : -80.24251191970851
+               },
+               "southwest" : {
+                  "lat" : 43.5355213697085,
+                  "lng" : -80.24520988029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116991808348056120226\"\u003eDan Cullen\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLctWguyN2hb23PDxX-JhUt6tIJkmV9c1JwVdOMudEPknc2yLevGNiAwH9T-pXwtHf2asW3kAc7CfEXDqctveu_ix9V-heZOSs6itpjanze1JsShC8mKvi3--u1VgghTL4mWW-qlYAejyc7FyOtC9TTo6E76SFYApYb0iK-wIYWjBbw",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJm-REaBmbK4gRpHoN572Ga1k",
+         "plus_code" : {
+            "compound_code" : "GQP4+PF Guelph, ON, Canada",
+            "global_code" : "86MXGQP4+PF"
+         },
+         "reference" : "ChIJm-REaBmbK4gRpHoN572Ga1k",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "80 Water Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54472,
+               "lng" : -80.250878
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54597073029151,
+                  "lng" : -80.24973126970849
+               },
+               "southwest" : {
+                  "lat" : 43.54327276970851,
+                  "lng" : -80.2524292302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Guelph International Resource Centre",
+         "place_id" : "ChIJb0nPqMGaK4gRLz05a-kUmaU",
+         "plus_code" : {
+            "compound_code" : "GPVX+VJ Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+VJ"
+         },
+         "reference" : "ChIJb0nPqMGaK4gRLz05a-kUmaU",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "75 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5522871,
+               "lng" : -80.24578869999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.55354233029151,
+                  "lng" : -80.24456831970848
+               },
+               "southwest" : {
+                  "lat" : 43.55084436970851,
+                  "lng" : -80.2472662802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Free Little Library",
+         "place_id" : "ChIJo71SJAibK4gRNZ6UzTxVfnc",
+         "plus_code" : {
+            "compound_code" : "HQ23+WM Guelph, ON, Canada",
+            "global_code" : "86MXHQ23+WM"
+         },
+         "reference" : "ChIJo71SJAibK4gRNZ6UzTxVfnc",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "37 Stuart Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5536033,
+               "lng" : -80.2433492
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.55488718029149,
+                  "lng" : -80.24190631970849
+               },
+               "southwest" : {
+                  "lat" : 43.5521892197085,
+                  "lng" : -80.2446042802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Free Little Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116991808348056120226\"\u003eDan Cullen\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK5SJh0JnnWeSF-RfccHvQ_PiRiUgn3-v_QCdOy_9jzn-DMb6_D9JO4TOdgb6h4m5vyoukqf0B77LGh8I1e2OHFVGkPCJZrPypROb2Qzq7L3LFf8i80JEJSBzC5qbD2khlfI-lYDchF7yA3s1205qlgg1JoH6sS7u2xF6kINtqWCjgY",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJldfJj-2bK4gRbMHQ4wT2aS4",
+         "plus_code" : {
+            "compound_code" : "HQ34+CM Guelph, ON, Canada",
+            "global_code" : "86MXHQ34+CM"
+         },
+         "reference" : "ChIJldfJj-2bK4gRbMHQ4wT2aS4",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "160 Palmer Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.55279170000001,
+               "lng" : -80.2544121
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5541713802915,
+                  "lng" : -80.2530025697085
+               },
+               "southwest" : {
+                  "lat" : 43.5514734197085,
+                  "lng" : -80.25570053029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Vinyl Swap Box",
+         "place_id" : "ChIJFWjXBxybK4gRha_CYPzW6RM",
+         "plus_code" : {
+            "compound_code" : "HP3W+46 Guelph, ON, Canada",
+            "global_code" : "86MXHP3W+46"
+         },
+         "reference" : "ChIJFWjXBxybK4gRha_CYPzW6RM",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "250 Arthur Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.528104,
+               "lng" : -80.27283539999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5295348802915,
+                  "lng" : -80.27135176970849
+               },
+               "southwest" : {
+                  "lat" : 43.5268369197085,
+                  "lng" : -80.27404973029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Cameron Castle Little Free Library",
+         "place_id" : "ChIJ1czfuMqFK4gRJVkLYlErTDk",
+         "plus_code" : {
+            "compound_code" : "GPHG+6V Guelph, ON, Canada",
+            "global_code" : "86MXGPHG+6V"
+         },
+         "reference" : "ChIJ1czfuMqFK4gRJVkLYlErTDk",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "55 Castlebury Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5018388,
+               "lng" : -80.2918949
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5031657302915,
+                  "lng" : -80.2905149197085
+               },
+               "southwest" : {
+                  "lat" : 43.5004677697085,
+                  "lng" : -80.29321288029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little free library",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100280888183386660029\"\u003em\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJrbgu0PwJfjhGowcVhA8Wr8tcilQKSrWw2NEvdqPo5v_iePG9iGr-6qFThpkMzag_DpgGPWqmz3jSY7gUsRyUl6e_8JH2XHm_zu8Cgf0anMU8l0v4jJM0RSQk4lSoFCL7vEFTE96MbPA-8NbxEi57sbYIN6QgkOnqPB3N8U5X8BrC1",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ7S6ZEjyPK4gR_ZyYJsoa5q0",
+         "plus_code" : {
+            "compound_code" : "GP25+P6 Guelph, ON, Canada",
+            "global_code" : "86MXGP25+P6"
+         },
+         "reference" : "ChIJ7S6ZEjyPK4gR_ZyYJsoa5q0",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "7050 Fife Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4712031,
+               "lng" : -80.15060030000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4725960302915,
+                  "lng" : -80.1493075197085
+               },
+               "southwest" : {
+                  "lat" : 43.4698980697085,
+                  "lng" : -80.15200548029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Wellington County Library, Puslinch Branch",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJR6nxKK6DK4gR3rmn2tsewLM",
+         "plus_code" : {
+            "compound_code" : "FRCX+FQ Guelph, ON, Canada",
+            "global_code" : "86MXFRCX+FQ"
+         },
+         "rating" : 5,
+         "reference" : "ChIJR6nxKK6DK4gR3rmn2tsewLM",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3,
+         "vicinity" : "36 Wellington 46, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.62111069999999,
+               "lng" : -80.1487413
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6227115302915,
+                  "lng" : -80.14791091970851
+               },
+               "southwest" : {
+                  "lat" : 43.6200135697085,
+                  "lng" : -80.15060888029153
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Eramosa Community Library",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJUxcAyPCeK4gRM_lBRUIFMDM",
+         "plus_code" : {
+            "compound_code" : "JVC2+CG Guelph/Eramosa, ON, Canada",
+            "global_code" : "86MXJVC2+CG"
+         },
+         "reference" : "ChIJUxcAyPCeK4gRM_lBRUIFMDM",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "85 Christie Street, Guelph/Eramosa"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4358517,
+               "lng" : -80.30245049999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4372805302915,
+                  "lng" : -80.3010062197085
+               },
+               "southwest" : {
+                  "lat" : 43.4345825697085,
+                  "lng" : -80.3037041802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJW0iWeuqIK4gRLJ1VayUN8pw",
+         "plus_code" : {
+            "compound_code" : "CMPX+82 Cambridge, ON, Canada",
+            "global_code" : "86MXCMPX+82"
+         },
+         "reference" : "ChIJW0iWeuqIK4gRLJ1VayUN8pw",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "27-17 Renwick Avenue, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4377697,
+               "lng" : -80.3126539
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4391372802915,
+                  "lng" : -80.3111939697085
+               },
+               "southwest" : {
+                  "lat" : 43.4364393197085,
+                  "lng" : -80.31389193029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJR3Tted2IK4gR5wgNMmliDPg",
+         "plus_code" : {
+            "compound_code" : "CMQP+4W Cambridge, ON, Canada",
+            "global_code" : "86MXCMQP+4W"
+         },
+         "rating" : 1,
+         "reference" : "ChIJR3Tted2IK4gR5wgNMmliDPg",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "210-170 Guelph Avenue, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.43286049999999,
+               "lng" : -80.3083687
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4341469302915,
+                  "lng" : -80.30691056970849
+               },
+               "southwest" : {
+                  "lat" : 43.4314489697085,
+                  "lng" : -80.30960853029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Hespeler Village Free Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102818334540433643036\"\u003eElf Brown\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLnUsvfc4CUWEyArSMP215ndbKtru4MNNNVHFbdCbrVVcYXJceVRbgTzaLXvbZufTogbc3LrmGUqS6ksoWRAzlrfMlMHlNww9mx0p0Oqh62EB36y2Jr-GX4tS33pmyvLdnEe8KvP-Tx5cJ6NQrFvxFKEmGnw_Cd0-Q54i4V_ixpyXSm",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJvxc1xOiIK4gRljOxDeB16ew",
+         "plus_code" : {
+            "compound_code" : "CMMR+4M Cambridge, ON, Canada",
+            "global_code" : "86MXCMMR+4M"
+         },
+         "reference" : "ChIJvxc1xOiIK4gRljOxDeB16ew",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "73 Queen Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4312372,
+               "lng" : -80.3031663
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4325277302915,
+                  "lng" : -80.30184371970849
+               },
+               "southwest" : {
+                  "lat" : 43.4298297697085,
+                  "lng" : -80.30454168029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJHaMvc-yIK4gRvLdkGqOe2-w",
+         "plus_code" : {
+            "compound_code" : "CMJW+FP Cambridge, ON, Canada",
+            "global_code" : "86MXCMJW+FP"
+         },
+         "rating" : 1,
+         "reference" : "ChIJHaMvc-yIK4gRvLdkGqOe2-w",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "123 Cooper Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.43087269999999,
+               "lng" : -80.3097133
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4321571802915,
+                  "lng" : -80.3082461197085
+               },
+               "southwest" : {
+                  "lat" : 43.4294592197085,
+                  "lng" : -80.31094408029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Idea Exchange | Hespeler",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3002,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106170774927124244273\"\u003eChristine Ferrari\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKy_tzIwWd7ntbPSLXwhdFMAbOX3p0KjCHGlmh4arA91dzNzQVsNlPiPRe0V7Q2OTtuv0poSsNmABK1cxcc6ubttYBZD1Py8H_xsQwqaWVbfiUnFv9CdnltECpWNIuxg0Ot-wuIkrhLA1j61BYq-v7QlMYjU7WUoEdgj28GW0zQ8VW8",
+               "width" : 4002
+            }
+         ],
+         "place_id" : "ChIJew8eZ--IK4gR3oX19jJdkRo",
+         "plus_code" : {
+            "compound_code" : "CMJR+84 Cambridge, ON, Canada",
+            "global_code" : "86MXCMJR+84"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJew8eZ--IK4gR3oX19jJdkRo",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 35,
+         "vicinity" : "5 Tannery Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4274833,
+               "lng" : -80.3091965
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.42887708029149,
+                  "lng" : -80.30795481970848
+               },
+               "southwest" : {
+                  "lat" : 43.4261791197085,
+                  "lng" : -80.31065278029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102818334540433643036\"\u003eElf Brown\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK_PL0K-l-Z86kP09btno11NXdnO0DPN3joryCZ5-75eYAuCea3swJyoYGqGV5edvLmBeBDM-X1AvJjO_EWGIWaUlUmUU_QsqVIjyAmf6NqDj6sPHK7jUl9_CVfn-m2MznjCQ2Q6W-2omMRVxAZ8ovEwcFseoBQnuQ3FpLrw1FYSgvm",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJCcM-4u-IK4gRA8LGiKGY7yA",
+         "plus_code" : {
+            "compound_code" : "CMGR+X8 Cambridge, ON, Canada",
+            "global_code" : "86MXCMGR+X8"
+         },
+         "reference" : "ChIJCcM-4u-IK4gRA8LGiKGY7yA",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "74, 12 Bergey Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6564903,
+               "lng" : -80.33200529999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6578063302915,
+                  "lng" : -80.3306104697085
+               },
+               "southwest" : {
+                  "lat" : 43.65510836970851,
+                  "lng" : -80.33330843029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Ennottville Library",
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116991808348056120226\"\u003eDan Cullen\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJzwllPG8k2BeIcoCftTfdx9QnQgUDJPff6HF7Xc-GgYDGLI-vjRufZZZPU3fwPJuPsHvYFPDfLXE250HmZr9jNopTOpNhCpUA06xtEEfZ3-_-jqYZ97JOmPAeMRpuRAC4sUVgXzKfVCG4BEZF--J9jBZAZZFqq8KrebagD8Glln7hm",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJpeqdY9uXK4gRUdnDyEsSP08",
+         "plus_code" : {
+            "compound_code" : "MM49+H5 Centre Wellington, ON, Canada",
+            "global_code" : "86MXMM49+H5"
+         },
+         "rating" : 5,
+         "reference" : "ChIJpeqdY9uXK4gRUdnDyEsSP08",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "6 Line, Centre Wellington"
+      }
+   ],
+   "status" : "OK"
+}

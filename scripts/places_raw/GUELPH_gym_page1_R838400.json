@@ -1,0 +1,885 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwJKwY0uI8qr_bYg5eerbC6ZtJ_AWuj9tPWmH_-q-F7tM0U5RBx0J451X5XhIDw1DRMgX4dU8OwzxWu-mrkgtk_KT0bzZ7Aq0BtW0nP3JxCWRq0FPC7AySn4_QPGf0j_FqVIWvkDI57JYEHl9z0aYbl7VHXNzxwLIMjrDL_LLMWpwWzAlnvrFvViNJ65vN9uNYE_DdzIodS1MWMOYhqD7tGPS97tO2aBn5-7D_tmDfDxWU61jx4LrdUGa8Pn4qslIRD_NhkR8BPzA_U_OPwQRbjmvZio_irA9iZxcLNvmaCZ-XXALXqQwu7S-G8IZ951FPAvmmsrfy666h1Vr7BeKyPHJ5LiEyYv1Ypx43BxLX-yBAInnzdCAO1QMuxvKACX2682WbxrkC26ut_OGcjxvNwaki04HrChmWQKIgrXImWkXLt0c2A",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4576739,
+               "lng" : -80.4866167
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45891913029151,
+                  "lng" : -80.4852029697085
+               },
+               "southwest" : {
+                  "lat" : 43.45622116970851,
+                  "lng" : -80.4879009302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "LA Fitness",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114745517509848944633\"\u003eDan Locking\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI_iKsDCNIRfbfQnQugaKgWliU-76PUidOZW-5ZEFCwEuBTvNzFZiddaGC_btqfAKl-d9lb9EDSbK2S8jWcAM4WSJzyAWcM3pZ9hJjV3FI40sNa_Mea3T3ZRiaH3yr6QvmA19J0ZI1qjbV8bbEaBeHMPBUnslG_h5nEG0Uynk8urHk1",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJVZEA85H0K4gR9FqJTn97ADM",
+         "plus_code" : {
+            "compound_code" : "FG57+39 Kitchener, ON, Canada",
+            "global_code" : "86MXFG57+39"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJVZEA85H0K4gR9FqJTn97ADM",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 250,
+         "vicinity" : "264 Victoria Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4000093,
+               "lng" : -80.3608842
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4012742802915,
+                  "lng" : -80.35961786970849
+               },
+               "southwest" : {
+                  "lat" : 43.3985763197085,
+                  "lng" : -80.36231583029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "TLC Services",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 664,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103579143892216710048\"\u003eTLC Services\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLgU2mRW70fxAV5k1WyrDSW2CoWOjchElnj2J5F1oig6FeaRVEnf_9x7bhkN04dWgHGtcdg3xxRAAHF1-73dCNyKInwpkhW7RseOoODlgpknH5rN40RVTBfS2JrDy1OFO-O9Yers8QxqGhkJzCfWZmTmE-ZN13QtQE-cFAxOzvrQREC",
+               "width" : 290
+            }
+         ],
+         "place_id" : "ChIJs7eRdPSJK4gRGxAxXdtLl3Q",
+         "plus_code" : {
+            "compound_code" : "CJ2Q+2J Cambridge, ON, Canada",
+            "global_code" : "86MXCJ2Q+2J"
+         },
+         "rating" : 5,
+         "reference" : "ChIJs7eRdPSJK4gRGxAxXdtLl3Q",
+         "scope" : "GOOGLE",
+         "types" : [ "school", "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4,
+         "vicinity" : "333 William Street, Cambridge"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.41726,
+               "lng" : -80.30855
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4186732802915,
+                  "lng" : -80.3071357197085
+               },
+               "southwest" : {
+                  "lat" : 43.4159753197085,
+                  "lng" : -80.3098336802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Anytime Fitness",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113735449809089386315\"\u003eDwayne LugNutz\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJtjGt8bP21unnvF3oEPJ3dLDNh2R26rzCXkZZeJm2mIYZxIdmSlVZiXywtl9GQHpXZsA75YbjXWlXCLPNfdX3KIV57LAHccB3huvhkGrTq5yKRs68ZrJ2dwSwTj0Um6Wf-SmjQTFX1Nj_OVUO-DhbHOh3Zt_jcMrjuA6VsMZu5gsV7",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJOThocliIK4gRvCxcOrHnccc",
+         "plus_code" : {
+            "compound_code" : "CM8R+WH Cambridge, ON, Canada",
+            "global_code" : "86MXCM8R+WH"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJOThocliIK4gRvCxcOrHnccc",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 61,
+         "vicinity" : "100 Jamieson Parkway, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.404443,
+               "lng" : -80.329015
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.40541538029149,
+                  "lng" : -80.32753731970848
+               },
+               "southwest" : {
+                  "lat" : 43.4027174197085,
+                  "lng" : -80.3302352802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "GoodLife Fitness Cambridge Hespeler and Eagle",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110411279750875748038\"\u003eFerocity\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJdfuyMxszOlMAbjx78tymsGklzjT-XAlw3jOzF3O_9MImHOURgNbQ9ve56rbovvhrDrJtHdk5imiq-nKNvZMkQ2AKCKph3lLIrmZHtkq8mDZHVLfDHkPLUoyu5MSZ5USTCAPKyE3u_ZGYZp7pNV4yPQEvLqD9Va4TkLYbHMN1je__P",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJxUWNq7aJK4gRJeCk5cSRT30",
+         "plus_code" : {
+            "compound_code" : "CM3C+Q9 Cambridge, ON, Canada",
+            "global_code" : "86MXCM3C+Q9"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJxUWNq7aJK4gRJeCk5cSRT30",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 190,
+         "vicinity" : "600 Hespeler Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4326611,
+               "lng" : -80.4706126
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.43386703029149,
+                  "lng" : -80.46922476970849
+               },
+               "southwest" : {
+                  "lat" : 43.4311690697085,
+                  "lng" : -80.4719227302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "A.R. Kaufman Family YMCA",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1365,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115287258001226359792\"\u003eA.R. Kaufman Family YMCA\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJmqXGpB2PUVYtHAVFdcGnsJvPKe9ZNCVofojVm7Aq13316zaWYwUxp_lBX3-JFvbsUc0BPSGMl0RXn-hVQzUcw-ZTyv4Q7Mc_DO3iVR6qzMCLLBvNypF37PKVvm0lxzYFcYgd_Mu_q2DntsUJZdcy_ApVHFYM39Ss2SDnr7XM3vYNZ",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJv82zw9j0K4gR5VuSjSpwRdQ",
+         "plus_code" : {
+            "compound_code" : "CGMH+3Q Kitchener, ON, Canada",
+            "global_code" : "86MXCGMH+3Q"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJv82zw9j0K4gR5VuSjSpwRdQ",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 379,
+         "vicinity" : "333 Carwood Avenue, Kitchener"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.35863459999999,
+               "lng" : -80.31260449999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3601043802915,
+                  "lng" : -80.31125396970849
+               },
+               "southwest" : {
+                  "lat" : 43.3574064197085,
+                  "lng" : -80.31395193029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Crunch Fitness - Galt",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 962,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110459187043969083444\"\u003eCrunch Fitness - Galt\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJjQFwYI9cKKU5C_8HSUzeHbB0HZRBlou05qYZdWoZJ6RXqnvmCFuvczC3-xx0117UwM9cK0YVpV3rKpQ_HAyizdDWf341wV8f_iGJnR3o3k0tadJIf0PmTJwPEEoo87Tsl-7YtCyqfPMjXuxBpiYwp_pVgVVD9q8XEKapOtHVzKtV1",
+               "width" : 1710
+            }
+         ],
+         "place_id" : "ChIJOb3lUbZ3LIgR06XFTikUtik",
+         "plus_code" : {
+            "compound_code" : "9M5P+FX Cambridge, ON, Canada",
+            "global_code" : "86MX9M5P+FX"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJOb3lUbZ3LIgR06XFTikUtik",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 221,
+         "vicinity" : "89 Main Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.480175,
+               "lng" : -80.520005
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.48141633029149,
+                  "lng" : -80.5188618697085
+               },
+               "southwest" : {
+                  "lat" : 43.4787183697085,
+                  "lng" : -80.52155983029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "GoodLife Fitness Waterloo Weber and University",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112685484313083085435\"\u003eRana Mohiuddin\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJhJbhRV83HHVjzt1kL0M74w_7AnRaGfhKiKec4ljEtB8_3hmBbQw6ODjsyrCmwvWwU8MeiV8vjFZs1InSJJ8bU9JJ6xDNnViJ9segqHzlo2tvnaIFz0SqbdrgK1lFD6T2e9PVdOVRXJd6fZy1NL313Kg-sRGhL_XkPkT94413w1XD8",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJe8S0sYzzK4gRYCyPgK_oJy0",
+         "plus_code" : {
+            "compound_code" : "FFJH+3X Waterloo, ON, Canada",
+            "global_code" : "86MXFFJH+3X"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJe8S0sYzzK4gRYCyPgK_oJy0",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 462,
+         "vicinity" : "270 Weber Street North, Waterloo"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5247884,
+               "lng" : -80.22626629999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5262559802915,
+                  "lng" : -80.2247666197085
+               },
+               "southwest" : {
+                  "lat" : 43.5235580197085,
+                  "lng" : -80.22746458029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Movati Athletic",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 315,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111350225649617996536\"\u003eMovati Athletic\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJZIVMSDwkwJfmIVtjlf5g0HzKUGYlboFv4CIDEfWCZ3JWAz9u3p0dYUQILLHwQKIPiAyQeuj8BRHJ9rJmBbWIrdZGDTzKt-bUMYj0M3zaZn6MrCEktUaash34GbdQqQfHb_Eumb6FYieQdD0G42onAyIOdc6UIkEXPm0KBEGMu1FP9",
+               "width" : 851
+            }
+         ],
+         "place_id" : "ChIJCfIerNSEK4gR6Qg4243RJOc",
+         "plus_code" : {
+            "compound_code" : "GQFF+WF Guelph, ON, Canada",
+            "global_code" : "86MXGQFF+WF"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJCfIerNSEK4gR6Qg4243RJOc",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 176,
+         "vicinity" : "80 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.41771079999999,
+               "lng" : -80.4998234
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4190461802915,
+                  "lng" : -80.49858136970849
+               },
+               "southwest" : {
+                  "lat" : 43.4163482197085,
+                  "lng" : -80.50127933029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Anytime Fitness",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3648,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117646990550076286877\"\u003eAnytime Fitness\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLpkTa_V0QFR7Vcb1RULI2c8STYT8vmNbOKG6QAc9qf8I_ZK3IIy1qsmqlH8gk3EY7CvZ33JBKLEowZLNw-xQ8UaGrU_Ym3C_Fzt4dJUM652cwf0meK9x0RLFjCL4yVDsH6q096k_Ki3AyiQcLV0avwDSSZh4lWUxzR11Ul53uiOPeW",
+               "width" : 5472
+            }
+         ],
+         "place_id" : "ChIJhyQX9qD1K4gRg2Uk4HFVztI",
+         "plus_code" : {
+            "compound_code" : "CG92+33 Kitchener, ON, Canada",
+            "global_code" : "86MXCG92+33"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJhyQX9qD1K4gRg2Uk4HFVztI",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 186,
+         "vicinity" : "720 Westmount Road East, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.419585,
+               "lng" : -80.44749899999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4206553802915,
+                  "lng" : -80.4461949697085
+               },
+               "southwest" : {
+                  "lat" : 43.4179574197085,
+                  "lng" : -80.44889293029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "GoodLife Fitness Kitchener Fairway Plaza",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118039606552238603950\"\u003eNathan Alexander\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJZbyIuxbOn6hB-5uaw4t1pj3t0SWeG_qisTm5wZAsw4AlKBFZjHjpAyYURlpLdNxYhAOhXEdADQfXVXu80NUpgN4WDo6uFHU9cBKeDCwdgKLcRVHWfu80cuJKK8Bvn31HTMT4OJs8GSOOoUI8XTmVtqjjOmFATDEvirnaWQxyXpaSK",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJLyK7m82KK4gRC_-rn4EkUuA",
+         "plus_code" : {
+            "compound_code" : "CH93+R2 Kitchener, ON, Canada",
+            "global_code" : "86MXCH93+R2"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJLyK7m82KK4gRC_-rn4EkUuA",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 168,
+         "vicinity" : "589 Fairway Road South, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4417429,
+               "lng" : -80.47509119999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4430214802915,
+                  "lng" : -80.47358396970849
+               },
+               "southwest" : {
+                  "lat" : 43.4403235197085,
+                  "lng" : -80.47628193029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Grand River Rocks Kitchener",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 683,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110356740784030739260\"\u003eGrand River Rocks Kitchener\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLSpIsZEt1wP3N_l9xeu-7rp-I6XX6OD6VDpzXRF1ar2gmKSKRLQzi76rthosNE1E8I3au3LMJuCyxO1cgdH8i5X3AUQtc8AaCC41fHGUBVbzDkES9bp8zWD2RkVkHiXx9tXokoPTxfwdiecRM_vJhe9kcVWDw0FuV3e1hx94CjpNRk",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJP7da18L0K4gRIrXUYIrUmCA",
+         "plus_code" : {
+            "compound_code" : "CGRF+MX Kitchener, ON, Canada",
+            "global_code" : "86MXCGRF+MX"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJP7da18L0K4gRIrXUYIrUmCA",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 313,
+         "vicinity" : "50 Borden Avenue South #1, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5187946,
+               "lng" : -80.5032753
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5200290302915,
+                  "lng" : -80.5015878197085
+               },
+               "southwest" : {
+                  "lat" : 43.5173310697085,
+                  "lng" : -80.50428578029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Krav Maga Waterloo",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113918850856436679312\"\u003ePavol Chvala\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKzVH0qRM9JxRBNQt_M2ocroDLQJYyRVzidheFo2TscFkKOf5JvIakVEgbMKdkCFNQoBpukGPemO7NTgxjZ8vNsoS5_isLJqjloRg2BFN4B1hnFhzJacjquWyF06SKJVHzoZt5STrqIN5_-KdmIqingD_OJGQXjIOB5NXdtZ3RFOMNn",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ1bqRoMrzK4gRuy0Id9vnm5w",
+         "plus_code" : {
+            "compound_code" : "GF9W+GM Waterloo, ON, Canada",
+            "global_code" : "86MXGF9W+GM"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ1bqRoMrzK4gRuy0Id9vnm5w",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 11,
+         "vicinity" : "2001 University Avenue East Suite 101, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.38614750000001,
+               "lng" : -80.32209039999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3873307802915,
+                  "lng" : -80.32043461970849
+               },
+               "southwest" : {
+                  "lat" : 43.3846328197085,
+                  "lng" : -80.3231325802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Chaplin Family YMCA",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109783220108686827744\"\u003eHeli Xu\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJPgvnzD8ZhT68LBxFxEGIKsnGh4K3HK7BxT_Q0XZpwQ9HsYij48DJitOnjJNAdHVUSLl-X_KXKD8HC3nkMaCEhjIkPcQRjoqYDRV8uViPEe6t8YQNd1BTCW_Qlr0gkcYldDhbQ16gw9NC2f_cRpEl2qUSMG5h9OZmJBbGoXqJSxlU",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJ02p5M9OJK4gRN-JWyciLmik",
+         "plus_code" : {
+            "compound_code" : "9MPH+F5 Cambridge, ON, Canada",
+            "global_code" : "86MX9MPH+F5"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ02p5M9OJK4gRN-JWyciLmik",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 360,
+         "vicinity" : "250 Hespeler Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5780715,
+               "lng" : -80.31120299999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5792300802915,
+                  "lng" : -80.30959161970848
+               },
+               "southwest" : {
+                  "lat" : 43.5765321197085,
+                  "lng" : -80.31228958029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Marden",
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113859084489964137158\"\u003eAnita Orosz\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLiy8MppBy0ugPyBpMMZvoFsXhBNf2ZXKdxjuuM-dny5Z-zoFawQ_VDACcpRMSstzzgluaIaWmBxTfpMxhn3147STPi9SkZSfQrgXhqDwNH9ZRH-sPJ9Bp1rmd9DZzBz3mPlhqkBZkx30fBHVO-pWUzd1QiGGTWXJnNK_IhIkX5zEjV",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJI4VwLOuQK4gRqOCVLf9lFNU",
+         "plus_code" : {
+            "compound_code" : "HMHQ+6G Guelph, ON, Canada",
+            "global_code" : "86MXHMHQ+6G"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJI4VwLOuQK4gRqOCVLf9lFNU",
+         "scope" : "GOOGLE",
+         "types" : [
+            "gym",
+            "local_government_office",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 12,
+         "vicinity" : "7384 Wellington County Road 30, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4703346,
+               "lng" : -80.53244220000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4717491302915,
+                  "lng" : -80.5311661197085
+               },
+               "southwest" : {
+                  "lat" : 43.4690511697085,
+                  "lng" : -80.53386408029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Granite Club Rink In the Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3862,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110986008248794270593\"\u003eSteve H\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLF8_nC7RSQKCqB6PEayMZ_u6J0KmmoKFSasKp_0I5JGSnyMtTBcHqQ0l6-L4mR1c_O4kFAwVsfJ2jsaqp51LQkadlFOY9I_ObNZFwpimnoT7d6KwKLkoitnKHmlzhlmt1nAyUCf_hlBWJrsaB-gGJF_HS9azvteNmtmCVCeG7KOhfz",
+               "width" : 5808
+            }
+         ],
+         "place_id" : "ChIJEX0a_gX0K4gRN-_peIFXIgU",
+         "plus_code" : {
+            "compound_code" : "FFC9+42 Waterloo, ON, Canada",
+            "global_code" : "86MXFFC9+42"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJEX0a_gX0K4gRN-_peIFXIgU",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 57,
+         "vicinity" : "99 Seagram Drive, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4593848,
+               "lng" : -80.51770549999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.46070723029149,
+                  "lng" : -80.51631121970848
+               },
+               "southwest" : {
+                  "lat" : 43.4580092697085,
+                  "lng" : -80.5190091802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Run For Life Inc",
+         "place_id" : "ChIJ_2CddWz0K4gR53395KxDUCo",
+         "plus_code" : {
+            "compound_code" : "FF5J+QW Waterloo, ON, Canada",
+            "global_code" : "86MXFF5J+QW"
+         },
+         "reference" : "ChIJ_2CddWz0K4gR53395KxDUCo",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "2 John Street West, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.500564,
+               "lng" : -80.18619799999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5020586302915,
+                  "lng" : -80.18483046970849
+               },
+               "southwest" : {
+                  "lat" : 43.4993606697085,
+                  "lng" : -80.18752843029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "GoodLife Fitness Guelph Pergola Commons",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJPdjK9-ABaD1geOL_yn-iNZyPWTeOQSz9mY1NfRgDPwpsZFSJ0mnjUDvuWeHwTGi-PHG5SL2dYsCHtOXiH7cS82kVqxH-3N5YeYf-9iY8rzXp23lhFzbxK68PsVsf1d0XT39aB5BEBcEzKC2Oka-v-B6jVriWnVXB-fFHlZdqWIoIG",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJj98x05-EK4gRRkv-grzUgx8",
+         "plus_code" : {
+            "compound_code" : "GR27+6G Guelph, ON, Canada",
+            "global_code" : "86MXGR27+6G"
+         },
+         "rating" : 4,
+         "reference" : "ChIJj98x05-EK4gRRkv-grzUgx8",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 115,
+         "vicinity" : "101 Clair Road East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4878414,
+               "lng" : -80.5249075
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4890587302915,
+                  "lng" : -80.5234784197085
+               },
+               "southwest" : {
+                  "lat" : 43.48636076970851,
+                  "lng" : -80.5261763802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Willowells",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJiWB0YuzzK4gR7m9sXWKCH-4",
+         "plus_code" : {
+            "compound_code" : "FFQG+42 Waterloo, ON, Canada",
+            "global_code" : "86MXFFQG+42"
+         },
+         "rating" : 2.7,
+         "reference" : "ChIJiWB0YuzzK4gR7m9sXWKCH-4",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3,
+         "vicinity" : "40 Blue Springs Drive, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4951457,
+               "lng" : -80.4905112
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4965215302915,
+                  "lng" : -80.48910086970849
+               },
+               "southwest" : {
+                  "lat" : 43.4938235697085,
+                  "lng" : -80.4917988302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Absolute Rehab Centre",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 809,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101562810140670266095\"\u003eAbsolute Rehab Centre\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJz1PCZ4UQ8UdUIPXMmbuS8qP8NdqDLfy9UbMmRE7oNWODbbA1uLBEM1DuwW_8JQXyo7Ueg3k4uL9wTCrvSKURFKGAxjwl0pPca3T2FetS2-mNDBQSqSzVDtHttAxZwRfHk1zPbrIyT4lAyeziuOcFPk-UXDmjBLf30FjNUALxdqOhI",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJO0ZvYA7zK4gRyVzJGY9R8_E",
+         "plus_code" : {
+            "compound_code" : "FGW5+3Q Waterloo, ON, Canada",
+            "global_code" : "86MXFGW5+3Q"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJO0ZvYA7zK4gRyVzJGY9R8_E",
+         "scope" : "GOOGLE",
+         "types" : [
+            "physiotherapist",
+            "gym",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 38,
+         "vicinity" : "4-570 University Avenue, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4405711,
+               "lng" : -80.4688094
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.44198963029149,
+                  "lng" : -80.46740656970849
+               },
+               "southwest" : {
+                  "lat" : 43.4392916697085,
+                  "lng" : -80.47010453029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "SydFIT Health Centre",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102313828015424097770\"\u003eSydFIT Health Centre\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKDvxB4MsBVUKU8bI_u6X5BLAlsGH5PSFMCtCu-Ij2qop2lIkm66cjnS8pETBKMkI-Vkl7fuY-HlHW9bBgVMj8BrTDXFYL757-B7l1RDzbocgRoOgGjsiNPrI0Mh_gbqLKrka0g7X-6qdv5TjcQlXIpDLZp4LzvDezV2-gk9tDTMqId",
+               "width" : 820
+            }
+         ],
+         "place_id" : "ChIJqd9C1tr0K4gRdNP3hA1poCU",
+         "plus_code" : {
+            "compound_code" : "CGRJ+6F Kitchener, ON, Canada",
+            "global_code" : "86MXCGRJ+6F"
+         },
+         "rating" : 5,
+         "reference" : "ChIJqd9C1tr0K4gRdNP3hA1poCU",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 92,
+         "vicinity" : "1253 King Street East, Kitchener"
+      }
+   ],
+   "status" : "OK"
+}

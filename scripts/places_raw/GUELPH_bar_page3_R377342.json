@@ -1,0 +1,934 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5012121,
+               "lng" : -80.1898168
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5025044802915,
+                  "lng" : -80.1885472197085
+               },
+               "southwest" : {
+                  "lat" : 43.4998065197085,
+                  "lng" : -80.1912451802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "St. Louis Bar & Grill",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2848,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLnEobugB-w2UP1hYqwkAztrygiVF6nMxCu5SF7rO5gy4cI22ngIsvoHNj1Xsxzb2NhjxTw2Y-uykdcQBJgGl00sW9x1pKqAqEnwOahv45tp0o0KuqHhafvQ5NVPuqgGlfs6D54hIU2U8Fzt7zfwibmoIPmnDkzgO40x1ljwr-AErdK",
+               "width" : 4288
+            }
+         ],
+         "place_id" : "ChIJ-VEMzJ-EK4gRC8iBl-oaClI",
+         "plus_code" : {
+            "compound_code" : "GR26+F3 Guelph, ON, Canada",
+            "global_code" : "86MXGR26+F3"
+         },
+         "price_level" : 2,
+         "rating" : 3.8,
+         "reference" : "ChIJ-VEMzJ-EK4gRC8iBl-oaClI",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 536,
+         "vicinity" : "202 Clair Road East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.50234589999999,
+               "lng" : -80.1858038
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5037203302915,
+                  "lng" : -80.18462601970849
+               },
+               "southwest" : {
+                  "lat" : 43.5010223697085,
+                  "lng" : -80.18732398029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "State & Main Kitchen & Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 640,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114998514766979017402\"\u003eState &amp; Main Kitchen &amp; Bar\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKE13vARQ4N9U2vZJz15Amw2cLZ_AMeEKN_M-XI0M6W_zB3CFKN4mv2lCmFbOCRWGtyU-49Q_KIMeK_xdhraT8iGXXuwOPHcLR0Pc0ElqFroj89F-f_-aTB23i3FkvUGOstOb9Tqg1YEK03nXCVi3F_s0VPsUwWC3qNupCGT7HyPa5k",
+               "width" : 480
+            }
+         ],
+         "place_id" : "ChIJyQdBK16DK4gRGAnEJF8Mbng",
+         "plus_code" : {
+            "compound_code" : "GR27+WM Guelph, ON, Canada",
+            "global_code" : "86MXGR27+WM"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJyQdBK16DK4gRGAnEJF8Mbng",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 767,
+         "vicinity" : "79 Clair Road West #1, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4232242,
+               "lng" : -80.2852388
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.42462673029151,
+                  "lng" : -80.28386131970848
+               },
+               "southwest" : {
+                  "lat" : 43.42192876970851,
+                  "lng" : -80.2865592802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Duke & Duchess",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2218,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118134884587420595219\"\u003eMark B\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJZkMbDIfxsniXrNqbIsQo4aidaYH5kH6vengcUfurwbPH5uEXNu0cGeLqvbUljqNXRfA6Zb04XuycD6Jh77bg_jh2LKVfk2qzOsjdRUfJK3kGeetjeHjZuQMoUlepWxYoOZUBhnMsbs-J5PBwTVE9gPmVuQgJIfx1fHKFUAbynxZda",
+               "width" : 4656
+            }
+         ],
+         "place_id" : "ChIJtSmK8IqIK4gRpYFR587ezuM",
+         "plus_code" : {
+            "compound_code" : "CPF7+7W Cambridge, ON, Canada",
+            "global_code" : "86MXCPF7+7W"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJtSmK8IqIK4gRpYFR587ezuM",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 662,
+         "vicinity" : "900 Jamieson Parkway, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.469171,
+               "lng" : -80.5232681
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4705070302915,
+                  "lng" : -80.52201101970849
+               },
+               "southwest" : {
+                  "lat" : 43.4678090697085,
+                  "lng" : -80.52470898029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Ethel's Lounge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111576636063195172404\"\u003eEcho Oils Inc\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIrkAQYEp5QGuLXmHyTCcs0FS-tSzs4XA86mrM2scefs5V-2D4zfVicqmuFeaC1FwP5ko4fvJ_C8CzfcA3MRwpq2aHpeoFi8KXTsdwghQxFHS0p1ZFFTB2_j7mLsUrmKrjK_vPY5UAXaDS2zYGAE8d5Ue4dr8ALbKrKgVMtSr6HzWWA",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJdy6Mngz0K4gRG_77QkZuVek",
+         "plus_code" : {
+            "compound_code" : "FF9G+MM Waterloo, ON, Canada",
+            "global_code" : "86MXFF9G+MM"
+         },
+         "price_level" : 1,
+         "rating" : 4.4,
+         "reference" : "ChIJdy6Mngz0K4gRG_77QkZuVek",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1507,
+         "vicinity" : "114 King Street North, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.391078,
+               "lng" : -80.30071749999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3925145802915,
+                  "lng" : -80.29929651970849
+               },
+               "southwest" : {
+                  "lat" : 43.3898166197085,
+                  "lng" : -80.30199448029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "St. Louis Bar & Grill",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115140012016174347680\"\u003eSt. Louis Bar &amp; Grill\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIua66B5_EGXLbm6R9Nes1_Dt02ZbjdZh_avejXU5TuBNaG_pJpVoLxCC2X1vdL_gfat5cv3HdzMbxgCcSN7U_Aqsn0DGGDgYJSCoGqdrzn1vxxorcuvwQ51wip4UDfHXXJglKNo9yoUUHZGkR6MGFp3fJWXobohxRU45yXR7jlLc5F",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJfbKIoT2IK4gRBHe7Sy9oe3c",
+         "plus_code" : {
+            "compound_code" : "9MRX+CP Cambridge, ON, Canada",
+            "global_code" : "86MX9MRX+CP"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJfbKIoT2IK4gRBHe7Sy9oe3c",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 378,
+         "vicinity" : "95 Saginaw Parkway Unit 7, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3918973,
+               "lng" : -80.32231159999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39322783029149,
+                  "lng" : -80.32107071970849
+               },
+               "southwest" : {
+                  "lat" : 43.39052986970849,
+                  "lng" : -80.32376868029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "State & Main Kitchen & Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100012410020654856923\"\u003eHelmi Ansari\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ9wiVB3K10iuEB_Ort7MGTV7gwrXQCHeTKGPMCmugzqSytgo7JBltbfVngrpSMgrBAVh5HmwJdAIBxphNYUR_dl5IimDzUWxjixuj67EiuC5SbmxUjVfe41KPP38jFoxAjKfHvXlXxWup42ochCGzgrsHlRmKTz64WFKXDOQzCG1ml",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJYQHLmcyJK4gR6z4LG9T93K4",
+         "plus_code" : {
+            "compound_code" : "9MRH+Q3 Cambridge, ON, Canada",
+            "global_code" : "86MX9MRH+Q3"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJYQHLmcyJK4gR6z4LG9T93K4",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 741,
+         "vicinity" : "375 Hespeler Road Unit 2, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.469626,
+               "lng" : -80.445424
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4712645802915,
+                  "lng" : -80.4442648697085
+               },
+               "southwest" : {
+                  "lat" : 43.4685666197085,
+                  "lng" : -80.44696283029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Players Indoor Golf & Sports Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 632,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106132622344933435545\"\u003ePlayers Indoor Golf &amp; Sports Bar\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIoYBF-q-nvhd3i_DrO7N_TMRdtHuO7luy2kqgCcNZXY9kH1z-pr1XkvCBbiHvX7M4_b13I5hZoGLNk2ayjc4SBp0yKgGlBqEex7jiKpLI2SKcISH2tynKjb3Ltq3P_jxLvrEtV4-uNA5vGi-VmuHobV8oHHtu03FHYcLKwpY_WWAj-",
+               "width" : 953
+            }
+         ],
+         "place_id" : "ChIJd8AiXKiMK4gRnARzh0MDMsQ",
+         "plus_code" : {
+            "compound_code" : "FH93+VR Kitchener, ON, Canada",
+            "global_code" : "86MXFH93+VR"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJd8AiXKiMK4gRnARzh0MDMsQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 148,
+         "vicinity" : "7-1373 Victoria Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4646806,
+               "lng" : -80.52383610000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4660914802915,
+                  "lng" : -80.5223648197085
+               },
+               "southwest" : {
+                  "lat" : 43.4633935197085,
+                  "lng" : -80.52506278029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "The Duke of Wellington",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110198287502981206322\"\u003eTony Brecknock\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK2oFoHocZnA0fVIg5PA-2ScHXE75flyF4KR2GdGlxTOwIHv5LMoqpsqw4cigGBvLGl0_RW-6KWPl34nif7gFc84Sze_xmzzWeeI3rCPqE6WHlNs83J1tFsgpwS4Jici6iEvEU-sytE1ZbUp9JTBfyUGI-9-X_OxbiHvS_gfpoCTgQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJoX3rfg30K4gRs1WsdS0m8_E",
+         "plus_code" : {
+            "compound_code" : "FF7G+VF Waterloo, ON, Canada",
+            "global_code" : "86MXFF7G+VF"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJoX3rfg30K4gRs1WsdS0m8_E",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1176,
+         "vicinity" : "33 Erb Street West, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.39582739999999,
+               "lng" : -80.3580812
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39711423029149,
+                  "lng" : -80.3567194197085
+               },
+               "southwest" : {
+                  "lat" : 43.39441626970849,
+                  "lng" : -80.3594173802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Fiddle And Firkin",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 460,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109769080928697434655\"\u003eFiddle And Firkin\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLrje3DqZQ28iFeXhhAtKMiPXuMTHZVghfR11aAnfRukb54d2UDzxaVjTjT5gkxH0348B8Wwz53n-k6BIHOcBwI--y0vdL2_dWOiloONREKBUvpOFaG52KvXq1FTuGA0WUdTrrIqsMAZvfOQCR-H8ZsBITeQzrjHPHbdgCxeSEPW_FQ",
+               "width" : 690
+            }
+         ],
+         "place_id" : "ChIJtX9JHfGJK4gRm-mGqE3tPr0",
+         "plus_code" : {
+            "compound_code" : "9JWR+8Q Cambridge, ON, Canada",
+            "global_code" : "86MX9JWR+8Q"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJtX9JHfGJK4gRm-mGqE3tPr0",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 476,
+         "vicinity" : "707 King Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.39438349999999,
+               "lng" : -80.355874
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39573248029149,
+                  "lng" : -80.35452501970849
+               },
+               "southwest" : {
+                  "lat" : 43.39303451970849,
+                  "lng" : -80.3572229802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "The Hopper",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100708645885305653012\"\u003eThe Hopper\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ6FuSmRVqlQ2PNVS2_8lNgWtP3lQ9-47vFo30UxvtOny2FORCL0u7JEplnsnuqG6L4hw0yRTi8weiChRsfdbidVHPAJrOBVC3LxodFpIWeK-bi6bagsv5vDZGxY3aXUyYPRVucioFrmlcQANNgiRoqA7PtMRK-pnZpW4osEmyCRJQ6",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJtfE8PvCJK4gRZEXIt4owgTo",
+         "plus_code" : {
+            "compound_code" : "9JVV+QM Cambridge, ON, Canada",
+            "global_code" : "86MX9JVV+QM"
+         },
+         "price_level" : 1,
+         "rating" : 2.7,
+         "reference" : "ChIJtfE8PvCJK4gRZEXIt4owgTo",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 26,
+         "vicinity" : "868 King Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5177109,
+               "lng" : -80.23462379999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.51909898029149,
+                  "lng" : -80.2333317697085
+               },
+               "southwest" : {
+                  "lat" : 43.5164010197085,
+                  "lng" : -80.23602973029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Symposium Cafe Restaurant & Lounge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 340,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114605706704973190131\"\u003eSymposium Cafe Restaurant &amp; Lounge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLrGGyi7-OSs4OR_g2WkMrvP7hHulROAGxc4pS5-HrJ2Xe7i7YcSSu_1ufCS_px-0XQEl1y0XDRPeZHFcSk_uy_H67Hjo9VYSHM2FE75s6D__fYtY0By6HqvUhAXl5yURO0GJ6Ubw38iW5EjsJ_nKQrQE3wdREPF---i2UroQ6E5i4",
+               "width" : 820
+            }
+         ],
+         "place_id" : "ChIJt6tvqimFK4gRbvvU_svjx64",
+         "plus_code" : {
+            "compound_code" : "GQ98+35 Guelph, ON, Canada",
+            "global_code" : "86MXGQ98+35"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJt6tvqimFK4gRbvvU_svjx64",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "night_club",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1057,
+         "vicinity" : "304 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6333893,
+               "lng" : -80.0375093
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6347195802915,
+                  "lng" : -80.03612841970849
+               },
+               "southwest" : {
+                  "lat" : 43.6320216197085,
+                  "lng" : -80.03882638029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "The Red Harp Pub",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 810,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110979972102785853923\"\u003eThe Red Harp Pub\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwILab46FbzcxKNyAw9I_fV1zzcKGyawY2T-SEQV28-joM5wCTT2DCgNXiE0UT6yjFceMPgGPOVd5ozi140OxADoI0Z4Q4_6sowdE4JFnyXgrND1ggiEZ4eStgp_Dtzlu-E4yj8RG428noYUoirfJ1CHN1lg54Z1gqbiR7qWFHW96NL4",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJfVLHEe50K4gR5W2_quvESio",
+         "plus_code" : {
+            "compound_code" : "JXM6+9X Acton, ON, Canada",
+            "global_code" : "86MXJXM6+9X"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJfVLHEe50K4gR5W2_quvESio",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 641,
+         "vicinity" : "137 Mill Street East, Acton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4349541,
+               "lng" : -80.4500221
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4364373802915,
+                  "lng" : -80.44861901970849
+               },
+               "southwest" : {
+                  "lat" : 43.4337394197085,
+                  "lng" : -80.45131698029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Voodoo Vapes",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110036301207801812423\"\u003eVoodoo Vapes\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKueOJmPd06d_nmetXf_PKiT-nz6PsSFM4KjqDISsmwnmTc4rLfuYPdVHwLGte8M20YOfeLVDn3f8ub_dO7mggiBKz6LEZs-PYg99kh2-f_hDZMNRLcMfuDQi2UkkU3K3iKhH4d9s0h_IhEpmbLECmiThL_8Me7nx_RfczT-FxaRy5x",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ0ZE_GyyLK4gRLLyaZoTr9fQ",
+         "plus_code" : {
+            "compound_code" : "CGMX+XX Kitchener, ON, Canada",
+            "global_code" : "86MXCGMX+XX"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ0ZE_GyyLK4gRLLyaZoTr9fQ",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 292,
+         "vicinity" : "1093 Weber Street East, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3576231,
+               "lng" : -80.28938149999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.35884323029151,
+                  "lng" : -80.28799386970847
+               },
+               "southwest" : {
+                  "lat" : 43.35614526970851,
+                  "lng" : -80.29069183029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "M&M Bar and Grill",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106141368290792652152\"\u003eM&amp;M Bar and Grill\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJGxZR0AY6qYmiwUKO65DaCdjGfDo11jfmAtw9B4vCXMv3mqOIOLIBF5OUnnKilP401jAHSXVYC9uneNDjSU63szYwUbYCeo_6z9LAznLtb9hFkEw0-ZMh3-Tu88cHscyTxM9Hk2q0Ypmx0naGtIerH0dO4O6PnCX1uSK1_3DzI7M6n",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJd30-wJJ3LIgRSYCMBGMc_EA",
+         "plus_code" : {
+            "compound_code" : "9P56+26 Cambridge, ON, Canada",
+            "global_code" : "86MX9P56+26"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJd30-wJJ3LIgRSYCMBGMc_EA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 507,
+         "vicinity" : "475 Main St East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.444016,
+               "lng" : -80.46848
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4453226802915,
+                  "lng" : -80.46701751970849
+               },
+               "southwest" : {
+                  "lat" : 43.4426247197085,
+                  "lng" : -80.4697154802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "StrykerZ Kitchen and Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117462027976824491674\"\u003eEd Grabasandwich\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJOUwyW8O5E0zfA6tPRpx-sxZUchGRTF5vdRhCuQ3IdMXmOLPIwBgOZuPNtxo_J76yf1U59ZYDxmLA_SZw38A-40tutIFKTdzuhIJr3r4MoQHrS8LAiPUd7lTGFmUPZq0KjvyRUaMMLFtQY-bfVPzWG4nFHKUb6MNz6Su1WAS6BKDKz",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJTbgMTMT0K4gRDLnlssu0zkU",
+         "plus_code" : {
+            "compound_code" : "CGVJ+JJ Kitchener, ON, Canada",
+            "global_code" : "86MXCGVJ+JJ"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJTbgMTMT0K4gRDLnlssu0zkU",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 364,
+         "vicinity" : "120 Ottawa Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.41943930000001,
+               "lng" : -80.4473909
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4206201302915,
+                  "lng" : -80.44615586970851
+               },
+               "southwest" : {
+                  "lat" : 43.4179221697085,
+                  "lng" : -80.44885383029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "State & Main Kitchen & Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117124501739934322285\"\u003eLisa H\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJIflBF9v_cxk1GHA_l00ww05-llIckeugGk89AEmmU4Ok4RANdzzYM7-xDhMFDSdN-GCFsjV5L5PgtsOSklTJRxdpa3kniyoi2SQkVsHl_XOSFGJJViylsiG6EOEJlI9p60newk-c5GPPl3k7-XTZ7s2Eazh3i1cjfY2bNf9uEimnC",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJYUCtJc6KK4gR7esltnLV8vM",
+         "plus_code" : {
+            "compound_code" : "CH93+Q2 Kitchener, ON, Canada",
+            "global_code" : "86MXCH93+Q2"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJYUCtJc6KK4gR7esltnLV8vM",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 889,
+         "vicinity" : "589 Fairway Road South, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.457974,
+               "lng" : -80.483746
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45939553029149,
+                  "lng" : -80.48244476970848
+               },
+               "southwest" : {
+                  "lat" : 43.4566975697085,
+                  "lng" : -80.4851427302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Descendants Beer & Beverage Co.",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 997,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112224865900149820155\"\u003eDescendants Beer &amp; Beverage Co.\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwINk7RUaOg_cbTM0S4T3VNE6qggNmj44CK0sScTQgHaXOICSX9yjElJQmL4YCs-hiJy0QQs_VwuzzfZG9fl7_f6Js6De9n1vzj1IvWktj5_1mxE4aSCZiBeDgxv-A7JzIMKsJHNLahgTMAmi6TChCRYaa8oWrzU_OCuEBzlUtNxhrsZ",
+               "width" : 1771
+            }
+         ],
+         "place_id" : "ChIJFfhYkYn-K4gRGGEL_9ppVxI",
+         "plus_code" : {
+            "compound_code" : "FG58+5G Kitchener, ON, Canada",
+            "global_code" : "86MXFG58+5G"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJFfhYkYn-K4gRGGEL_9ppVxI",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 420,
+         "vicinity" : "319 Victoria Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.44870299999999,
+               "lng" : -80.49007779999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4500850302915,
+                  "lng" : -80.48878811970849
+               },
+               "southwest" : {
+                  "lat" : 43.4473870697085,
+                  "lng" : -80.49148608029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "Cafe Europe",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJVROzRvL0K4gRWVKlR_sTVNA",
+         "plus_code" : {
+            "compound_code" : "CGX5+FX Kitchener, ON, Canada",
+            "global_code" : "86MXCGX5+FX"
+         },
+         "price_level" : 1,
+         "rating" : 4.5,
+         "reference" : "ChIJVROzRvL0K4gRWVKlR_sTVNA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 54,
+         "vicinity" : "91 Queen Street South, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.7043861,
+               "lng" : -80.3788361
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.7057613302915,
+                  "lng" : -80.37755381970848
+               },
+               "southwest" : {
+                  "lat" : 43.7030633697085,
+                  "lng" : -80.3802517802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "The Grand Templin Pub",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3780,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109069747167946001971\"\u003eNorth River Lounge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKV4K-CpuecIdDIpcY_jp0-UdfGlmU_h6jPQUOgTcW4tBSKd_vyoqEUunMZhj2u7E0bmZISP4ArfXDgpR3s7Ro_Ed5bxb4awkggQl75WkIwOnFMmdcYbdvWlDx3X1MXiZFNty7IM5FDTLzGI3sRdLXwHvgPkejbrW4yVUPbFpRY-g7B",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJIY3AjhG-K4gRMAX3ZyZ3X4w",
+         "plus_code" : {
+            "compound_code" : "PJ3C+QF Fergus, ON, Canada",
+            "global_code" : "86MXPJ3C+QF"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJIY3AjhG-K4gRMAX3ZyZ3X4w",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "night_club",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 131,
+         "vicinity" : "216 Saint Andrew Street West, Fergus"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.39464729999999,
+               "lng" : -80.4326482
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39597398029149,
+                  "lng" : -80.43126336970849
+               },
+               "southwest" : {
+                  "lat" : 43.3932760197085,
+                  "lng" : -80.43396133029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "The Rabbid Fox",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117743815836976235816\"\u003eGary Cameron\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKFfbGwYCkntI_KYRyONjdJrqfklRhI_0gieqh9F-g2wzfBuWW8cU56dHmLZKM_PnBJyqeTh_NVI25Dn4CbEZr57eegbdDH3GvvoaHf8Dok2Dx3H1BO0KubAPu9LvrHTI1NVtIxvcoyBeq_OpAzKo4YW2Xc5VzSQ_znr8rE9B9VAZLY",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJx_Dv4qGKK4gRZAwnpD4V3F4",
+         "plus_code" : {
+            "compound_code" : "9HV8+VW Kitchener, ON, Canada",
+            "global_code" : "86MX9HV8+VW"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJx_Dv4qGKK4gRZAwnpD4V3F4",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 698,
+         "vicinity" : "123 Pioneer Drive, Kitchener"
+      }
+   ],
+   "status" : "OK"
+}

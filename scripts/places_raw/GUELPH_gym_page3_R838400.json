@@ -1,0 +1,828 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.554303,
+               "lng" : -80.2854566
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5555436802915,
+                  "lng" : -80.2842594197085
+               },
+               "southwest" : {
+                  "lat" : 43.5528457197085,
+                  "lng" : -80.28695738029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "TNT Boxing and Fitness Academy",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111397641224719226337\"\u003eTuco Salamanca\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJoMdxws4UglTkuGO6oLhyY9YNUsMvgPB93wWQOiIzkNPz7zAPmH8Fu7uJ7zAy-75oMk2MkysDb35qocgMAC3H2A2KCIDZr-yWobFahPFLxTdcJ0sWm0T1iMyIe8GjvDVpGNGRPWAQmHCLrp4sPhLvKVOh_k0_R-2rJZWMPMeAZwiFc",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ88uSu9yaK4gRb-wuAFCRRHg",
+         "plus_code" : {
+            "compound_code" : "HP37+PR Guelph, ON, Canada",
+            "global_code" : "86MXHP37+PR"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJ88uSu9yaK4gRb-wuAFCRRHg",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 16,
+         "vicinity" : "171 Dawson Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5128746,
+               "lng" : -80.22005399999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5142812802915,
+                  "lng" : -80.21877321970848
+               },
+               "southwest" : {
+                  "lat" : 43.5115833197085,
+                  "lng" : -80.2214711802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Anytime Fitness",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102398271613573577260\"\u003eBarthee Yoga\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIYaQO4IbacTujIYV6oE9kHWMKJg6mox2GJJPk52nhxbmGxcFb0COdk2Bz1gfyZfXHacbpqcjjHJX1IvihTCOiTzMqCJQnZRAUY2AEx8leaBgz2yevwQQK7iXt_NAurigX72LY3iUrMuyYMppcoDDd4DEh802rd9RJ4Yi61V9phhTyH",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJJ87MKcWEK4gRc62Mp_BeZuM",
+         "plus_code" : {
+            "compound_code" : "GQ7H+4X Guelph, ON, Canada",
+            "global_code" : "86MXGQ7H+4X"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJJ87MKcWEK4gRc62Mp_BeZuM",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 52,
+         "vicinity" : "210 Kortright Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.55463650000001,
+               "lng" : -80.29488800000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.55609543029151,
+                  "lng" : -80.29338781970851
+               },
+               "southwest" : {
+                  "lat" : 43.55339746970851,
+                  "lng" : -80.29608578029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Cheer On Bears Cheerleading",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118066127986191158131\"\u003eTarilyn Oliver-Purmals\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIOIUzkuzK5OhhvS7i6VHGDbJuA7JirbBMBsyLkRHD2Jbl9WYzTOHbuWZv2DBDqnBlTz2KOASO7LZ7QCO1-y4VuoAjTywpgeuPYbA4xYR3N0gztPuEshHSkt5eUfvfoIfNO1dCa0k6fO5G3vmaXMaWdCy1vQyxLbadX2VmjYgoEeBUD",
+               "width" : 2592
+            }
+         ],
+         "place_id" : "ChIJb8z83WuQK4gRhJQUKgzqiG0",
+         "plus_code" : {
+            "compound_code" : "HP34+V2 Guelph, ON, Canada",
+            "global_code" : "86MXHP34+V2"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJb8z83WuQK4gRhJQUKgzqiG0",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 26,
+         "vicinity" : "30 Arrow Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.578637,
+               "lng" : -80.22461609999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5797443802915,
+                  "lng" : -80.22291941970849
+               },
+               "southwest" : {
+                  "lat" : 43.5770464197085,
+                  "lng" : -80.2256173802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "NLC Fitness And Training Centre",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1362,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102473664513380850279\"\u003eNLC Fitness And Training Centre\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIEWRG7tEqV4lMDsO_d1pdEPK8FI4g1liMaCwBtEu3HsQkHokNZ1xNkVV3yULzAxt5nxwEWQwa69zzz4-rvk1i0aymkPm1Z-pzMjphmJC20WmiFo2t5ttdGXsbl2aKyn83aDiDAd5Ui8hTriCnQkk8aOYvPeWw8bbgPTJOm-KLATJ4g",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJhaVA3HSQK4gRtLjFnqgxPH4",
+         "plus_code" : {
+            "compound_code" : "HQHG+F5 Guelph, ON, Canada",
+            "global_code" : "86MXHQHG+F5"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJhaVA3HSQK4gRtLjFnqgxPH4",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 14,
+         "vicinity" : "320 Eastview Road A1, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5332026,
+               "lng" : -80.3057795
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.53452513029151,
+                  "lng" : -80.30443981970849
+               },
+               "southwest" : {
+                  "lat" : 43.53182716970851,
+                  "lng" : -80.3071377802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "TheRoc Health & Fitness",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 609,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112973477631944043107\"\u003eTheRoc Health &amp; Fitness\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIlmuqXtUUKp1EAalylb6-sIAOFn64-tNFl3oSBA3O_In4sleN0U-8DVPfQ0nc4q4Mkd_KBR8P-95CxxnHmgbgXrJVEnI0PCVtf7n8bC8l7Lx_UwrJjubuAu3PZffLuiXtwR30GkXnUhsTFNsV_bAnN_qNQglF5Jik9byCPJTcAaX3D",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJddR9E7WaK4gRRa9qJc_i3gE",
+         "plus_code" : {
+            "compound_code" : "GMMV+7M Guelph, ON, Canada",
+            "global_code" : "86MXGMMV+7M"
+         },
+         "rating" : 5,
+         "reference" : "ChIJddR9E7WaK4gRRa9qJc_i3gE",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 20,
+         "vicinity" : "355 Elmira Road North Unit #103, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.49177510000001,
+               "lng" : -80.218149
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.49287543029151,
+                  "lng" : -80.21662976970849
+               },
+               "southwest" : {
+                  "lat" : 43.49017746970851,
+                  "lng" : -80.2193277302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Yoga With Miss Allison",
+         "place_id" : "ChIJIaDFJ_GEK4gRhjNcEw4YCCI",
+         "plus_code" : {
+            "compound_code" : "FQRJ+PP Guelph, ON, Canada",
+            "global_code" : "86MXFQRJ+PP"
+         },
+         "reference" : "ChIJIaDFJ_GEK4gRhjNcEw4YCCI",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "225 Hanlon Creek Boulevard, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.49440600000001,
+               "lng" : -80.20508100000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.49573333029149,
+                  "lng" : -80.20374021970849
+               },
+               "southwest" : {
+                  "lat" : 43.4930353697085,
+                  "lng" : -80.20643818029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "CrossFit 1827",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105573032352717439620\"\u003eCrossFit 1827\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKqj4d9RznAJDCfwPNsEAebmLHBrZDPeubPjflB8NKnwRilCxWmMcVFzrt9A_UaIlDWey_Bwj0fHpezZer7xnt0Kabtz9uSqmD8HiBhaBTsbKG5FQ4gUEwmKm85Ibcxm99yfU4H9QPeJbhDbFF22SKUkBDmXtSevZ7NF_bH0fpO1Rvf",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJJdr68I2EK4gRXWACanf-OUk",
+         "plus_code" : {
+            "compound_code" : "FQVV+QX Guelph, ON, Canada",
+            "global_code" : "86MXFQVV+QX"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJJdr68I2EK4gRXWACanf-OUk",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 21,
+         "vicinity" : "449 Laird Road Unit #10, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4921054,
+               "lng" : -80.20845679999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4934769302915,
+                  "lng" : -80.20707751970849
+               },
+               "southwest" : {
+                  "lat" : 43.49077896970851,
+                  "lng" : -80.2097754802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Emotion dance company",
+         "place_id" : "ChIJCe2uwoyEK4gR6lGIKEJUqcE",
+         "plus_code" : {
+            "compound_code" : "FQRR+RJ Guelph, ON, Canada",
+            "global_code" : "86MXFQRR+RJ"
+         },
+         "reference" : "ChIJCe2uwoyEK4gR6lGIKEJUqcE",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "Southgate Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5015081,
+               "lng" : -80.18938469999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.50282848029149,
+                  "lng" : -80.18807356970849
+               },
+               "southwest" : {
+                  "lat" : 43.5001305197085,
+                  "lng" : -80.19077153029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Orangetheory Fitness",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1402,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114883233139633282711\"\u003eOrangetheory Fitness\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIl2TZiKNMQbo4W29K4rCnxE9ZPPkuqATtFpxCuwl2NPRV38IlJCrvx-0SaFZ7wdsH_1r8Y4k88HLqJYUb64eFHVzS-ldu5eVUml-g5M5gtlHq69qzcroElWepZMm-htD2Cc85J3Ua75HnUnXf42cIiZeLCmGpu_rWnwK1xFSe0XQf7",
+               "width" : 2100
+            }
+         ],
+         "place_id" : "ChIJ8yUBdZ-EK4gRkJg_CvdOybc",
+         "plus_code" : {
+            "compound_code" : "GR26+J6 Guelph, ON, Canada",
+            "global_code" : "86MXGR26+J6"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJ8yUBdZ-EK4gRkJg_CvdOybc",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 76,
+         "vicinity" : "84 Clair Road East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3951924,
+               "lng" : -80.2784527
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3966703802915,
+                  "lng" : -80.27711041970851
+               },
+               "southwest" : {
+                  "lat" : 43.3939724197085,
+                  "lng" : -80.27980838029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Active Cambridge Inc.",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1371,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109281495705823708981\"\u003eActive Cambridge Inc.\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIT9cn74XVEdbVxzNdQXAjTezW09WT3vdOQgKlSo9uODjDJzwQOnqXQDczqEHfMzxxtK3B1-vFyW28P5KPYt-MuNxF8sTjuEMw7H6qRL6gBzrdTMM8LOBzBA-lwcmnTN0ovuw7brMFmT9j5RPUKlmMHXWdtF8RwaDjH1RFiVKDfQuIO",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJecI5xgqIK4gRg66Rf1gIdps",
+         "plus_code" : {
+            "compound_code" : "9PWC+3J Cambridge, ON, Canada",
+            "global_code" : "86MX9PWC+3J"
+         },
+         "reference" : "ChIJecI5xgqIK4gRg66Rf1gIdps",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "195 Glenvalley Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.606057,
+               "lng" : -80.13400439999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.60727698029149,
+                  "lng" : -80.1326180697085
+               },
+               "southwest" : {
+                  "lat" : 43.6045790197085,
+                  "lng" : -80.13531603029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "H.I.T. Club Fitness",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJk4n1rGieK4gRSEy3GMt9CIM",
+         "plus_code" : {
+            "compound_code" : "JV48+C9 Guelph/Eramosa, ON, Canada",
+            "global_code" : "86MXJV48+C9"
+         },
+         "rating" : 1,
+         "reference" : "ChIJk4n1rGieK4gRSEy3GMt9CIM",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "156 Maclennan Street, Guelph/Eramosa"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4354811,
+               "lng" : -80.31206899999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4368416802915,
+                  "lng" : -80.31059586970848
+               },
+               "southwest" : {
+                  "lat" : 43.4341437197085,
+                  "lng" : -80.3132938302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Elite Wrestling & Fitness Academy",
+         "photos" : [
+            {
+               "height" : 1365,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107595094402074508753\"\u003eElite Wrestling &amp; Fitness Academy\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI9GoJfaOdnAlfN-qtBZ2Mz0lSCVdafTvPDiSp-wrSo4JQOptqXsm5uSEmf96VN3in-EICgeRrQtYRK6tvxGOaOT0bzBVuAY18GkIM7P1EIrXCfzKz0RSDij0A74EJ_NcIUPLcUNJbotQkOvy3dctqMshrA8GxJ_cwEZgHEbjOZCSeI",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJZ5ye-PCJK4gRPE08xJkOURo",
+         "plus_code" : {
+            "compound_code" : "CMPQ+55 Cambridge, ON, Canada",
+            "global_code" : "86MXCMPQ+55"
+         },
+         "rating" : 5,
+         "reference" : "ChIJZ5ye-PCJK4gRPE08xJkOURo",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10,
+         "vicinity" : "130 Guelph Avenue Unit 20A, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4334401,
+               "lng" : -80.3118585
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4348114802915,
+                  "lng" : -80.3102931697085
+               },
+               "southwest" : {
+                  "lat" : 43.4321135197085,
+                  "lng" : -80.31299113029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "CrossFit Cambridge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116737997275702840836\"\u003eCrossFit Cambridge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL1CR51X5HIELPejE9W2y_uucS2bJ3iV1e6-RyWdgXJDIfgeR22co1KiQo9plgaC8yM40Uf0MeTH9EaaB6kmkg6VazrtnV3RI8x9HMnNjaAOz-5yKSz9nl5gP34DWs0LR5Xnup8oBtJ1V96Y9TtuT6FgkR7IUQm-4QXyCDdy3oJKRVU",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJcZm25eWIK4gRw5wBfh6bwQE",
+         "plus_code" : {
+            "compound_code" : "CMMQ+97 Cambridge, ON, Canada",
+            "global_code" : "86MXCMMQ+97"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJcZm25eWIK4gRw5wBfh6bwQE",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 38,
+         "vicinity" : "54 Guelph Avenue, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3423447,
+               "lng" : -80.3390003
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3437954802915,
+                  "lng" : -80.3376810197085
+               },
+               "southwest" : {
+                  "lat" : 43.3410975197085,
+                  "lng" : -80.3403789802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Yoga N' Art",
+         "place_id" : "ChIJ34LswvV2LIgRkeYDd1Pwo-E",
+         "plus_code" : {
+            "compound_code" : "8MR6+W9 Cambridge, ON, Canada",
+            "global_code" : "86MX8MR6+W9"
+         },
+         "reference" : "ChIJ34LswvV2LIgRkeYDd1Pwo-E",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "201 Wedgewood Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.41124839999999,
+               "lng" : -80.2867356
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4127470802915,
+                  "lng" : -80.28545671970849
+               },
+               "southwest" : {
+                  "lat" : 43.4100491197085,
+                  "lng" : -80.2881546802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Next Level Performance Training",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 363,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106237565574720212704\"\u003eNext Level Performance Training\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK_4BAnZL7LI0WEgAgUdux_16IoRrWMktsIdFhuBwJFfY-maR2-oqrvrMvqqbCb4-Mj4M8vs7byNfuEROahJCLEwxZcRp_HrGwWaYisnnQxQWM7m24TNU-LPKyBDcrXWqO43serE9im-FRYRDtESMBCZHNypb9Q8_tlAMX_4VNAec72",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJdTL4oHyIK4gRkBGKA0HYZu0",
+         "plus_code" : {
+            "compound_code" : "CP67+F8 Cambridge, ON, Canada",
+            "global_code" : "86MXCP67+F8"
+         },
+         "rating" : 5,
+         "reference" : "ChIJdTL4oHyIK4gRkBGKA0HYZu0",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "460 Thompson Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.392268,
+               "lng" : -80.32875629999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3935682802915,
+                  "lng" : -80.3277009697085
+               },
+               "southwest" : {
+                  "lat" : 43.3908703197085,
+                  "lng" : -80.33039893029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Pinnacle Martial Arts",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2364,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106776877456463281328\"\u003ePinnacle Martial Arts\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKpOYDXr3r0sqs794XI0xCYMfolPquKq592uOnfW5yms-tsKpfGnwRuV6h0o3GUQO17nu-UTi7yMIK24v7jVypzHOv5MePFarD7ur-nc4Z1yNtqtmjQQOvCdSg4yK2GQc9irH7GRMMYdKOEbePjl4vhSfqHbZt7LQTuwEUC-M2Vvy4x",
+               "width" : 2820
+            }
+         ],
+         "place_id" : "ChIJe9k6iTeIK4gRG8iRHCOPEHE",
+         "plus_code" : {
+            "compound_code" : "9MRC+WF Cambridge, ON, Canada",
+            "global_code" : "86MX9MRC+WF"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJe9k6iTeIK4gRG8iRHCOPEHE",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 24,
+         "vicinity" : "1659 Industrial Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4174521,
+               "lng" : -80.32590909999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4186875802915,
+                  "lng" : -80.3249169197085
+               },
+               "southwest" : {
+                  "lat" : 43.4159896197085,
+                  "lng" : -80.32761488029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Crunch Fitness - Cambridge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 962,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100282282663347105831\"\u003eCrunch Fitness - Cambridge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJC5sadWHJqxB6zokVPOuNEBKC8U6YLaEiuIwj1n6hpRN5Xe1Dl38Z1W3ivk2GD1gG5WmMPf5vJDT4Kqjd9uiL_d2NBGhihvy52At9tBLlndGA-o5TeSwSDaI2TL9ODvfexWwLIbIqTZViyIGEDqz2tpManzfoMm9YgPoT9W8E36dFU",
+               "width" : 1710
+            }
+         ],
+         "place_id" : "ChIJ7cOy7VCIK4gR-JCmQmYwWoY",
+         "plus_code" : {
+            "compound_code" : "CM8F+XJ Cambridge, ON, Canada",
+            "global_code" : "86MXCM8F+XJ"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJ7cOy7VCIK4gR-JCmQmYwWoY",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 249,
+         "vicinity" : "150 Holiday Inn Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.46909099999999,
+               "lng" : -80.450317
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4702586302915,
+                  "lng" : -80.44885581970848
+               },
+               "southwest" : {
+                  "lat" : 43.4675606697085,
+                  "lng" : -80.4515537802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Breakthrough Martial Arts & Fitness",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 540,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103716109385227171505\"\u003eBreakthrough Martial Arts Kitchener\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIZT0SaE7mm4ljcJZSMjrzhO4xszyalpQLiH2IOk2e7qR0YpiqLBuRKsF2N3FxFPDiPNu3vA4KyZPPedhNEuLOJY9vNpFQZSE3CDeAycRykQcW4kT9MT3_6g2f6sQT3aBxRf7LmEUmH91ey1TVQnFQAOgUM78xKtzk5jphRnTLqJGvn",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJoRy0HqqMK4gRvH3ygi-BNd0",
+         "plus_code" : {
+            "compound_code" : "FG9X+JV Kitchener, ON, Canada",
+            "global_code" : "86MXFG9X+JV"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJoRy0HqqMK4gRvH3ygi-BNd0",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8,
+         "vicinity" : "1264 Victoria Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4485284,
+               "lng" : -80.42897929999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4498340302915,
+                  "lng" : -80.42776806970849
+               },
+               "southwest" : {
+                  "lat" : 43.44713606970851,
+                  "lng" : -80.4304660302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Max International",
+         "place_id" : "ChIJf5BLGGuLK4gRClTf7WBUzrA",
+         "plus_code" : {
+            "compound_code" : "CHXC+CC Kitchener, ON, Canada",
+            "global_code" : "86MXCHXC+CC"
+         },
+         "reference" : "ChIJf5BLGGuLK4gRClTf7WBUzrA",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "6 Charleston Place, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4100097,
+               "lng" : -80.320464
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4113693802915,
+                  "lng" : -80.31933276970851
+               },
+               "southwest" : {
+                  "lat" : 43.4086714197085,
+                  "lng" : -80.32203073029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "LA Fitness",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100826979862352267820\"\u003ePatrick Kozierowski\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIWTmpvOFZuG4ZVRph2AM7WO2dN055My_5xZrJ4vHQLXAoGo2CiwuKHr35z7l2qyAkmmygXCIkw_3cJ6PmEii2BIE-ZgxQbf2coMgoE_DLnyiG_TTDFW29d_ddyZKuatk7nmES17Fk6suppRXbWczyYCKBqfLtjC5BPHslm4gwJAzXH",
+               "width" : 3984
+            }
+         ],
+         "place_id" : "ChIJwzBcuVKIK4gRYT-LflINpU0",
+         "plus_code" : {
+            "compound_code" : "CM6H+2R Cambridge, ON, Canada",
+            "global_code" : "86MXCM6H+2R"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJwzBcuVKIK4gRYT-LflINpU0",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 278,
+         "vicinity" : "90 Pinebush Road, Cambridge"
+      }
+   ],
+   "status" : "OK"
+}

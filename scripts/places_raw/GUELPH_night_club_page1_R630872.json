@@ -1,0 +1,946 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwLAOGDWs4FDm99tJng4PUhhHnaRKnfWKs6iOWBaa93bGlE2C2jp-xpGvWZ7y_36lw61T0X4kI0bf28NwlWSeAx0FYGH4IfwYAg4yASOi0eBDKGcR9F7wNfBeJrONJoeGBbUyvIaTpyz_Z3ODVI-FHXwPzfBwhfPdcebzBJjh4EdM5ySLidUpOuXKhbh8Xt2In8KGXmv8VDFmnMpYn-y1oVr0p5g58Dgl4YiNpvoN89KZ0MbeH0o6TZJWIRFIN5I7vcwWGLJznTZQzkBNN4EBV_RHczPgsJYdmqMEruugLBDNAzCAn9Co7iFrVkwZeFCOWpvTnHboDDQgCABzu1w8ZXJeYDXE6YRdHG5c9hLDvooLm4h7L7IQDEVwJoqo5u7kWbNKBqgLYYCHf9zdzCh5SNLSLAYi9tmy8R5hbDfC_84qlUK_FTNpowA44oN",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5451928,
+               "lng" : -80.2469394
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54660233029149,
+                  "lng" : -80.24564671970849
+               },
+               "southwest" : {
+                  "lat" : 43.5439043697085,
+                  "lng" : -80.2483446802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Trappers Alley",
+         "photos" : [
+            {
+               "height" : 2848,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJh0Wq5LvWvYvZBOGmw0FQuWBWc2_Hlu9MCOCYIkeCZrA8AEMMtudKe5kjMns8LcZ_lKu4A9UZfp_weu7A171lo8aJH-biLFs4Aa6p-uEQwjF6jeMqNePFb8EbNMSPtYKyv7o6-30mPvHzehAsM7uIIMNU3xdHYZUu6vNysS_aoRAHh",
+               "width" : 4288
+            }
+         ],
+         "place_id" : "ChIJ7Qo9Z8KaK4gRGupSK3Ruf8w",
+         "plus_code" : {
+            "compound_code" : "GQW3+36 Guelph, ON, Canada",
+            "global_code" : "86MXGQW3+36"
+         },
+         "price_level" : 1,
+         "rating" : 2.3,
+         "reference" : "ChIJ7Qo9Z8KaK4gRGupSK3Ruf8w",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 118,
+         "vicinity" : "100 Carden Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.42037140000001,
+               "lng" : -80.44134439999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4217193302915,
+                  "lng" : -80.44000131970849
+               },
+               "southwest" : {
+                  "lat" : 43.4190213697085,
+                  "lng" : -80.44269928029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Moxie's Grill & Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108290414236669954106\"\u003eMarian Stefan Cojocaru\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJT48t-5SPYofz2i_8f_KPwBeTJhv3mGSj7oMT8rkloe4vfN3_kjEQIVE2TWx8jbOq4726hZxUiKfw7_vgmno38nBSzLn9s-or376T2BYhcPeiAwdihT__qfbhXTAt5B42LRKqXYl_MBxk0D-EtutYx46LSmg-YSt4v1IyEMua0ghqY",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJY47u1tqKK4gRYWfpBKiw2AE",
+         "plus_code" : {
+            "compound_code" : "CHC5+4F Kitchener, ON, Canada",
+            "global_code" : "86MXCHC5+4F"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJY47u1tqKK4gRYWfpBKiw2AE",
+         "scope" : "GOOGLE",
+         "types" : [
+            "night_club",
+            "meal_delivery",
+            "meal_takeaway",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1250,
+         "vicinity" : "385 Fairway Road South, Kitchener"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4503865,
+               "lng" : -80.49173019999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45190268029151,
+                  "lng" : -80.49026596970849
+               },
+               "southwest" : {
+                  "lat" : 43.44920471970851,
+                  "lng" : -80.49296393029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Wax Nightclub",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI7fsq503wOg1bDuzuUez_kPH3YpzJFqeSuvuvvzKIG1IRhaaqurEYhqinIYsG72geKo95OiNtsLdTIASECcmnMTRrHpgF1GOODtMFtv2gOQa_d4wm_BRMFzun7LTVF6m5NDGZe0BzKuKQPl3NcLwS3kBBPDY8vgN1QbofuCJbRT-rE",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJo2Z3G_P0K4gRJeURmGqSgyA",
+         "plus_code" : {
+            "compound_code" : "FG25+58 Kitchener, ON, Canada",
+            "global_code" : "86MXFG25+58"
+         },
+         "price_level" : 1,
+         "rating" : 3.2,
+         "reference" : "ChIJo2Z3G_P0K4gRJeURmGqSgyA",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 37,
+         "vicinity" : "125 King Street West, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4505734,
+               "lng" : -80.49071409999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4518671302915,
+                  "lng" : -80.48940336970848
+               },
+               "southwest" : {
+                  "lat" : 43.4491691697085,
+                  "lng" : -80.4921013302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Elements",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJZmcimWRgBs5RY5zD3Q1If-2KSukG4IWmjmQaUy23zkRV9f-beiRTso2bBtAxP56em5iZzo5N4U_VgzbMS1FijFI_9BOJU0DTN6Sif4oKNF29jVMSBDLx8SWC2hYE9W7fwIQS23mtKh0gwA9Lbg23cBaCAzybvovTfksy8QrSRyl8a",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJl2kt4_L0K4gRS-njONTyzXI",
+         "plus_code" : {
+            "compound_code" : "FG25+6P Kitchener, ON, Canada",
+            "global_code" : "86MXFG25+6P"
+         },
+         "rating" : 3.2,
+         "reference" : "ChIJl2kt4_L0K4gRS-njONTyzXI",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 33,
+         "vicinity" : "90 King Street West, Kitchener"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.475238,
+               "lng" : -80.524389
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4765037802915,
+                  "lng" : -80.5230400197085
+               },
+               "southwest" : {
+                  "lat" : 43.4738058197085,
+                  "lng" : -80.52573798029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Phil's Grandson's Place",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 640,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102936114184975204656\"\u003ePhil&#39;s Grandson&#39;s Place\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ4TRGxOZG1C0FBWm4ke_JbIgTW0mSF9vaMdPcuoPg2Yqmk11I1Tj9xYviUE_8NguojJIa28jyTh8M9k0NJk39dUJ8dcB-mgQzE87fD5Nymid_BQfhLu0ZAcmNCRgUT9XNswo_76PoiBUFgkQreJuIRM55OrWRgXQix_W0GyW2x3mwj",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJswAD92v0K4gREml-Mh7NOUU",
+         "plus_code" : {
+            "compound_code" : "FFGG+36 Waterloo, ON, Canada",
+            "global_code" : "86MXFFGG+36"
+         },
+         "price_level" : 1,
+         "rating" : 3.1,
+         "reference" : "ChIJswAD92v0K4gREml-Mh7NOUU",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 328,
+         "vicinity" : "220 King Street North, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5451404,
+               "lng" : -80.247039
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5465512302915,
+                  "lng" : -80.2457475197085
+               },
+               "southwest" : {
+                  "lat" : 43.5438532697085,
+                  "lng" : -80.24844548029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "TABU Nightclub",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKtX2wdU4aPqdmovjMs2D8h6FuefKaISJbsCrKaCJUW5oCM4ZToFEwlJ95LTnqlWsYZ6OsF97Yr43NB7BqY69cQs5l4yrb_6QoeSHzzIwfOYk9V_lw7c547CO22mv4XM0OwxBo_7U3uY5U56AK3t_9dOM5mMNYJwlTt3X7D5F3T1qs_",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJDwMVfsKaK4gRFnrv14RtMXU",
+         "plus_code" : {
+            "compound_code" : "GQW3+35 Guelph, ON, Canada",
+            "global_code" : "86MXGQW3+35"
+         },
+         "rating" : 4,
+         "reference" : "ChIJDwMVfsKaK4gRFnrv14RtMXU",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7,
+         "vicinity" : "96 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5454872,
+               "lng" : -80.2471517
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5467598802915,
+                  "lng" : -80.24573171970849
+               },
+               "southwest" : {
+                  "lat" : 43.5440619197085,
+                  "lng" : -80.24842968029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Opus Lounge",
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101205696580099773684\"\u003ePauline Bott\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIM6fxJsIeXRYDFoJ-CUFAb4tFUP9EaCw-5RuqqzVzI34qXdOOoeiS7MxYGhguVLup7w1Tb7iCk2eIH2UVfp7MGgqodA5yQyC4Bjvb0PJ7joJ10maYIXf8SHTZO-L9jVDGdTX9rLJXK6GYizaZBd3DnlmXo_fhIk38UriKV_7qwkpcy",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ322wesKaK4gR1p9bl3VtSfY",
+         "plus_code" : {
+            "compound_code" : "GQW3+54 Guelph, ON, Canada",
+            "global_code" : "86MXGQW3+54"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJ322wesKaK4gR1p9bl3VtSfY",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 11,
+         "vicinity" : "92 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5647317,
+               "lng" : -80.2759731
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5660461802915,
+                  "lng" : -80.27469806970849
+               },
+               "southwest" : {
+                  "lat" : 43.5633482197085,
+                  "lng" : -80.2773960302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Voodoo Vapes",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKqbEzD6KmtoO3RXwT2SaOlvSUwjMkbFmnAkqdPG9RTlrc9FDs-VnquWgQc17go1YAi3tZ8f-S38x_rskYjhkKcNECRY0i17JiB5BwH1H2yxF3tZk2dPt_LnaKXfU5Vc-c-D39lR8nKGow_AsmYdXfULqaZ4pMPdJAC3AH7uqgIPZAz",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJCabFz4GaK4gRgkjymU2L0Sg",
+         "plus_code" : {
+            "compound_code" : "HP7F+VJ Guelph, ON, Canada",
+            "global_code" : "86MXHP7F+VJ"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJCabFz4GaK4gRgkjymU2L0Sg",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 96,
+         "vicinity" : "765A Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5177109,
+               "lng" : -80.23462379999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.51909898029149,
+                  "lng" : -80.2333317697085
+               },
+               "southwest" : {
+                  "lat" : 43.5164010197085,
+                  "lng" : -80.23602973029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Symposium Cafe Restaurant & Lounge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 340,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114605706704973190131\"\u003eSymposium Cafe Restaurant &amp; Lounge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL5ziRQZvdoN2VB3opHRekb681wKC5Nyth-DwJrRHFdE38kLrTo0wFEiKNxEpgHoNAjWH19t_NOf87R9HNdeJohkgq10sRDP0lcpRvWaPeEKVy19EmEa_dRQZOcDN7L3VSEmyO0GXcuGlfPo0Y6vsQ2RFTwrEVoYaDR_mTmr4s9o1M",
+               "width" : 820
+            }
+         ],
+         "place_id" : "ChIJt6tvqimFK4gRbvvU_svjx64",
+         "plus_code" : {
+            "compound_code" : "GQ98+35 Guelph, ON, Canada",
+            "global_code" : "86MXGQ98+35"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJt6tvqimFK4gRbvvU_svjx64",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "night_club",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1057,
+         "vicinity" : "304 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4349541,
+               "lng" : -80.4500221
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4364373802915,
+                  "lng" : -80.44861901970849
+               },
+               "southwest" : {
+                  "lat" : 43.4337394197085,
+                  "lng" : -80.45131698029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Voodoo Vapes",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110036301207801812423\"\u003eVoodoo Vapes\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLT49ewy8WdTlfViHpb68Q0JVvyxLNGcgZI98pXcz4bQ8WPl18CQ-MVlvyDw1md2rMaeWLdKLnL0y2pPbLBPUnAlTHtt-QlPIx9QmQpzL6r-HwyPOanPEH-CYl1LKwQCZgnExlZ4wEHn1Ag9SWhISCqTeJDTCssbjNFpuJiDLaXXBzj",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ0ZE_GyyLK4gRLLyaZoTr9fQ",
+         "plus_code" : {
+            "compound_code" : "CGMX+XX Kitchener, ON, Canada",
+            "global_code" : "86MXCGMX+XX"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ0ZE_GyyLK4gRLLyaZoTr9fQ",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 292,
+         "vicinity" : "1093 Weber Street East, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.7043861,
+               "lng" : -80.3788361
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.7057613302915,
+                  "lng" : -80.37755381970848
+               },
+               "southwest" : {
+                  "lat" : 43.7030633697085,
+                  "lng" : -80.3802517802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "The Grand Templin Pub",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3780,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109069747167946001971\"\u003eNorth River Lounge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKb-F_g1qUb8GsJeB4MeZbVcbh_6cr_BbHB9ZanS3541HnERC2PEr-xFi2uXJI0WZT7GrAaOXy2HhidcHntTopzoAGgXQ0cwCJ87IOxsnpbPL_KXZCM1-rrRw975eiJ78gMRqEIzLyj3lLB7OBgO4_hPRR0PUhLYwO-tgJUb2AxOuLg",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJIY3AjhG-K4gRMAX3ZyZ3X4w",
+         "plus_code" : {
+            "compound_code" : "PJ3C+QF Fergus, ON, Canada",
+            "global_code" : "86MXPJ3C+QF"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJIY3AjhG-K4gRMAX3ZyZ3X4w",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "night_club",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 131,
+         "vicinity" : "216 Saint Andrew Street West, Fergus"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4339517,
+               "lng" : -80.45091429999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4353149302915,
+                  "lng" : -80.4494595197085
+               },
+               "southwest" : {
+                  "lat" : 43.4326169697085,
+                  "lng" : -80.4521574802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Phoenix Massage",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 731,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113136720154407723601\"\u003ePhoenix Massage\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJXu_fJ6rEBWryjxBnsXdvs8dzzpuIt6A2PMo6MNZKUp_gnjvN7Ua1OU-nZAKFyPaNbEu9S_Sa35NedLJge7_ExexOzF3MZ8_cz8UfRf5qty4J6HqARR5t9cm1OZycIJaQ4dCMGLD5V_C19jZdW8PQNdpU0LhwMGbVHItWsaTAU-cyw",
+               "width" : 993
+            }
+         ],
+         "place_id" : "ChIJE-iVjSuLK4gR6Uj83AKN-DU",
+         "plus_code" : {
+            "compound_code" : "CGMX+HJ Kitchener, ON, Canada",
+            "global_code" : "86MXCGMX+HJ"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJE-iVjSuLK4gR6Uj83AKN-DU",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "spa", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 24,
+         "vicinity" : "2271 Kingsway Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4520028,
+               "lng" : -80.49502509999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4532968802915,
+                  "lng" : -80.49370871970849
+               },
+               "southwest" : {
+                  "lat" : 43.4505989197085,
+                  "lng" : -80.4964066802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Dallas Night Club",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117478396924058516754\"\u003eAndy Mud\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKz0YL-JqF_Rh-i1QoUeoZH8_s4zs0dtljdXxvootsEoKDSZAiWP5CGrq0RWMDjuKu4ZkrT1qKYGsmyU29-uK4wPFwr9erBBsDaA5o1jw0Qm46-giBUR9IlmuBwSfqTxR5RkJNTfxFenKKC-YKXSbkMhvCEYCppP66W9YQOQjM_KNWd",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ1xXSufT0K4gRVVVDG1vPJ20",
+         "plus_code" : {
+            "compound_code" : "FG23+RX Kitchener, ON, Canada",
+            "global_code" : "86MXFG23+RX"
+         },
+         "price_level" : 1,
+         "rating" : 3.2,
+         "reference" : "ChIJ1xXSufT0K4gRVVVDG1vPJ20",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 76,
+         "vicinity" : "312 King Street West, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4544665,
+               "lng" : -80.50408259999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4558970302915,
+                  "lng" : -80.50268646970849
+               },
+               "southwest" : {
+                  "lat" : 43.4531990697085,
+                  "lng" : -80.5053844302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "District Nightclub",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2436,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104771379935581139031\"\u003eDistrict Nightclub\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIxsbEkQPKUP6IEiT5oa6WhYnt7i4HFUHT5aN_rage05ewQlfNJpeQlVqIviq7u20P2ipOUKk_FGO-V4yxMoPEQ2JMlMNz27iQVQpt-IyWkNUVOYb0XbpS3rwgAwC_yQfk6iCT8d2K8LBqinq7kLX2iC-Q-EuuQEMeWvGim6j-hNMwe",
+               "width" : 1125
+            }
+         ],
+         "place_id" : "ChIJD0iHx2D0K4gRxhKKLFK5fKk",
+         "plus_code" : {
+            "compound_code" : "FF3W+Q9 Kitchener, ON, Canada",
+            "global_code" : "86MXFF3W+Q9"
+         },
+         "price_level" : 2,
+         "rating" : 3.6,
+         "reference" : "ChIJD0iHx2D0K4gRxhKKLFK5fKk",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 95,
+         "vicinity" : "667 King Street West, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.522111,
+               "lng" : -80.213638
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.52350913029149,
+                  "lng" : -80.21224271970848
+               },
+               "southwest" : {
+                  "lat" : 43.5208111697085,
+                  "lng" : -80.21494068029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Manhattans",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102398271613573577260\"\u003eBarthee Yoga\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK_wf8b8UA9NG6y1rE05XiAh1Ga-kr2pK8hr9-3K-fU7t9FAjgo1ZD4ico2iqzGP2KTwwvfk9HNOlPfWKtmWIp6I9HCYpZqdb1QeYfkxWyBrJcsRuNFPo_L5wTIHzzP9DuZAtZAv0i22UoDIuV6CJEmbCdX6kIoyMm5kh4wJSMSYXft",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJzwLMEcuEK4gRIL-sK9b9OH0",
+         "plus_code" : {
+            "compound_code" : "GQCP+RG Guelph, ON, Canada",
+            "global_code" : "86MXGQCP+RG"
+         },
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "ChIJzwLMEcuEK4gRIL-sK9b9OH0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "night_club",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 663,
+         "vicinity" : "951 Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.470674,
+               "lng" : -80.53935659999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.47225433029149,
+                  "lng" : -80.53775676970849
+               },
+               "southwest" : {
+                  "lat" : 43.4695563697085,
+                  "lng" : -80.5404547302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "POETS",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKxmtqZHPSHulGkJ2BqVNHYZSKIyOJC1vN7HTtRRGSDDEBa-6B93dG4RnopXeNim2hWaVMOq39jBkcllQL-jXapbyTnVXVovSiS3ePAl_GrH8Z03eG-X7WWKRI9kH8fYO51xiB6OM1rHAi1k7B7VHcgeS_nMafkSA3qcWLJv8XNbWJc",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJcVr_4QP0K4gRAXvITEl387U",
+         "plus_code" : {
+            "compound_code" : "FFC6+77 Waterloo, ON, Canada",
+            "global_code" : "86MXFFC6+77"
+         },
+         "price_level" : 1,
+         "rating" : 4.7,
+         "reference" : "ChIJcVr_4QP0K4gRAXvITEl387U",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 79,
+         "vicinity" : "Ring Road, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54548079999999,
+               "lng" : -80.24851579999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54682978029149,
+                  "lng" : -80.2471668197085
+               },
+               "southwest" : {
+                  "lat" : 43.5441318197085,
+                  "lng" : -80.2498647802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Doogie's & Pablo's",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKaUrJ-mMcEaQl_Oym8VH-gmvtVi-UGLgkHGoZSrGOyqnzqCNT9HGr_eMlI47g_7hO_5rr6AVrWPPc7qgLE3lu1xlgJAxx5tRacDYl0GD3eMUfFGQC6pzWyhYbQ9FY09tBGgdWA4jrhes__VpAMETAnWaXQQYBhphzT08n9pOPYktlQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJj_-EHMKaK4gR7-MRSXVfJx8",
+         "plus_code" : {
+            "compound_code" : "GQW2+5H Guelph, ON, Canada",
+            "global_code" : "86MXGQW2+5H"
+         },
+         "price_level" : 1,
+         "rating" : 3.8,
+         "reference" : "ChIJj_-EHMKaK4gR7-MRSXVfJx8",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 42,
+         "vicinity" : "37 Wyndham Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4081349,
+               "lng" : -80.39672659999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4094947302915,
+                  "lng" : -80.39555496970848
+               },
+               "southwest" : {
+                  "lat" : 43.4067967697085,
+                  "lng" : -80.39825293029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Borealis Grille & Bar (Kitchener)",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 562,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101779501259070715012\"\u003eBorealis Grille &amp; Bar (Kitchener)\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL3QRS__3rbgzA8OlNqZWYWiDFvHhDnx6nhNQCZaLByPsaNPWt6ard-2jZnUV2IY_g0F4hAT7kIJniEfH34TTw_npUMoxyyO_FCg0DInLxRtQvNXYXr5-l3UWAqs99oEGg5W7ehjFIasKOpTj31MuR08Jm7QzVQrCPymcr31tkMu8fs",
+               "width" : 750
+            }
+         ],
+         "place_id" : "ChIJRx5s-UKKK4gRIp9ZyUBpJgM",
+         "plus_code" : {
+            "compound_code" : "CJ53+78 Kitchener, ON, Canada",
+            "global_code" : "86MXCJ53+78"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJRx5s-UKKK4gRIp9ZyUBpJgM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "night_club",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1368,
+         "vicinity" : "4336 King Street East, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5445372,
+               "lng" : -80.24816679999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54594068029149,
+                  "lng" : -80.24671371970848
+               },
+               "southwest" : {
+                  "lat" : 43.5432427197085,
+                  "lng" : -80.24941168029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "La Reina",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1343,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102482633982842198714\"\u003eLa Reina\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ5aa2YiQ3iLKYrdyH617pZJ8JvGpCT7mcnDlX2g1Goe-TwYcfbAUGHND2loHBvsjuvM-dwHVU9hcl5bfJ2jGP78krE9g0LlQ_m3T_qJCW_aht4DtKA9j87QaHKeURbWKBA28_l9h9DzkwGQ1YgXRXINk7LRucpspvoaSTd7P0TzrWy",
+               "width" : 2000
+            }
+         ],
+         "place_id" : "ChIJO1kYXTibK4gREurIOsc3XJo",
+         "plus_code" : {
+            "compound_code" : "GQV2+RP Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+RP"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJO1kYXTibK4gREurIOsc3XJo",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "night_club",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 687,
+         "vicinity" : "10 Wyndham Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5448096,
+               "lng" : -80.2485868
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5462378802915,
+                  "lng" : -80.2470813697085
+               },
+               "southwest" : {
+                  "lat" : 43.54353991970851,
+                  "lng" : -80.2497793302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Onyx Nightclub",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102997323231580780567\"\u003eOnyx Nightclub\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKTF9W1vrOeZPMgHa0QPR9PeF1vrxk6QkBSYWkEZ-6Op24DrwvMBo0ZsS2vYfxP2A11rB65nFwZAJ6uylBJGLObXmCJ8zp7i4-CyWwLSge1PQfR705IzOA7QSwsiAJ12IO0juwKWX3VIkY4AVyEdNBNluZrex9lBCjkwlK_LBo7kR22",
+               "width" : 4592
+            }
+         ],
+         "place_id" : "ChIJRwMuFeSbK4gR4Gp-978J4h8",
+         "plus_code" : {
+            "compound_code" : "GQV2+WH Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+WH"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJRwMuFeSbK4gR4Gp-978J4h8",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 19,
+         "vicinity" : "12 Wyndham Street North 2nd Floor, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

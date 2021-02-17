@@ -1,0 +1,736 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4414413,
+               "lng" : -80.4885517
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4428261802915,
+                  "lng" : -80.4871683697085
+               },
+               "southwest" : {
+                  "lat" : 43.4401282197085,
+                  "lng" : -80.48986633029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Globe Studios",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114224073212879076999\"\u003eNick Stanley\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI_xr5xL7BhItOnkORwP1e6UnTRkk3vujeT_IdKg5VwSG58rtYKOqvRU7Hzip-cSCi_HriHA55lGSG6cu5X_n3lADskOzbecUNAj6przyOgBF3CaBLtLX7sO3d9yhbjIg4OGAt5fO2FTPKHWLklamcrckONVfYE2QxFO1XpI6m3HeI5",
+               "width" : 3000
+            }
+         ],
+         "place_id" : "ChIJdRecyvr0K4gR4l17riNJ2Oo",
+         "plus_code" : {
+            "compound_code" : "CGR6+HH Kitchener, ON, Canada",
+            "global_code" : "86MXCGR6+HH"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJdRecyvr0K4gR4l17riNJ2Oo",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10,
+         "vicinity" : "141 Whitney Place, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.46114809999999,
+               "lng" : -80.5049526
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4625531802915,
+                  "lng" : -80.50354736970849
+               },
+               "southwest" : {
+                  "lat" : 43.4598552197085,
+                  "lng" : -80.50624533029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Balwey Manor",
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101198737701299496707\"\u003eJohn Hymmen\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIIFB2AL8IVBMgdviI_lVet5TiM6j-e-Irosrm0O8jxSbj5BdUMU7ryWvcr6p9otijjPqpRrZLSWIkcHLwMzQmmsMST_4dpL3_igNRE9NMTzK_5MEqfbQUH_kYEAvNb7lB0OnyB5zQ4qx9Hi8fxxcBzNuHf4JEhDQF-6KqhHYD_gHlU",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJYSWggmT0K4gRYsXdn5ZHTtk",
+         "plus_code" : {
+            "compound_code" : "FF6W+F2 Kitchener, ON, Canada",
+            "global_code" : "86MXFF6W+F2"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJYSWggmT0K4gRYsXdn5ZHTtk",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 14,
+         "vicinity" : "241 Waterloo Street, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3678622,
+               "lng" : -80.0960716
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3691973802915,
+                  "lng" : -80.09477646970849
+               },
+               "southwest" : {
+                  "lat" : 43.3664994197085,
+                  "lng" : -80.09747443029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Shoe Tree",
+         "photos" : [
+            {
+               "height" : 3096,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117654903549253645429\"\u003ePeter Scholtens\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI9kl3_CpQHm4lxzpBYl0ft7biwEM1lW4Q0D9i_AAnRFD1BiK1EBlKuNSS9V2rgIQwyUb591T0g0wjK3Qd2WpSjHVL_D400uc4udEgYCvR7hc-yb8U9N0qU3F_Fq7Nw5-ZZL6c-GM-hs-h40PU1aRDsLbO0Nk8l1Ib6Z4M5uQUoGdBU",
+               "width" : 3096
+            }
+         ],
+         "place_id" : "ChIJo4Cm-vh_K4gReRkpJGeZgRE",
+         "plus_code" : {
+            "compound_code" : "9W93+4H Puslinch, ON, Canada",
+            "global_code" : "86MX9W93+4H"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJo4Cm-vh_K4gReRkpJGeZgRE",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5,
+         "vicinity" : "1588 Westover Road, Puslinch"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.444586,
+               "lng" : -80.494551
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4459450802915,
+                  "lng" : -80.49322241970849
+               },
+               "southwest" : {
+                  "lat" : 43.4432471197085,
+                  "lng" : -80.49592038029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Regional Municipality of Waterloo M",
+         "place_id" : "ChIJyWm7dR1zhlQR9IAvqhjXYSc",
+         "plus_code" : {
+            "compound_code" : "CGV4+R5 Kitchener, ON, Canada",
+            "global_code" : "86MXCGV4+R5"
+         },
+         "reference" : "ChIJyWm7dR1zhlQR9IAvqhjXYSc",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "466 Queen St S, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3964625,
+               "lng" : -80.0430437
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39775118029149,
+                  "lng" : -80.0416657697085
+               },
+               "southwest" : {
+                  "lat" : 43.39505321970849,
+                  "lng" : -80.04436373029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Christmas Land Charity Display",
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102297588584786810653\"\u003eJames Clarkson\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL4JoDWiiy9BuDF-0VmHJ1cDf4bkg_Yvpw_6kbA6gVGbLiMdgvUCLUMYuF9167ds_6Vc5fQeJqWbf1RWsAURm72lW3Zvgojrf2dAG8EuQLf2Dt6pxrJfmCWZ-h-JQZK7pf8bZj09YlO2y8_rlNhGgT25o4M_flJxnUxCpcAMIa3M6zE",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJN5awHrd_K4gR_0sK0lQhurc",
+         "plus_code" : {
+            "compound_code" : "9XW4+HQ Freelton, Hamilton, ON, Canada",
+            "global_code" : "86MX9XW4+HQ"
+         },
+         "rating" : 5,
+         "reference" : "ChIJN5awHrd_K4gR_0sK0lQhurc",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "16 Weneil Drive, Freelton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4455758,
+               "lng" : -80.49940530000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4468736802915,
+                  "lng" : -80.49797576970849
+               },
+               "southwest" : {
+                  "lat" : 43.4441757197085,
+                  "lng" : -80.50067373029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "The Gallery",
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115903306903687819243\"\u003eHuman First\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLq-eTMLhIbAYRjpBnsroqOqDwI1n0T6_b2HNnlgAKERZyHNkh7xOLkFgyKnqPyUjI0jKyucdmQAA7U8oSGrrOykSNQjpdx-muJRxagwqIyjrfS_Ivw-U-Hzse4MpTxXvdtZh1EbwBMjA3unp5CtedD0HA_M14ZBpHeUTW-LUzOHpgl",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJO8Wt6cP1K4gRzSpXLmeSyw0",
+         "plus_code" : {
+            "compound_code" : "CGW2+66 Kitchener, ON, Canada",
+            "global_code" : "86MXCGW2+66"
+         },
+         "rating" : 5,
+         "reference" : "ChIJO8Wt6cP1K4gRzSpXLmeSyw0",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "80 Schneider Avenue, Kitchener"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5393219,
+               "lng" : -80.55332180000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54068233029151,
+                  "lng" : -80.55209496970851
+               },
+               "southwest" : {
+                  "lat" : 43.53798436970851,
+                  "lng" : -80.55479293029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "The Mennonite Story",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 877,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115720715815312455483\"\u003eThe Mennonite Story\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIX9TLvSsu9eoKrjaxs_7vH-TPTunmNVoIQcscsxgyR9BzXVLTbEBPJ-TgAGpMOY9IABGBkyot-TslVixkGDg6S5CbG9VJpG3Ib0tMxZ1TXiaIUfdLZRX5-wOzCzKOCVgI_ybHcnAjgfnypTpSwbTHvdGy944VdeUFeHnlHbZ6e1hPJ",
+               "width" : 866
+            }
+         ],
+         "place_id" : "ChIJp9Euk_HxK4gRnXUWwdITFtA",
+         "plus_code" : {
+            "compound_code" : "GCQW+PM St. Jacobs, ON, Canada",
+            "global_code" : "86MXGCQW+PM"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJp9Euk_HxK4gRnXUWwdITFtA",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 121,
+         "vicinity" : "1406 King Street North, St. Jacobs"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.514796,
+               "lng" : -79.95905399999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.51636269999999,
+                  "lng" : -79.95837751970849
+               },
+               "southwest" : {
+                  "lat" : 43.5100959,
+                  "lng" : -79.96107548029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Bruce Trail, Irorouoia Section Start",
+         "photos" : [
+            {
+               "height" : 2368,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116311114609775883773\"\u003eC. T. Pang\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL8-jmOCTQIx_OAXm7GGfX0a76wbV-m0ATp3s2grl2pEEcq9COADfW2-7GfmQcmPvKMfyFEMXMDpWg0oyfKwe3kdeCxGgODfooRBTTUvHRULiPeV2gPISCKvXIYX-wAlwT3KbbyEJvoTdoR1HDzNJET5pn94Web_uC2j9keuifsVsi5",
+               "width" : 4208
+            }
+         ],
+         "place_id" : "ChIJyefpjWNwK4gRAtoFS5HZ7QQ",
+         "plus_code" : {
+            "compound_code" : "G27R+W9 Milton, ON, Canada",
+            "global_code" : "87M2G27R+W9"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJyefpjWNwK4gRAtoFS5HZ7QQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4,
+         "vicinity" : "Bruce Trail, Milton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.46363059999999,
+               "lng" : -80.52343259999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4647334302915,
+                  "lng" : -80.52188131970848
+               },
+               "southwest" : {
+                  "lat" : 43.4620354697085,
+                  "lng" : -80.5245792802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "SPECTRUM | The Shops at Waterloo Town Square",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3376,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115375670874210291005\"\u003eTHEMUSEUM Kitchener\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIrEGeQk6VqasdTaeeyCSKVSAGUT2VGRBSdc96fJDFAPCHdFZjoOchituygZpYUeF_lmLrGIhTBes9PXuxvNYFzUtmTcp0KmKzyysCCuPjaIBPwMvtXriDJI9JHGZ3-byKmLtE90cI_7b7rdANBmDK9So6HH2bTBgsxAVziNwHH2Zs",
+               "width" : 6000
+            }
+         ],
+         "place_id" : "ChIJKaENIS31K4gREvhptSjzIjg",
+         "plus_code" : {
+            "compound_code" : "FF7G+FJ Waterloo, ON, Canada",
+            "global_code" : "86MXFF7G+FJ"
+         },
+         "reference" : "ChIJKaENIS31K4gREvhptSjzIjg",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "75 King Street South Unit 35, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.462465,
+               "lng" : -80.5247878
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4636909302915,
+                  "lng" : -80.52352416970849
+               },
+               "southwest" : {
+                  "lat" : 43.4609929697085,
+                  "lng" : -80.5262221302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Museum Planning Partners",
+         "place_id" : "ChIJq6qaUxL0K4gRTOIbZGF8pSo",
+         "plus_code" : {
+            "compound_code" : "FF6G+X3 Waterloo, ON, Canada",
+            "global_code" : "86MXFF6G+X3"
+         },
+         "reference" : "ChIJq6qaUxL0K4gRTOIbZGF8pSo",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "3 Father David Bauer Drive Suite 206, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.509054,
+               "lng" : -80.54225479999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5105045802915,
+                  "lng" : -80.5407365697085
+               },
+               "southwest" : {
+                  "lat" : 43.5078066197085,
+                  "lng" : -80.54343453029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "St George church",
+         "photos" : [
+            {
+               "height" : 1960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103886402235421182549\"\u003eveka alx\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIvsTz8v2sm1B-AlS0EromueXksYIkxa8AOX9s2K0kwC2I5ZtPbOYoRLNT93sQJPvepcm-ES8-C7EpNY_P_HwblONldVeXrS9RpG1_APltSQxoL2SfsWpiEx8s0_U7qrOM-FnIN2CFaCZLZxBAf8_QxYqNGJjrs8HgXPg4qP-bgOWAL",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJh_-yEIfzK4gRASXbvky4G9w",
+         "plus_code" : {
+            "compound_code" : "GF55+J3 Waterloo, ON, Canada",
+            "global_code" : "86MXGF55+J3"
+         },
+         "rating" : 5,
+         "reference" : "ChIJh_-yEIfzK4gRASXbvky4G9w",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "665 King Street North, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.70196130000001,
+               "lng" : -80.44514789999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.7032756802915,
+                  "lng" : -80.44384771970849
+               },
+               "southwest" : {
+                  "lat" : 43.70057771970851,
+                  "lng" : -80.44654568029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Irvine Creek Bridge",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103798661303927707853\"\u003eTraveler Waterloo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJEaegYB3kMPYC5wIVDnhi5C4nGCfsEUFqJJ9Bd-UTtYGTVaCR9IFSf_iqu5RMv7k2cWW5xZEybTHhz0UAFVsZqxAQnX7FesMQVDKRUevdNgMeJqT52kdBM1WJsHsLRJll3DIPzjOhD_3y2Q9q6HoEtODY1CbPZzyKUZfc7KO71eGAM",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJEZ8mQPu_K4gRr_9MGVHNUT8",
+         "plus_code" : {
+            "compound_code" : "PH23+QW Elora, ON, Canada",
+            "global_code" : "86MXPH23+QW"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJEZ8mQPu_K4gRr_9MGVHNUT8",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5,
+         "vicinity" : "Irvine Street, Elora"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.636739,
+               "lng" : -79.9769041
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6376969802915,
+                  "lng" : -79.97619625
+               },
+               "southwest" : {
+                  "lat" : 43.6349990197085,
+                  "lng" : -79.97902764999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Draw Kiln",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102752062908123757000\"\u003eKeith Watson\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKOhYphdGOVLIFpZYW4Jv7_oahakteLf08MPkU726dlU_F2BPSvvK36Y0CvJegr3gtHBrgtRSL4PrxbN_2VMqq7wMaM1edIqxtU6lS7QSWUqXkYIBvmeiB2XS8SWfw8cmk0eoPjtmavA--w9DinvYj_eqrIR_aIJbxhTNnKSdKaAlo6",
+               "width" : 744
+            }
+         ],
+         "place_id" : "ChIJ1Y5JT85zK4gRt_JtFh9yKjY",
+         "plus_code" : {
+            "compound_code" : "J2PF+M6 Halton Hills, ON, Canada",
+            "global_code" : "87M2J2PF+M6"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ1Y5JT85zK4gRt_JtFh9yKjY",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Halton Hills"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.497998,
+               "lng" : -80.5437079
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4993745802915,
+                  "lng" : -80.5423795697085
+               },
+               "southwest" : {
+                  "lat" : 43.4966766197085,
+                  "lng" : -80.54507753029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Waterloo (Northfield) Train Station",
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115813732351506945891\"\u003eMolly F\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKJcRrP5-E4-U6CKJpGusJr0zIWnrnzslxPh_ylkCaMpBCGtmDvsxAxW5c2PyNX3U6kr7F7L15QltguMXz6_GSzWtKANYFGs1mnd0C2HyGt1XCQDwjLsKlIu3huLWG7G2rBDReWShKTpkqv6DcQvY71EgYXDuplWcWI7hZ1-GfTEjYy",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ5w7akxfzK4gRuu0a0aE-W4E",
+         "plus_code" : {
+            "compound_code" : "FFX4+5G Waterloo, ON, Canada",
+            "global_code" : "86MXFFX4+5G"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ5w7akxfzK4gRuu0a0aE-W4E",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "90 Northfield Drive West, Waterloo"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4716598,
+               "lng" : -80.54205159999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4731273302915,
+                  "lng" : -80.5407818197085
+               },
+               "southwest" : {
+                  "lat" : 43.4704293697085,
+                  "lng" : -80.54347978029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Earth Sciences Museum",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114649326273588435529\"\u003eGowri Nagarajan\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ-C7A1wBhnjLOIvTrFnhT2LpFEyYHS5y9keaiFoVTPVBcB7NEQE_OBQ2W9_nQWAdeUdPu22p8cIVuhx4cXsniDNipZ2MUvAIbOllx9pspYxdjBhQaH_6amiYJOmTwGi6r3d-3yabGaDOXtS8EmMhaTYA0aovDzkifx-Aa3Cc01TC6-",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJR-cnkgH0K4gRdH-6Js738MM",
+         "plus_code" : {
+            "compound_code" : "FFC5+M5 Waterloo, ON, Canada",
+            "global_code" : "86MXFFC5+M5"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJR-cnkgH0K4gRdH-6Js738MM",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 251,
+         "vicinity" : "200 University Avenue West, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4182366,
+               "lng" : -79.9924079
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4195602302915,
+                  "lng" : -79.9909285197085
+               },
+               "southwest" : {
+                  "lat" : 43.4168622697085,
+                  "lng" : -79.99362648029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Romanian Park",
+         "place_id" : "ChIJV1at6CZ9K4gRseaj-M_d42s",
+         "plus_code" : {
+            "compound_code" : "C295+72 Freelton, Hamilton, ON, Canada",
+            "global_code" : "87M2C295+72"
+         },
+         "reference" : "ChIJV1at6CZ9K4gRseaj-M_d42s",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "Freelton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.41789299999999,
+               "lng" : -79.992447
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4193712302915,
+                  "lng" : -79.9909005697085
+               },
+               "southwest" : {
+                  "lat" : 43.4166732697085,
+                  "lng" : -79.99359853029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Campul Romanesc",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106417981228167888594\"\u003eCristian Geaman\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJU_gbWdpQdj81-QqNVIjagZ_ht_qPQEWSjnnDaFiaRaM69VBHdimYi7Liu3NTWSge-fxVsqoF0RjqTVGgub1U2GToZTSdFJL0EaDk0KneAacEZuxq1CZ7TUwzVzdyNKLeVO8wj9fB35P6k041_J4TEaVW2WIWsk5f0mHNAWaUbVmHW",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJC8CU0JN9K4gR_HyaWj2YAyQ",
+         "plus_code" : {
+            "compound_code" : "C295+52 Freelton, Hamilton, ON, Canada",
+            "global_code" : "87M2C295+52"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJC8CU0JN9K4gR_HyaWj2YAyQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 29,
+         "vicinity" : "Unnamed Road, Freelton"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5406538,
+               "lng" : -80.55353509999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5419959302915,
+                  "lng" : -80.55210226970848
+               },
+               "southwest" : {
+                  "lat" : 43.5392979697085,
+                  "lng" : -80.55480023029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Maple Syrup Museum of Ontario",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114096175433177985579\"\u003eutku balcı\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJDH7JslI6BYTg2JD7Avlqz8NFSW2NGtX_plBR-p9-ZaQTLfor1rzwCnG3aOuxRVO07rN3f7bjz7Fq7ENILrrWIfnhnDXOJ4eIrSH1PrK8baleWNKD-3VQcL0npn8yU1EX0e5mUAIlcenT76A_UjTNDe-SssNQWJOvCQFkPKIg0KiSE",
+               "width" : 5184
+            }
+         ],
+         "place_id" : "ChIJGRQVd-7xK4gRyHL6oj-4NRE",
+         "plus_code" : {
+            "compound_code" : "GCRW+7H St. Jacobs, ON, Canada",
+            "global_code" : "86MXGCRW+7H"
+         },
+         "rating" : 4,
+         "reference" : "ChIJGRQVd-7xK4gRyHL6oj-4NRE",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7,
+         "vicinity" : "1441 King Street North, St. Jacobs"
+      }
+   ],
+   "status" : "OK"
+}

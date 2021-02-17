@@ -1,0 +1,237 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4735004,
+               "lng" : -80.4500826
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4751583302915,
+                  "lng" : -80.44931665000001
+               },
+               "southwest" : {
+                  "lat" : 43.4724603697085,
+                  "lng" : -80.45238044999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Bingemans",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2992,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118020791279124849696\"\u003eBingemans\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJkYHYurAtu_Zr9XJeewoSGIzjEp492pTAyEVoAl0ALYtqFK6cIsiJLSINOv_ep-SCFzwN4jI06cKLNEUSFVAUs9ZOAZCmpPny9yP06_cmu-jV5QL0_qVD2rB03c-txQGnjmMWAzV4kj13KbqcJ-JXgU6lgUOK6kupAWvOZ-YmYBazK",
+               "width" : 3992
+            }
+         ],
+         "place_id" : "ChIJ1V_snq6MK4gRA8suIZwOe_4",
+         "plus_code" : {
+            "compound_code" : "FGFX+CX Kitchener, ON, Canada",
+            "global_code" : "86MXFGFX+CX"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ1V_snq6MK4gRA8suIZwOe_4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bowling_alley",
+            "campground",
+            "lodging",
+            "amusement_park",
+            "park",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 4460,
+         "vicinity" : "425 Bingemans Centre Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4724001,
+               "lng" : -80.44995279999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4736951302915,
+                  "lng" : -80.44857271970849
+               },
+               "southwest" : {
+                  "lat" : 43.4709971697085,
+                  "lng" : -80.4512706802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Funworx",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109257124530249762270\"\u003eKris Born\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLnDh-sa1Gw3802Vv8P3y_Jtyf1KKJWD64T0qwNzpqMfDx3Ltc6BQE1Bov9D7RhUoxpJULiVqDeNHV1PAZzWbEKesVNBkdBLRHSb_xKjrv_w7-3UE_7U7j56AfXz2Y-GtVNb8oq4N9IUek4S2xQ1TA6x5ZJF6-Jz-UZLTw8z5viZzw",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJi21d96uMK4gRU78XutWQFck",
+         "plus_code" : {
+            "compound_code" : "FHC2+X2 Kitchener, ON, Canada",
+            "global_code" : "86MXFHC2+X2"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJi21d96uMK4gRU78XutWQFck",
+         "scope" : "GOOGLE",
+         "types" : [ "amusement_park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 433,
+         "vicinity" : "425 Bingemans Centre Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.34330740000001,
+               "lng" : -80.31062949999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.34436823029151,
+                  "lng" : -80.30983456970849
+               },
+               "southwest" : {
+                  "lat" : 43.34167026970851,
+                  "lng" : -80.31253253029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Churchill Park Water Area",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111898636915332148690\"\u003eterry boyer\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKz2DlQDyTh7i7ufJ1DX36OGhrhUikZ3hTUt32XnPmv0ET2JyGPw1Wfw0fnJLmTw6RhxsToTO6-e9TULGe5Gh2S6r5AphxdA35Wj7erAHMpOr2BhGplOncCSP0dsyvxDjiDHdQpOEXEFCsbiVfb6ZCZYonaylNj5cXQXjeI3_xmXmdr",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ_xVzeqh3LIgRZHVNrJYjj-8",
+         "plus_code" : {
+            "compound_code" : "8MVQ+8P Cambridge, ON, Canada",
+            "global_code" : "86MX8MVQ+8P"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJ_xVzeqh3LIgRZHVNrJYjj-8",
+         "scope" : "GOOGLE",
+         "types" : [ "amusement_park", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 108,
+         "vicinity" : "Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4724462,
+               "lng" : -80.45004659999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4737094802915,
+                  "lng" : -80.4486483197085
+               },
+               "southwest" : {
+                  "lat" : 43.47101151970851,
+                  "lng" : -80.4513462802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Bingemans Big Splash",
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109313639461323030692\"\u003eBingemans Big Splash\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKMIMMXq2AnRAYVznD8552FrytBkDlQm4e8MahRQKXF5TCglZ36b_0qvb9rd5a8zSqVsfzJzTKesfG1XUM6a_841fnk84CPfaU4QbpzML1iA6TvMZgQsap0d2CnPvERUhLriUn2krrsF5hmolnYRmQKMdtsVo1o9WdFJQAA3iW5DKvs",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJY9HK9VaNK4gRPis1sNj71Zo",
+         "plus_code" : {
+            "compound_code" : "FGCX+XX Kitchener, ON, Canada",
+            "global_code" : "86MXFGCX+XX"
+         },
+         "rating" : 4,
+         "reference" : "ChIJY9HK9VaNK4gRPis1sNj71Zo",
+         "scope" : "GOOGLE",
+         "types" : [
+            "tourist_attraction",
+            "amusement_park",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 106,
+         "vicinity" : "425 Bingemans Centre Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.46574029999999,
+               "lng" : -80.5335118
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.46714298029149,
+                  "lng" : -80.53201846970849
+               },
+               "southwest" : {
+                  "lat" : 43.46444501970849,
+                  "lng" : -80.53471643029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Waterloo Park West Splash Pad",
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100437626895673009437\"\u003eDiontae\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIvhHSdBQm4CtcxFYws3RUIwQvcVgpS-PrYmBZAiGOnQZMJWZ7P55IaJ8D80TgwpG_PjqcHq06qESPHYrxjwEar3FnvqvWnGVhv6J8xUoRLGk_qsi-N-kMhh8Zc6YrZTkwtFwOP40H39pYNSBvNTZT0sLWVsQlrKVZc6QanwqzLpm6a",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJd2kDkMz1K4gRJPQ19DMPszY",
+         "plus_code" : {
+            "compound_code" : "FF88+7H Waterloo, ON, Canada",
+            "global_code" : "86MXFF88+7H"
+         },
+         "reference" : "ChIJd2kDkMz1K4gRJPQ19DMPszY",
+         "scope" : "GOOGLE",
+         "types" : [ "amusement_park", "point_of_interest", "establishment" ],
+         "vicinity" : "Waterloo"
+      }
+   ],
+   "status" : "OK"
+}

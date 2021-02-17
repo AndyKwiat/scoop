@@ -1,0 +1,563 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4964009,
+               "lng" : -80.52579449999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4976312302915,
+                  "lng" : -80.52459931970849
+               },
+               "southwest" : {
+                  "lat" : 43.4949332697085,
+                  "lng" : -80.52729728029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Galaxy Cinemas Waterloo",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 290,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104626433317846256094\"\u003eGalaxy Cinemas Waterloo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLTTlh_6pX2ksenQ2F44MtUXrxWNBVm15qOJvPwpgU4aY0kQ6uzwBjciU2NXqXDOH68VdZ6856SOjh_G6AHgUFNvCTxu8hn3gprhu599wDcJYLiks5jdjfrilePJ6FlwbonCF-q1dhZyqgbVsVyha8oKZXJbEbCAFLcj02BzAF6tTFM",
+               "width" : 512
+            }
+         ],
+         "place_id" : "ChIJU5nJ_sPzK4gR47RegfBRR6w",
+         "plus_code" : {
+            "compound_code" : "FFWF+HM Waterloo, ON, Canada",
+            "global_code" : "86MXFFWF+HM"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJU5nJ_sPzK4gR47RegfBRR6w",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1857,
+         "vicinity" : "550 King Street North, Waterloo"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5439016,
+               "lng" : -80.30896559999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5451978802915,
+                  "lng" : -80.30754226970849
+               },
+               "southwest" : {
+                  "lat" : 43.5424999197085,
+                  "lng" : -80.3102402302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Galaxy Cinemas Guelph",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 290,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116526592450685009586\"\u003eGalaxy Cinemas Guelph\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIzomQ60AXGIHP5P5hu3LtVPLg5Z9y4iuDGND__NXEFWNzLNKTQ2p9vdvdi3k6zQjdbaRgMwMbIto6GVZzfmtOmahGzMuAgMpRJw6wMzL4UV2vqg79Ho1PhYqNBfo_YRxbMsvW_eLMiDcLYPi0xSwDkN4kv6i-OZlj32Uauso3nL4zM",
+               "width" : 512
+            }
+         ],
+         "place_id" : "ChIJoz8IHTuQK4gRx9SKUTu-4ng",
+         "plus_code" : {
+            "compound_code" : "GMVR+HC Guelph, ON, Canada",
+            "global_code" : "86MXGMVR+HC"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJoz8IHTuQK4gRx9SKUTu-4ng",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1136,
+         "vicinity" : "485 Woodlawn Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5017714,
+               "lng" : -80.1849271
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5029799302915,
+                  "lng" : -80.18370041970849
+               },
+               "southwest" : {
+                  "lat" : 43.5002819697085,
+                  "lng" : -80.18639838029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Galaxy Cinemas Pergola Commons",
+         "photos" : [
+            {
+               "height" : 290,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113824042551606588661\"\u003eGalaxy Cinemas Pergola Commons\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLNBhy8wlkcJj6rTLwwtEx94-xKQR7V3iWAWbe1quc29b0U3BEzWWqkkR0ZefbG6weAXno0q7LipxOV5QUg0p44VaAtlIbi6vY0_Cd1tznB5KTLeT4-J8IzffBSY4TJ3i7eWKUPoLcqDb60n6MpzV1GzONZNrKtvT3dObQyehJM_RDx",
+               "width" : 512
+            }
+         ],
+         "place_id" : "ChIJD3dTLZ6EK4gR740TbDtlYZ4",
+         "plus_code" : {
+            "compound_code" : "GR28+P2 Guelph, ON, Canada",
+            "global_code" : "86MXGR28+P2"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJD3dTLZ6EK4gR740TbDtlYZ4",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 810,
+         "vicinity" : "85 Clair Road East, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3931383,
+               "lng" : -80.3199305
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39416803029149,
+                  "lng" : -80.31819476970848
+               },
+               "southwest" : {
+                  "lat" : 43.3914700697085,
+                  "lng" : -80.32089273029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Galaxy Cinemas Cambridge",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 290,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103145062260131795749\"\u003eGalaxy Cinemas Cambridge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIgXwwKZeE-s-fIdpYCI9jgAHo8QBqvy3JjXr_9cwkSHlnxIlDtu1y2zptz-wCBaeuoW2cJ3c9yO-k4wZcucbTugTy48WWpFad1VYZGjT9g44l0HANq3bKP67slYMeGqMIWwnGt8Ce1sgM7ZCSH8cZexwcNNIo8Q31G1VyBw6Q4Zj0h",
+               "width" : 512
+            }
+         ],
+         "place_id" : "ChIJSfWNgcyJK4gRhgHAhjY4fEo",
+         "plus_code" : {
+            "compound_code" : "9MVJ+72 Cambridge, ON, Canada",
+            "global_code" : "86MX9MVJ+72"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJSfWNgcyJK4gRhgHAhjY4fEo",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1089,
+         "vicinity" : "Cambridge Centre, 355 Hespeler Road, Cambridge"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4053656,
+               "lng" : -80.3875164
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4067517802915,
+                  "lng" : -80.38608471970851
+               },
+               "southwest" : {
+                  "lat" : 43.4040538197085,
+                  "lng" : -80.38878268029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Landmark Cinemas 12 Kitchener",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100140740627191323509\"\u003eHussam Al-Haffar\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwICmKsE8sVmKn4ZGrd9MvV0w6uoU6nlax_V9tYkOCnNJeMKCu-WhsO6N81u6QACdq25tlRxZtYKhm0LXVkJQsi95-ix2K5RpsWkw9eLKVrT2y8XQrgsh3YwgrUYSR7mvCjubneZ-RR7ChMItLcoJyxY6NLOhKYoHHZ70IiUecKeBYiB",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJL9Xu4j-KK4gRFD3x6GaRLY0",
+         "plus_code" : {
+            "compound_code" : "CJ46+4X Kitchener, ON, Canada",
+            "global_code" : "86MXCJ46+4X"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJL9Xu4j-KK4gRFD3x6GaRLY0",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2185,
+         "vicinity" : "135 Gateway Park Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4669259,
+               "lng" : -80.5233961
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4681932302915,
+                  "lng" : -80.52202571970849
+               },
+               "southwest" : {
+                  "lat" : 43.46549526970851,
+                  "lng" : -80.5247236802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Princess Cinemas",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112213444441146420410\"\u003eStavros Birmpilis\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJqbmCQfTkVdL_QxaXhvlpP_ecLmsnVYhh34zaPU2lRb6hWYw6l8cxaOxCLlQK_VVl6ilCJ6trTMN1qEAQ8jbb1HRfi3RHuOTOqRY77XAcvsKFom2Yc9kEZnJxKS5KiT9hIQSotpXnR7uWYD9He5Sp-0ydxBgUKN2aIjWVsI_UzQSHg",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ4_u4eBL0K4gRGV4B4XSTZmk",
+         "plus_code" : {
+            "compound_code" : "FF8G+QJ Waterloo, ON, Canada",
+            "global_code" : "86MXFF8G+QJ"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJ4_u4eBL0K4gRGV4B4XSTZmk",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 425,
+         "vicinity" : "6 Princess Street West, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5454125,
+               "lng" : -80.2504411
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5467773302915,
+                  "lng" : -80.24902011970849
+               },
+               "southwest" : {
+                  "lat" : 43.5440793697085,
+                  "lng" : -80.25171808029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "The Bookshelf",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 990,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115122355035354961261\"\u003eThe Bookshelf\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ2i4DEAjVJvmr0XZrwEEQlbMz0KraaEsJBufpSFbyh1QDjcYlT4T8vLMfx_qekUDBu0JrofV4M8HmS9LBb0GRBsMaFTfDZ3FE-NKc-z6rCxPescaYjVUT9i80uAb_XdwRMPkPgLpYVJmdLHw_uMPPHKWIIkHPflteaBKeRs_72NwM4",
+               "width" : 1500
+            }
+         ],
+         "place_id" : "ChIJpY64w8GaK4gR_6eh8uYlhwI",
+         "plus_code" : {
+            "compound_code" : "GPWX+5R Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+5R"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJpY64w8GaK4gR_6eh8uYlhwI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "book_store",
+            "movie_theater",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 554,
+         "vicinity" : "41 Quebec Street, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.420275,
+               "lng" : -80.43886669999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4216936302915,
+                  "lng" : -80.43753891970849
+               },
+               "southwest" : {
+                  "lat" : 43.4189956697085,
+                  "lng" : -80.44023688029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Cineplex Cinemas Kitchener and VIP",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 290,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107366771001626060284\"\u003eCineplex Cinemas Kitchener and VIP\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI0XffO9Z4B4CkPa-ga57aWZ33U1LftHY43OfuD-EbDp2XdrOx2xHDu5FgMWqToFyoa71N1dsvKWqm1jorPbxaBo_br8Q-F1uauu2Cvu6dJHXFwBnoh0Vf-WtIu4cAUDeZrYrUikidnd6DiUlYw7VKifFsEGjw3sVsJYSGISMcx9Ejh",
+               "width" : 512
+            }
+         ],
+         "place_id" : "ChIJS88CZ9uKK4gRZy9ZgEE6M9A",
+         "plus_code" : {
+            "compound_code" : "CHC6+4F Kitchener, ON, Canada",
+            "global_code" : "86MXCHC6+4F"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJS88CZ9uKK4gRZy9ZgEE6M9A",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2948,
+         "vicinity" : "225 Fairway Road South, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.45177839999999,
+               "lng" : -80.4888763
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45319183029149,
+                  "lng" : -80.48768881970851
+               },
+               "southwest" : {
+                  "lat" : 43.4504938697085,
+                  "lng" : -80.49038678029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Apollo Cinema",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 841,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115568807974865991865\"\u003eApollo Cinema\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI1a3b0oRVCaIMEAUCo2piozlZm7NA9i2LaoC7qIpjrNZEtXsf8mGKDwPFhnp3ZeTDjW1KCtErzZIFZjLEN003Z17mPfID2mAH3PfEJTRq8CT2M8k8CufC91AJDpiJ33U-TOPV3x1-4qcbBoCduX2Vo8ApBxkS-w20wy2bi0RDT1t0r",
+               "width" : 1535
+            }
+         ],
+         "place_id" : "ChIJF1tguPL0K4gRbzfBvdufNNc",
+         "plus_code" : {
+            "compound_code" : "FG26+PC Kitchener, ON, Canada",
+            "global_code" : "86MXFG26+PC"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJF1tguPL0K4gRbzfBvdufNNc",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 877,
+         "vicinity" : "141 Ontario Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5728366,
+               "lng" : -80.17916629999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5746126802915,
+                  "lng" : -80.17723806970849
+               },
+               "southwest" : {
+                  "lat" : 43.5719147197085,
+                  "lng" : -80.1799360302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Mustang Drive-In Theatre",
+         "photos" : [
+            {
+               "height" : 3411,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104682829363147833957\"\u003eBarry Noble\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLOAVKWK25QZVTknSeUyFEYVkaNtAWMhXNjI5RoCoQ1oFJ2y72mOqV_DI26ilGGYv1Cd2ao_0laMR9PrEj2FWNoUN2ZLuP2yF1RLRvqrqw5y350I8807NnSG4BOmpnfFeLDa02Gx1XrY7W9rsNRRmFFi1FRLNTLzAeoB1MlfVtMc43S",
+               "width" : 4575
+            }
+         ],
+         "place_id" : "ChIJFYS1nXGcK4gRUIRNnR_8ObY",
+         "plus_code" : {
+            "compound_code" : "HRFC+48 Guelph, ON, Canada",
+            "global_code" : "86MXHRFC+48"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJFYS1nXGcK4gRUIRNnR_8ObY",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 662,
+         "vicinity" : "5012 Jones Baseline, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6811114,
+               "lng" : -80.4301679
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6824122302915,
+                  "lng" : -80.42880741970849
+               },
+               "southwest" : {
+                  "lat" : 43.6797142697085,
+                  "lng" : -80.4315053802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "The Gorge Cinema",
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100280888183386660029\"\u003em\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJTTk0Uvqk0T-Kx26KhEh3Rj3jzPA2sYw1zrzRNN0Bifcq7O3Kl-E7d1ZbYsr4RtpyHetvOraryCMaPvpJdBA0Zhie830fub2WFGX_Qf5jxKG0ctFCCGox_KMdA1vBiURYTPJwGhAXmzNKyXyM0anqaAH-TMajY5pSaPRbflxkGs9ap",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJPSp-hGmVK4gRcBwelSIQB3E",
+         "plus_code" : {
+            "compound_code" : "MHJ9+CW Elora, ON, Canada",
+            "global_code" : "86MXMHJ9+CW"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJPSp-hGmVK4gRcBwelSIQB3E",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 114,
+         "vicinity" : "43 Mill Street West, Elora"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4516395,
+               "lng" : -80.4925337
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45308998029149,
+                  "lng" : -80.49148726970849
+               },
+               "southwest" : {
+                  "lat" : 43.4503920197085,
+                  "lng" : -80.49418523029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Breightup centre",
+         "place_id" : "ChIJJ6OvFg71K4gRnSaiytcqw2U",
+         "plus_code" : {
+            "compound_code" : "FG24+MX Kitchener, ON, Canada",
+            "global_code" : "86MXFG24+MX"
+         },
+         "reference" : "ChIJJ6OvFg71K4gRnSaiytcqw2U",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4665601,
+               "lng" : -80.52240929999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4678856802915,
+                  "lng" : -80.5212263697085
+               },
+               "southwest" : {
+                  "lat" : 43.4651877197085,
+                  "lng" : -80.52392433029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+         "name" : "Princess Twin Cinemas",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114411223764665432121\"\u003ePrincess Twin Cinemas\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKP4nkqdebgR0HrmNn3E_2yL_9J2NtPrT-iE5gmWOnpsbtOF3fjwZrV5UIQZ0q4nzcHORPDR1TpFdlTTXcaPtkSGbIpAxbze1BWdZiOE7D64xoBrZlDHa9BUKAEdRw7Ij9ReQRkxJzFHgIU6Kq_5sT21_osnHFDLNZRTr4etTJ2fZFj",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJPfkkJA30K4gRC_ybC6454Mg",
+         "plus_code" : {
+            "compound_code" : "FF8H+J2 Waterloo, ON, Canada",
+            "global_code" : "86MXFF8H+J2"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJPfkkJA30K4gRC_ybC6454Mg",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 519,
+         "vicinity" : "46 King Street North, Waterloo"
+      }
+   ],
+   "status" : "OK"
+}

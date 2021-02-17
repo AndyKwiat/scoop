@@ -1,0 +1,955 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwLcSdz9GtFTKA81NNDBxO2bmGQ3gBI2GQGprGAgHXhb15pKvlILdcdc4Jf3wDIEN7vW0ngGodTroFCsUHrPJb5xvPJIUQjh3uyPd8JTWE5DD7ckVSRYcxp37TgiSq7n_jgIzoywRz-KKscavtGssEQDBDCxZT_fRy-hYJfQSHv6xVdGx1Hbz7UAmT_B6MEtNLVEU1Wq90SCjYpDngL79Ov_KJDbDcmecR9QC6jIGPUxqq0Mo_Fa4kUVMxkYv_ld591XXEozWpeCFMp5dJXS5tu0o9btSIyqPgRj6no-_ahWFUMDbAYQbEg1PV0vwAwoJMYRuabzcWs1FV_lDDXoYCX94K3zmfGotEUOfT7iiJbXi5Mq-NKLbWdr_oRvPqJ7LHksFSRZrt93t9-izTmEYtjRdFDiN2pn7kh93uZ6gR7H0FdCLe0",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.38149599999999,
+               "lng" : -80.37200899999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.38282023029149,
+                  "lng" : -80.37079241970849
+               },
+               "southwest" : {
+                  "lat" : 43.38012226970849,
+                  "lng" : -80.3734903802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "name" : "Langdon Hall Country House Hotel & Spa",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2667,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113264414077955274740\"\u003eLangdon Hall Country House Hotel &amp; Spa\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKNJYt5W9ho56kI6fTYyedjx3A02WG06kYLBs_9yJG2HuAEgWQuc-1ITBl4ktwR6HS6d-NmitGmaHMJCzx2qs9C_5f03PdAhjiZr7I-TraZa6jd9djNvEWomsgeKkDxCRsmbbtGMqRwflabu_U8OnT1njLhsYOgavNK65fasXRrCWh_",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJWfGFlPB1LIgR9Wg6VTmerqQ",
+         "plus_code" : {
+            "compound_code" : "9JJH+H5 Cambridge, ON, Canada",
+            "global_code" : "86MX9JJH+H5"
+         },
+         "price_level" : 4,
+         "rating" : 4.7,
+         "reference" : "ChIJWfGFlPB1LIgR9Wg6VTmerqQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "spa",
+            "lodging",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1287,
+         "vicinity" : "1 Langdon Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.409625,
+               "lng" : -80.332843
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.41142508029149,
+                  "lng" : -80.33163896970849
+               },
+               "southwest" : {
+                  "lat" : 43.40872711970849,
+                  "lng" : -80.3343369302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Ambition Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1753,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113188319993902616806\"\u003eAmbition Spa\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKZDdAaYUEJbCnpUjbyS79UbVW6V3KAWyVxbPMbksL6MkGat7ctPyzxflf9IOZDydDh2FNVsLSHXeoTv29_wHBB_um48Y1EhsO1mYEZfJveUUzWHwMvQ-maoTp27iq0gJDQioFPm5-GRT2ikJ1NCccyKBpArZtS-Zi7100YbwFI8WtP",
+               "width" : 2640
+            }
+         ],
+         "place_id" : "ChIJRzaVU6WJK4gRWm6HLyg6A6E",
+         "plus_code" : {
+            "compound_code" : "CM58+VV Cambridge, ON, Canada",
+            "global_code" : "86MXCM58+VV"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJRzaVU6WJK4gRWm6HLyg6A6E",
+         "scope" : "GOOGLE",
+         "types" : [ "spa", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 96,
+         "vicinity" : "19-140 McGovern Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4002734,
+               "lng" : -80.3057117
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4016166302915,
+                  "lng" : -80.30440811970848
+               },
+               "southwest" : {
+                  "lat" : 43.3989186697085,
+                  "lng" : -80.3071060802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Dr Takhar's Cosmetic Clinic",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107875185627930518981\"\u003eDr Takhar&#39;s Cosmetic Clinic\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKtkBqdWAH3A4uQdsQxJ4aLKl1dLXOWCvSGdiM0uO_46o6bhJpFC9MsLkcQkotuiJ33nOlfmIzayOPXbr9U5PcqNIK4rRB3SHQgNuS6xP5GmDGy2onihKsoJam2NuEO9pgr8DHomF9RWgqMsamjqfHxs8Xmqa7UDwSZuS-NQgjzNOKI",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJBcMBzDGIK4gRaSAsmeVmoTE",
+         "plus_code" : {
+            "compound_code" : "CM2V+4P Cambridge, ON, Canada",
+            "global_code" : "86MXCM2V+4P"
+         },
+         "rating" : 3.1,
+         "reference" : "ChIJBcMBzDGIK4gRaSAsmeVmoTE",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 34,
+         "vicinity" : "1150 Franklin Boulevard #103, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3955661,
+               "lng" : -80.3575378
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3968642302915,
+                  "lng" : -80.3562389197085
+               },
+               "southwest" : {
+                  "lat" : 43.3941662697085,
+                  "lng" : -80.35893688029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Tabu Adult Massage & Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJA7AR__CJK4gRIsTi3RdYvFc",
+         "plus_code" : {
+            "compound_code" : "9JWR+6X Cambridge, ON, Canada",
+            "global_code" : "86MX9JWR+6X"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJA7AR__CJK4gRIsTi3RdYvFc",
+         "scope" : "GOOGLE",
+         "types" : [ "spa", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 24,
+         "vicinity" : "743 King Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5492301,
+               "lng" : -80.27843009999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5506389802915,
+                  "lng" : -80.27699796970848
+               },
+               "southwest" : {
+                  "lat" : 43.5479410197085,
+                  "lng" : -80.2796959302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Guelph Medical Laser & Skin Centre",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2336,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113728990703725369598\"\u003eGuelph Medical Laser &amp; Skin Centre\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK2jGgEYo8sBNmLs-KFZf9pGGP-2nU8q7Qmfj5bqvypAchEJBTMI_8BQWt3-NxNjH0Alk9H-AxbirYEdNqsOPn001v90kochh0vF13XX6ENI4bpYT6P5KjaXZ-cSPOT9dyuXJjMXXNof-t6qnyZO2XJduv8ZrMNBp3_Z7_NQfBlVTxp",
+               "width" : 3500
+            }
+         ],
+         "place_id" : "ChIJT6s43HSQK4gRJXVUQ9jk2sg",
+         "plus_code" : {
+            "compound_code" : "GPXC+MJ Guelph, ON, Canada",
+            "global_code" : "86MXGPXC+MJ"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJT6s43HSQK4gRJXVUQ9jk2sg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 88,
+         "vicinity" : "89 Dawson Rd Suite 209, Unit 2, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4715155,
+               "lng" : -80.4440797
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4725730802915,
+                  "lng" : -80.44253586970849
+               },
+               "southwest" : {
+                  "lat" : 43.4698751197085,
+                  "lng" : -80.4452338302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Hush Studios",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3913,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108855646489835077867\"\u003eHush Studios\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwItuyS-BqwNw0jxyMNPw_7EpZEE6nFYF1UMItbsJysWrpM-81xGZFiIJnrjgEPqsymTk5OzCenTR0Lj_pkMCy-9qXYo4iRA5JQzwpsSjoxpjOtplH-PLbv14pYcweRVSX5WwuTw-8dLuwsGPUUmwd-fkz4bE0m-TdAvDszXXaRq_xF3",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ2ct2IKaMK4gRpd8D9Eqdv_A",
+         "plus_code" : {
+            "compound_code" : "FHC4+J9 Kitchener, ON, Canada",
+            "global_code" : "86MXFHC4+J9"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ2ct2IKaMK4gRpd8D9Eqdv_A",
+         "scope" : "GOOGLE",
+         "types" : [ "spa", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 53,
+         "vicinity" : "1412 -A Victoria Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.510782,
+               "lng" : -80.1967159
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5121626302915,
+                  "lng" : -80.19523786970851
+               },
+               "southwest" : {
+                  "lat" : 43.5094646697085,
+                  "lng" : -80.19793583029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "BODYWORKS Registered Massage Therapy and Health Network",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 500,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100935472464789118719\"\u003eBODYWORKS Registered Massage Therapy and Health Network\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKnTLkK-ENlw8RMs13jv70DzN8czM1afK08l0x1XGA9IXlJ2k1JkghB9D2ZbIXtRKNfymHbfccxHrVey8dHM2EBMYEPZZFGieChKplCXkfNJGqQpjRPaS-4WNpJmSDKi0r5P8_LuAfVKKUxCAv93zoG-CP2wr4svCYyq80jx35CXT2R",
+               "width" : 2000
+            }
+         ],
+         "place_id" : "ChIJK_J6_aSEK4gR2ywVhM9Tf1o",
+         "plus_code" : {
+            "compound_code" : "GR63+88 Guelph, ON, Canada",
+            "global_code" : "86MXGR63+88"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJK_J6_aSEK4gR2ywVhM9Tf1o",
+         "scope" : "GOOGLE",
+         "types" : [ "spa", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 58,
+         "vicinity" : "1453 Gordon Street l01, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4682878,
+               "lng" : -80.52345529999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4696522302915,
+                  "lng" : -80.52199441970849
+               },
+               "southwest" : {
+                  "lat" : 43.4669542697085,
+                  "lng" : -80.5246923802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Bare Essentials",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3356,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102038131695333770687\"\u003eTri-Cities360 Scott Rawlings\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJhLXEJsTsqL5-gnbZmMvpq7EqjwyXJUjCKC4bwr43jFC2AAxWHGRat22t7mshtTTMEkZtygP7scuDZnSoPa2AVG6b4Xfkji9nYDNKtZ1uowgGB--u8jOKedE_XXBEEU483GYH351N0EREOR5Weij-N82NsxVcN-DJz8m_o_hBJKMB5",
+               "width" : 4752
+            }
+         ],
+         "place_id" : "ChIJvbthpPrzK4gRMSX8ayOX1O0",
+         "plus_code" : {
+            "compound_code" : "FF9G+8J Waterloo, ON, Canada",
+            "global_code" : "86MXFF9G+8J"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJvbthpPrzK4gRMSX8ayOX1O0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 490,
+         "vicinity" : "95 King Street North #102, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.393234,
+               "lng" : -80.285669
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39462908029149,
+                  "lng" : -80.2841022697085
+               },
+               "southwest" : {
+                  "lat" : 43.3919311197085,
+                  "lng" : -80.2868002302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Rejuvenations Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJZSJqtQ2IK4gRvKNYm_KUYbY",
+         "plus_code" : {
+            "compound_code" : "9PV7+7P Cambridge, ON, Canada",
+            "global_code" : "86MX9PV7+7P"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJZSJqtQ2IK4gRvKNYm_KUYbY",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 4,
+         "vicinity" : "6 Osprey Court, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.459207,
+               "lng" : -80.4811452
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4605449302915,
+                  "lng" : -80.4798178197085
+               },
+               "southwest" : {
+                  "lat" : 43.45784696970851,
+                  "lng" : -80.48251578029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "The Rock Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108601786087747373344\"\u003eThe Rock Spa\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIS62QWRoUxME_oS4Lv-ae6o49AYBWiUXH3RDPBhwMk6R6qQj1QPOWcoZBzc83V7tUa9dfm0ZfBrv5LnjpBEK_qUJEYnWwkP-2GZnqozB5KDbLPbY3hpv1Ogl82na1ueysAwgj1WPMZsKVsBMo4QYpAhbWQnVANdcMgTXiFH1pkKjCX",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJmRhXp5f0K4gRRLM0CdVQNJE",
+         "plus_code" : {
+            "compound_code" : "FG59+MG Kitchener, ON, Canada",
+            "global_code" : "86MXFG59+MG"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJmRhXp5f0K4gRRLM0CdVQNJE",
+         "scope" : "GOOGLE",
+         "types" : [ "jewelry_store", "spa", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 169,
+         "vicinity" : "396 Victoria Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4077478,
+               "lng" : -80.3962906
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4091413302915,
+                  "lng" : -80.39487556970849
+               },
+               "southwest" : {
+                  "lat" : 43.4064433697085,
+                  "lng" : -80.3975735302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Voila Salon Sportsworld",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2340,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112901392797335310813\"\u003eGino Milani\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIE5AEIKfVrNAQ-x8UY7UKTih9gFy51hLBGrup3s2F9SiV4iuLeA95bV2QIQsPQDoPZtxxnCPE_8K-SWamphDJgSWdmR55VTdUN2eoiGG9dHBbkExcHmz1sBBIlx89QS4mwWMhxoL_AxEXUy3Mzn379PuIjgtxs7iK6Bhq56XT9QULF",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJRx5s-UKKK4gRHbqNty-FQiA",
+         "plus_code" : {
+            "compound_code" : "CJ53+3F Kitchener, ON, Canada",
+            "global_code" : "86MXCJ53+3F"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJRx5s-UKKK4gRHbqNty-FQiA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "spa",
+            "beauty_salon",
+            "hair_care",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 123,
+         "vicinity" : "4336 King Street East, Kitchener"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5451077,
+               "lng" : -80.24885510000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5465581802915,
+                  "lng" : -80.2476038697085
+               },
+               "southwest" : {
+                  "lat" : 43.5438602197085,
+                  "lng" : -80.25030183029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Keep In Touch Studio Inc",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 853,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118197657039081795354\"\u003eKeep In Touch Studio Inc\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJZz2Ap3U4GxZQIy70ZwDwQ-eK_L6gU6hTGR63dTOZh9gV6qaRp6HX0pNm_2p_w6ug0jH8erZr_cFWQL3SFLgx5G74aJyreVec4qrwrjVT3qCFr5qoza675nUIbQiI0OAuTFewa4Po_XbgItGj1J5-A8CCyX66qe7rL9dGn9cGg8MUk",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJndqSO-uaK4gRpGAhaah04v0",
+         "plus_code" : {
+            "compound_code" : "GQW2+2F Guelph, ON, Canada",
+            "global_code" : "86MXGQW2+2F"
+         },
+         "rating" : 5,
+         "reference" : "ChIJndqSO-uaK4gRpGAhaah04v0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "spa",
+            "beauty_salon",
+            "hair_care",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 3,
+         "vicinity" : "308-55 Cork Street East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4439988,
+               "lng" : -80.5127155
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4452695302915,
+                  "lng" : -80.51131326970849
+               },
+               "southwest" : {
+                  "lat" : 43.44257156970851,
+                  "lng" : -80.51401123029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Kelly Leis Natural Therapies",
+         "photos" : [
+            {
+               "height" : 1365,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118044595896961606770\"\u003eThai Yoga Massage and Registered Massage in Kitchener Waterloo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIJvQYZ7vUEi0_EJVmViUABUAPpr5DIcjeMQPSToaak3yVGkx9A9cQtZYqQXbSJ_h2SxG2YWGpxY0Kr9uYRXPsz9YLw8pOlg6aW_rT9yaS7fkJDjRN0tvLJ8W79ui_am6pgW17umv_abp-6u072pTWJO6VZwKBRHWHpT6atXVIMjqkW",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJZf0YBWf0K4gROTaZN4dc4c8",
+         "plus_code" : {
+            "compound_code" : "CFVP+HW Kitchener, ON, Canada",
+            "global_code" : "86MXCFVP+HW"
+         },
+         "rating" : 5,
+         "reference" : "ChIJZf0YBWf0K4gROTaZN4dc4c8",
+         "scope" : "GOOGLE",
+         "types" : [ "spa", "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 18,
+         "vicinity" : "80 Talbot Street, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.43038120000001,
+               "lng" : -80.3120764
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4318557802915,
+                  "lng" : -80.31083371970848
+               },
+               "southwest" : {
+                  "lat" : 43.4291578197085,
+                  "lng" : -80.31353168029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Affinity spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJPe5S2VN2LIgRxG5rAYyW0V0",
+         "plus_code" : {
+            "compound_code" : "CMJQ+55 Cambridge, ON, Canada",
+            "global_code" : "86MXCMJQ+55"
+         },
+         "reference" : "ChIJPe5S2VN2LIgRxG5rAYyW0V0",
+         "scope" : "GOOGLE",
+         "types" : [ "spa", "point_of_interest", "establishment" ],
+         "vicinity" : "38 Queen Street West, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5810965,
+               "lng" : -80.26633009999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5824454802915,
+                  "lng" : -80.26498111970849
+               },
+               "southwest" : {
+                  "lat" : 43.5797475197085,
+                  "lng" : -80.2676790802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Juliette's Place Esthetics",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114731578722795386958\"\u003eJuliette&#39;s Place Esthetics\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLfN27C4Xyg1q5X4_b9ehtBCRFbKDW7ss-AYinDak1RM6YUy6sgM3_1pTptX7ftsaow4zOY1G5CbvWbohqDoGyuBPbP-9bdUfmbGKAFJLS_lXxxDggKYaQ9T8OGdi7OXk-7km0H08CvlA_I5ohEpW07zAXkiR00a8xbjoRSp1ul0hn6",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJZ0bvW8FhK4gR2WybzgZaQ0o",
+         "plus_code" : {
+            "compound_code" : "HPJM+CF Guelph, ON, Canada",
+            "global_code" : "86MXHPJM+CF"
+         },
+         "rating" : 5,
+         "reference" : "ChIJZ0bvW8FhK4gR2WybzgZaQ0o",
+         "scope" : "GOOGLE",
+         "types" : [ "spa", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8,
+         "vicinity" : "23 Wideman Boulevard, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5410528,
+               "lng" : -80.2436467
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5423240302915,
+                  "lng" : -80.24237161970849
+               },
+               "southwest" : {
+                  "lat" : 43.5396260697085,
+                  "lng" : -80.2450695802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Bare Essentials Waxing",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116666790820583874895\"\u003eBare Essentials Waxing\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJEFBRcVm3J4UK0WJp0AUr54388Oby5aX0IkLj_LuK9V3g3C6y8I43-4O5TpAFWZW-vdyZTh3bYn77do68TD86xG_BLpwAYpdFE5Vu0cWxCvz2Ne9Kzb8DUt7fX6oHS8I1Mkk7s68ilqKfhtwRXeYNlb7CyI3tAtEeS3gpbbmeg03x2",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJn8UGVsOaK4gR4kxLl-aA-gk",
+         "plus_code" : {
+            "compound_code" : "GQR4+CG Guelph, ON, Canada",
+            "global_code" : "86MXGQR4+CG"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJn8UGVsOaK4gR4kxLl-aA-gk",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 194,
+         "vicinity" : "86b Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5453711,
+               "lng" : -80.2509937
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5468239302915,
+                  "lng" : -80.24967706970848
+               },
+               "southwest" : {
+                  "lat" : 43.5441259697085,
+                  "lng" : -80.2523750302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "THE TEN SPOT guelph",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 587,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104480201842549138488\"\u003eTHE TEN SPOT guelph\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIHfQcD7q7_DDMFRUY6Aket9QFih0x4-IlP2PlEmgS2WnHbTPO8_LzF9MHWDjsYNXvZuk8ia7-r71sZWzSPKG8GwGVuqSkLR0HjxD1KbTDUhzMrY6XGgsKXkO9iPgD7hLbgo3jgwOPYBbMM7n3V02QAbejo-G7S9WqvFlDnMq3MkNEq",
+               "width" : 1043
+            }
+         ],
+         "place_id" : "ChIJ4ac1ycGaK4gRI-wgUb6ntLQ",
+         "plus_code" : {
+            "compound_code" : "GPWX+4J Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+4J"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ4ac1ycGaK4gRI-wgUb6ntLQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 294,
+         "vicinity" : "19 Quebec Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5457376,
+               "lng" : -80.24342779999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5471523302915,
+                  "lng" : -80.24187926970849
+               },
+               "southwest" : {
+                  "lat" : 43.5444543697085,
+                  "lng" : -80.2445772302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Butterfly Salon & Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105694773404439658014\"\u003eA Hammoud\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKxvucTC3iJy7O4Oei0oQOHgMYWHT4mpljgDpVLBcD6RMuh2EwXs-4mmhuIZS9qpbIewc3l7uIvwUmqFHiqTzfWWKCjiXUWWKtCeS19J2sGbS7AMAux0qaJAZrsxhrR9X8Vy5wNK2eREpemou_3s8ruZ1D8sLKvR3qz6bCQeYG2kDuh",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJfVrC4OmaK4gRahteTMVPAqE",
+         "plus_code" : {
+            "compound_code" : "GQW4+7J Guelph, ON, Canada",
+            "global_code" : "86MXGQW4+7J"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJfVrC4OmaK4gRahteTMVPAqE",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 43,
+         "vicinity" : "150 Wellington Street East Unit 102, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5479049,
+               "lng" : -80.25331919999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5493121302915,
+                  "lng" : -80.25202276970849
+               },
+               "southwest" : {
+                  "lat" : 43.5466141697085,
+                  "lng" : -80.2547207302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "AFYA Skin and Body Laser Clinic",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115576951119469175070\"\u003eAFYA Skin and Body Laser Clinic\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKrl3pRMATPkKP4Vtm7oAYnZlTQpozhz98_QfKPTwmzPwelXPBRvuD0KDjxSXdVHr35HWSJfAlEng7nCP8eZ8C7KriuQYanH4palHZGgK-XOoDyyC0KmrhGMy6yIMVAk7gSDQfKCV9_e9YladeaApomdvDLYmsIOIurcDEeC15JC6oX",
+               "width" : 540
+            }
+         ],
+         "place_id" : "ChIJdUDBwOqaK4gRreg14yEPgm8",
+         "plus_code" : {
+            "compound_code" : "GPXW+5M Guelph, ON, Canada",
+            "global_code" : "86MXGPXW+5M"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJdUDBwOqaK4gRreg14yEPgm8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 42,
+         "vicinity" : "17 Suffolk Street East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.53241349999999,
+               "lng" : -80.2598216
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.53367828029149,
+                  "lng" : -80.2583292197085
+               },
+               "southwest" : {
+                  "lat" : 43.53098031970849,
+                  "lng" : -80.26102718029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Aromatic Wholistic Health Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3300,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103972258224830028540\"\u003eAromatic Wholistic Health Spa\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI2EVn6fIh2s_Uy8Wqm0jJzhgm7eTC1dxx9kXlJXd-Dmxx7OTa5vTtvwSrSNP7Vv8yzPVqIObRTwVskhDi2-UhIIbs1WPiLB6ET48Xa1X53ErSp-fpn4AOScQdzStPhZ63Gs5yQmfxBqjmfblsXo9oL0Kljg-KUbGIQ46Jb6ulDCwFK",
+               "width" : 2200
+            }
+         ],
+         "place_id" : "ChIJo09SBrSaK4gRpsJz-hmR598",
+         "plus_code" : {
+            "compound_code" : "GPJR+X3 Guelph, ON, Canada",
+            "global_code" : "86MXGPJR+X3"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJo09SBrSaK4gRpsJz-hmR598",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 14,
+         "vicinity" : "343 Waterloo Avenue b, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

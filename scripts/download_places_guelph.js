@@ -8,7 +8,25 @@ const LOCATION_DOWNTOWN_GUELPH = "43.538708,-80.246738"
 const FILE_PREFIX = "GUELPH_"
 const OUTPUT_DIR = "places_raw/";
 
-const tagsToDownload = ["park"]
+const tagsToDownload = ["amusement_park",
+"aquarium",
+"art_gallery",
+"bakery",
+"bar",
+"beauty_salon",
+"bowling_alley",
+"campground",
+"casino",
+"gym",
+"library",
+"movie_theater",
+"museum",
+"night_club",
+"park",
+"rv_park",
+"spa",
+"tourist_attraction",
+"zoo"]
 function log(str ){
     console.log(str)
 }

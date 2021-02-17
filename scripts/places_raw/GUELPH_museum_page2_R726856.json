@@ -1,0 +1,768 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwL8WjoKZIVHbgrsbmNRbS-VDEHZYnZfNApVfE7zHFDozh93M9QwSV1xFsreSAb15sRdcTlkZ905kYVaJlfA8677vNvW27ZJ767ypSIm9jJjZRl9nAesv2mdVQ6Timpcij7PL29ay9wE8J-QRPXhHEs9-3YDj53lrHXn7iUpqxsOTGq7A09OM32EhIicccYGcVnNzBaKZW8YNKNdt2Kxdf5WaLj0XVLb1Tu5gU7vdcTLFwuzABl3x75QUrbQwOQev0JKI9s2R8_e7atUbsVdeClwCTxRSVYZN2-pccvJY45wjxeVDaijQ9XydNSbXYsbFRmsMUwwVAFxod4P0FByEf2Om4umFo2rLLUdwqbu_jjh-Kf8D_ctBXwGawD4Hsgh0uOoEfceM_WNLnG5dxpiZmuLU_OuNrKQ93L5KdGnrur-k5T-RU2AlAuHnyHKW6gDdMU8T0ZxvfYGOOQUOsY3b8OQfYuvx__DRH-XFQjIgmXlC4MKBfJn4afZfeSKLSeeLm-K3ikGbQeUXQC48_s9lE2TgmvxN0uix7l6B_f0mIM_PPxX1-YhrdK_0DmcKnqMZMaMgdxHaHXNOy8wav91Nwwh4pty-W85h6S0wVSvL_tSkSvQZa0SNoeRr1UNkMfvcHq9MKpWsxgW",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5482844,
+               "lng" : -80.2232573
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5495689802915,
+                  "lng" : -80.2221088197085
+               },
+               "southwest" : {
+                  "lat" : 43.5468710197085,
+                  "lng" : -80.2248067802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Fairy Village Trail",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115949236479584155665\"\u003eRobin Foster\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLdk2iJnVdCLQN3Noz5_o_FvrzNGffYidB4vBUCRJqljSh-IYAcEhxaiGHfNSupD5dXLnbhIdXJ33NyEi3FMvd0XJtNy6e-hYNuuOMccMbwPHgNBvGsKZBdOozNmhllLVqdEF15yIAGbVHw7yDTS4TmIBOkf76TRGr0JJXnxRkrI3pY",
+               "width" : 2268
+            }
+         ],
+         "place_id" : "ChIJZSbehBmbK4gRYt4tN6E_Ybc",
+         "plus_code" : {
+            "compound_code" : "GQXG+8M Guelph, ON, Canada",
+            "global_code" : "86MXGQXG+8M"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJZSbehBmbK4gRYt4tN6E_Ybc",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4,
+         "vicinity" : "Royal Recreation Trail, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4939822,
+               "lng" : -80.21503469999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4957060302915,
+                  "lng" : -80.21316916970849
+               },
+               "southwest" : {
+                  "lat" : 43.4930080697085,
+                  "lng" : -80.2158671302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Hammond Museum Of Radio",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117047964685296492081\"\u003eRobert Weisz\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLFJXlsE3PhxaUUJ5rjktrTQSjwPkp-22Fjk3LLVUoRWZ2HJdHkyRC0AUevvezW6H44apk96owBZH8D-lphtk9-pAksQsnUtr3S94Hb32XFlgGJFTxmghVH2eJlNFkWVztslpLb8MhRVcANrFjedm1QPYAVl4q4bugwzsStTqO6iVow",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJBUrZJfKEK4gRWURFVGFLZc4",
+         "plus_code" : {
+            "compound_code" : "FQVM+HX Guelph, ON, Canada",
+            "global_code" : "86MXFQVM+HX"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJBUrZJfKEK4gRWURFVGFLZc4",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "595 Southgate Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4222626,
+               "lng" : -80.277289
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4234401302915,
+                  "lng" : -80.2758797697085
+               },
+               "southwest" : {
+                  "lat" : 43.4207421697085,
+                  "lng" : -80.2785777302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Barbers Institute of Museology",
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115903306903687819243\"\u003eHuman First\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKKRDcPwM8MouoSo1rbe4dkZ3nJSqVTJytvEPTF46050ikM7KJoQ9FGJ2EpXjyT1uT-4cDIYMwK_9RX2-bxZuu8Cjgjpz1MxyyZ2PoQdYT7Xc8Vtcnrt4ChEla_hOgzA5npJe_hZNtNoe7XYYtkuJGNJ84txaQdIUgcGT4uaNYq0kU_",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJi4iRqeyJK4gRNk7-uY_uk5E",
+         "plus_code" : {
+            "compound_code" : "CPCF+W3 Cambridge, ON, Canada",
+            "global_code" : "86MXCPCF+W3"
+         },
+         "rating" : 4,
+         "reference" : "ChIJi4iRqeyJK4gRNk7-uY_uk5E",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "108 Lake Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4364158,
+               "lng" : -80.3339477
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4377816802915,
+                  "lng" : -80.33263721970849
+               },
+               "southwest" : {
+                  "lat" : 43.4350837197085,
+                  "lng" : -80.33533518029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Scheidel Pond",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJ7Yi19P-JK4gRbUIBgHchV-E",
+         "plus_code" : {
+            "compound_code" : "CMP8+HC Cambridge, ON, Canada",
+            "global_code" : "86MXCMP8+HC"
+         },
+         "reference" : "ChIJ7Yi19P-JK4gRbUIBgHchV-E",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "Chilligo Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4551751,
+               "lng" : -80.3852787
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45656228029149,
+                  "lng" : -80.3839929697085
+               },
+               "southwest" : {
+                  "lat" : 43.4538643197085,
+                  "lng" : -80.38669093029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Waterloo Warbirds",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 387,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112124549926409167556\"\u003eWaterloo Warbirds\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKNh_forsTgW7E0-PZ2r2sj_exyDNTfKx1qb_Ss65uM60rmar7mUKRTDv56oo_DTgLGeIZDOzYL5b_Y5eXJKV1ty3LGh87cauf77wPmy9000zslvMsih-ePzWJcxn03C1sX1d9un-SUHFPzLQLOmPL6jGl2FCPNgbAHkn1s4vG92Q8D",
+               "width" : 1000
+            }
+         ],
+         "place_id" : "ChIJFyqWWzGLK4gRHHItK2jtcfg",
+         "plus_code" : {
+            "compound_code" : "FJ47+3V Breslau, ON, Canada",
+            "global_code" : "86MXFJ47+3V"
+         },
+         "reference" : "ChIJFyqWWzGLK4gRHHItK2jtcfg",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "4B-4881 Fountain Street North, Breslau"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4107868,
+               "lng" : -80.13688139999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4119174302915,
+                  "lng" : -80.13549521970849
+               },
+               "southwest" : {
+                  "lat" : 43.4092194697085,
+                  "lng" : -80.13819318029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Ontario Steam Heritage Museum",
+         "place_id" : "ChIJY0p909-BK4gRHD3cq0fXFAE",
+         "plus_code" : {
+            "compound_code" : "CV67+86 Puslinch, ON, Canada",
+            "global_code" : "86MXCV67+86"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJY0p909-BK4gRHD3cq0fXFAE",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5,
+         "vicinity" : "7192 Flamborough Concession 11 West, Puslinch"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.47451569999999,
+               "lng" : -80.0456451
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.47587808029149,
+                  "lng" : -80.0443151697085
+               },
+               "southwest" : {
+                  "lat" : 43.47318011970849,
+                  "lng" : -80.0470131302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "The SJC Museum",
+         "photos" : [
+            {
+               "height" : 3216,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116870463855863972313\"\u003eThe Green Thumb Alliance\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKSGzNUR6QCq6j0tAJyO8XimIgRPelRcGtLsWcLPBjlnEykRAPTJyZetJnLK26IjW_nuzWVOSvN3te0ZdKe7nSR9_c2Rm0lbMlNqCHqKJaRnIt5YI0dmlTg-8oF7mBvAqJhaU7Kycm-OiPvIdRuSHq2e-K9Qd8wBu_lul5-B7Bu_rx5",
+               "width" : 4288
+            }
+         ],
+         "place_id" : "ChIJsyvjGql5K4gRE3lo4fdZl5k",
+         "plus_code" : {
+            "compound_code" : "FXF3+RP Puslinch, ON, Canada",
+            "global_code" : "86MXFXF3+RP"
+         },
+         "rating" : 5,
+         "reference" : "ChIJsyvjGql5K4gRE3lo4fdZl5k",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "7867 Small Road, Puslinch"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.391328,
+               "lng" : -80.3699582
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3925716302915,
+                  "lng" : -80.36842001970849
+               },
+               "southwest" : {
+                  "lat" : 43.3898736697085,
+                  "lng" : -80.37111798029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Kayla Baker Memorial Bench",
+         "place_id" : "ChIJiSf2icOLK4gRDHZssFXSfXs",
+         "plus_code" : {
+            "compound_code" : "9JRJ+G2 Cambridge, ON, Canada",
+            "global_code" : "86MX9JRJ+G2"
+         },
+         "reference" : "ChIJiSf2icOLK4gRDHZssFXSfXs",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "932 Dover Street South, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3601415,
+               "lng" : -80.25735159999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.36147263029149,
+                  "lng" : -80.25599846970852
+               },
+               "southwest" : {
+                  "lat" : 43.3587746697085,
+                  "lng" : -80.25869643029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Valens Log Cabin Museum",
+         "place_id" : "ChIJR3nvYhR4LIgRnVSqlBjAh7Q",
+         "plus_code" : {
+            "compound_code" : "9P6V+33 Cambridge, ON, Canada",
+            "global_code" : "86MX9P6V+33"
+         },
+         "reference" : "ChIJR3nvYhR4LIgRnVSqlBjAh7Q",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "1691 Waterloo Regional Road 97, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3599425,
+               "lng" : -80.31186459999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.36125248029149,
+                  "lng" : -80.3105161197085
+               },
+               "southwest" : {
+                  "lat" : 43.35855451970849,
+                  "lng" : -80.3132140802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Fire Hall Museum & Education Centre",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107319403412185611168\"\u003eSteve Ding\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJRN769NrO51KA5ZW408vnRoS4oUJHXCXYdAWTp91yzCBi5vj7NtOpYFB_4maEmhMrfNvLA06Zdz2IoWqgBxNv_tpMDGLLyEsN8xQhGeMiitqojKWdRxvWd687WRlrnlXX2JfSAuXzFMc8MSCw8Ftgxcg2m1ErdDj8PvhoirBz3wp3b",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJQ2Vhwrd3LIgRaVJ1uyCW3z0",
+         "plus_code" : {
+            "compound_code" : "9M5Q+X7 Cambridge, ON, Canada",
+            "global_code" : "86MX9M5Q+X7"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJQ2Vhwrd3LIgRaVJ1uyCW3z0",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7,
+         "vicinity" : "56 Dickson Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4864977,
+               "lng" : -80.4936498
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4878466802915,
+                  "lng" : -80.4923008197085
+               },
+               "southwest" : {
+                  "lat" : 43.4851487197085,
+                  "lng" : -80.49499878029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Giuseppe Stocco - cemetery plot",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114283243303674847589\"\u003eMario Stocco\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKEZr7XtjTyI3Jrf07XJGM9jltY3tfwOqxrr1mG4VDaMR_PyiXhk1lWZKwoHRK9JxCWGMk_ch7VrWfP6yuhDC6pQc76nDJxGN273xPx-exObaLiP9eZ2SUjk6-dDjNuVk0dEjYA3iqGS1q7NvvFLitjVr8eAtO-2I8aQ2LBWkgm8bLO",
+               "width" : 3016
+            }
+         ],
+         "place_id" : "ChIJf-FV_UnzK4gR_AbhYI_f-TA",
+         "plus_code" : {
+            "compound_code" : "FGP4+HG Waterloo, ON, Canada",
+            "global_code" : "86MXFGP4+HG"
+         },
+         "reference" : "ChIJf-FV_UnzK4gR_AbhYI_f-TA",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5780604,
+               "lng" : -80.50475369999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5793238802915,
+                  "lng" : -80.50309819999998
+               },
+               "southwest" : {
+                  "lat" : 43.5766259197085,
+                  "lng" : -80.50972019999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Canagagigue Creek",
+         "place_id" : "ChIJpdQdSv_tK4gRqvQqPxyaWzo",
+         "plus_code" : {
+            "compound_code" : "HFHW+63 Woolwich, ON, Canada",
+            "global_code" : "86MXHFHW+63"
+         },
+         "reference" : "ChIJpdQdSv_tK4gRqvQqPxyaWzo",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "Woolwich"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4649381,
+               "lng" : -80.5262637
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4664797302915,
+                  "lng" : -80.52478826970849
+               },
+               "southwest" : {
+                  "lat" : 43.4637817697085,
+                  "lng" : -80.52748623029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Canadian Clay and Glass Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2304,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116261156797735563659\"\u003eCanadian Clay and Glass Gallery\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJpqCrwwAwK8CZNmH0JxaOon_g-oOcRNHNJJj3dOSKNAmAxEFgLJ_XZbSFss4LonLTphzHW2bj7D-q1QAUP2NyCxkQxogvvtx5f4gtJpmfO81sIwiiUy6QT4W8Og2Ftb0JomNIXuWXWmAqPm6oCZwAH2UNYxYvy8JI8cyK9qHCD93Ck",
+               "width" : 3072
+            }
+         ],
+         "place_id" : "ChIJodTTig30K4gRIHD1jB1vAt8",
+         "plus_code" : {
+            "compound_code" : "FF7F+XF Waterloo, ON, Canada",
+            "global_code" : "86MXFF7F+XF"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJodTTig30K4gRIHD1jB1vAt8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "tourist_attraction",
+            "museum",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 250,
+         "vicinity" : "25 Caroline Street North, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.35215590000001,
+               "lng" : -80.3147001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3534910802915,
+                  "lng" : -80.31326481970849
+               },
+               "southwest" : {
+                  "lat" : 43.35079311970851,
+                  "lng" : -80.3159627802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Suite 510 ❣️",
+         "place_id" : "ChIJDTlF6gx3LIgRO4Ajzr6bTNs",
+         "plus_code" : {
+            "compound_code" : "9M2P+V4 Cambridge, ON, Canada",
+            "global_code" : "86MX9M2P+V4"
+         },
+         "reference" : "ChIJDTlF6gx3LIgRO4Ajzr6bTNs",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "155 Water Street South, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.40197850000001,
+               "lng" : -80.43478329999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4033057802915,
+                  "lng" : -80.43353806970849
+               },
+               "southwest" : {
+                  "lat" : 43.4006078197085,
+                  "lng" : -80.4362360302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Fire hall",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114469329944330744564\"\u003eGreg McLeod\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI-hLGUc4XOCqTAZxc4KLfLkk8WIHPrntESyvk4aHQ2gBUne7vmtoa_dNlMKLHQo2lD_dgW6Z_qhKWufnXPBH3TU_1zSz4Q1-XwWx8yqjrBU7ue_Ahw5cL0wK8z9b_1AobS5aT4_Kuefzqo882eOX1nSJxH8vXviYPkvxKglxKcdCcl",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ8-UiV2SLK4gRB6CSwLCTWvQ",
+         "plus_code" : {
+            "compound_code" : "CH28+Q3 Kitchener, ON, Canada",
+            "global_code" : "86MXCH28+Q3"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ8-UiV2SLK4gRB6CSwLCTWvQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "10 Huron Road, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.411055,
+               "lng" : -80.468768
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4123300302915,
+                  "lng" : -80.4674460697085
+               },
+               "southwest" : {
+                  "lat" : 43.4096320697085,
+                  "lng" : -80.47014403029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Light Up Your Path Tarot Reading",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJOdacCkf1K4gRZ-q1vzZKsQw",
+         "plus_code" : {
+            "compound_code" : "CG6J+CF Kitchener, ON, Canada",
+            "global_code" : "86MXCG6J+CF"
+         },
+         "rating" : 3,
+         "reference" : "ChIJOdacCkf1K4gRZ-q1vzZKsQw",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "113 Century Hill Drive, Kitchener"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4004723,
+               "lng" : -80.4392551
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.40182143029151,
+                  "lng" : -80.43795361970849
+               },
+               "southwest" : {
+                  "lat" : 43.39912346970851,
+                  "lng" : -80.4406515802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Doon Heritage Village",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103448357992404201789\"\u003eLe Tan Phuc\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIEWAPXefdQ3Z9C6aALOSbNcrXDC2bGtxwKa83I4Yr5PUgwmN4DK87OMLplmBZvG5Md1o5ZxZeElYk13qayfEdsGtwLYQtG8ls3rjV7ENKJv7843motiE68iduFQ1nlAPtdj1mTkuK1T_s95NVSmOEp3UwIW4e9SHtfCk-SAtbGvpZB",
+               "width" : 6000
+            }
+         ],
+         "place_id" : "ChIJ25AATLuKK4gR12I6wpRo_aE",
+         "plus_code" : {
+            "compound_code" : "CH26+57 Kitchener, ON, Canada",
+            "global_code" : "86MXCH26+57"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ25AATLuKK4gR12I6wpRo_aE",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 19,
+         "vicinity" : "10 Huron Road, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6833566,
+               "lng" : -80.43073679999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.68476598029149,
+                  "lng" : -80.42946661970849
+               },
+               "southwest" : {
+                  "lat" : 43.6820680197085,
+                  "lng" : -80.43216458029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Elora Cenotaph",
+         "place_id" : "ChIJ0eARdq-VK4gRLTVmXMJ6tb4",
+         "plus_code" : {
+            "compound_code" : "MHM9+8P Elora, ON, Canada",
+            "global_code" : "86MXMHM9+8P"
+         },
+         "reference" : "ChIJ0eARdq-VK4gRLTVmXMJ6tb4",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "Elora"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4500778,
+               "lng" : -80.48943330000002
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4513703302915,
+                  "lng" : -80.48812751970851
+               },
+               "southwest" : {
+                  "lat" : 43.4486723697085,
+                  "lng" : -80.49082548029153
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "THEMUSEUM",
+         "photos" : [
+            {
+               "height" : 1367,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109885415178631468879\"\u003eTHEMUSEUM\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKffqYSN1Rn36NNTZXUQf2XqLK-2Cdmze-ZQC6OYs_lZU8jqpS2OAfo1s84uWN5ZZ5Hbby7j8NtUw3gY-DcHu3nzIoYy3J-sXmSC2zMMR0a3t23JmmGxoSrfbjo92LQK9wX7pKG7qD5qt6EnhcUgAGAv3cStN9c7lTOntegbphfijZ2",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ52t8jPL0K4gRX8TcXqzfMJQ",
+         "plus_code" : {
+            "compound_code" : "FG26+26 Kitchener, ON, Canada",
+            "global_code" : "86MXFG26+26"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJ52t8jPL0K4gRX8TcXqzfMJQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1011,
+         "vicinity" : "10 King Street West, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.345032,
+               "lng" : -80.3154646
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.34637963029149,
+                  "lng" : -80.3140649697085
+               },
+               "southwest" : {
+                  "lat" : 43.3436816697085,
+                  "lng" : -80.3167629302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Cambridge Canoe Launch Site",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJCRjAI2R3LIgRG_0tSeiXBVo",
+         "plus_code" : {
+            "compound_code" : "8MWM+2R Cambridge, ON, Canada",
+            "global_code" : "86MX8MWM+2R"
+         },
+         "reference" : "ChIJCRjAI2R3LIgRG_0tSeiXBVo",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "Cambridge"
+      }
+   ],
+   "status" : "OK"
+}

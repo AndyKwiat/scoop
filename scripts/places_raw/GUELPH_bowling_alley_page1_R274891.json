@@ -1,0 +1,378 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.45598,
+               "lng" : -80.472717
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4574066302915,
+                  "lng" : -80.47144521970849
+               },
+               "southwest" : {
+                  "lat" : 43.4547086697085,
+                  "lng" : -80.47414318029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "AMF Frederick",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112571290977166922639\"\u003eNishir Shah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLys5z6J0HIL_saU5QhqMdH9LJFQMJMe58tTbGyLjveXR20xeFlUX6cpDJPU3JeRIxDCl9NH7cRABh57jmFMUAAys4RccJrlKW1nKXa02XidikwR8s0kEckzx7tIuyp4iIeQDOkFJ3PHHC68RqN-RXZ6yuRiwUJyNeJ81TixQ8JVUw",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJRYbDIrz0K4gRkqJUKe0eEdI",
+         "plus_code" : {
+            "compound_code" : "FG4G+9W Kitchener, ON, Canada",
+            "global_code" : "86MXFG4G+9W"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJRYbDIrz0K4gRkqJUKe0eEdI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bowling_alley",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 714,
+         "vicinity" : "385 Frederick Street, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4735004,
+               "lng" : -80.4500826
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4751583302915,
+                  "lng" : -80.44931665000001
+               },
+               "southwest" : {
+                  "lat" : 43.4724603697085,
+                  "lng" : -80.45238044999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Bingemans",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2992,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118020791279124849696\"\u003eBingemans\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLHn7DFDfV_cVNqX1A4iV6xrPJz2J2Vz-LgSmtcrrVmZ87hr38l8eS7h09mHEnEGXIsh3YXpm7BI95UZCFZm7kF83ac5_NIZGjs67xK6pcY5r9xio61JK9BCdkwq2W-zM5R_edY-yXsg15RoN5Kmn-62lEvIvPNzwEEmpVhOyhkAmJr",
+               "width" : 3992
+            }
+         ],
+         "place_id" : "ChIJ1V_snq6MK4gRA8suIZwOe_4",
+         "plus_code" : {
+            "compound_code" : "FGFX+CX Kitchener, ON, Canada",
+            "global_code" : "86MXFGFX+CX"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ1V_snq6MK4gRA8suIZwOe_4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bowling_alley",
+            "campground",
+            "lodging",
+            "amusement_park",
+            "park",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 4460,
+         "vicinity" : "425 Bingemans Centre Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3635589,
+               "lng" : -80.3149779
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3647949302915,
+                  "lng" : -80.31361361970851
+               },
+               "southwest" : {
+                  "lat" : 43.3620969697085,
+                  "lng" : -80.31631158029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "ibowl.ca Family Fun Center",
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114742143277949822633\"\u003eBrent Starr\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKLDywSAVjiENw1w4bqUc3fNSrgnsunFB1OxEP0qUIqv2vhHrhJyqrgR6bzqknRrgEoMtQ55Z69swqWjerSFiqa1DsKSdiZ5dcuzdyBendTitik_7oURzJ6k5Cvt74boBSeusgInTUcSoTQiyZQ9Q25KVzUcjtLJ_rCDgT-4-aVgiFA",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJYXdkncl3LIgRO3Is2_BnouM",
+         "plus_code" : {
+            "compound_code" : "9M7P+C2 Cambridge, ON, Canada",
+            "global_code" : "86MX9M7P+C2"
+         },
+         "rating" : 4,
+         "reference" : "ChIJYXdkncl3LIgRO3Is2_BnouM",
+         "scope" : "GOOGLE",
+         "types" : [ "bowling_alley", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 378,
+         "vicinity" : "10 Park Hill Road East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4420969,
+               "lng" : -80.47045
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4436062302915,
+                  "lng" : -80.46925296970849
+               },
+               "southwest" : {
+                  "lat" : 43.4409082697085,
+                  "lng" : -80.4719509302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Towne Bowl",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1326,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100762321605465933216\"\u003eTowne Bowl\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJWQ8hu4rubtgjvru-nBNAnNmQuuUSx41vRDdCHXWCl8zZAoJ2mnMyndJua1rY6qz6Z6jwaLKcNWYCkMJNpEAyXqYURTvX7sIMq61prrCHHKU05i68LrvgEgDR-bPLUEaDGmznUd_GagtbqTzwhwUgOiehRsDBIyu5mgo-n4hUFR1ND",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJI3ZposT0K4gRgZR5L-blRUU",
+         "plus_code" : {
+            "compound_code" : "CGRH+RR Kitchener, ON, Canada",
+            "global_code" : "86MXCGRH+RR"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJI3ZposT0K4gRgZR5L-blRUU",
+         "scope" : "GOOGLE",
+         "types" : [ "bowling_alley", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 249,
+         "vicinity" : "11 Ottawa Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.553501,
+               "lng" : -80.294679
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5548042802915,
+                  "lng" : -80.2932664697085
+               },
+               "southwest" : {
+                  "lat" : 43.5521063197085,
+                  "lng" : -80.29596443029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Woodlawn Bowl",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109491521160238114038\"\u003eWoodlawn Bowl\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIhBUcJY-6E0zoHvYaWD-xZSZGRPBlUchAr0DbkgvxhS-9jXH7cwByNAIQu3QhigG8IEZ4B2oEnIgLymF4YFvVPALFRH_YCpW3bqLydfDQVoXgKcG7O1fpFPC7OjrNlpYkkLdEYRerNzteTgD7Re-lSmDrksWKhkx86ZegMJFdLUFv_",
+               "width" : 1334
+            }
+         ],
+         "place_id" : "ChIJcwh1j2uQK4gRN1we7uKFrPQ",
+         "plus_code" : {
+            "compound_code" : "HP34+C4 Guelph, ON, Canada",
+            "global_code" : "86MXHP34+C4"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJcwh1j2uQK4gRN1we7uKFrPQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bowling_alley",
+            "meal_takeaway",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 772,
+         "vicinity" : "253 Woodlawn Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3917518,
+               "lng" : -80.31949329999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3935332302915,
+                  "lng" : -80.31797616970849
+               },
+               "southwest" : {
+                  "lat" : 43.3908352697085,
+                  "lng" : -80.32067413029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Kingpin Cambridge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104100406715844392336\"\u003eSatvir Kaur\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK2BXtyxENTjIVk7KHLWJpWTfeWiK8goJoYyXjcKG4Q67TYVrttSgq_Qh_7Bc2G2JGEXm2sZqHy6yFGxv-NYI_YCFJNphDuCEtMCMCFwenZSN-tBaeIppKZ9QUrLZHsquxZyakJAMi17uzodPhQH1UjuHCBbxzYkE5shL_bl8yQ9Cjg",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJ19POL5SJK4gRuXmN7VimKIo",
+         "plus_code" : {
+            "compound_code" : "9MRJ+P6 Cambridge, ON, Canada",
+            "global_code" : "86MX9MRJ+P6"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJ19POL5SJK4gRuXmN7VimKIo",
+         "scope" : "GOOGLE",
+         "types" : [ "bowling_alley", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 504,
+         "vicinity" : "355 Hespeler Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.47221769999999,
+               "lng" : -80.4507351
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4734898802915,
+                  "lng" : -80.4493441697085
+               },
+               "southwest" : {
+                  "lat" : 43.4707919197085,
+                  "lng" : -80.4520421302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Kingpin Bowlounge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111985375964582054471\"\u003eMohannad Hussain\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKZgYt1bop5zcDrxoPXpp_K9AzX5SA5yHwCAR2hI9O1gDFGvjZ6LKjz0gUvBtHzfDCwxWSuhVytZDUGni_KKbm0X_WGNq6sP_BuNTlDuFsc4zicBpxvG116Xys1WWxQwDnmPbN5WKP-3_9mWuonsbnaKuNQ75xwsJAFLqdVV47OCIVl",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJs2YQ4auMK4gRJ2yXPgC2V2k",
+         "plus_code" : {
+            "compound_code" : "FGCX+VP Kitchener, ON, Canada",
+            "global_code" : "86MXFGCX+VP"
+         },
+         "rating" : 4,
+         "reference" : "ChIJs2YQ4auMK4gRJ2yXPgC2V2k",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bowling_alley",
+            "meal_takeaway",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 662,
+         "vicinity" : "425 Bingemans Centre Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4569936,
+               "lng" : -80.47268749999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4583425302915,
+                  "lng" : -80.47133856970849
+               },
+               "southwest" : {
+                  "lat" : 43.4556445697085,
+                  "lng" : -80.4740365302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Brunswick Bowling",
+         "place_id" : "ChIJe9eRaLz0K4gRsvXYDYQthmE",
+         "plus_code" : {
+            "compound_code" : "FG4G+QW Kitchener, ON, Canada",
+            "global_code" : "86MXFG4G+QW"
+         },
+         "reference" : "ChIJe9eRaLz0K4gRsvXYDYQthmE",
+         "scope" : "GOOGLE",
+         "types" : [ "bowling_alley", "point_of_interest", "establishment" ],
+         "vicinity" : "385 Frederick Street, Kitchener"
+      }
+   ],
+   "status" : "OK"
+}

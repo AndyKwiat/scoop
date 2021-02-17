@@ -1,0 +1,841 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwLXHCm779cIembiJoNU5JuWSdJJTE5L9z6K2V1bw4_DTKICFBcW_PHSYG4Mv89og8AhiwqRry4OlRBIMd6xtLcy146Fk9qKCVN34BlKYHz9bgfcfO4nD4FHagWSnZTTLLDVcuR2Uvku0rNcKOSl-veivTgHT-P2n8YWl3GtI8cC9ilbI9qVZKnfCpydIxf_itub8MQqOJqjPKJ6ztp6Zb7NTcu_mkkuODCj3gkX5qkXXi6p9MfqORheQoMoXVHZ5HN9lPMT1C6tmgvJkky5OoYmruKDFliJ5q8dJU_AAM0lyOHAfwDcnl_Y1cJ8VLkBzVD62aj_j2MLVrbHFYr6-r127C3JFGVNItp79ANaTI80Gp3zQgfyxZtd4UqPeVI2qsRddimapoSEeFWrYELNDh6o1hwYut61QTpUnoq7msrb7Ih-uF94JInDjv_gVOIOIQmG4qcFZRmJY3WffoW6qtyXJp0msA8KphA95-_TVIdAfrQm4btp6SEZAbGrrwAfssJ-X29ac70MsMkES_4cCwK6QntybHzDEeOIHip3KigLVSGrN3Ozu-_QJ7-bD7mtCgilwUtYotqAnCJNtefEdprfS3cGrjerTgb2xi4PbwAuSCBKb-y7xWfb6BdjvaThPHv7y2IYrS0BYA",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4729293,
+               "lng" : -80.54200109999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4743855302915,
+                  "lng" : -80.5404228197085
+               },
+               "southwest" : {
+                  "lat" : 43.4716875697085,
+                  "lng" : -80.5431207802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Davis Centre Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2915,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106832851944550818672\"\u003eLex Zhou\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKYnLwywPFGQ4hH7dIgVAngdFxZENao5dQyDRaYR4PAJjOUbkcXxEltCcJ-BAV_yHoXFPdUOdg6otICWawiAaAAO5o6x43Tu5bVDs5FRD_82Z9O9U_PYTfDVQlLboB4Z3WNF-iU-QMzy_Wvm3PxndGPPJKTlr69YGSMR0kfutDhitWX",
+               "width" : 3887
+            }
+         ],
+         "place_id" : "ChIJ70ldtwH0K4gRxEXs5bG4zb8",
+         "plus_code" : {
+            "compound_code" : "FFF5+55 Waterloo, ON, Canada",
+            "global_code" : "86MXFFF5+55"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ70ldtwH0K4gRxEXs5bG4zb8",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 79,
+         "vicinity" : "200 Ring Road, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4597578,
+               "lng" : -80.48641649999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4611826802915,
+                  "lng" : -80.48511551970849
+               },
+               "southwest" : {
+                  "lat" : 43.4584847197085,
+                  "lng" : -80.48781348029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "place_id" : "ChIJmYLMRZD0K4gR-NjToscqEjU",
+         "plus_code" : {
+            "compound_code" : "FG57+WC Kitchener, ON, Canada",
+            "global_code" : "86MXFG57+WC"
+         },
+         "reference" : "ChIJmYLMRZD0K4gR-NjToscqEjU",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "339 Wellington Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.7047822,
+               "lng" : -80.3784035
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.7061765802915,
+                  "lng" : -80.37717301970851
+               },
+               "southwest" : {
+                  "lat" : 43.7034786197085,
+                  "lng" : -80.37987098029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Fergus Library",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107959965168405589507\"\u003eSophie Kal\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLen00jNTu3P2ieOasCLMi5RGQWgmZXB-x0GI97R8iK_026a0wERNQyPtvw88aVjodsAvAZgNxvy804rfI3Wh3wEMiPM7LUGpQ5Vx8QgeJxeRCKCXdEokDaK0n1A0pSJKDid0B3rcgfGuErGzFLBlFwxIPyczloi_ikdoScfLNsCWH9",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJw7YmeRK-K4gRO8HBIfP_53A",
+         "plus_code" : {
+            "compound_code" : "PJ3C+WJ Fergus, ON, Canada",
+            "global_code" : "86MXPJ3C+WJ"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJw7YmeRK-K4gRO8HBIfP_53A",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 26,
+         "vicinity" : "190 Saint Andrew Street West, Fergus"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6836831,
+               "lng" : -80.4312501
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6851502802915,
+                  "lng" : -80.42976921970849
+               },
+               "southwest" : {
+                  "lat" : 43.6824523197085,
+                  "lng" : -80.43246718029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Elora Public Library",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117030695927320490538\"\u003eRajesh Kumar\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIk5Iv_hOGID7mFI4SZBu78jF4AXguUNcK_nUEgSyKL-k4_3CSQ-1nsJRRhHeYNzE4_z3cYNacf2cURX1Qxl-gsQWNR01Q-0qnYWiPMk5udOMX1uVPhoZBE_YMhKMbucCthWdKIG1xEopbgHUI-nd36A4HZmLkwCXPRpiY4HG_LBcoi",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJx6zJRmiVK4gRyJVsikV2hyE",
+         "plus_code" : {
+            "compound_code" : "MHM9+FF Elora, ON, Canada",
+            "global_code" : "86MXMHM9+FF"
+         },
+         "rating" : 5,
+         "reference" : "ChIJx6zJRmiVK4gRyJVsikV2hyE",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8,
+         "vicinity" : "144 Geddes Street, Elora"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4524905,
+               "lng" : -80.4922873
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4537654802915,
+                  "lng" : -80.49095481970849
+               },
+               "southwest" : {
+                  "lat" : 43.4510675197085,
+                  "lng" : -80.4936527802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Wilfrid Laurier University Library - Kitchener",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118141292848437638476\"\u003eMarta Borowska\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK1Eq6hPOQSqYqBGiUY71C6yD6UZe2KDgFcgAWX0I6wndFjQ7kQJ9ON1TDwsVTeOjWQf3raERkBazVUG289XMBgrJ3xHeYPsRttLDZCx3qBfKy3RDG3UJmIVIWGx9krbS0znZm56zN7bQM7bhmNHUyI-pDeU0a511LT9cgnSUXlmai5",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJuVlINfP0K4gR7df0x6Q8UqI",
+         "plus_code" : {
+            "compound_code" : "FG25+X3 Kitchener, ON, Canada",
+            "global_code" : "86MXFG25+X3"
+         },
+         "reference" : "ChIJuVlINfP0K4gR7df0x6Q8UqI",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "120 Duke Street West, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.39434,
+               "lng" : -80.437043
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3953192302915,
+                  "lng" : -80.4356395697085
+               },
+               "southwest" : {
+                  "lat" : 43.3926212697085,
+                  "lng" : -80.43833753029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Pioneer Park Community Library",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3840,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108338046105488169881\"\u003ePioneer Park Community Library\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI9m3CmJohQEdBoH8hPTPmPBEC8tGtKXxlShX4O3Tprc3haMZn5eA1eF1mE0okaCBScBHRFR0V7BsKjypB_o0Y9JqMvcqAz3stNbDbl8aj7kJMGWY6NOacodWnGzvolddAVMx8IgD48ZiycCse0DpT2xofp7YUnAkMghwQSKEJ8B_bh",
+               "width" : 5760
+            }
+         ],
+         "place_id" : "ChIJ6ePZQ6GKK4gRabrqsZ62ou8",
+         "plus_code" : {
+            "compound_code" : "9HV7+P5 Kitchener, ON, Canada",
+            "global_code" : "86MX9HV7+P5"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ6ePZQ6GKK4gRabrqsZ62ou8",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 23,
+         "vicinity" : "150 Pioneer Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5251898,
+               "lng" : -80.2911732
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5263238802915,
+                  "lng" : -80.28985506970851
+               },
+               "southwest" : {
+                  "lat" : 43.5236259197085,
+                  "lng" : -80.29255303029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Guelph Public Library - West End Branch",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104777429661808637398\"\u003eTheresa Heppler\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIvRPQhVqkK3mOqt3Y6mRSjFkTo0xBXwSx4Jv2po__8Aw6x8dz0c4jqQoNLTIjCtzskB29aC3i44wpzDBgZaYf8d6A4QxWUKExnAypqybnvxR3AsSy0E4PPFjCpSwORmCN-ASProbTO7ffD5Sq1JCVKc1rOuUyTbwm9blbP-03sddB5",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ3Sw8R-SPK4gRyTAK8FcZjoo",
+         "plus_code" : {
+            "compound_code" : "GPG5+3G Guelph, ON, Canada",
+            "global_code" : "86MXGPG5+3G"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJ3Sw8R-SPK4gRyTAK8FcZjoo",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 28,
+         "vicinity" : "21 Imperial Road South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4607051,
+               "lng" : -80.5041332
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4621125802915,
+                  "lng" : -80.50271246970848
+               },
+               "southwest" : {
+                  "lat" : 43.4594146197085,
+                  "lng" : -80.50541043029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110609222480564272812\"\u003eAli Zaman Khan\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIhPRzwwwmEQ7dN6qxLYHT8bga2t4XbA1sWQtcy47zHCXNRvN5fiIiaZIpbMMmXDfmc3-39AKzo95p-XGxGP9uL4ONswop5O4kak6c8MmlAxKaY8yOJQDc7lnSGNuwmC-64jsBvAg1ts3NIrwx8gMwZzJSlamQwb2NOx4j7HEFI3XSs",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJrVIYd2P0K4gRfl2ZW02EcOI",
+         "plus_code" : {
+            "compound_code" : "FF6W+78 Kitchener, ON, Canada",
+            "global_code" : "86MXFF6W+78"
+         },
+         "reference" : "ChIJrVIYd2P0K4gRfl2ZW02EcOI",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "217 Waterloo Street, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.397953,
+               "lng" : -80.03871909999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3993247302915,
+                  "lng" : -80.03722561970849
+               },
+               "southwest" : {
+                  "lat" : 43.3966267697085,
+                  "lng" : -80.03992358029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Hamilton Public Library - Freelton Branch",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 401,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112724703129299320059\"\u003eHamilton Public Library - Freelton Branch\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKWxuqhSG5_WTXDl_aOQmSQM1EGojcLV5f7HaNOh5uHRmg3xx2JgSxpKtmVKCP9aoFRs-XZB5Q0fA9ffhfbKi2keGcKV6rBIoJ3zeKXG_-gE_G8crQiqRAvV_PcppsaXnB-xSGazkhdiynqhvXJ7N2qhg6yuCZA2-ETkxfzr6Zsbcuq",
+               "width" : 796
+            }
+         ],
+         "place_id" : "ChIJYcdl6fZ-K4gRTU4Trnb2QJ8",
+         "plus_code" : {
+            "compound_code" : "9XX6+5G Freelton, Hamilton, ON, Canada",
+            "global_code" : "86MX9XX6+5G"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJYcdl6fZ-K4gRTU4Trnb2QJ8",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5,
+         "vicinity" : "1803 Brock Road, Freelton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.41125170000001,
+               "lng" : -80.4641622
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.41267773029151,
+                  "lng" : -80.4626807697085
+               },
+               "southwest" : {
+                  "lat" : 43.40997976970851,
+                  "lng" : -80.46537873029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "place_id" : "ChIJ0yJsJUj1K4gR2kqOUlpEqCU",
+         "plus_code" : {
+            "compound_code" : "CG6P+G8 Kitchener, ON, Canada",
+            "global_code" : "86MXCG6P+G8"
+         },
+         "reference" : "ChIJ0yJsJUj1K4gR2kqOUlpEqCU",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "67 Martinglen Crescent, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.45795199999999,
+               "lng" : -80.5033976
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45919278029149,
+                  "lng" : -80.50198951970849
+               },
+               "southwest" : {
+                  "lat" : 43.45649481970849,
+                  "lng" : -80.50468748029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "place_id" : "ChIJ4VRiYWH0K4gRoN89jIrCbnM",
+         "plus_code" : {
+            "compound_code" : "FF5W+5J Kitchener, ON, Canada",
+            "global_code" : "86MXFF5W+5J"
+         },
+         "reference" : "ChIJ4VRiYWH0K4gRoN89jIrCbnM",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "91 Moore Avenue, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.433748,
+               "lng" : -80.49286099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4351332302915,
+                  "lng" : -80.49140736970848
+               },
+               "southwest" : {
+                  "lat" : 43.4324352697085,
+                  "lng" : -80.4941053302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJE7zo8_30K4gRuiME15icMoE",
+         "plus_code" : {
+            "compound_code" : "CGM4+FV Kitchener, ON, Canada",
+            "global_code" : "86MXCGM4+FV"
+         },
+         "reference" : "ChIJE7zo8_30K4gRuiME15icMoE",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "244 Lorne Avenue, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4795323,
+               "lng" : -80.53053869999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4807431302915,
+                  "lng" : -80.5295222197085
+               },
+               "southwest" : {
+                  "lat" : 43.47804516970851,
+                  "lng" : -80.5322201802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "WCI Library Learning Commons",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1360,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111627767808200497711\"\u003eWCI Library Learning Commons\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLazZrU07I5DybUSC0v1eNLho4mFaSGoj-bdXVvEkCuZ5KFvj8ZMZxmRwFbIOxUwr18vBvsOmHg5Xz51EfvrYDm6nma49utZ4L_-eQo2j10gwIaNg77YRi2r4UzNsdFmHTLsXORJ4Sf-HH9R671BkLD9AnJ2lhhL0YH0Gx7vleZ6ae7",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ4xR80vDzK4gRmwupasUJg0M",
+         "plus_code" : {
+            "compound_code" : "FFH9+RQ Waterloo, ON, Canada",
+            "global_code" : "86MXFFH9+RQ"
+         },
+         "rating" : 2.3,
+         "reference" : "ChIJ4xR80vDzK4gRmwupasUJg0M",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3,
+         "vicinity" : "300 Hazel Street, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4545213,
+               "lng" : -80.52170629999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45578623029149,
+                  "lng" : -80.52029521970849
+               },
+               "southwest" : {
+                  "lat" : 43.45308826970849,
+                  "lng" : -80.52299318029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/library-71.png",
+         "name" : "Little Free Library",
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114474132303829409401\"\u003er Sm\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLtU5FOgJlnMu-COU2ZmGbWTPsSg3zNzyW_SeQHZfA1LRQgJ7Kp7HHEIoXnTAE2D6YfYIMY0_-af-_uiPtckn5wa9RpAV5ORSCZtcd1ylITHvuj9KWjzkxt9WU2jJNvmpnNR5DoDwhpv0vpYJSsRCNB2a1aMZvbRpBgo5zk-LMWT_Id",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJPeip-T_0K4gRTw6Pqg2CgD4",
+         "plus_code" : {
+            "compound_code" : "FF3H+R8 Kitchener, ON, Canada",
+            "global_code" : "86MXFF3H+R8"
+         },
+         "reference" : "ChIJPeip-T_0K4gRTw6Pqg2CgD4",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "vicinity" : "186 Union Boulevard, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.56243669999999,
+               "lng" : -80.2489686
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.56370648029149,
+                  "lng" : -80.2476316697085
+               },
+               "southwest" : {
+                  "lat" : 43.56100851970849,
+                  "lng" : -80.25032963029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Guelph Public Library - Bullfrog Mall Branch",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101621833529335685713\"\u003eChangjung Kwon\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKs_kM7aAIDTC4U0rwEtqWBIGR6RpOHFR51cZta2YumCdYAACWilfy7PW5nOUHwFXeawwPo-LXyzrYagrtfUoXh-0OCWMTmS8QphKMfrksu4NMEsKAWxu3-_uEDkdLUzCZeEG0w2IfliJcP0vJ0IxPxu8kAfuYW7ZXRzd5GGhWxpvCz",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJB9i_HfSaK4gRsac1v4LhJ7I",
+         "plus_code" : {
+            "compound_code" : "HQ62+XC Guelph, ON, Canada",
+            "global_code" : "86MXHQ62+XC"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJB9i_HfSaK4gRsac1v4LhJ7I",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 25,
+         "vicinity" : "380 Eramosa Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4199703,
+               "lng" : -80.46760669999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4212365802915,
+                  "lng" : -80.4662578197085
+               },
+               "southwest" : {
+                  "lat" : 43.4185386197085,
+                  "lng" : -80.46895578029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Country Hills Community Library",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3840,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117423987594613201975\"\u003eCountry Hills Community Library\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIz2VvoRkNXVHHHhbZ4qI2K-W0375pyUDIWzlPGt5ESKoJc3ZDbr49hFu-Z_wfoWJCNvZmPDzyzUtYOJA7c5szWp0RbQl4f3wLCScN08kmT6oqQ6Y3SuDUE_vK13scRd45cvTWju43rfcyz7BFgqHWwbyvPE-0bXQjWzKDqhJ7_qUGo",
+               "width" : 5760
+            }
+         ],
+         "place_id" : "ChIJ7XxPu3X1K4gRvQbC-gbDNwQ",
+         "plus_code" : {
+            "compound_code" : "CG9J+XX Kitchener, ON, Canada",
+            "global_code" : "86MXCG9J+XX"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ7XxPu3X1K4gRvQbC-gbDNwQ",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 31,
+         "vicinity" : "1500 Block Line Road, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4892119,
+               "lng" : -80.5441793
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.49060843029149,
+                  "lng" : -80.54272551970848
+               },
+               "southwest" : {
+                  "lat" : 43.4879104697085,
+                  "lng" : -80.5454234802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Waterloo Public Library - McCormick Branch",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100287451332835121096\"\u003eWaterloo Public Library - McCormick Branch\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKPcsTEefdPIuyxy2BtlzEF8cdmLvjaR78ch_JVKVEGxzoFrJTlOtBcJSctbCwbR2clB1SDGsauaGvAROhRa7JMrw4LIWjj1jkLgAX7yQcFw7gfmqWnMncSbCQCHYW5UtHt4LuBzFxARsXF83Pyvby7LXw1hgMCnVpF4gBvaKXJD7eZ",
+               "width" : 3872
+            }
+         ],
+         "place_id" : "ChIJF9keyFjxK4gRu6CBGgDSZuY",
+         "plus_code" : {
+            "compound_code" : "FFQ4+M8 Waterloo, ON, Canada",
+            "global_code" : "86MXFFQ4+M8"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJF9keyFjxK4gRu6CBGgDSZuY",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10,
+         "vicinity" : "500 Parkside Drive, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.39299,
+               "lng" : -80.300551
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39433913029149,
+                  "lng" : -80.29934061970849
+               },
+               "southwest" : {
+                  "lat" : 43.39164116970849,
+                  "lng" : -80.30203858029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Idea Exchange | Clemens Mill",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1360,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100214442146626173510\"\u003eIdea Exchange | Clemens Mill\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL6gMcNK0nEnBHrYcvOTVztCmeLBGxKAMPTWNcGRo275iU3JxbOQP73LbpJ9IVjo-lXVpSjPEL-DPGzkmh0pBfpXvMfG9gTGuz3FmSVJ1Hn2y7G8OXznnjg3wtO7fhiC_ESqR1bXGUhavF-r5rbOo7rdsdIT_PMAMgauVEj8OXrbXXz",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJb3p8wz2IK4gRL4S7pbCCbQA",
+         "plus_code" : {
+            "compound_code" : "9MVX+5Q Cambridge, ON, Canada",
+            "global_code" : "86MX9MVX+5Q"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJb3p8wz2IK4gRL4S7pbCCbQA",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 32,
+         "vicinity" : "50 Saginaw Parkway, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6319238,
+               "lng" : -80.0431722
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.63324968029149,
+                  "lng" : -80.04179371970849
+               },
+               "southwest" : {
+                  "lat" : 43.63055171970849,
+                  "lng" : -80.0444916802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Halton Hills Public Library",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100280888183386660029\"\u003em\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIKjds1Ir1cSW4QE7JtlxQxFKKJmSaYZFRvF5oaE3YM_-nJ0WOrntriVvy8lnOKHYbv1hDiSEOoen-ofuziSih6cE4ZWUIRbINbs54HQkppJu043mXVOYwuu6DoBGTJIUFN2-HBqfdZxdjkzzUtIksUslF_rHovSv2igUPruRgwn6YS",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJ4Znewfp0K4gRxR2vaXG06wY",
+         "plus_code" : {
+            "compound_code" : "JXJ4+QP Acton, ON, Canada",
+            "global_code" : "86MXJXJ4+QP"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ4Znewfp0K4gRxR2vaXG06wY",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 19,
+         "vicinity" : "17 River Street, Acton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.35946209999999,
+               "lng" : -80.318259
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3606737302915,
+                  "lng" : -80.3169164697085
+               },
+               "southwest" : {
+                  "lat" : 43.3579757697085,
+                  "lng" : -80.31961443029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Idea Exchange | Queen's Square",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103764481901844781318\"\u003ebb s\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwImj4xXySO3hxClFlmj-HOHqegIcajm4AWB3ZJ73epN6taJ777XlK1ah0CdhIv2iruDrhN-TWRw-V-ufLvkcz39dEv7ZDobTqU-HjhO8oOjtTOv1UXHGQnOu5GFHEESO1fWs5o6XhtiBqkYeogjAVCZ_wIVg5EAdQRbVMSFGyLBgCX2",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ09IBZe-IK4gRVCkr_rB3nas",
+         "plus_code" : {
+            "compound_code" : "9M5J+QM Cambridge, ON, Canada",
+            "global_code" : "86MX9M5J+QM"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJ09IBZe-IK4gRVCkr_rB3nas",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 63,
+         "vicinity" : "1 North Square, Cambridge"
+      }
+   ],
+   "status" : "OK"
+}

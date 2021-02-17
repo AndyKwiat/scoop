@@ -1,0 +1,929 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwKgxqceTdsTV97pZZW5mDItyc4Y60RGpbXe9Ie68k2dRzPf1JOlW9vdR2TxLHPI18yd5gYyXxw8I0Sb_aVa2vY-LIbFf1Jk4qm36qkV-g4ygdFs7NTsvZBFthiC-DjjCaVAOUYCxE1ifhMd7FXsG8Mm2FuSz55OTX7OlURr_ujdHzMHEjfjGdq9N1PFR2dqYUKSFpeLdTMS53hzw1TO0--7gH4YvLsbhAB9eLS5b95gkQ2GhQUYRIag_8C4ylFZAByTp_y0sUtPYVNVDIITuk8nTbflyRAaYJkfe3lzH79wivxubBttJmm0c4OCvlXFKr-0zSY45paFOe1fGjt9fImXzlqK4qBOhHYWVTNd3JKcb1ydtiudcGc5H2vX28QkgGu5TRiUFotM4OiJQclEW2sTyIeIPStTSPhj9Uqu5wFWB-AEFPRQ4muCBYJ39mMvOxjnmxZ-tq5CeRa4UX4raFzxV2hHca1RGJHIJkDJkGW-MbYQNMtCTCdiLuTklwiOniQnd4r_T8Hrvhm57ReEPjxgb-DJUA5vWBbpoQZc_F2xlYWRwS74Gv9CkhbLIWBRnpb0slkpJ1kNA5NiXXhvkKAuhwu346X7WrH-NTz1bqnnREuNEVp_1NLT-4tx_uuROZ8mUtiC",
+   "results" : [
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4503865,
+               "lng" : -80.49173019999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45190268029151,
+                  "lng" : -80.49026596970849
+               },
+               "southwest" : {
+                  "lat" : 43.44920471970851,
+                  "lng" : -80.49296393029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Wax Nightclub",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJWk7MRPGtKAUZJCt7-eQYbEtl8HjK_3A1AmAyRgI70xJakHrB3h3vkQ5D_agQ8oa8EOf_RT2GiqMxw63hDkX8G4UwzUJ9l46vuvwclqfv_gPBWJ48-KsL3M4vYrvxt98Ycpj9wDN490a-cLK1xlFzR7tFhIqSz0JzK_-hMGLQ0Gt7f",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJo2Z3G_P0K4gRJeURmGqSgyA",
+         "plus_code" : {
+            "compound_code" : "FG25+58 Kitchener, ON, Canada",
+            "global_code" : "86MXFG25+58"
+         },
+         "price_level" : 1,
+         "rating" : 3.2,
+         "reference" : "ChIJo2Z3G_P0K4gRJeURmGqSgyA",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 37,
+         "vicinity" : "125 King Street West, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.437955,
+               "lng" : -80.46040099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.43920353029149,
+                  "lng" : -80.45910016970848
+               },
+               "southwest" : {
+                  "lat" : 43.43650556970849,
+                  "lng" : -80.4617981302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Red Lobster",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101087029800603250320\"\u003eAidan Keogh\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJyQHxrMEH-r5siBk7ghm398-3hYBTlY5XoWV6dxqt1uvT3PDgzyLnNBk_LrgKyvf3vBqT_2pnSMmcs4Eu7E5G44IroAbT16nIZGDDplqkBCET7Y_KU0v_NLoP8sKU6UpBo5QDzrrCC7h7Woy44KaJoM5BRhq-xaBdsovznr5-iRdPc",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ0-ESf9H0K4gRygzi-c3v59g",
+         "plus_code" : {
+            "compound_code" : "CGQQ+5R Kitchener, ON, Canada",
+            "global_code" : "86MXCGQQ+5R"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJ0-ESf9H0K4gRygzi-c3v59g",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2017,
+         "vicinity" : "1732 King Street East, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4505734,
+               "lng" : -80.49071409999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4518671302915,
+                  "lng" : -80.48940336970848
+               },
+               "southwest" : {
+                  "lat" : 43.4491691697085,
+                  "lng" : -80.4921013302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Elements",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ9Acjbr04WHgV-2cAntniCnNE6eNjUOgjf1oDX7YSOiUrwejks2B7Hu4S5Je8oZV2p8TveYUHbPGkjXVa7h42Nb5h0Dwex9Zm0yk8K38knPekBz6-zXckRcY9M6vZbq8-3Twy9hmqFR2RWuPW6trIzrc2Icpng6gcjlzsjmzMLCb2H",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJl2kt4_L0K4gRS-njONTyzXI",
+         "plus_code" : {
+            "compound_code" : "FG25+6P Kitchener, ON, Canada",
+            "global_code" : "86MXFG25+6P"
+         },
+         "rating" : 3.2,
+         "reference" : "ChIJl2kt4_L0K4gRS-njONTyzXI",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 33,
+         "vicinity" : "90 King Street West, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4038293,
+               "lng" : -80.3259376
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4051071302915,
+                  "lng" : -80.32456696970851
+               },
+               "southwest" : {
+                  "lat" : 43.4024091697085,
+                  "lng" : -80.32726493029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Beertown Public House Cambridge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1177,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117341345192508165940\"\u003eBeertown Public House Cambridge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJO4C24Ba-MTB_n5EziVXMdnkZCDFLlcx3m1qbBPUNNORvlq6Dui097QhqUAYUjrYs1VCakQ1DfiB9vIdZh6Jj486saVF7lT0s9xB4q_SqkIoZvCdJw9lnFHeIW43Vfim3OXNQ8LacWaFLLArLr9qArjuy9IAzePKg4ZyWElQufdgFr",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJjxzPF7SJK4gRqtd2id-jHMc",
+         "plus_code" : {
+            "compound_code" : "CM3F+GJ Cambridge, ON, Canada",
+            "global_code" : "86MXCM3F+GJ"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJjxzPF7SJK4gRqtd2id-jHMc",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1199,
+         "vicinity" : "1A-561 Hespeler Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4523468,
+               "lng" : -80.4957409
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4535893302915,
+                  "lng" : -80.49445396970849
+               },
+               "southwest" : {
+                  "lat" : 43.4508913697085,
+                  "lng" : -80.49715193029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "McCabe's Irish Pub & Grill",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 390,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105748420359846377071\"\u003eMcCabe&#39;s Irish Pub &amp; Grill\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJciSAsTJ1zEn81F8J2SHek4ogMWHjR4Moi4QJqmYtJprd0I8n5vjCL5p9aQdmkJxlSgO8VcGZDe3Tcph6AgopuKk094NOb7J8_qXtmzHoGi_WJW214lTnc-1qpY3CRxrgDlGkwhGUUVlBIh5J7RHbyrBaHzfqcyDARI8lKs3kFGgcH",
+               "width" : 603
+            }
+         ],
+         "place_id" : "ChIJt6R-z_T0K4gR4ESmhAFO6eE",
+         "plus_code" : {
+            "compound_code" : "FG23+WP Kitchener, ON, Canada",
+            "global_code" : "86MXFG23+WP"
+         },
+         "price_level" : 2,
+         "rating" : 3.8,
+         "reference" : "ChIJt6R-z_T0K4gR4ESmhAFO6eE",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1028,
+         "vicinity" : "352 King Street West, Kitchener"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.475238,
+               "lng" : -80.524389
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4765037802915,
+                  "lng" : -80.5230400197085
+               },
+               "southwest" : {
+                  "lat" : 43.4738058197085,
+                  "lng" : -80.52573798029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Phil's Grandson's Place",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 640,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102936114184975204656\"\u003ePhil&#39;s Grandson&#39;s Place\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLsRkSh6IaWnJdKmt8pE5BQCu3-vvTRAoUJZV2T69s-Z82sS4AHLR3OyWTfPNmAe2K6bY1byOqQsIYtLdaBcOj5pM0NyY05z0qLifZT6mdY6_GMaUJX4HqS__0mR36s2ufmYmRSkuChBYaivWJ-Iq75oJZ-2gGZT7whyDxgLXiY5vpH",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJswAD92v0K4gREml-Mh7NOUU",
+         "plus_code" : {
+            "compound_code" : "FFGG+36 Waterloo, ON, Canada",
+            "global_code" : "86MXFFGG+36"
+         },
+         "price_level" : 1,
+         "rating" : 3.1,
+         "reference" : "ChIJswAD92v0K4gREml-Mh7NOUU",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 328,
+         "vicinity" : "220 King Street North, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4777323,
+               "lng" : -80.5250425
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.47906528029149,
+                  "lng" : -80.5238233697085
+               },
+               "southwest" : {
+                  "lat" : 43.47636731970849,
+                  "lng" : -80.5265213302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Morty's Pub & Patio",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117402000361323967643\"\u003eAaron Perry\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKM1-HQLyR2VtUTWN385k_kiqye97BG8Gb4Wgp4-tI7Que2tY5CmktTYiDGOdllJb60oKr4956QvAcRzCrKyqFvI0v_q_fxE563QaFzhAOBlQM1M9QDAMd8BRrXgHcgiArJf1XRm9kQiAtsx-MVA9sDpVb2FCpeKPcDFQhrkB4IBBaY",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJyytyQ_TzK4gRJgfMbVSBg_A",
+         "plus_code" : {
+            "compound_code" : "FFHF+3X Waterloo, ON, Canada",
+            "global_code" : "86MXFFHF+3X"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJyytyQ_TzK4gRJgfMbVSBg_A",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1673,
+         "vicinity" : "272 King Street North, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3988426,
+               "lng" : -80.36451649999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.40019158029151,
+                  "lng" : -80.3631675197085
+               },
+               "southwest" : {
+                  "lat" : 43.39749361970851,
+                  "lng" : -80.3658654802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Argyle Arms",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2340,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116101254450790335991\"\u003eMatthew Belanger\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLxy3RuTbDBbvly1Kz2AJFR6LZzH95pqTM6jQp1t71KODqyFzvOzX-M7BomECc5Vf_cj6RdF2s7AnjXCNdnmfzIeN_K755R7y3ZhuBpMYk-iklc1fPPADTVSoeZQe5ko_Pbtb7fMCEFw_lOb0LSBbIIzDurXknXqAqLoQywyHxIFlmY",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ8WNx3vWJK4gR-7ucQoV2gbw",
+         "plus_code" : {
+            "compound_code" : "9JXP+G5 Cambridge, ON, Canada",
+            "global_code" : "86MX9JXP+G5"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJ8WNx3vWJK4gR-7ucQoV2gbw",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 221,
+         "vicinity" : "210 King Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.466627,
+               "lng" : -80.523331
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.46804288029149,
+                  "lng" : -80.52199956970848
+               },
+               "southwest" : {
+                  "lat" : 43.4653449197085,
+                  "lng" : -80.52469753029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Jane Bond",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 533,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114151048473317931113\"\u003eJane Bond\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJAUzJWpvsn5YHaz90-ajE-4xUzVTo4-EjTrAOXTMUAIVqbHWRXK0x77pWHdSbDDWdSOnV8cWCEPwzXOu3giiPxaLpAEFk6pvjuaTG_53MIzpTguEALpCYBIBNfcB6CfaSPexekCjtbviTD8is-zg9_K_DEmALz-Ytk_KsHJIptsgt0",
+               "width" : 800
+            }
+         ],
+         "place_id" : "ChIJWfsfHA30K4gRMEtfFG5IWrI",
+         "plus_code" : {
+            "compound_code" : "FF8G+MM Waterloo, ON, Canada",
+            "global_code" : "86MXFF8G+MM"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJWfsfHA30K4gRMEtfFG5IWrI",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 579,
+         "vicinity" : "5 Princess Street West, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4639678,
+               "lng" : -80.5227484
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4653579302915,
+                  "lng" : -80.5210705697085
+               },
+               "southwest" : {
+                  "lat" : 43.4626599697085,
+                  "lng" : -80.52376853029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Beertown Public House Waterloo",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114425110496540933624\"\u003eBranko Ljumovic\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLQNE1n_HyKwMRa0OwHsf7kVaC7WX0LNst033DmfxJ2XBvO9pdzt0wkkuksKh8QO7PwB0XcbqDuBjdYLK-V481H8aiu1ZMr2PHfvD4K5B19n6N2qSPe2w3a5Icr4521lohvZHJR0wOWYCr4paPK2iu1GEEMDpJD1PBJmugu070FNp4Y",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJy4uAuxL0K4gR4GQtmdL7XK8",
+         "plus_code" : {
+            "compound_code" : "FF7G+HW Waterloo, ON, Canada",
+            "global_code" : "86MXFF7G+HW"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJy4uAuxL0K4gR4GQtmdL7XK8",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2089,
+         "vicinity" : "Waterloo Town Square, 75 King Street South Unit 37, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5475431,
+               "lng" : -80.24995779999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54901643029149,
+                  "lng" : -80.24856171970849
+               },
+               "southwest" : {
+                  "lat" : 43.5463184697085,
+                  "lng" : -80.2512596802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Stone House Kachelofen",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2848,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLwkrq4-QSUJijPmTXYnVwFcs_lTqGQplsZrlDa2NZ-w5j4PuShI-r4_9xhLZMgN9_GWA6Rw7m9xMfe8RJ4aHlp4QYQVNjppA8lFmBvLpgqXLYx_s7TxtCwPowl8BMWDsI_9d8zGL-VHSUOnsHl7bG_ln3FPT_2p1vRirLv3ydBHF5U",
+               "width" : 4288
+            }
+         ],
+         "place_id" : "ChIJ6cki0OqaK4gRQ_B1KSC0CBA",
+         "plus_code" : {
+            "compound_code" : "GQX2+22 Guelph, ON, Canada",
+            "global_code" : "86MXGQX2+22"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ6cki0OqaK4gRQ_B1KSC0CBA",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "128 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54464,
+               "lng" : -80.248847
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5459145302915,
+                  "lng" : -80.24742611970849
+               },
+               "southwest" : {
+                  "lat" : 43.5432165697085,
+                  "lng" : -80.2501240802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Royal Electric Bar & Public Eatery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3707,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109728459588874263436\"\u003eRoyal Electric Bar &amp; Public Eatery\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIikz4mhL6ja8ZF4OBx_fGFiSv03gdvGPEoB4nKyDD2Qhi25xRp9NGThLSofXLfgEqYOrT89j9m3Y8GZsko9SkcV11lyxcvawKpA-vPtzrNrib5XphZnqd9xvNyGHrXsLx7CvwVe69C8Gm7TxDQks8x4o1Us_GGgz5uW3xRRu1Z3D8M",
+               "width" : 2967
+            }
+         ],
+         "place_id" : "ChIJFdF8J8KaK4gRl7__h6AwuwY",
+         "plus_code" : {
+            "compound_code" : "GQV2+VF Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+VF"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJFdF8J8KaK4gRl7__h6AwuwY",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 802,
+         "vicinity" : "52 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5451404,
+               "lng" : -80.247039
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5465512302915,
+                  "lng" : -80.2457475197085
+               },
+               "southwest" : {
+                  "lat" : 43.5438532697085,
+                  "lng" : -80.24844548029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "TABU Nightclub",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJO-q-EM1RhpDDvAxsyV-ljZmJDYEPQXBH4ufVkwd9bKShpXMf-V8TepX_LDKinr0vsSJcf5XawHOwxBrGgMgm2XtkespcOGHNIZ9YKmTkxKtu0NkFVBDFQXWT0ZhbzuEDx1SY2zD_wZ2GEyT7k_mRvwlR-3-Yb6myMBI5JLZwt2kAN",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJDwMVfsKaK4gRFnrv14RtMXU",
+         "plus_code" : {
+            "compound_code" : "GQW3+35 Guelph, ON, Canada",
+            "global_code" : "86MXGQW3+35"
+         },
+         "rating" : 4,
+         "reference" : "ChIJDwMVfsKaK4gRFnrv14RtMXU",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7,
+         "vicinity" : "96 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5452278,
+               "lng" : -80.24757249999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5465189302915,
+                  "lng" : -80.24616971970849
+               },
+               "southwest" : {
+                  "lat" : 43.5438209697085,
+                  "lng" : -80.24886768029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Western Hotel Burgers & Steaks",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1365,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101744615157692716649\"\u003eWestern Hotel Burgers &amp; Steaks\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKFZ55zq2-kkCes2kUkkqrZZYb_ov3mrlitBPGfNZZ5cLeYYSVP_3ZpseMU95iRQJkcCoHNv9MC17_SsvbaTyRqSvkYop9ki8PBJ7npG4Gv1-ngpz3nr6N6NPUzkcI6RlkJYIlH69GgB2aAIwjG9yEuO3Kd1tFDZZik3IxIGYBh7tiN",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJk1X1FMKaK4gRvcoEDTj1d5I",
+         "plus_code" : {
+            "compound_code" : "GQW2+3X Guelph, ON, Canada",
+            "global_code" : "86MXGQW2+3X"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJk1X1FMKaK4gRvcoEDTj1d5I",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 454,
+         "vicinity" : "72 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5454872,
+               "lng" : -80.2471517
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5467598802915,
+                  "lng" : -80.24573171970849
+               },
+               "southwest" : {
+                  "lat" : 43.5440619197085,
+                  "lng" : -80.24842968029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Opus Lounge",
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101205696580099773684\"\u003ePauline Bott\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKCRh8Ol4-sDW03nTgPJ4uo1sbL1vo-fvPMjaO6p4Y5HtIgsCh5CiC-NSzo-60WHfJxtwbdbmkGSUQqOlX-VzF6GHDntjqAWGG3aksAOWQIWauxsGrqBHHYRvvTXE9Vs6WTlx94eSVALK9-5MnJTpPkwVaSJKPOiw2iX96baeAj0YdN",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ322wesKaK4gR1p9bl3VtSfY",
+         "plus_code" : {
+            "compound_code" : "GQW3+54 Guelph, ON, Canada",
+            "global_code" : "86MXGQW3+54"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJ322wesKaK4gR1p9bl3VtSfY",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 11,
+         "vicinity" : "92 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5454125,
+               "lng" : -80.2504411
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5467773302915,
+                  "lng" : -80.24902011970849
+               },
+               "southwest" : {
+                  "lat" : 43.5440793697085,
+                  "lng" : -80.25171808029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "The Bookshelf",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 990,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115122355035354961261\"\u003eThe Bookshelf\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJqyGQe1Mbpw-LHPi9rnOtxW0Ugra4WMH89HhcC6bD6bYL6_mh4sp4FrZ8QHes3IVSZaIe_9bCfGInyZi7eHTK7iZNv8PXNLia96u-srpT8GNfP-6Eb-8j_BNum0Q6XoB5xyOolDaEVep2-PTW3KQ0D7uC1Mzk1ZCCWPSGOohBQnDsW",
+               "width" : 1500
+            }
+         ],
+         "place_id" : "ChIJpY64w8GaK4gR_6eh8uYlhwI",
+         "plus_code" : {
+            "compound_code" : "GPWX+5R Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+5R"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJpY64w8GaK4gR_6eh8uYlhwI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "book_store",
+            "movie_theater",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 554,
+         "vicinity" : "41 Quebec Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54552280000001,
+               "lng" : -80.25061400000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5469330302915,
+                  "lng" : -80.24928411970849
+               },
+               "southwest" : {
+                  "lat" : 43.5442350697085,
+                  "lng" : -80.25198208029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "miijidaa cafe + bistro",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1152,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103782925426253374791\"\u003emiijidaa cafe + bistro\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLo5OBCipTLpgXouZxbmfeg3JhJsV4LWrLBfQCeYwJM5A8vMa3uU0tiYjPsv_rqPwrnEFIoPGMHbCkXDs5Khz2MDlgItVFdenrpRJ8I7niksrdVIt0ZA8l8e61FdXzolGCtdMzEiof86w9U0iE5QhpelKNK8RwcpDAt-7EejmDEc7dp",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJv434w8GaK4gRt9ABh5m6JZw",
+         "plus_code" : {
+            "compound_code" : "GPWX+6Q Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+6Q"
+         },
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "ChIJv434w8GaK4gRt9ABh5m6JZw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "meal_takeaway",
+            "cafe",
+            "bar",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1088,
+         "vicinity" : "37 Quebec Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5464291,
+               "lng" : -80.24938829999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5477325302915,
+                  "lng" : -80.2481302197085
+               },
+               "southwest" : {
+                  "lat" : 43.5450345697085,
+                  "lng" : -80.25082818029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Sip Club",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101909288441905885644\"\u003eSip Club\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI9rXI4FmAxId57Zk7U2xu45mDI_8xahb0IDOEcON3kXM0GOa4wFE3nsmMpQzP6kKokBmzPqhLKq5wnnC7kI04sxY01Wbr8JRapTgHxdilj6DozcJU0PyXRF4xhUJ9PW8qSqFxt99iE49lh-39n19tZ3lk2KQj-cH-1aQi4V5qY06Wh",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJQzGQa-qaK4gR6wzvwJab5HY",
+         "plus_code" : {
+            "compound_code" : "GQW2+H6 Guelph, ON, Canada",
+            "global_code" : "86MXGQW2+H6"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJQzGQa-qaK4gR6wzvwJab5HY",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 448,
+         "vicinity" : "91 Wyndham Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.52421199999999,
+               "lng" : -80.2237823
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5256152802915,
+                  "lng" : -80.22236176970848
+               },
+               "southwest" : {
+                  "lat" : 43.5229173197085,
+                  "lng" : -80.22505973029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "The Shakespeare Arms",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111397641224719226337\"\u003eTuco Salamanca\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIOkIhRexQYW2eSru9JwEnYEa92Mhcv_3tPxd8xaq23hYedIgrTIfrJzG0C0Hjlnws1WUm7mvSUutaHzYSmLWKqg8pnK0cuHxUfkygRSiECwBk7b6149m-d5MEiYHzbg8BpdWZ6PmDY-sMNCs-4FNmN5EGISMml0vlpek5iGMS8NAxo",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJv80Of0OaK4gRyGwgL6uqCZQ",
+         "plus_code" : {
+            "compound_code" : "GQFG+MF Guelph, ON, Canada",
+            "global_code" : "86MXGQFG+MF"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJv80Of0OaK4gRyGwgL6uqCZQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 851,
+         "vicinity" : "35 Harvard Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5647317,
+               "lng" : -80.2759731
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5660461802915,
+                  "lng" : -80.27469806970849
+               },
+               "southwest" : {
+                  "lat" : 43.5633482197085,
+                  "lng" : -80.2773960302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Voodoo Vapes",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJsCwUkui5zp9DhYoS9V4jeaDPaQaJQ8NuQhAEEGgk5J9IzNJ89zAKbLREaf-uMrsnMNJaKSHgXZtWKP6oOCvq5pDf0J5m4IWX08LHoL5wjVosUyX-nRppx5ZkxbNtQGspE8vLgUHQKVv3BxKQX9QQSDaVr_Dw_RduR9rWVY_cWg2TD",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJCabFz4GaK4gRgkjymU2L0Sg",
+         "plus_code" : {
+            "compound_code" : "HP7F+VJ Guelph, ON, Canada",
+            "global_code" : "86MXHP7F+VJ"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJCabFz4GaK4gRgkjymU2L0Sg",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 96,
+         "vicinity" : "765A Woolwich Street, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

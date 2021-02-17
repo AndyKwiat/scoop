@@ -1,0 +1,589 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.341487,
+               "lng" : -80.1808978
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.34268468029151,
+                  "lng" : -80.17952601970848
+               },
+               "southwest" : {
+                  "lat" : 43.33998671970851,
+                  "lng" : -80.1822239802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "“African Queen” Boat Cruise",
+         "photos" : [
+            {
+               "height" : 1088,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107151906004187060482\"\u003eJigar Patel\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK7Axo8SmrU-I4TWXNjUDm2gHeAfuXl_Af1eGYtGhiOndh9wYQqutl04CS48fawWBoWB96iIGv4JW7MRefHFQBSqqB-YisUu8ADRdgvGQoPCFhxTEx4sRpnE8yhaoD3CaGhK_oFb6cew1jKdNsGIZFwlSXBSPdGAf_KVdWhm4QFmaym",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJRfI1kTF_LIgRLbIFk_mBwZk",
+         "plus_code" : {
+            "compound_code" : "8RR9+HJ Hamilton, ON, Canada",
+            "global_code" : "86MX8RR9+HJ"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJRfI1kTF_LIgRLbIFk_mBwZk",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 11,
+         "vicinity" : "Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6830306,
+               "lng" : -80.42687649999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.68439258029149,
+                  "lng" : -80.42550996970849
+               },
+               "southwest" : {
+                  "lat" : 43.68169461970849,
+                  "lng" : -80.42820793029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Elora conservation",
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104283661908073352351\"\u003eKatley Rocha\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI4tUKubEzJbAO62UyUwCvhduBw6XaVWXfHI3-R6cyydyx6wEtEzaCIWK7JHKkCIu0QZJPgPkoJlujNroKRuupYLT6-ysWxnT2dlUCk3w1zqYvA1QdfyGB1KpqtP22etzPzOcDjC4-xA3Xzedju7T906b-Mtt9z6gZfIB8duKpkKPjZ",
+               "width" : 1620
+            }
+         ],
+         "place_id" : "ChIJveUR5bWVK4gRyfN6jK5cRQU",
+         "plus_code" : {
+            "compound_code" : "MHMF+66 Elora, ON, Canada",
+            "global_code" : "86MXMHMF+66"
+         },
+         "rating" : 4,
+         "reference" : "ChIJveUR5bWVK4gRyfN6jK5cRQU",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Elora"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3457375,
+               "lng" : -80.1808868
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3467778302915,
+                  "lng" : -80.17629905000001
+               },
+               "southwest" : {
+                  "lat" : 43.3440798697085,
+                  "lng" : -80.18241605
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Elephant Round-Up",
+         "photos" : [
+            {
+               "height" : 2736,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109215988638522960796\"\u003eHoydi Cheng\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIA0jLB5r1_vQFdVDz2fpeTpjRJ2tuZdZrLdXD9z9NTAViAgqjD--mwnCwUsvGC2BytU10Pb-FQ9TTIkAy5xfulmnoNCHFnIEANWbok5uNJ6p1UneMuZN7kN_nAYh3hG9eOElnrgC_CqM9N5nWUqUQ_bTN9u4tP8OSZgGZp_Mokqe4T",
+               "width" : 3648
+            }
+         ],
+         "place_id" : "ChIJe-wqvDZ_LIgRdzTTSvO3dG8",
+         "plus_code" : {
+            "compound_code" : "8RW9+7J Hamilton, ON, Canada",
+            "global_code" : "86MX8RW9+7J"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJe-wqvDZ_LIgRdzTTSvO3dG8",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 30,
+         "vicinity" : "Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3441909,
+               "lng" : -80.31050879999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.34600683029151,
+                  "lng" : -80.3093294197085
+               },
+               "southwest" : {
+                  "lat" : 43.34330886970851,
+                  "lng" : -80.31202738029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Apple Jack deer sanctuary",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115903306903687819243\"\u003eHuman First\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJDExIcq1BByDfZeg1sIMNakKU2lG9k7ZEArgGWTCpTx9Tlz2cYmmmE7O0rTzRqkZ0SyKJGhOafdEQeNWZ-S1__2rajPVM4dQzkWdboh7NYB39AGLTZIu6vbr7o-1IiC4-Gujei1TKk0ckrZu9FuVZL3R7vQDBAvscTZQvaM0s88Eud",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJOVbtdJ53LIgR-5yxAijLvU8",
+         "plus_code" : {
+            "compound_code" : "8MVQ+MQ Cambridge, ON, Canada",
+            "global_code" : "86MX8MVQ+MQ"
+         },
+         "rating" : 5,
+         "reference" : "ChIJOVbtdJ53LIgR-5yxAijLvU8",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "104 Highman Avenue, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3441304,
+               "lng" : -80.18232209999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.34531353029151,
+                  "lng" : -80.18135779999999
+               },
+               "southwest" : {
+                  "lat" : 43.34261556970851,
+                  "lng" : -80.185215
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Birds of Prey - Flying Demonstration",
+         "photos" : [
+            {
+               "height" : 2328,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117333781456696433831\"\u003eWai Leung Choi\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLsUJDQza116SiJoSXw-th2RaWcuqNlSkrmbcRGxffkpVkv8bUQ2bcK6UbKzRVeEulLPOPNF8NiHpp17PmVJXPpVZDrZECLzwV1yVHtC23gG-ZMT_AFT2mEl7-F_ExvaTqWOCjbwq_GtaZY8tgK9OmQFY-Ju-4bdfqyUyjvIEq71exN",
+               "width" : 4656
+            }
+         ],
+         "place_id" : "ChIJQU2X5DN_LIgRgonUJl1MU7A",
+         "plus_code" : {
+            "compound_code" : "8RV9+M3 Hamilton, ON, Canada",
+            "global_code" : "86MX8RV9+M3"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJQU2X5DN_LIgRgonUJl1MU7A",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7,
+         "vicinity" : "Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3435528,
+               "lng" : -80.1828957
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3447979302915,
+                  "lng" : -80.18215046970849
+               },
+               "southwest" : {
+                  "lat" : 43.3420999697085,
+                  "lng" : -80.1848484302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Parrot Paradise",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112103699592286612350\"\u003eibrahim pp\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJvEyhhEqnhgVmNmGynOzer6bLJzSmS6KbRfp-sJLwX5wruHJyatU-s9f5waTrm2XEptBGMVj9qqjtxciUAp7HNTwE6grnIbrjKvSsObFc10qhC4WCVeI-a1W5HwNzhz_xKnFXBKMTGKWsknSFltWMRlr-okDHLs8l6UBryLe4i7q-0",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJI1Q2wjN_LIgR_Ep9IKA1JXI",
+         "plus_code" : {
+            "compound_code" : "8RV8+CR Hamilton, ON, Canada",
+            "global_code" : "86MX8RV8+CR"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJI1Q2wjN_LIgR_Ep9IKA1JXI",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5,
+         "vicinity" : "Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3433121,
+               "lng" : -80.1819392
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3444857302915,
+                  "lng" : -80.1809196
+               },
+               "southwest" : {
+                  "lat" : 43.3417877697085,
+                  "lng" : -80.18499800000004
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Nature Boy Scenic Railway",
+         "photos" : [
+            {
+               "height" : 4608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100887935526723317671\"\u003eSara Proper\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL3HoWJh769sZLs-O_nyKaOEsMpNFnGeHbn4Be02It7YF4l6puC5k0beO-Rg6U3oh8guthaQXsrd9bny2Z20VQpXX757Iy2XDVxJVknpg8WKD9qyBpkONKT-XUfqfHuGQoE8KP84uHVcidj68nTNYPc0xDhMRueL88IUEO3PE8LGrO_",
+               "width" : 3456
+            }
+         ],
+         "place_id" : "ChIJjSlU3zN_LIgR2nvJaf3gJvA",
+         "plus_code" : {
+            "compound_code" : "8RV9+86 Hamilton, ON, Canada",
+            "global_code" : "86MX8RV9+86"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJjSlU3zN_LIgR2nvJaf3gJvA",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 6,
+         "vicinity" : "Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.34097790000001,
+               "lng" : -80.1800995
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3423289302915,
+                  "lng" : -80.1787366197085
+               },
+               "southwest" : {
+                  "lat" : 43.3396309697085,
+                  "lng" : -80.18143458029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "C Y Kan",
+         "photos" : [
+            {
+               "height" : 492,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103040606470530704647\"\u003ecy kan\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJxNiwQU5D0TlARVoyHqv6LBQaytuV2cSqicMjYhOdJoRwq4VOwOWu6Uj5QTPj7rhXmSi8GYb_ZlOnFKeAPktKfO-psj_FlUSWDCf69GooORdnVgr1mars_3oAWrBVPxRDtqLYI_PTRykg0dT_P85sJMMbSpRIHZ0BVGOZFouN2qRbW",
+               "width" : 409
+            }
+         ],
+         "place_id" : "ChIJm920LXd_LIgRXQbozUqCRh4",
+         "plus_code" : {
+            "compound_code" : "8RR9+9X Cambridge, ON, Canada",
+            "global_code" : "86MX8RR9+9X"
+         },
+         "reference" : "ChIJm920LXd_LIgRXQbozUqCRh4",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "vicinity" : "Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.34079450000001,
+               "lng" : -80.17588309999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3420981802915,
+                  "lng" : -80.17453566970849
+               },
+               "southwest" : {
+                  "lat" : 43.3394002197085,
+                  "lng" : -80.1772336302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Simba Lion Country",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117605815589356059464\"\u003eDr. D\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJrCSsBRd0k6f-eVqA_ruWGy4tYSjXmjtDihrgqSkWUK0cM1vugC11kJdhbYWHGFpfIswseSWFNTpVXlN_nck_98r982IjTbYd1PGHAhQFICq_BypjrT7C5slH-rawFCLNkPzPIFgh0-KUh1e8LlANxCf2K-4Z_XObl5BdEfB0OsWlI",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJFZXlmDp_LIgR_qlRZN2QryM",
+         "plus_code" : {
+            "compound_code" : "8RRF+8J Hamilton, ON, Canada",
+            "global_code" : "86MX8RRF+8J"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJFZXlmDp_LIgR_qlRZN2QryM",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 51,
+         "vicinity" : "Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3389555,
+               "lng" : -80.18014079999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.34031683029149,
+                  "lng" : -80.17892286970849
+               },
+               "southwest" : {
+                  "lat" : 43.33761886970849,
+                  "lng" : -80.18162083029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Elephant Swim",
+         "photos" : [
+            {
+               "height" : 4608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110760475170747264599\"\u003eIsraela Kolakavot yofi\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKTyshmzFM-6DhgiOUmwZVVWJ8zFFDB0IqoXyAJd-XUk_QVY-ZVs6uSFRVPMRFycSrTaTtN-fbVq-4pOTUgvCQtFhJMbseyRGnLyQusFYUSDyZog0yucjDBI2ZwsOnEYVfSaQDq5rhvb8wkSnVXTuvbcYzIPYwZuSFhQdmsiCiuLIZv",
+               "width" : 3456
+            }
+         ],
+         "place_id" : "ChIJi1H9Oy5_LIgRVEFDUx-5xY0",
+         "plus_code" : {
+            "compound_code" : "8RQ9+HW Hamilton, ON, Canada",
+            "global_code" : "86MX8RQ9+HW"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJi1H9Oy5_LIgRVEFDUx-5xY0",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10,
+         "vicinity" : "Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.33931440000001,
+               "lng" : -80.17269329999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.34072733029151,
+                  "lng" : -80.1714103697085
+               },
+               "southwest" : {
+                  "lat" : 43.33802936970851,
+                  "lng" : -80.1741083302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Safari Trail",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112110436704814548129\"\u003eFrank Yang\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKYzvYUoQ06nDqlfs4CM5N3KGBCTKYZBZpzu8Yc7lAWFCSUTK5LTT0WAKQjw3QAsh3czwfr8iasZf1pS0AursZuEJLC56NpsKKzJf6OWCth7iBT7Ab4IRH7DhUyKcF2did4XSnCAuCRJ-yGC3oqWtMd6g4B7vAWB4tUAllgwi9ICdo",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJS-KXdNB_LIgRh6ueUwzj_2E",
+         "plus_code" : {
+            "compound_code" : "8RQG+PW Cambridge, ON, Canada",
+            "global_code" : "86MX8RQG+PW"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJS-KXdNB_LIgRh6ueUwzj_2E",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "2020 Safari Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3369934,
+               "lng" : -80.1758828
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3383007802915,
+                  "lng" : -80.1744021197085
+               },
+               "southwest" : {
+                  "lat" : 43.3356028197085,
+                  "lng" : -80.17710008029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Timbavati White Lion Country",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102069818820128023710\"\u003eSubramonian R\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIaJrA49xoqQR2EpEqSrR8WtzF_j6uW1YqlS4qFp4MA5uLtFLADNYc8TA2oyZJO4XLBT-e-6JuVZjHBUHpV39MNvw6mt5pZ8Us41g318awMDpWZ-oe803EpoeGczAyx8vs8SFd85-ABiQvMKMN3Rb42HvLu6dD_YMCtl4yIgjf86Ll3",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJAWtEgiV_LIgRPgf9pHiC-5c",
+         "plus_code" : {
+            "compound_code" : "8RPF+QJ Hamilton, ON, Canada",
+            "global_code" : "86MX8RPF+QJ"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJAWtEgiV_LIgRPgf9pHiC-5c",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 446,
+         "vicinity" : "Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4184779,
+               "lng" : -80.4852794
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4198268802915,
+                  "lng" : -80.48393041970849
+               },
+               "southwest" : {
+                  "lat" : 43.4171289197085,
+                  "lng" : -80.48662838029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "McLennan Dog Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100375008632483782955\"\u003eBrad Penney\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLSdbBs-aa3v14c3f15KMRJernT6KQ_cXLXmGog1TeNcZhSVvQeiDqARFFzC8MFUx5eeOnq-lddNlO0Jn61iQ0ApMSo_Kvy7eCbs8vNc8_3k9tbWklizyAXQw4hcmQoNEnLHi_U4y_DTHUFpWvDq2frdaLgZAKH84xT3eDBMzVEADBc",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ2YF8LhL1K4gRhUmTklIh328",
+         "plus_code" : {
+            "compound_code" : "CG97+9V Kitchener, ON, Canada",
+            "global_code" : "86MXCG97+9V"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ2YF8LhL1K4gRhUmTklIh328",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 33,
+         "vicinity" : "Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4803776,
+               "lng" : -80.5331592
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4817935802915,
+                  "lng" : -80.53203206970849
+               },
+               "southwest" : {
+                  "lat" : 43.47909561970851,
+                  "lng" : -80.5347300302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Cardill Safari",
+         "place_id" : "ChIJoRDVC-HzK4gRSXnY4wcacq4",
+         "plus_code" : {
+            "compound_code" : "FFJ8+5P Waterloo, ON, Canada",
+            "global_code" : "86MXFFJ8+5P"
+         },
+         "reference" : "ChIJoRDVC-HzK4gRSXnY4wcacq4",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "point_of_interest", "establishment" ],
+         "vicinity" : "38 Cardill Crescent, Waterloo"
+      }
+   ],
+   "status" : "OK"
+}

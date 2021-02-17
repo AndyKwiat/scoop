@@ -1,0 +1,914 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwKAmUrdIYM78Rz2XMWiCM7--Dntdx-hXoXlb2zOWZJSjyGM3PeB-DJ-PV4mLQxrY-RePS4Uto2nTdJ4WWAEJNApfsRQipua9ycY1yGexNQORrOJEUq8XOWMVjmNpvzp2-ZaWoMz2V5Qe4haRwyPnC5cj2ClR5AYoRoQ1OTkSLwzePFleV80xkvCYrQcj1sXa-qcEleHbx5QLswj051-wkkqXheFQrdwX4tk_Icu1W4go5D8560du-s0uUczJi2Nf27VbBGV1nYBU2wNM2L3yTklHJyl-WP6CdNBRTCRMQtbCbzCwxg3lz581775YoZsZhoShweyyoAcy0Ba-s4gj02r0J6OI3cJihS8cP5x1HEkr03BXMsuRT46kwUgVBchwtv4dAHqF48sbBTCOBQ8ubHwWSbjVaznql1yw0g-p9J3X9IjTiCEP1FEMWS-1v6ovLn7RqGdjrLzbGJRJX7uD2upCNEgyYcRRIbw3p6En_eYaXkpYmpApu9wnbWVDBVbnyFM6FZJuRQWvuGKqZecTxktBj_vwhN75YICqnTWb_NRBxOeWafvVOwCAfRWkvz-pKxt9WPDIw1hkmxkHDCl6n4t-zG97Hi9MOkXWCqkbwjxecS5-m_pjUf4W7TY4xtmuosuf1LHzZ2nxJbT3EV2",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.40336589999999,
+               "lng" : -80.3183255
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4046995302915,
+                  "lng" : -80.31697146970851
+               },
+               "southwest" : {
+                  "lat" : 43.4020015697085,
+                  "lng" : -80.31966943029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "FlexiNail",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 283,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117673887655345477413\"\u003eFlexiNail\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKWsdvnmrPn0Vyx2jIMmUwXe8wUaVd1ADVCwlqfEN7pIceOA6uT6TRQviPKgKFR9-pXeHxS2FMmzcTRqetDwbQuzGzFIJtKYGizOJzghoXDSmgg1PzDQIxwRbnBf8rXZzC1IAsot9MkLNckWForlWWOqD1uC86tyJh-rSfi2nXljTHz",
+               "width" : 424
+            }
+         ],
+         "place_id" : "ChIJ274bEkuIK4gR_meijzHBGgE",
+         "plus_code" : {
+            "compound_code" : "CM3J+8M Cambridge, ON, Canada",
+            "global_code" : "86MXCM3J+8M"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJ274bEkuIK4gR_meijzHBGgE",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 6,
+         "vicinity" : "100 Sheldon Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.408205,
+               "lng" : -80.32463899999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4094918802915,
+                  "lng" : -80.32327296970848
+               },
+               "southwest" : {
+                  "lat" : 43.4067939197085,
+                  "lng" : -80.32597093029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Magicuts",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103459291203433345833\"\u003eMina Woo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK70PvQnb4QdstRaKcXboDd2VLspDhwYfaqSHZGxQkZ_dDjySPNVRUs_RUSTLS5liJOLlwKIJwBwQCPjYnw1fDW26WHdY9d6_RziTjHBnL0rwHPGefYl1Z-kFd5YlAdvQSwtZVjhWKJ_4BIPVnEQJFkuwwtpVoql8V6wI9Qh5Wwo6Kq",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJHbwFabKJK4gRKzz1DFBhsvI",
+         "plus_code" : {
+            "compound_code" : "CM5G+74 Cambridge, ON, Canada",
+            "global_code" : "86MXCM5G+74"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJHbwFabKJK4gRKzz1DFBhsvI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 58,
+         "vicinity" : "200-55 Pinebush Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4996923,
+               "lng" : -80.1870397
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5010030802915,
+                  "lng" : -80.1857684197085
+               },
+               "southwest" : {
+                  "lat" : 43.4983051197085,
+                  "lng" : -80.1884663802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Nails For You",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108483184204182684970\"\u003eNails For You\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI5NVDRinosIOExfy0WfTvOaCsMl_DYTtNSaDJ26PySDDOk0soPCNewde8H8lNXlEPRuP4GrXX9-3hw5Oa6pxOGuHXFKEUcZDUv4jDw6bktHmRGT9Rv0GLOrESBetyTUQ0LFhj-74i14cIBJh_WBd1bGx7CiSS_JgipL1n_cgwctfKj",
+               "width" : 360
+            }
+         ],
+         "place_id" : "ChIJw0NXhZ6EK4gR6yoWOtRwjoE",
+         "plus_code" : {
+            "compound_code" : "FRX7+V5 Guelph, ON, Canada",
+            "global_code" : "86MXFRX7+V5"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJw0NXhZ6EK4gR6yoWOtRwjoE",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 97,
+         "vicinity" : "103 Clair Road East Unit H106, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.449375,
+               "lng" : -80.3105803
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45074553029149,
+                  "lng" : -80.30908261970849
+               },
+               "southwest" : {
+                  "lat" : 43.44804756970849,
+                  "lng" : -80.3117805802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Hair By Savija",
+         "photos" : [
+            {
+               "height" : 5893,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114998400221074519168\"\u003eHair By Savija\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIctIyTdeMwGuuMUb9V0bpjN1KREaWhaRTNHQksJlD1nRr6v_4ouYJXa6fTY7OLG0EjsNLD6mqqmIbI3dEKEqDCIzHeHVdUeePnB_ZqClFdSnWKWvxbD6NDPLNc8qY3ns5L6ny_sa6Azn-2MM8IEpa45917sak9ll1CbAZXtUHFe5gc",
+               "width" : 3929
+            }
+         ],
+         "place_id" : "ChIJhWIt19GIK4gR3gWnWSwgV5k",
+         "plus_code" : {
+            "compound_code" : "CMXQ+QQ Cambridge, ON, Canada",
+            "global_code" : "86MXCMXQ+QQ"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJhWIt19GIK4gR3gWnWSwgV5k",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "hair_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 23,
+         "vicinity" : "119 Michigan Avenue, Cambridge"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5451077,
+               "lng" : -80.24885510000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5465581802915,
+                  "lng" : -80.2476038697085
+               },
+               "southwest" : {
+                  "lat" : 43.5438602197085,
+                  "lng" : -80.25030183029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Keep In Touch Studio Inc",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 853,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118197657039081795354\"\u003eKeep In Touch Studio Inc\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIxn4Nie5jfRcVgliVt0KfGuHaSvEKRHYshY_mlnHOZLuNpkipB3e54Y-xjGFdVg3_ReK2B0o5LNyVEpeBLETkw_5jorSe2H078M6g_fYPB4sW7jEawG5cs2L2g8fPhbYj_MoH0g2KpcppJu39tBRGWNPJbRigTtQ1LW4sBarb7W4_q",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJndqSO-uaK4gRpGAhaah04v0",
+         "plus_code" : {
+            "compound_code" : "GQW2+2F Guelph, ON, Canada",
+            "global_code" : "86MXGQW2+2F"
+         },
+         "rating" : 5,
+         "reference" : "ChIJndqSO-uaK4gRpGAhaah04v0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "spa",
+            "beauty_salon",
+            "hair_care",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 3,
+         "vicinity" : "308-55 Cork Street East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.548343,
+               "lng" : -80.252168
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54962598029149,
+                  "lng" : -80.25084001970848
+               },
+               "southwest" : {
+                  "lat" : 43.5469280197085,
+                  "lng" : -80.2535379802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Lux Hair Studio",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1412,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112045130505577271104\"\u003eJason Fowler\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL_B4S04F6OPdLcpjH4u2w8fY8X8Wph18UiqNmTSBX8_iy2mjN_dTbFgzAd2P35Tv4jyMrmXpC0JCOK6ivVFD04y0bFc5bBsSVzx55pDrOEwsCzTpsxfzH9tRbGffuBLFcjmuXeZm2ZS-9hLgEoe_T6egUJVSwNFCbzctkp1FYOAscv",
+               "width" : 1413
+            }
+         ],
+         "place_id" : "ChIJjd2m-uqaK4gReoeLY94_Kh8",
+         "plus_code" : {
+            "compound_code" : "GPXX+84 Guelph, ON, Canada",
+            "global_code" : "86MXGPXX+84"
+         },
+         "rating" : 5,
+         "reference" : "ChIJjd2m-uqaK4gReoeLY94_Kh8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 37,
+         "vicinity" : "169 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5436249,
+               "lng" : -80.2440137
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5450136802915,
+                  "lng" : -80.2428152697085
+               },
+               "southwest" : {
+                  "lat" : 43.5423157197085,
+                  "lng" : -80.24551323029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Designs By Julia",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105704532610328554893\"\u003eAdam Gilbertson\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLkXPVs1feNMxY7JGy05k-pWBipaY7C__ysUfMpCGo7kYvuo1OJd2DJ02kyNMJ79zc2-CSIfFUrF2K41jG42Z3Pw-J98aWPQb1EWLCJGq0WPSjT3sGkMWsmj2_p3UYs2XtyrxMy6oensdXnlhPwV0Cl8Mn9MYsJ54Aexu3uU3PeTi-4",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJIfMz2cKaK4gRuJloePR0YuY",
+         "plus_code" : {
+            "compound_code" : "GQV4+C9 Guelph, ON, Canada",
+            "global_code" : "86MXGQV4+C9"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJIfMz2cKaK4gRuJloePR0YuY",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "hair_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 6,
+         "vicinity" : "81 Surrey Street East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.52165249999999,
+               "lng" : -80.2687502
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5230283302915,
+                  "lng" : -80.26748786970849
+               },
+               "southwest" : {
+                  "lat" : 43.5203303697085,
+                  "lng" : -80.2701858302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Marilyn's Hair Design",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111397641224719226337\"\u003eTuco Salamanca\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKWVeBtFG9W4JrPHMT-4pB_CuYYOOry7_zSlWnEkijLxUD8HPWrAV_ILgOf6aKNZgufR9n0Yk0GbnBdyhBk7-ZQEcY5Jrb3haajWa0NQXCKahGaj-O9PPz3rDCRazJti3-mFTIEbVmUnRFMWRrDv1u8BmKdE20DxKXfMwA6VCq4T4yt",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJv4_cg8SaK4gRYZLvPKY4YaM",
+         "plus_code" : {
+            "compound_code" : "GPCJ+MF Guelph, ON, Canada",
+            "global_code" : "86MXGPCJ+MF"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJv4_cg8SaK4gRYZLvPKY4YaM",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "hair_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 26,
+         "vicinity" : "715 Wellington Street West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5517789,
+               "lng" : -80.2582905
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5529729802915,
+                  "lng" : -80.25714786970849
+               },
+               "southwest" : {
+                  "lat" : 43.5502750197085,
+                  "lng" : -80.2598458302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Salon DiLoreto",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJbfYeP_Z7PC6vszBdxnmbG0V72YmsNlGsWpqcoIdSbyMMqRdiEJEods7iiG9Cu4XUlKMAh0ranwqYwHVkkClOrSy7DsSeelrWdR-r8XBPxshxA6Vgs32L01EJ_2i5d5VcMr5PU0MGJLDuFHjWrBjjUMu1XG_GA2UMqZU3q82KeJsFd",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJYVzHDJSaK4gRF0WtAWw-5YM",
+         "plus_code" : {
+            "compound_code" : "HP2R+PM Guelph, ON, Canada",
+            "global_code" : "86MXHP2R+PM"
+         },
+         "rating" : 5,
+         "reference" : "ChIJYVzHDJSaK4gRF0WtAWw-5YM",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "hair_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 22,
+         "vicinity" : "355 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3925212,
+               "lng" : -80.30411099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3938728802915,
+                  "lng" : -80.30274511970849
+               },
+               "southwest" : {
+                  "lat" : 43.3911749197085,
+                  "lng" : -80.3054430802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Magicuts",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115594054681009315266\"\u003eJennifer Rogers\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKp7mTOWWnjmrOE62Z9XDOjdhvj_PwEPzUCL7jeaKAHcgFZHwzT4eKYSGGJhkoXLwPi8ov3aOv42waitgX6zRFIkQQ8cpnMwQeBRCr9aXJ33gvsFBnlisB-h9Gu5kbpMOpnqtsLogoSqIZQj-a3MB6OkpphX-iIKeKxtCQmkk9Kt4DO",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJ4TLTDDyIK4gR1vbEbyq6pok",
+         "plus_code" : {
+            "compound_code" : "9MVW+29 Cambridge, ON, Canada",
+            "global_code" : "86MX9MVW+29"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJ4TLTDDyIK4gR1vbEbyq6pok",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 36,
+         "vicinity" : "THE ELGIN CENTRE, 970 Franklin Boulevard, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.49943299999999,
+               "lng" : -80.23748999999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.50094193029149,
+                  "lng" : -80.23596251970849
+               },
+               "southwest" : {
+                  "lat" : 43.49824396970849,
+                  "lng" : -80.2386604802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Classical Aesthetics",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJUzzefxyFK4gRaPvoZbTBJMI",
+         "plus_code" : {
+            "compound_code" : "FQX7+Q2 Guelph, ON, Canada",
+            "global_code" : "86MXFQX7+Q2"
+         },
+         "rating" : 5,
+         "reference" : "ChIJUzzefxyFK4gRaPvoZbTBJMI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1,
+         "vicinity" : "115 Downey Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5182747,
+               "lng" : -80.2387533
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5198297802915,
+                  "lng" : -80.23771266970849
+               },
+               "southwest" : {
+                  "lat" : 43.5171318197085,
+                  "lng" : -80.24041063029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Natural Solutions Salon & Spa",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3648,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111998891302243577346\"\u003eNatural Solutions Salon &amp; Spa\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJAbioavIqWCbsJq0OY6ojhaOeIIV4SHQVzQdW2LqXO1gTzPryrEX0TZZkxIVOCuRUbEK9D-dko2wd0LWZL7yfZrJzeAizhTEtAHI5xZYIMZTOv3-I0EBbpOiMdOvy38CRIZsNU2Z4laSYkcwB1YwH_rq6ckq0x86-Xcu6jcLH03mYZ",
+               "width" : 5472
+            }
+         ],
+         "place_id" : "ChIJ_ZHs0yiFK4gRROIhZGsQ3jY",
+         "plus_code" : {
+            "compound_code" : "GQ96+8F Guelph, ON, Canada",
+            "global_code" : "86MXGQ96+8F"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJ_ZHs0yiFK4gRROIhZGsQ3jY",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "hair_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 82,
+         "vicinity" : "435 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5280368,
+               "lng" : -80.24567520000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5294652802915,
+                  "lng" : -80.24421981970849
+               },
+               "southwest" : {
+                  "lat" : 43.5267673197085,
+                  "lng" : -80.2469177802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Skin-Care Plus",
+         "place_id" : "ChIJkcygHs2aK4gR5HHsfJ3CqYg",
+         "plus_code" : {
+            "compound_code" : "GQH3+6P Guelph, ON, Canada",
+            "global_code" : "86MXGQH3+6P"
+         },
+         "rating" : 5,
+         "reference" : "ChIJkcygHs2aK4gR5HHsfJ3CqYg",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "hair_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "285 Edinburgh Road South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4312929,
+               "lng" : -80.310373
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4326418802915,
+                  "lng" : -80.3090240197085
+               },
+               "southwest" : {
+                  "lat" : 43.4299439197085,
+                  "lng" : -80.31172198029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Nail Perfection",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112560765266996077305\"\u003eWaterloo Region Small Business Centre\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIZThdA3Ec5nUG1wkRY5rMzKC9c6UImGFSprZKvtyGePQpJpcR20thBeeOYPeqwOPs5gPVRCjpoVJmAxbqzpDSlrrUSOS0tRpsuURXEjZLzaBTljFA3BEZA1emS_sbcQDSlnTpNqDHyTlSgr8YPfqD5_obC4MpBgaLg4ifFLEnlSzQS",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ8_zs8-WIK4gRpEo62CV5PKo",
+         "plus_code" : {
+            "compound_code" : "CMJQ+GV Cambridge, ON, Canada",
+            "global_code" : "86MXCMJQ+GV"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ8_zs8-WIK4gRpEo62CV5PKo",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 41,
+         "vicinity" : "6 Queen Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5670615,
+               "lng" : -80.25861519999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5685137302915,
+                  "lng" : -80.25740516970848
+               },
+               "southwest" : {
+                  "lat" : 43.56581576970851,
+                  "lng" : -80.2601031302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Nails Innovation",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2100,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108849852327537324510\"\u003eGizem Şenkal\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIivkf81WZ3Twkgspf343OmwTX_M61MIqvhdCwNLJ_J8qvj5J7nGSwJZIJC2j4tUt1s1naEEnNtou4Kryjjw0Rr6SD31q1SCLTfFaWfWm0AXUiFt56gm7UmqIPh8ZHoKJV9qc4AvNR0lLUrRP8HJRSFjrEo6xOiJZl9EKD1FK-2QdXL",
+               "width" : 1575
+            }
+         ],
+         "place_id" : "ChIJfVcw1mGaK4gRdbn9eCpYv_Y",
+         "plus_code" : {
+            "compound_code" : "HP8R+RH Guelph, ON, Canada",
+            "global_code" : "86MXHP8R+RH"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJfVcw1mGaK4gRdbn9eCpYv_Y",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 36,
+         "vicinity" : "328 Speedvale Avenue East, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3600629,
+               "lng" : -80.3140813
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3613301802915,
+                  "lng" : -80.31273536970851
+               },
+               "southwest" : {
+                  "lat" : 43.3586322197085,
+                  "lng" : -80.31543333029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Wispers Day Spa",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111252794572399458919\"\u003eShawn Bremner\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL_1bUbzexw2lRMOYrifK3r1BahhGwXmqUeBzxPzYAKik8ZweF7z0FlWlOiZZMd9sjeOzpTr05BsolbRJAs38uOBev0N4aSQ41fUFqeHTqAazLPBJ4WtYy8Iqm3DXERkMJtwYKgthc-OfARKRPWGkxVYdFpMMc99EyObzfangblZZh9",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJzXUa8Y13LIgRhJiWty2I6-0",
+         "plus_code" : {
+            "compound_code" : "9M6P+29 Cambridge, ON, Canada",
+            "global_code" : "86MX9M6P+29"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJzXUa8Y13LIgRhJiWty2I6-0",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "hair_care", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 113,
+         "vicinity" : "102-20 Dickson Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4233065,
+               "lng" : -80.2859201
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4245562302915,
+                  "lng" : -80.28462561970849
+               },
+               "southwest" : {
+                  "lat" : 43.4218582697085,
+                  "lng" : -80.28732358029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Oceanside Tanning/Elite Hair and Tanning Salon",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1650,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104462839217483979805\"\u003eOceanside Tanning/Elite Hair and Tanning Salon\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIy8lqo_4wcXsloDY3j8Tabau6dzxPfag21WsSUoJjId-LyAwEGsqsyAn8DKj2yHvq3nbOgYyQ-rEPntGSOwQoOfV-KNFpY3Cs4vEGDlPAVZWQk6L1OT2H7PXe3dfDBrAqEvrX2lzGmhch742588WDdaiyZT1d8miJWqS-NYITCllMD",
+               "width" : 1275
+            }
+         ],
+         "place_id" : "ChIJfYfkbYWIK4gRku2JJScu4Xc",
+         "plus_code" : {
+            "compound_code" : "CPF7+8J Cambridge, ON, Canada",
+            "global_code" : "86MXCPF7+8J"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJfYfkbYWIK4gRku2JJScu4Xc",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "900 Jamieson Parkway, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.37971719999999,
+               "lng" : -80.29957309999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3811514802915,
+                  "lng" : -80.29792931970849
+               },
+               "southwest" : {
+                  "lat" : 43.3784535197085,
+                  "lng" : -80.30062728029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Tips N Toes Nails Salon",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109764234640168673632\"\u003eTips N Toes Nails Salon\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKYd20mXK-nkKT1hHE3R8uTwuD470aPoQobC2jWRUEsjnHw9eZuudBZsf_Lsdar5i6MKam4KCXJ3-x1N90R4Cii-gNCMhLWCSm9RA-4sc9ZwAtMlwVHXtOHCC-56umZ-UATJar7uZkgsoAexKe0ySq9hGmX8UywMy_CCRa6XOCvuXAa",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJcX8PGSCIK4gR-LY4Mk3NOCg",
+         "plus_code" : {
+            "compound_code" : "9PH2+V5 Cambridge, ON, Canada",
+            "global_code" : "86MX9PH2+V5"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJcX8PGSCIK4gR-LY4Mk3NOCg",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 88,
+         "vicinity" : "800 Franklin Boulevard, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54061830000001,
+               "lng" : -80.2462025
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5419276302915,
+                  "lng" : -80.24470831970849
+               },
+               "southwest" : {
+                  "lat" : 43.5392296697085,
+                  "lng" : -80.2474062802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Shearworkz Hair Studio",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 875,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103096648910930374866\"\u003eStephanie Fish\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKtThm5Der7dLoemxPKtoNqBvygi4fHLyCrmij3ATYEX7OfZb1yCEafOllpika_2Em_wbN5809OfEIMkN-aXXB-o7w4z519J1ScKqNgMFVgo7NhUFoW2OrYnBPbOmwSzp7GJ7-s0XuETkPBsDxobeX3CQrNkFFutldaxAKmkLZAthZ7",
+               "width" : 1683
+            }
+         ],
+         "place_id" : "ChIJI-NAfcSaK4gR0MnRvB9KVpo",
+         "plus_code" : {
+            "compound_code" : "GQR3+6G Guelph, ON, Canada",
+            "global_code" : "86MXGQR3+6G"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJI-NAfcSaK4gR0MnRvB9KVpo",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 14,
+         "vicinity" : "15 Surrey Street West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5410528,
+               "lng" : -80.2436467
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5423240302915,
+                  "lng" : -80.24237161970849
+               },
+               "southwest" : {
+                  "lat" : 43.5396260697085,
+                  "lng" : -80.2450695802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Bare Essentials Waxing",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116666790820583874895\"\u003eBare Essentials Waxing\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKoqfLh6nJThEjzwvS-0OuHPnGIQbsdbx7XeriN141sSzXqdQFNT0YFGvaE8J_92SsKvQNzPnV9KicO2YStkIulF7HwgWVjudowQeA2YJbPfqTGzRjLU9XtnbmADHWIiVfOasyJ2X2u2ovlw1Es_W9PzlFpypxR9DMnMgpNERzooZWG",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJn8UGVsOaK4gR4kxLl-aA-gk",
+         "plus_code" : {
+            "compound_code" : "GQR4+CG Guelph, ON, Canada",
+            "global_code" : "86MXGQR4+CG"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJn8UGVsOaK4gR4kxLl-aA-gk",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "spa",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 194,
+         "vicinity" : "86b Gordon Street, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

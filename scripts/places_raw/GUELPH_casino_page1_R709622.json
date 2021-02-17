@@ -1,0 +1,173 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4964486,
+               "lng" : -80.000472
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4979182302915,
+                  "lng" : -79.99899376970851
+               },
+               "southwest" : {
+                  "lat" : 43.4952202697085,
+                  "lng" : -80.00169173029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Elements Casino Mohawk",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 5504,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115341127399212659470\"\u003eElements Casino Mohawk\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKp9riSV-jNpV5vQRGmK_gnyihXfp6fuIYKuRTlnMxY_AfcKEj7BKzqYEn569i87h_-ow5YSIwYGOffxGeFIlzvtb5g1aLMdPYmAuEiUJrkQEo2mCKMpByZmFIK3gV6ls1KXl-6NaP9cPoJHLXHWY8JucifHasqJTRBYVjlxS-1Rsk5",
+               "width" : 8256
+            }
+         ],
+         "place_id" : "ChIJQ37gihF6K4gRATc23ZpZ80o",
+         "plus_code" : {
+            "compound_code" : "FXWX+HR Milton, ON, Canada",
+            "global_code" : "86MXFXWX+HR"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJQ37gihF6K4gRATc23ZpZ80o",
+         "scope" : "GOOGLE",
+         "types" : [ "casino", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2056,
+         "vicinity" : "9430 Guelph Line, Campbellville"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.673911,
+               "lng" : -80.431724
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6753439302915,
+                  "lng" : -80.43052266970849
+               },
+               "southwest" : {
+                  "lat" : 43.6726459697085,
+                  "lng" : -80.4332206302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Grand River Raceway & Casino",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1360,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105155391045266287406\"\u003eGrand River Raceway\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK8X6hIvD1sZXpZPUuVl2vIksEkZIR-r7MMql7ZmhaO50ddtYrgXfdFWAcKpnbfXjpaQmJ8Ofus2B6xqP_Hax5gCe7LGjedrDAE-8pXm_7YnYjj89uV70eErKubWH-e8X0917eA7Z_xkMchelWAyiJc3bc7_ZWXVHSi-i8qqnz7ZDhs",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJEc0i5D-VK4gR7WjOFNDyHGU",
+         "plus_code" : {
+            "compound_code" : "MHF9+H8 Elora, ON, Canada",
+            "global_code" : "86MXMHF9+H8"
+         },
+         "rating" : 4,
+         "reference" : "ChIJEc0i5D-VK4gR7WjOFNDyHGU",
+         "scope" : "GOOGLE",
+         "types" : [ "casino", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 806,
+         "vicinity" : "7445 Wellington County Road 21, Elora"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.481905,
+               "lng" : -80.4743503
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4833646302915,
+                  "lng" : -80.47307156970849
+               },
+               "southwest" : {
+                  "lat" : 43.4806666697085,
+                  "lng" : -80.47576953029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Capital Casino Rental",
+         "place_id" : "ChIJmXWuVULzK4gRxkO7Cj1uMU8",
+         "plus_code" : {
+            "compound_code" : "FGJG+Q7 Kitchener, ON, Canada",
+            "global_code" : "86MXFGJG+Q7"
+         },
+         "rating" : 5,
+         "reference" : "ChIJmXWuVULzK4gRxkO7Cj1uMU8",
+         "scope" : "GOOGLE",
+         "types" : [ "casino", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3,
+         "vicinity" : "60 Bloomingdale Rd N, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6739018,
+               "lng" : -80.43172589999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6753361802915,
+                  "lng" : -80.43052706970849
+               },
+               "southwest" : {
+                  "lat" : 43.6726382197085,
+                  "lng" : -80.4332250302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Elements Casino Grand River",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 809,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108352747908407339221\"\u003eElements Casino Grand River\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLAA3_GWLdi2VROM_7BbIIJkNNrteu67CTHHLugb-pBdreUsIRHahIQBtFcOSEzOWiFEYWGyqPC34BSC3oOMTCHDxdDlKHabqni9pjG7QO5Aq6oxc2qToEruJXb1RoVHSV7g7kbZFK3vAhbHmbxIaWRpx17fQ4qo8GKrMzT7WtnBIPe",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJEc0i5D-VK4gRRMxCFA8Sqvk",
+         "plus_code" : {
+            "compound_code" : "MHF9+H8 Elora, ON, Canada",
+            "global_code" : "86MXMHF9+H8"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJEc0i5D-VK4gRRMxCFA8Sqvk",
+         "scope" : "GOOGLE",
+         "types" : [ "casino", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 608,
+         "vicinity" : "7445 Wellington County Road 21, Elora"
+      }
+   ],
+   "status" : "OK"
+}

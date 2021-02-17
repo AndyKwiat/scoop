@@ -1,0 +1,849 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwI2f71xijzfq4bxE3GhdW2yF2S5PXE8jsoI76oJLPEuTnkDKUyzSi9UhLv9_L2UTrEr5t_1pPSJZzZr0nQCZXVW6MptsOrbSD6eSK8YtdvTPcAtr2-RuYUuiiIzkjX9DpnjVa2Q8XgnqSDn5aQA6We_7JHFpTNgmBUaC_VW69OKWYqNbd8cRvyDi3RY8fcQpbqOLUVqACnClbf1Rv-dP-N8YcV1B8BQXUjt92nWcLdD3vYkWn6gRlXMwvYEZBfNprzc4uuuzaaP93Am7LlamVxrLaIqceThQ5SPAOEpvaaAubheK6d2YCjRUysnvL65bQ2Cm1RZ2qcQmsS2GErgV3ZXohh4Q8Y3BtYyXhKOS4VnZV7PTfrMx66bWRHmLqgYMBqVebiwwvld0GaV9Zu8vLZ0O_xVn8MTaSIqBxm_x9Oou6J9xeKUJ3WRDqVa9CLifm-7_KrQwXXpjBgk_O0KndeoQhszsJXO7vWnRt-rdMqiPPbxg_bpP80cufXB6b_u2wCaSvkHsuySRXim0bEcMLuikP8eHSVjh5e3Bd3xUrt9vMYjd4joAxez56ZniOcLENK8oOkCx_JmEOyl3HiLBthsOMYRR70ELYVlvqyii6wcLB5Nv51JCzrAxlSYhZ7hYPOD1X7bvX3F3DCIVe0",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4806514,
+               "lng" : -80.5226514
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4820603302915,
+                  "lng" : -80.52134976970851
+               },
+               "southwest" : {
+                  "lat" : 43.4793623697085,
+                  "lng" : -80.52404773029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Not Just for the Garden",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2840,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117770263839154977379\"\u003eNot Just for the Garden\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIFkA_RVfrJEhKUoZBFggf-Na75b21GdB7fbipxoOZvYVYP2FR6RXnnFekpBTxeGLIFgZgQNxuhc2r9SZMTciNhpfP0Pyxzp15-r34GrOZ8kTA62M4JWmDFtqUSkKfZumQy-K4szPbQTczsqjdPk4JAb6mCeuVmM-foZYfKDLxt8cjD",
+               "width" : 2846
+            }
+         ],
+         "place_id" : "ChIJaWX3A1L0K4gR0fLbTlInqg0",
+         "plus_code" : {
+            "compound_code" : "FFJG+7W Waterloo, ON, Canada",
+            "global_code" : "86MXFFJG+7W"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJaWX3A1L0K4gR0fLbTlInqg0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "furniture_store",
+            "art_gallery",
+            "home_goods_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 28,
+         "vicinity" : "295 Weber Street North, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.46964699999999,
+               "lng" : -80.5221437
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.47098048029149,
+                  "lng" : -80.52088981970849
+               },
+               "southwest" : {
+                  "lat" : 43.4682825197085,
+                  "lng" : -80.52358778029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Gallery Double T Fine Arts & Custom Framing",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101038344528051208666\"\u003eCanadianBaconEH2\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIPfBuOpsTS4NNddBjeVLadYMqT_vVa1Hnj0jrsAB9o11KHNVPd07wm3dPODr4ngAToQU0lXvG-4dYGGikVQoVeKL_Lv2K0Fr51bnsmBk0mpimfQFKUbikmfnSMSJ30TWWhav_FQvoSoM0Zii0w2svGgttWZWdpxS92VxoqIonzbGWt",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJka6JUAv0K4gRJKYDVdm0LjA",
+         "plus_code" : {
+            "compound_code" : "FF9H+V4 Waterloo, ON, Canada",
+            "global_code" : "86MXFF9H+V4"
+         },
+         "rating" : 5,
+         "reference" : "ChIJka6JUAv0K4gRJKYDVdm0LjA",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 4,
+         "vicinity" : "76 Regina Street North, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3360429,
+               "lng" : -80.32115829999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.33739398029149,
+                  "lng" : -80.31993546970848
+               },
+               "southwest" : {
+                  "lat" : 43.3346960197085,
+                  "lng" : -80.3226334302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Koehler Art Studio Gallery",
+         "photos" : [
+            {
+               "height" : 561,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114566594352220334927\"\u003eKoehler Art Studio Gallery\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIHXvXURS8_UwQOaM9PsWEJqPEbTceGxLNuwzv3aBnOJVsBQWjH9pVJp7KgJfJ696apWjCHSMe9jC_5uQl7dt4wrIpNZlZbUZU5Gma_RAA7RZ0lgOKW3JjQepCzhDL91WRO-SXqGx-b7T3Ffq9Ut5NE0u6FDiHXplWzWcR7Tf-vcioy",
+               "width" : 629
+            }
+         ],
+         "place_id" : "ChIJ_ULkdQJ3LIgR3hhn3iPPpl0",
+         "plus_code" : {
+            "compound_code" : "8MPH+CG Cambridge, ON, Canada",
+            "global_code" : "86MX8MPH+CG"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ_ULkdQJ3LIgR3hhn3iPPpl0",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "271 West River Rd., R.R. 4, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.464367,
+               "lng" : -80.5212489
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4657391302915,
+                  "lng" : -80.5197427697085
+               },
+               "southwest" : {
+                  "lat" : 43.4630411697085,
+                  "lng" : -80.52244073029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Button Factory Arts",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101038344528051208666\"\u003eCanadianBaconEH2\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIBzCsHEHtLRNqTeNfWfFBkDANPJglglHrbso9oNWsbvlWIX_Mykp1jnkGPLrYe8TMPgpHr-Q3z_VUHeDtAUhfYrZ5burCXfvdtncbvcYX1fYHQX1DihB5H0Rl6YShbedaNiY4Zgj4LtFUh_hzRM_tP2SR9BH3xW21FIb4fAEHEfpvi",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJW8vGg_PzK4gRynUh-aZHKPc",
+         "plus_code" : {
+            "compound_code" : "FF7H+PG Waterloo, ON, Canada",
+            "global_code" : "86MXFF7H+PG"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJW8vGg_PzK4gRynUh-aZHKPc",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 36,
+         "vicinity" : "25 Regina Street South, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.45854790000001,
+               "lng" : -80.521423
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4599851302915,
+                  "lng" : -80.51997211970848
+               },
+               "southwest" : {
+                  "lat" : 43.4572871697085,
+                  "lng" : -80.5226700802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "TdStudios Art Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3475,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102570862672722556119\"\u003eTdStudios Art Gallery\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI7iUgs6WyZuPsv43xLUW5VOxvKq09ZqwsqdV_SRxakq9rf0mA0zoDphYI7locVOb3gku_nz-UuzwWMoilcqKv194dHW0aGGmnb1ROLHp4jmMhrb5BUTXC5D-Xdu-d_YRi-uQcxMgtmS4H1IifuS7UOwy1tefnSLaorW1XFptcp2jc9",
+               "width" : 4633
+            }
+         ],
+         "place_id" : "ChIJd41dPhP0K4gRR8_2mueA2XY",
+         "plus_code" : {
+            "compound_code" : "FF5H+CC Waterloo, ON, Canada",
+            "global_code" : "86MXFF5H+CC"
+         },
+         "reference" : "ChIJd41dPhP0K4gRR8_2mueA2XY",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "44 Allen Street West unit2, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.47351829999999,
+               "lng" : -79.9628024
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4748801302915,
+                  "lng" : -79.9614362697085
+               },
+               "southwest" : {
+                  "lat" : 43.4721821697085,
+                  "lng" : -79.96413423029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Wooden Pottery Studio & Gallery",
+         "photos" : [
+            {
+               "height" : 1067,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109549686279577692474\"\u003eWooden Pottery Studio &amp; Gallery\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIc-mXbWOn8hpouZJOrfdxYuKpQGTmZX-7oZVd7W8HDhLxnRqaK-RabXukvDjy0zV96_LGVsv5mwjT9vVZQ1Hqd4v7skrQgoLug-BdDsM9o3VpFYYwr-iTiG7gnbn4OA0IzsAkHPOhn8CPWbfMxHCVjGrqSVJ_V8iNkflaaNZwqThEk",
+               "width" : 800
+            }
+         ],
+         "place_id" : "ChIJx2gAH_h6K4gROezkXSfgZCA",
+         "plus_code" : {
+            "compound_code" : "F2FP+CV Milton, ON, Canada",
+            "global_code" : "87M2F2FP+CV"
+         },
+         "rating" : 5,
+         "reference" : "ChIJx2gAH_h6K4gROezkXSfgZCA",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "8307 Guelph Line, Campbellville"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4735081,
+               "lng" : -80.5390441
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.47474878029149,
+                  "lng" : -80.53761531970849
+               },
+               "southwest" : {
+                  "lat" : 43.47205081970849,
+                  "lng" : -80.5403132802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "University of Waterloo Art Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102743059309994025091\"\u003eIvan Jurakic\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKKYSklS1lgfPJoQ4N84gJ0L8qFNt6GjU3LdPccujtXOIUwKzMaqoTTZ5S5v6UJv3_iVzkZJ1dAVZu5Ok1dqZItXy3jDaiADNXxtcJ55gRIa4FMv7VOedejOLXfqs1I9yn6mv_AHnih83kqTR8XfMaeYwbQPnLoM2EEnFs_7MvtfnZ5",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJH29kvv_zK4gRkzH7WnCmlPM",
+         "plus_code" : {
+            "compound_code" : "FFF6+C9 Waterloo, ON, Canada",
+            "global_code" : "86MXFFF6+C9"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJH29kvv_zK4gRkzH7WnCmlPM",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 14,
+         "vicinity" : "263 Phillip Street, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.35946209999999,
+               "lng" : -80.318259
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3606737302915,
+                  "lng" : -80.3169164697085
+               },
+               "southwest" : {
+                  "lat" : 43.3579757697085,
+                  "lng" : -80.31961443029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Idea Exchange | Queen's Square",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103764481901844781318\"\u003ebb s\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKF3sPxKMlVgJRwL3XK45EPSSNMkvwpv02xRJfjK8elHESSXHnbv8O2symRm0ueAJFWOPBpu-35XDx_OUYeIN9Hrq6lDPoZzHDeCvLbd4Ins72cOxPi2MmIFL-Q9DK5_FoBut9bahAmSRkHDmQW8kEmYTkV1Skj1Hk6szMEKiItWM6Z",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ09IBZe-IK4gRVCkr_rB3nas",
+         "plus_code" : {
+            "compound_code" : "9M5J+QM Cambridge, ON, Canada",
+            "global_code" : "86MX9M5J+QM"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJ09IBZe-IK4gRVCkr_rB3nas",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 63,
+         "vicinity" : "1 North Square, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4320116,
+               "lng" : -80.4452991
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4334683802915,
+                  "lng" : -80.44388376970851
+               },
+               "southwest" : {
+                  "lat" : 43.4307704197085,
+                  "lng" : -80.44658173029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Unity Canada",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJj7bAjCiLK4gRTV-CWWnneyo",
+         "plus_code" : {
+            "compound_code" : "CHJ3+RV Kitchener, ON, Canada",
+            "global_code" : "86MXCHJ3+RV"
+         },
+         "rating" : 5,
+         "reference" : "ChIJj7bAjCiLK4gRTV-CWWnneyo",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "library",
+            "book_store",
+            "church",
+            "place_of_worship",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 2,
+         "vicinity" : "2631 Kingsway Drive, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5462954,
+               "lng" : -80.10847079999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5475997802915,
+                  "lng" : -80.1070463697085
+               },
+               "southwest" : {
+                  "lat" : 43.5449018197085,
+                  "lng" : -80.10974433029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Elm Tree Centre",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 576,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107701486353634366761\"\u003eElm Tree Centre\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ7pBtDBSU-FdRguDvd8p1AyQsQe61mo5pIk0oLpYuS2Z90-Sbj51NDl8In0DsQazwzCPtMAW718m4woLXtnfLbS7-yYmrUT9b3B5wQycmlNFH9KcpVvcU9JR3Ywg4CYBac_YwrXcB6l0EbXhZuoQaevS58i0w-pix3NE0Ra4YBMgqy",
+               "width" : 768
+            }
+         ],
+         "place_id" : "ChIJfSMQgaKbK4gR9PC2X0PeLbg",
+         "plus_code" : {
+            "compound_code" : "GVWR+GJ Milton, ON, Canada",
+            "global_code" : "86MXGVWR+GJ"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJfSMQgaKbK4gR9PC2X0PeLbg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 4,
+         "vicinity" : "2113 25 Side Road, Moffat"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.39482479999999,
+               "lng" : -80.41860559999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3961737802915,
+                  "lng" : -80.41725661970848
+               },
+               "southwest" : {
+                  "lat" : 43.3934758197085,
+                  "lng" : -80.4199545802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Homer Watson House & Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1152,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106809288216690915158\"\u003eLookslike Photography &amp; Virtual Tours\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKhWAj4uXPwRpP5aHjMvHku2DKGTWHvTs5S6sAEEcjhcZGaWF2LxsR2CfhD4_xm5nWxz-jVq6mGt3hZLkfnc8pFfmw3UufJsyh_aW9gvyCY7ZjUyBm-lcO3bOwSC8y6KnpH3kpGa11patL2XAUIyxhSqG8karRAL5YEMo7h7CMcsUUy",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJudOEboSKK4gRergHi6SlcUw",
+         "plus_code" : {
+            "compound_code" : "9HVJ+WH Kitchener, ON, Canada",
+            "global_code" : "86MX9HVJ+WH"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJudOEboSKK4gRergHi6SlcUw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "tourist_attraction",
+            "museum",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 13,
+         "vicinity" : "1754 Old Mill Road, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.445093,
+               "lng" : -80.495283
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4462266802915,
+                  "lng" : -80.49351531970851
+               },
+               "southwest" : {
+                  "lat" : 43.4435287197085,
+                  "lng" : -80.49621328029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Schneider Haus National Historic Site",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 890,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106954627874291729881\"\u003eSchneider Haus National Historic Site\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIf_dWvZKkQ5B8qTb0DMCUa8S05PxgWDneLJOFRMS0pWg5wurPxq7lov7sJ_vZGf8aietv1pP4NSQYsw9NoI3YGiqtaM1ezo7fhYCNxfaVDegwHdUjyZVi4pQRWLqI4gyOsxykL66VNdnkgPx3l5A_nAaJQvWaYJK4vkTzwZV1g9lFH",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJg-3eL_f0K4gRhtdqC15vQ0U",
+         "plus_code" : {
+            "compound_code" : "CGW3+2V Kitchener, ON, Canada",
+            "global_code" : "86MXCGW3+2V"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJg-3eL_f0K4gRhtdqC15vQ0U",
+         "scope" : "GOOGLE",
+         "types" : [
+            "museum",
+            "art_gallery",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 128,
+         "vicinity" : "466 Queen Street South, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5448805,
+               "lng" : -80.2486016
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5462996802915,
+                  "lng" : -80.2471141697085
+               },
+               "southwest" : {
+                  "lat" : 43.5436017197085,
+                  "lng" : -80.2498121302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Ed Video Media Arts Ctr",
+         "place_id" : "ChIJfSuGIsKaK4gR5YEMQrKNWGY",
+         "plus_code" : {
+            "compound_code" : "GQV2+XH Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+XH"
+         },
+         "reference" : "ChIJfSuGIsKaK4gR5YEMQrKNWGY",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "16 Wyndham Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5449861,
+               "lng" : -80.2534084
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54637863029149,
+                  "lng" : -80.2521022197085
+               },
+               "southwest" : {
+                  "lat" : 43.54368066970849,
+                  "lng" : -80.25480018029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Kloepfer Custom Framing & Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105668483526030997826\"\u003eBrett Forsyth\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJWAdvLPfwuiwu44aMnOLJtW1ozWOuwCJkLrXG2JBwXK89Ldyx0EZn60DiCPZh9nBp_hjHMBtw9x5sImSLc2GglKqbS-Fv0iR6IQIBYOyXPCd0GauWfu-GnbY3peBCrDHNK34GVnIALfDDaCVFAOaeDdoMfi9ZnAtoUbRUyWUFoikY",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJbcLDb8CaK4gR2QZqf0iYtc0",
+         "plus_code" : {
+            "compound_code" : "GPVW+XJ Guelph, ON, Canada",
+            "global_code" : "86MXGPVW+XJ"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJbcLDb8CaK4gR2QZqf0iYtc0",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 28,
+         "vicinity" : "18 Paisley Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54708350000001,
+               "lng" : -80.2527427
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54844398029151,
+                  "lng" : -80.2513148197085
+               },
+               "southwest" : {
+                  "lat" : 43.54574601970851,
+                  "lng" : -80.2540127802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "A Corner Peace Gallery",
+         "place_id" : "ChIJ60CSmeqaK4gR6RGn2glKZLw",
+         "plus_code" : {
+            "compound_code" : "GPWW+RW Guelph, ON, Canada",
+            "global_code" : "86MXGPWW+RW"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ60CSmeqaK4gR6RGn2glKZLw",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "54 Yarmouth Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5479588,
+               "lng" : -80.24933879999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5491842802915,
+                  "lng" : -80.24803206970849
+               },
+               "southwest" : {
+                  "lat" : 43.54648631970851,
+                  "lng" : -80.25073003029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Portrait Artist Robert Howson",
+         "place_id" : "ChIJsyhKO-qaK4gRLXNdCVIAI9U",
+         "plus_code" : {
+            "compound_code" : "GQX2+57 Guelph, ON, Canada",
+            "global_code" : "86MXGQX2+57"
+         },
+         "reference" : "ChIJsyhKO-qaK4gRLXNdCVIAI9U",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "123 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5445014,
+               "lng" : -80.2609451
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5457273302915,
+                  "lng" : -80.25947876970849
+               },
+               "southwest" : {
+                  "lat" : 43.5430293697085,
+                  "lng" : -80.26217673029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Barber Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102815196585492015354\"\u003eJohn Smith\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKrtdxDTJEFOPcc_So0MeBz1mr1_mXfAItOCz9lnSD6wlQKrmKOJsYdy_0Ju8KyR9iUSQsfktZ4TboXJ7zuQrmX08_iaIRg1IxeepfP0SctgUSYaz_E5PLuey8fkJU2IxTMuQQT8t42Nu6W-DvatjBkyTKVexJPZPq5CHW4mzChOgRB",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJZRqwL7yaK4gRgUZYXflY7Nk",
+         "plus_code" : {
+            "compound_code" : "GPVQ+RJ Guelph, ON, Canada",
+            "global_code" : "86MXGPVQ+RJ"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJZRqwL7yaK4gRgUZYXflY7Nk",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "167 Suffolk Street West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5247594,
+               "lng" : -80.2490232
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5260395302915,
+                  "lng" : -80.24753036970849
+               },
+               "southwest" : {
+                  "lat" : 43.5233415697085,
+                  "lng" : -80.25022833029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "luxBorealis - photographs by Terry A. McDonald",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1153,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104781471519277750919\"\u003eluxBorealis - photographs by Terry A. McDonald\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKSL-8411IVno7rdqVPfoFhWJJxFU2cFIkYkqkcOQ1cSBlzAzFLRqpdQFWGUYWG4CDJ6XrsvS4KkuI1XC70pZXAymrEURVyED1ElV9L7TCDK8QuOgWIeH_Iqlg25HYD4nuHHQKZwpFCcCTgAhAn2gcMB_20pWqY52skWoFalMMl4tEd",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJV3rggTOFK4gR5bvJZFJOp0I",
+         "plus_code" : {
+            "compound_code" : "GQF2+W9 Guelph, ON, Canada",
+            "global_code" : "86MXGQF2+W9"
+         },
+         "reference" : "ChIJV3rggTOFK4gR5bvJZFJOp0I",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "79 Vanier Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.50464540000001,
+               "lng" : -80.1610082
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5063725302915,
+                  "lng" : -80.1591343697085
+               },
+               "southwest" : {
+                  "lat" : 43.5036745697085,
+                  "lng" : -80.16183233029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Garden House Gallery",
+         "place_id" : "ChIJHbEFHTmDK4gRDh_12hu-814",
+         "plus_code" : {
+            "compound_code" : "GR3Q+VH Guelph, ON, Canada",
+            "global_code" : "86MXGR3Q+VH"
+         },
+         "reference" : "ChIJHbEFHTmDK4gRDh_12hu-814",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "1953 Victoria Road South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5785142,
+               "lng" : -80.1422154
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5798828302915,
+                  "lng" : -80.14090036970849
+               },
+               "southwest" : {
+                  "lat" : 43.5771848697085,
+                  "lng" : -80.1435983302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Dances with Ghosts Gallery",
+         "place_id" : "ChIJwTRuN8udK4gRhE8jMbfD7Oc",
+         "plus_code" : {
+            "compound_code" : "HVH5+C4 Eden Mills, ON, Canada",
+            "global_code" : "86MXHVH5+C4"
+         },
+         "reference" : "ChIJwTRuN8udK4gRhE8jMbfD7Oc",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "Corner of Ash and, Wilson Street, Eden Mills"
+      }
+   ],
+   "status" : "OK"
+}

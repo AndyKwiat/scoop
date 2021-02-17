@@ -1,0 +1,889 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwLX4BzfBb1eSwJpfH7S52vOMCm5jHcAjnkZelhVVm0vmQVniAX7gWzmAzzYRKIpSId9RgsAU3Y3ImHnNfRYGqSOZ8LRxqGKOwuasC1ra4209pLcjhS-PfjBtPC2A2xlPZf45-x7aWQJhXSzTquu5ElW-gdJ8ZZONbmWzMyIfvdeR_Cxb1ds3GdP3ODE55PtUtHDOONEJuOKG6DhxuQoON_keCIzH7dFwOSeMaTww0FicyXdmMGUWkyn9o_EHMcPYLE0NM2HeY8Ezz5nkFCpoxOUBRTHB-bMJivAFBZvpcBd-QnIll3hwUl9tHir9ByYE2rxfmzARb8qRY0j_YBvXvDxc3efb6sseictMtLsL7CtZRFtX9uhd3KI2cvwhRDdDY-hX7q3qy01lEYtpCfRla0P80qZ24itpO20flPBk01EZmCoBn3BB5o",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.40054930000001,
+               "lng" : -80.43831449999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.40197618029151,
+                  "lng" : -80.43687421970849
+               },
+               "southwest" : {
+                  "lat" : 43.39927821970851,
+                  "lng" : -80.43957218029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Ken Seiling Waterloo Region Museum",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 459,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105264426948804764037\"\u003eKen Seiling Waterloo Region Museum\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLEyWoxyQ6MfqTNyk1Dbebb9hrQ4QFUyrJ2qv4LzECAd8cyyqTbEKBL5dTyYDZ4wOQJQIdlFJ5NnM-CuCrnZqHan4y6ox9EjMeDoGETAfU6EnAGeqbZ3uW-AwxTMEt8bdaxmS9IT9Sf8RqV7gkLgGYym1V6fse3RIU-WjK8RzfbiBIc",
+               "width" : 781
+            }
+         ],
+         "place_id" : "ChIJeyiDubyKK4gRgMzhTsFpTzo",
+         "plus_code" : {
+            "compound_code" : "CH26+6M Kitchener, ON, Canada",
+            "global_code" : "86MXCH26+6M"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJeyiDubyKK4gRgMzhTsFpTzo",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 674,
+         "vicinity" : "10 Huron Road, Kitchener"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4517092,
+               "lng" : -80.3672802
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4531823802915,
+                  "lng" : -80.36596731970849
+               },
+               "southwest" : {
+                  "lat" : 43.4504844197085,
+                  "lng" : -80.36866528029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Cambridge Butterfly Conservatory",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113754439623760833797\"\u003eNikhil Pillay\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIovfJB7EYyYekpsAbJ39kOnEZePJYEO7Uzfbl_4OLMhd189wx_MBPhu6AbDaKHscCJ8cVvJb6ZmBD4MEyZhVwZrfCO_7tPgtK22_HQfHH8tUbf6TChXBfSzp1Po3GQhQU3qZfElMNFDnbtWyhxbraEIEHZtNvNY3WyMfYKHqXVookX",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJgWiNkx6KK4gRB0lZq0h-iMs",
+         "plus_code" : {
+            "compound_code" : "FJ2M+M3 Cambridge, ON, Canada",
+            "global_code" : "86MXFJ2M+M3"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJgWiNkx6KK4gRB0lZq0h-iMs",
+         "scope" : "GOOGLE",
+         "types" : [
+            "tourist_attraction",
+            "museum",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1323,
+         "vicinity" : "2500 Kossuth Road, Cambridge"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4311204,
+               "lng" : -80.30953400000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4323914802915,
+                  "lng" : -80.3080422197085
+               },
+               "southwest" : {
+                  "lat" : 43.4296935197085,
+                  "lng" : -80.31074018029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "The Company Of Neighbours / Hespeler Heritage Centre",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 800,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117329994637637277815\"\u003eThe Company Of Neighbours / Hespeler Heritage Centre\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKNnVnLL8dYkc7XRBETZC9XibCCos658B6TmTZtCVESc56FDhzbyLYmtoicKStFd16gTQrYjRUCHMuPF5lRaXj83et8ngb5016O0rcWVmDAh-6yrmfIINqrKpkhNF9V9dux4YOMQdZjM_Z5tNMq9y4NktQ_PAsJpIlauamBm5J16Kqj",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJlY_rUe-IK4gRWYoyGJJu6Wk",
+         "plus_code" : {
+            "compound_code" : "CMJR+C5 Cambridge, ON, Canada",
+            "global_code" : "86MXCMJR+C5"
+         },
+         "rating" : 5,
+         "reference" : "ChIJlY_rUe-IK4gRWYoyGJJu6Wk",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "11 Tannery Street East, Cambridge"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4324695,
+               "lng" : -80.3082153
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.43381848029149,
+                  "lng" : -80.30686631970849
+               },
+               "southwest" : {
+                  "lat" : 43.4311205197085,
+                  "lng" : -80.30956428029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Fashion History Museum",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3600,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108740681957211999922\"\u003eFashion History Museum\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJQmk5GSEIDLcQ1xg48wYs-lhJ8BKq6wLQctTng0Lo1dP-4oIljYtkczULbO6pSPZAYoj8AKv62DByXoaWifHUkSlKjSVrUhkgVZ-vkReOvOseCJnvQeq8iMCcfUhdYjPpY72C4Ux-QM2ki4AEcjmpZLzpHIKVcJUfjA9hDWBsNv1BQ",
+               "width" : 2410
+            }
+         ],
+         "place_id" : "ChIJ0cg0zuiIK4gR4E-Nc48C0O4",
+         "plus_code" : {
+            "compound_code" : "CMJR+XP Cambridge, ON, Canada",
+            "global_code" : "86MXCMJR+XP"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJ0cg0zuiIK4gR4E-Nc48C0O4",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 63,
+         "vicinity" : "74 Queen Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.496841,
+               "lng" : -80.526899
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4980539802915,
+                  "lng" : -80.52529986970849
+               },
+               "southwest" : {
+                  "lat" : 43.4953560197085,
+                  "lng" : -80.52799783029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "City of Waterloo Museum",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109261285904856407416\"\u003eCity of Waterloo Museum\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKRhec7SysqCRVn4OFy-kanUrGwTJFPjXY-YQQeD-a4Hto1ecOiV6SZpSYpK9mj4ZTrFV2tEmm2MdgamN4zUI6yrDQMyyUZjie5H8qYrt8y6MA8KEOyuPIrkyLEehGHCDsMOw2kdseiKma0HaUsUlf5aiJ2p9cJHIk9PU0AZRU7qqKM",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJY2VDUMHzK4gRhwc1oXO7Kpk",
+         "plus_code" : {
+            "compound_code" : "FFWF+P6 Waterloo, ON, Canada",
+            "global_code" : "86MXFFWF+P6"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJY2VDUMHzK4gRhwc1oXO7Kpk",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 36,
+         "vicinity" : "550 King St North, Conestoga Mall, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5434284,
+               "lng" : -80.2514078
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54483688029151,
+                  "lng" : -80.25024081970848
+               },
+               "southwest" : {
+                  "lat" : 43.54213891970851,
+                  "lng" : -80.2529387802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Guelph Civic Museum",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117958407448694654825\"\u003eEmil Istrofor\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ3n9l5orGCRUXbOmZ51poXDRAWlJ2QMGvlyIvDpTHzztaOEFaF51ss0iuijdLZ1fqwX3w1jLsd5GwBNi3JK69BB3fSdRnylPIMobFzKt3lPLUsz9AWm95zqi9PqiqHQ2YKMdWEIDAOr2InSSG0-HMEsKJzAi4-UIncA3IT3LaHkNqc",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJycRczsaaK4gRPnYX4k2ePl8",
+         "plus_code" : {
+            "compound_code" : "GPVX+9C Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+9C"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJycRczsaaK4gRPnYX4k2ePl8",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 219,
+         "vicinity" : "52 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5405719,
+               "lng" : -80.55357309999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5419123302915,
+                  "lng" : -80.5521279197085
+               },
+               "southwest" : {
+                  "lat" : 43.5392143697085,
+                  "lng" : -80.5548258802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Maple Syrup Museum of Ontario",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111408612344350402516\"\u003eReza Sadreddin\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIH0EIR7NR1j5zNDSl8itwaF-gN_OolRWwhKiD0aZu-HNfkBv5JBUpAdc4KUvpNyhPN3xRa4uChyE_29r8hVxd8n5QB_Z5f0UgR864EY0891G_IYE_dL5p1cRPBrP83oiBfIgbOheaohQIUEXERYf6v-3fIXBw8qAaQmuIFwmk2TZU-",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJITq9yfHxK4gRUzS3SlxLdNQ",
+         "plus_code" : {
+            "compound_code" : "GCRW+6H St. Jacobs, ON, Canada",
+            "global_code" : "86MXGCRW+6H"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJITq9yfHxK4gRUzS3SlxLdNQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 78,
+         "vicinity" : "1441 King Street North, St. Jacobs"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5361396,
+               "lng" : -80.24526709999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5374544802915,
+                  "lng" : -80.2438716197085
+               },
+               "southwest" : {
+                  "lat" : 43.5347565197085,
+                  "lng" : -80.24656958029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "McCrae House",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2976,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112911873826705390647\"\u003ephanlob hongcharoenthai\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIz7wfwLOxnsN69JKm6jZnuFqILXk58k2tDn0guwg0YoQ-6KHrt8mv0REZflUz6YNuA5DFFEc6jIQEUyb-LcQCb5eKJR-0IW2jHtSUUIumAsUaIeNgYL9lnl7UfM6DCP2TsUOXoEOXNjDJBDYvTZU2Dfnf5C1mhvRtrzmzh7HfbZr6W",
+               "width" : 3968
+            }
+         ],
+         "place_id" : "ChIJxSHhjs-aK4gR-L8bqpYyjBI",
+         "plus_code" : {
+            "compound_code" : "GQP3+FV Guelph, ON, Canada",
+            "global_code" : "86MXGQP3+FV"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJxSHhjs-aK4gR-L8bqpYyjBI",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 131,
+         "vicinity" : "108 Water Street, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.57940809999999,
+               "lng" : -80.1132939
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.58064403029149,
+                  "lng" : -80.11202036970849
+               },
+               "southwest" : {
+                  "lat" : 43.57794606970849,
+                  "lng" : -80.11471833029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Halton County Radial Railway Museum",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111246353219526763525\"\u003eSteven Olsen\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLRAuEcInoI29tqCAFmroCucanbXlLI6dTbY-XvNGq0O9tBG0D9OMIUvbYPBMtWCClR9Dtu4JrwQNPmcJoKjvWDyKHi0xqDumKyadjzdtTN2Ut3TVJjTz2bV9aM7ib4VIw8R-nXtJylo2D1dT7vBScR0oRRzDI10t8_RefYhYYxSou5",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJGeIn7-6dK4gR7DEAGINbVRs",
+         "plus_code" : {
+            "compound_code" : "HVHP+QM Milton, ON, Canada",
+            "global_code" : "86MXHVHP+QM"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJGeIn7-6dK4gR7DEAGINbVRs",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 425,
+         "vicinity" : "13629 Guelph Line, Campbellville"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.463612,
+               "lng" : -80.480846
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4643893302915,
+                  "lng" : -80.47911856970849
+               },
+               "southwest" : {
+                  "lat" : 43.4616913697085,
+                  "lng" : -80.4818165302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Woodside National Historic Site",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 1125,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110244557474162502767\"\u003eWoodside National Historic Site\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKJMqQ7AshPP6vHZ6O7bKoNWoEzf1kmHU-xViAAfTzpMQ8CGgPpfefEwHu6hAWreOkWPxz8P-9aRMv_EHApqZHJlDidKYGGEU0BaXUBG8NvlyVFlA3e_tTCXYHQC7ia41b3Ph2dL9yjjVIsiZ8LZN7vQ-7GTWSaSauVJt7EXEPSaph_",
+               "width" : 2000
+            }
+         ],
+         "place_id" : "ChIJ1x-5Apn0K4gR2Ut1c-UuAwU",
+         "plus_code" : {
+            "compound_code" : "FG79+CM Kitchener, ON, Canada",
+            "global_code" : "86MXFG79+CM"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ1x-5Apn0K4gR2Ut1c-UuAwU",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 127,
+         "vicinity" : "528 Wellington Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.354194,
+               "lng" : -80.317303
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.35554133029149,
+                  "lng" : -80.31604556970849
+               },
+               "southwest" : {
+                  "lat" : 43.3528433697085,
+                  "lng" : -80.3187435302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "McDougall Cottage Historic Site",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 742,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100008162144682406401\"\u003eMcDougall Cottage Historic Site\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKjCwS-2eg4wtS_9MuubGpu3KEC88O9FW3g6SthxwjrpSdzg5Lwxqh-Vdq2Wlhf_RecxUlcpsNEJGmhBkTVlRQBINYf5-VlHDRUPof9jz0e67TV_fSNHAZaKrGrTst3EyhRkfZ9O7HbSReCRo-pVf_flDEQzM1TbwKLCPKQlLg5azee",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJYQFUS7J3LIgRP6AfhFYiBc8",
+         "plus_code" : {
+            "compound_code" : "9M3M+M3 Cambridge, ON, Canada",
+            "global_code" : "86MX9M3M+M3"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJYQFUS7J3LIgRP6AfhFYiBc8",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 52,
+         "vicinity" : "89 Grand Avenue South, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.39482479999999,
+               "lng" : -80.41860559999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3961737802915,
+                  "lng" : -80.41725661970848
+               },
+               "southwest" : {
+                  "lat" : 43.3934758197085,
+                  "lng" : -80.4199545802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Homer Watson House & Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1152,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106809288216690915158\"\u003eLookslike Photography &amp; Virtual Tours\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLePeZrPiXfg2CdbyVYem0G0F2XBfnEs46gvM0khDwtI1L5rGv5jkITi3tYqrZo8lJErO6U6I7UnNESOjrSLCIrvhpN8s8AO9RJ64xdi8McjgpCupCEl1gYaEDLL24SDX5y2S6rAyasKMmHwX9XKunVlgJYFKQmUgYaKP7G-v_ZIA-Z",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJudOEboSKK4gRergHi6SlcUw",
+         "plus_code" : {
+            "compound_code" : "9HVJ+WH Kitchener, ON, Canada",
+            "global_code" : "86MX9HVJ+WH"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJudOEboSKK4gRergHi6SlcUw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "tourist_attraction",
+            "museum",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 13,
+         "vicinity" : "1754 Old Mill Road, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6932361,
+               "lng" : -80.3995585
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.69449443029151,
+                  "lng" : -80.39799676970848
+               },
+               "southwest" : {
+                  "lat" : 43.69179646970851,
+                  "lng" : -80.40069473029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Wellington County Museum and Archives",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111422956284598657479\"\u003eJordon Slaght\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIqzxaAcRKZ3zU3TrlAn5Z-3i-i2peLkuio9b5RU7JYJldwONCIK6JeNZXk6HaOwAd-YyqmPKjOWk7dQWzllY3d7yRREPb4wgayyb915YYPUWxuhyMDu8fOIsTo2j7xEY4X5jSz8z6d-JA5R-1NoTo5rXducwD6nH7MRNERJkxzqW6E",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJGTRt8YeVK4gReFeSSd68Mz8",
+         "plus_code" : {
+            "compound_code" : "MJV2+75 Fergus, ON, Canada",
+            "global_code" : "86MXMJV2+75"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJGTRt8YeVK4gReFeSSd68Mz8",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 279,
+         "vicinity" : "0536 Wellington County Road 18, Fergus"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.445093,
+               "lng" : -80.495283
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4462266802915,
+                  "lng" : -80.49351531970851
+               },
+               "southwest" : {
+                  "lat" : 43.4435287197085,
+                  "lng" : -80.49621328029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Schneider Haus National Historic Site",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 890,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106954627874291729881\"\u003eSchneider Haus National Historic Site\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIgRT3wXbu1UE-UGS1lYkHGuEpMY0lxh3HJxsnAaDtjfRL3lxPUU8N5H0C6zrznA-Ffl93uNoy9c0s2w3EHcucGTPgM5VWtMN-LwUlvDxZvZtY230zpPGFS49KqrhV0zCHVYEAd1vK88ntb6HnqEns46_fGSS2p9oGNAEdMEHFgK4Kg",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJg-3eL_f0K4gRhtdqC15vQ0U",
+         "plus_code" : {
+            "compound_code" : "CGW3+2V Kitchener, ON, Canada",
+            "global_code" : "86MXCGW3+2V"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJg-3eL_f0K4gRhtdqC15vQ0U",
+         "scope" : "GOOGLE",
+         "types" : [
+            "museum",
+            "art_gallery",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 128,
+         "vicinity" : "466 Queen Street South, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5418979,
+               "lng" : -80.24881599999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54319018029149,
+                  "lng" : -80.24752256970849
+               },
+               "southwest" : {
+                  "lat" : 43.5404922197085,
+                  "lng" : -80.2502205302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "isla\"s toy arts",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJNctZIW6bK4gRJ53Qewh5OMI",
+         "plus_code" : {
+            "compound_code" : "GQR2+QF Guelph, ON, Canada",
+            "global_code" : "86MXGQR2+QF"
+         },
+         "reference" : "ChIJNctZIW6bK4gRJ53Qewh5OMI",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "1 Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54339909999999,
+               "lng" : -80.2513464
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54482223029151,
+                  "lng" : -80.2502101197085
+               },
+               "southwest" : {
+                  "lat" : 43.54212426970851,
+                  "lng" : -80.2529080802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Guelph Children Museum",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1600,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116542123704421016745\"\u003eZed Dean\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIk7OpxflJglKBjC-B1p1iaXm2ZpiG_woEDvhKXJnrjtkAdPqqE6N03Ml_PuGCvbq65zja5dAAVxeDoQkakbhdT9iz3kR_yBfODe3dvJT573beWLEsq_bSDamCyDoCLCxGpzyxo04Hn9TWtaGWzP5ikKun345GkNFA8xM_9lIcV8Cvz",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJmbB1f1ybK4gRgE6jk-vZr_M",
+         "plus_code" : {
+            "compound_code" : "GPVX+9F Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+9F"
+         },
+         "rating" : 5,
+         "reference" : "ChIJmbB1f1ybK4gRgE6jk-vZr_M",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "52 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.543951,
+               "lng" : -80.25037189999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5452524802915,
+                  "lng" : -80.24911376970849
+               },
+               "southwest" : {
+                  "lat" : 43.5425545197085,
+                  "lng" : -80.25181173029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "John McCrae Statue",
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114621156131476871049\"\u003eRabin Ramah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK0Y-DBO4W8Y7PD5RYnJ7T3wXH4vdV01FjEwMPSyUd8TdN-qnxh5IGIfmg3EzE0KngMwsUwZX-ud3yPPM_8JVU2vt_Ns8qch-5VwCnSQf4Afr4ulHWpWOc5OAh-aD334CUS6fR-tb0J_5DiOsh6veBykNvH63QYK91baVmvO9_fyjdj",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJM9agMC2bK4gRCcNWp0M6pHI",
+         "plus_code" : {
+            "compound_code" : "GPVX+HV Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+HV"
+         },
+         "reference" : "ChIJM9agMC2bK4gRCcNWp0M6pHI",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "51 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54661299999999,
+               "lng" : -80.24704109999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54802573029149,
+                  "lng" : -80.24585096970848
+               },
+               "southwest" : {
+                  "lat" : 43.5453277697085,
+                  "lng" : -80.24854893029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Guelph Sports Hall of Fame",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103675692844235114120\"\u003eNicholas Moreau\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK8UY-9qSqP37rzT-aU2_BurmBrRTeqOistCioXHG8m7K_VBPfZrX4GV5pLUs6TCjERPoNGVVR0PW9g8VxBjHQ1R318qHIvXjr4uyqMHVyStjnqdf4my3KnQmNYCgkOARbXKnjUz02Hj2srdDNLqtXo36Z58qw1hZJ0i3zDcWYUKzf5",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJL7VB2-maK4gR8XS--0v4E3g",
+         "plus_code" : {
+            "compound_code" : "GQW3+J5 Guelph, ON, Canada",
+            "global_code" : "86MXGQW3+J5"
+         },
+         "reference" : "ChIJL7VB2-maK4gR8XS--0v4E3g",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5247594,
+               "lng" : -80.2490232
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5260395302915,
+                  "lng" : -80.24753036970849
+               },
+               "southwest" : {
+                  "lat" : 43.5233415697085,
+                  "lng" : -80.25022833029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "luxBorealis - photographs by Terry A. McDonald",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1153,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104781471519277750919\"\u003eluxBorealis - photographs by Terry A. McDonald\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK3tPgfsmC-IztCrwCHNmFic7KYymAxhdcyle7s0xh864xCCdHhgc5dyA7nS5HmiW2Sj7--xavGbc6tm20Df3YXH_w2lgfd-NBmBKo3OUdqmCtztWSHuTspdF0hkU7nZ2jVmGZs3Tpz0CqS8dpp-ES2RPw4AQG1lKBC_lhqB6HtiuLM",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJV3rggTOFK4gR5bvJZFJOp0I",
+         "plus_code" : {
+            "compound_code" : "GQF2+W9 Guelph, ON, Canada",
+            "global_code" : "86MXGQF2+W9"
+         },
+         "reference" : "ChIJV3rggTOFK4gR5bvJZFJOp0I",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "79 Vanier Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54879630000001,
+               "lng" : -80.22908319999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5501872802915,
+                  "lng" : -80.22767656970849
+               },
+               "southwest" : {
+                  "lat" : 43.5474893197085,
+                  "lng" : -80.2303745302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Stevenson South Free Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2576,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105879199290257726833\"\u003eMegan Bidwell\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLaJwNzx2od1LKgJia7YrTkJh14jwZUahcd-l8vUkQQRAjULzKckgK93P4Zo08K4thPYTHTy7AYJBrE0NTXSxfWecZs5hlbH3uuWbmdnFeYdFhKYC0sauHifXWI1sHh9wOLjpikN7jbdk0SdsdjOfzdvOx1-b9fsjfUZcRRSf9QA7iq",
+               "width" : 1932
+            }
+         ],
+         "place_id" : "ChIJgzt4qvObK4gR98g1COCQI0E",
+         "plus_code" : {
+            "compound_code" : "GQXC+G9 Guelph, ON, Canada",
+            "global_code" : "86MXGQXC+G9"
+         },
+         "reference" : "ChIJgzt4qvObK4gR98g1COCQI0E",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "207 Stevenson Street South, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

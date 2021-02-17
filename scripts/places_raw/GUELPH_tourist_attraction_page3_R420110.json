@@ -1,0 +1,917 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.400152,
+               "lng" : -80.41623299999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4015009802915,
+                  "lng" : -80.41488401970848
+               },
+               "southwest" : {
+                  "lat" : 43.3988030197085,
+                  "lng" : -80.41758198029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Waterloo Pioneers Memorial Tower Federal Heritage Building",
+         "photos" : [
+            {
+               "height" : 1365,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103973071979960915323\"\u003eWaterloo Pioneers Memorial Tower Federal Heritage Building\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLQ-iVtoLF1t0jpCkdK_iJk0JOL_z55rogPr3WOK2B76huoxg5n_34mswG-_1yv27hPEMSj6HJQ4j-NjsEO9SqKimAexcwI8to9q5Zlo6rxSCfr6fpAGNsLN_CBQiq2jfprFy7R2iNGfTri-pa-3ciPLrIkalT4nvNhIFCLBk7vQFIX",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJPYmALo-KK4gR4wPP4_FgXFE",
+         "plus_code" : {
+            "compound_code" : "CH2M+3G Kitchener, ON, Canada",
+            "global_code" : "86MXCH2M+3G"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJPYmALo-KK4gR4wPP4_FgXFE",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 151,
+         "vicinity" : "300 Lookout Lane, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.45467499999999,
+               "lng" : -80.4844222
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45615658029148,
+                  "lng" : -80.48338201970849
+               },
+               "southwest" : {
+                  "lat" : 43.45345861970849,
+                  "lng" : -80.48607998029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Kitchener-Waterloo Art Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118359125612982385910\"\u003eJohn Linington\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKUTIaA1oIWVmX6OWnqAr0h_qfiRsmFym4_MqJypDWxbDqNU72f-42gPm-Xj3mBX22y0nel1IAfY227OZJvaiNp26Ix5Whw7f2kEqdrf-oSOIGXILHyNJ0HY99VPhVZmipknC0pzMCY3rJjmwVF2-wN58uMoEXe21zF0w1XUmStUpXd",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJUyT9Fx30K4gRtvojo_opXWg",
+         "plus_code" : {
+            "compound_code" : "FG38+V6 Kitchener, ON, Canada",
+            "global_code" : "86MXFG38+V6"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJUyT9Fx30K4gRtvojo_opXWg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 93,
+         "vicinity" : "101 Queen Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6828728,
+               "lng" : -80.4253499
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6844171302915,
+                  "lng" : -80.4242305697085
+               },
+               "southwest" : {
+                  "lat" : 43.6817191697085,
+                  "lng" : -80.42692853029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Bissell Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3880,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108342047950860726366\"\u003eprasad naik\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL5i_jmYU-urXrt13xXZK3lyXAQ276Zv-V3262cSVPxCm9SLC9dE10jnt24olOZKFXERetsCTtAHtMoZqlSe0fBFCzYfUQBJ6OAZ0EJJMDBdlTQ61qVvzknOJKml0ny8HMBDqFXeNpJw1DS5WDwK-vvG4NNokfx7E4aSs2bAoFXjkwF",
+               "width" : 5184
+            }
+         ],
+         "place_id" : "ChIJD2SfGm-VK4gRnOAE2GFpu8c",
+         "plus_code" : {
+            "compound_code" : "MHMF+4V Elora, ON, Canada",
+            "global_code" : "86MXMHMF+4V"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJD2SfGm-VK4gRnOAE2GFpu8c",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 394,
+         "vicinity" : "127 East Mill Street, Centre Wellington"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4457166,
+               "lng" : -80.4986983
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4469719302915,
+                  "lng" : -80.49739106970848
+               },
+               "southwest" : {
+                  "lat" : 43.4442739697085,
+                  "lng" : -80.50008903029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Victoria Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100164459521154731311\"\u003eKate Storms\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIgLyfFuxcMTlHeelPAn4qIh4R4orlfO68pRYJxJ_zNVnMMn5xo64Aj39yaM9DXCo_csVTxTAHj_YkZC75qv8Lmz1SbBcdCZv14e2fpDdgRd4F01o6xOSF1_qCowmrVSBB_xyXXMmk7gXZkRzrHopanY6-6ZCV2uY8Pu0KpMnrh3xWp",
+               "width" : 2268
+            }
+         ],
+         "place_id" : "ChIJLykVRPb0K4gRuzfEL2v3dqc",
+         "plus_code" : {
+            "compound_code" : "CGW2+7G Kitchener, ON, Canada",
+            "global_code" : "86MXCGW2+7G"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJLykVRPb0K4gRuzfEL2v3dqc",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4881,
+         "vicinity" : "32 Dill Street, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.341487,
+               "lng" : -80.1808978
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.34268468029151,
+                  "lng" : -80.17952601970848
+               },
+               "southwest" : {
+                  "lat" : 43.33998671970851,
+                  "lng" : -80.1822239802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "“African Queen” Boat Cruise",
+         "photos" : [
+            {
+               "height" : 1088,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107151906004187060482\"\u003eJigar Patel\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLX-UKh9qYCfECjDRLD1v0Kd4I9DfxHpAWaF-UrNOKTkdX1i5FYEgcPh4aFIJh8Wsq8o7aYJuLbZJ5IJvfWmASZAj9b--nUamDa1yVg7xCE_MpXtMcdo-oBeMkEVzjJMKUyFiI4hwW7oA7qKyBj8sOPb5rLsCO63XrBbaLthNxkPulL",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJRfI1kTF_LIgRLbIFk_mBwZk",
+         "plus_code" : {
+            "compound_code" : "8RR9+HJ Hamilton, ON, Canada",
+            "global_code" : "86MX8RR9+HJ"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJRfI1kTF_LIgRLbIFk_mBwZk",
+         "scope" : "GOOGLE",
+         "types" : [ "zoo", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 11,
+         "vicinity" : "Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4840696,
+               "lng" : -80.51779759999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.48530238029149,
+                  "lng" : -80.5166746197085
+               },
+               "southwest" : {
+                  "lat" : 43.4826044197085,
+                  "lng" : -80.5193725802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Hillside Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108084935809631148690\"\u003eTrevor Heywood\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLMdY8u6injF9S1HmeMDxwv4sK6V9hdh_vfg7AGzOBsM5nVzIEQFO8lHD35QD4fp_vms91b6eRikcNhoIVTdCpnGkqvlVK6xFShydJ-vYh4R--g7UjirGcR9TLqXJRcwiHWW7I7Q7HB4Fep2xlfsvWh4TIF3M0aoxP15U7h-jmN8iY8",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJaSy1FJLzK4gRdV1ihYc_PQ0",
+         "plus_code" : {
+            "compound_code" : "FFMJ+JV Waterloo, ON, Canada",
+            "global_code" : "86MXFFMJ+JV"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJaSy1FJLzK4gRdV1ihYc_PQ0",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 129,
+         "vicinity" : "352 Marsland Drive, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5430194,
+               "lng" : -80.2516308
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5444796302915,
+                  "lng" : -80.2502500197085
+               },
+               "southwest" : {
+                  "lat" : 43.5417816697085,
+                  "lng" : -80.25294798029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png",
+         "name" : "Basilica of Our Lady Immaculate",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103985862680119765690\"\u003eAndré Galvão Duarte\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIG1oYYUntmDebGusTxRTQ0rAT73zPrCt5_h5ZTbhr1mNp3WjlojX7HR3q6ESfqK1pegYbHz7iuA8xDYOEU_vz3_he3pAal0QkirwXkEqE2RdBVcqCrnXsGWWoyuYUWG0D903sojPBQwmmZVyuZ9Bl4cFYkOySXqxFUjmtcrUI9Xmzd",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJKUNWacGaK4gRmwQruOP1czM",
+         "plus_code" : {
+            "compound_code" : "GPVX+68 Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+68"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJKUNWacGaK4gRmwQruOP1czM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "tourist_attraction",
+            "church",
+            "place_of_worship",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 527,
+         "vicinity" : "28 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.496841,
+               "lng" : -80.526899
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4980539802915,
+                  "lng" : -80.52529986970849
+               },
+               "southwest" : {
+                  "lat" : 43.4953560197085,
+                  "lng" : -80.52799783029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "City of Waterloo Museum",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109261285904856407416\"\u003eCity of Waterloo Museum\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIEDSYd6JtKciKhf7MT9WaOZll83f5YcteKP12oRnc-qRiitx6fi4Xnw8LQgtkDF-tG4kim6Kt2QkHZym9f6UnchxTVeBdUit16rZeZx64lXZxzr1QQVEHn9AVkAIt_ZSNFNR0lUpYy_ZCJkp0ar7IHUjqAF6gxWekkIL3u-OMnJM9a",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJY2VDUMHzK4gRhwc1oXO7Kpk",
+         "plus_code" : {
+            "compound_code" : "FFWF+P6 Waterloo, ON, Canada",
+            "global_code" : "86MXFFWF+P6"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJY2VDUMHzK4gRhwc1oXO7Kpk",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 36,
+         "vicinity" : "550 King St North, Conestoga Mall, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5434284,
+               "lng" : -80.2514078
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54483688029151,
+                  "lng" : -80.25024081970848
+               },
+               "southwest" : {
+                  "lat" : 43.54213891970851,
+                  "lng" : -80.2529387802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Guelph Civic Museum",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117958407448694654825\"\u003eEmil Istrofor\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ_nzgqUHadiDgdEmEUv1mlZk9pOjszi8lTCTS_pcYmeV_al0MfdlEYBl06BNYscphnnEX5TUeRSkfVfqurBbFQXw8aLezgGF4uhQwxQnploPrMwVmIxTls7MWhuTVd5QShUe1Tl-053pvWXJBD5sPpRBESc_HUEW9aEMtoUJQ1TZam",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJycRczsaaK4gRPnYX4k2ePl8",
+         "plus_code" : {
+            "compound_code" : "GPVX+9C Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+9C"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJycRczsaaK4gRPnYX4k2ePl8",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 219,
+         "vicinity" : "52 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.420789,
+               "lng" : -80.492053
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.42273008029149,
+                  "lng" : -80.4908943197085
+               },
+               "southwest" : {
+                  "lat" : 43.42003211970849,
+                  "lng" : -80.49359228029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "McLennan Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108803595710432469998\"\u003eLucas Kaehler\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK5Rpt7lSLrEYEf9aSNFEWxu0Hap7gnmOJFB4uZmzR49KJ5h8sIdoPPIlNW6yKSkNUsP_y5-fAD18U93KD83qq3Zat-9Zl5zVj1a2ejGJxbbZgnHOu8gCwclgkQ2AYLhyoy19f2gy9RrohuoZYOSa0Puj1_G3TyKLpkaLqJ-7o9Ndzx",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJnzPQCBL1K4gRUFOfrSSXcO4",
+         "plus_code" : {
+            "compound_code" : "CGC5+85 Kitchener, ON, Canada",
+            "global_code" : "86MXCGC5+85"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJnzPQCBL1K4gRUFOfrSSXcO4",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1300,
+         "vicinity" : "901 Ottawa Street South, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.46774,
+               "lng" : -80.52770149999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4689151802915,
+                  "lng" : -80.52618951970848
+               },
+               "southwest" : {
+                  "lat" : 43.4662172197085,
+                  "lng" : -80.5288874802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Waterloo Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3464,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116020328947232313418\"\u003eYuchen Wu\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI5bJIgv_kHQ0xhR4jGkEoJmJEbV87MMleBMl6qtJt3PJAwR1rE1HEBP0fRizrOzzc2olEmWIvLGcv6Ln0XsodcGgVKrThWh4VRXgFiJ1HhLarmLbvTapgjVv7snLUTwzaetuEtMYs07eTHj68frsbH9LmYXG_kPgFpz2g_2Zs1iQAi",
+               "width" : 4618
+            }
+         ],
+         "place_id" : "ChIJH4BzrwX0K4gR2w0LqfwQcwI",
+         "plus_code" : {
+            "compound_code" : "FF9C+3W Waterloo, ON, Canada",
+            "global_code" : "86MXFF9C+3W"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJH4BzrwX0K4gR2w0LqfwQcwI",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3516,
+         "vicinity" : "50 Young Street West, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.520887,
+               "lng" : -80.515604
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5222766802915,
+                  "lng" : -80.51444711970851
+               },
+               "southwest" : {
+                  "lat" : 43.5195787197085,
+                  "lng" : -80.51714508029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Conestogo River Horseback Adventures",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104263221311220968113\"\u003eConestogo River Horseback Adventures\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKvauXtZSn0t-yrLl9Bu6FSjmbU1eVJQViC0tDPE7rrDSt-vz8c3PGzNgFSuRVHXxnCBOJJYzJlArQIx9VwLYIeyckrl5MMrMA0wAL2ZPhdUdV1_G3h6iT6GryhqsNzbyO4NMyJIOGKyo5WEsUarb02YaEAomj0wBtLtj69JAhJtT8r",
+               "width" : 1536
+            }
+         ],
+         "place_id" : "ChIJh8BsR0TyK4gR_hhbMqbuLjw",
+         "plus_code" : {
+            "compound_code" : "GFCM+9Q Waterloo, ON, Canada",
+            "global_code" : "86MXGFCM+9Q"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJh8BsR0TyK4gR_hhbMqbuLjw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "tourist_attraction",
+            "travel_agency",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 98,
+         "vicinity" : "535 Northfield Dr E, Waterloo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4296952,
+               "lng" : -80.4215059
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4307950802915,
+                  "lng" : -80.42031256970849
+               },
+               "southwest" : {
+                  "lat" : 43.4280971197085,
+                  "lng" : -80.42301053029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Chicopee Tube Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108432656977178516936\"\u003eChristina P\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJr7AHHHEnvlJzA-yYrlppkUHMFx5qsgxx0T9Admu2m89MezOrCu9axV6CMZEYq1EYx3zCOXkGH2t5MXEFkdO5MmGgYz6HrPzql_JfWnProCHKZPztLOyIKwYIVGxiv3LQSBtMwQGGjbDU4qjtWr3_XLWyohj9aHUoJ1zNMCYtuX_5A",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJPYVqLB2LK4gReQV7L00WsFo",
+         "plus_code" : {
+            "compound_code" : "CHHH+V9 Kitchener, ON, Canada",
+            "global_code" : "86MXCHHH+V9"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJPYVqLB2LK4gReQV7L00WsFo",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 622,
+         "vicinity" : "1600 River Road East, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3981265,
+               "lng" : -80.48235989999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39977993029149,
+                  "lng" : -80.48090046970849
+               },
+               "southwest" : {
+                  "lat" : 43.39708196970849,
+                  "lng" : -80.48359843029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Huron Natural Area",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102789840606305324543\"\u003eKyle Laverty\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI5cLdRn7D-VZC90lBarcxLnfexEk87oMw3VU_PiNdZNrgFWJ_PI876QsRzGeuPUQicgiv9tD9X4YaToclVsr-1UjwYnN5lMnMEA4Wa7vss05f_K2haD-ahqj3iG_xnUIQtk5wM-M_6nc0fxafJe_0Uej0vKhhcwfIlGQUxGaaMVEZ1",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJk2BJXGH1K4gRb2qbAvkbOds",
+         "plus_code" : {
+            "compound_code" : "9GX9+73 Kitchener, ON, Canada",
+            "global_code" : "86MX9GX9+73"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJk2BJXGH1K4gRb2qbAvkbOds",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1742,
+         "vicinity" : "801 Trillium Drive, Kitchener"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5480064,
+               "lng" : -80.3076318
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54925943029151,
+                  "lng" : -80.30641581970849
+               },
+               "southwest" : {
+                  "lat" : 43.54656146970851,
+                  "lng" : -80.30911378029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Funmazing Playcentre",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 600,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114742898566719781710\"\u003eFunmazing Playcentre\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIE-OnfqFFlhVW-wX3FRipXuDVUwkjIGoYeeYbdWrXqRlOU2GnJxIM-0B3FdK2sCSkq3_bSjDptpp_LRRCgciJzmG9Juxd5ajg6PEy2Luxb34hQXmpNnVSztWY8pNp1s4CEz-S5-4iXbgqhwiMr6SerM95ytfOkr_ixOxh6z-UszQWY",
+               "width" : 800
+            }
+         ],
+         "place_id" : "ChIJW_9aoTmQK4gRE9xdeubOwVs",
+         "plus_code" : {
+            "compound_code" : "GMXR+6W Guelph, ON, Canada",
+            "global_code" : "86MXGMXR+6W"
+         },
+         "rating" : 4,
+         "reference" : "ChIJW_9aoTmQK4gRE9xdeubOwVs",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 277,
+         "vicinity" : "785 Imperial Road North B, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3897165,
+               "lng" : -80.0217131
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39082208029149,
+                  "lng" : -80.0206961197085
+               },
+               "southwest" : {
+                  "lat" : 43.38812411970849,
+                  "lng" : -80.02339408029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "The Apple Orchard Inc.",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105577384884394874577\"\u003eMayara Cabral\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIal7zzPGM_6OHlDbNc9GjBU4d9atemHP6_Xt_IRo8Of5QkTKcOpj9Z2Fj8-7X9AnBp9aK-WqEObKsUeps3bCdIcbc_oUJRgK_dHaQrWPjJx6HXcNpExzqvNvJUfePHBMS3D0q3ziVz9lHbTlbUgADfjgPcFaGxOgR-CUGqEmGhMhEC",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJQ35NEWN-K4gR-yFY-2CVUtk",
+         "plus_code" : {
+            "compound_code" : "9XQH+V8 Hamilton, ON, Canada",
+            "global_code" : "86MX9XQH+V8"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJQ35NEWN-K4gR-yFY-2CVUtk",
+         "scope" : "GOOGLE",
+         "types" : [
+            "tourist_attraction",
+            "park",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 264,
+         "vicinity" : "1668 Ontario 6, Hamilton"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.53997760000001,
+               "lng" : -80.55189419999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5410902802915,
+                  "lng" : -80.55058461970849
+               },
+               "southwest" : {
+                  "lat" : 43.5383923197085,
+                  "lng" : -80.55328258029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "St. Jacobs & Aberfoyle Model Railway",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1502,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115187226506711234393\"\u003eSt. Jacobs &amp; Aberfoyle Model Railway\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKxhUDlCZpnNf8ne1BHnBOoZqFsVqpbF-qbTtfJb4juTP0bkkzQKVZ2RsGo3mSNnqivqOOsDZS3b-OnwLcRsmDES3y7p49RZ4nVW585FQM5dbnSks3NYPc_un90s0RIz5Fy_kfydrHLb5hm2n95iZMV7nTFJvcQV10lbht7WZTDUszH",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ29jZtvHxK4gR_2MB8-nRf8s",
+         "plus_code" : {
+            "compound_code" : "GCQX+X6 St. Jacobs, ON, Canada",
+            "global_code" : "86MXGCQX+X6"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJ29jZtvHxK4gR_2MB8-nRf8s",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 179,
+         "vicinity" : "1440 King Street North Building 3, St. Jacobs"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5405719,
+               "lng" : -80.55357309999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5419123302915,
+                  "lng" : -80.5521279197085
+               },
+               "southwest" : {
+                  "lat" : 43.5392143697085,
+                  "lng" : -80.5548258802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Maple Syrup Museum of Ontario",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111408612344350402516\"\u003eReza Sadreddin\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJHBuSxR23EaBE_elhpBRB5-Tjo_9Lwzzb15Sz0Yc5l8hQ1KyQ8JlbEAkInBXIfYpBHnFaAKed_PPx_FflLB2_KCaNI-phjP2cTKfsJXN5MOhBbFYUKHRVr6pn2Lmizw7GMTscMYFw5NIB6fiW4eX1etUPtzv6YO6k144rbw1_U0J9Q",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJITq9yfHxK4gRUzS3SlxLdNQ",
+         "plus_code" : {
+            "compound_code" : "GCRW+6H St. Jacobs, ON, Canada",
+            "global_code" : "86MXGCRW+6H"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJITq9yfHxK4gRUzS3SlxLdNQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 78,
+         "vicinity" : "1441 King Street North, St. Jacobs"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5361396,
+               "lng" : -80.24526709999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5374544802915,
+                  "lng" : -80.2438716197085
+               },
+               "southwest" : {
+                  "lat" : 43.5347565197085,
+                  "lng" : -80.24656958029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "McCrae House",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2976,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112911873826705390647\"\u003ephanlob hongcharoenthai\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKoJbXeVJnvNlouLgojlxJ37QUmt4d3gfXdNEpbDfcxHBUIYIEyuTj2bxpmMeZO8vthshCWv6LbxIcc76kLi1ry7FA3YpFGjS4MQWRTtImn_XLLKzKkTOO0LVTmc7_Sx1BsUm3wSSZC-N9zZs59d0-b3AzHPUUcaJI5iwN3ZEWfmxHa",
+               "width" : 3968
+            }
+         ],
+         "place_id" : "ChIJxSHhjs-aK4gR-L8bqpYyjBI",
+         "plus_code" : {
+            "compound_code" : "GQP3+FV Guelph, ON, Canada",
+            "global_code" : "86MXGQP3+FV"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJxSHhjs-aK4gR-L8bqpYyjBI",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 131,
+         "vicinity" : "108 Water Street, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.57940809999999,
+               "lng" : -80.1132939
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.58064403029149,
+                  "lng" : -80.11202036970849
+               },
+               "southwest" : {
+                  "lat" : 43.57794606970849,
+                  "lng" : -80.11471833029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Halton County Radial Railway Museum",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111246353219526763525\"\u003eSteven Olsen\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJgWv4q_uvP_tic4fsT8J00H18uXeoByWKP0YqB8cKiCpGKvbfeTJe-DaZI6d7Xmkap59bpkIDC2nhv4ROmXa1BC0VGUdWsjehk2PV9iyUVElrVXZj8Sf_yaYFLmmnRxFBgT-TicdL4oE-VKey18ewwuJDApcu9s-DJ1nMt7tPqSz96",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJGeIn7-6dK4gR7DEAGINbVRs",
+         "plus_code" : {
+            "compound_code" : "HVHP+QM Milton, ON, Canada",
+            "global_code" : "86MXHVHP+QM"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJGeIn7-6dK4gR7DEAGINbVRs",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 425,
+         "vicinity" : "13629 Guelph Line, Campbellville"
+      }
+   ],
+   "status" : "OK"
+}

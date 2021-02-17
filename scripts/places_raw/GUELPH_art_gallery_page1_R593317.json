@@ -1,0 +1,794 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwLf0bd4PSEo01o66vKoU9Txv8NTvgo5w5lH4yc_aJO9Xz6ariguJMiMRSBNkUPKnxXHm0XvnqOIPetJnDiTqm7NBeYw_255IUAZBbU4ctqjgGestj76Ud1bcLhYGISI9zO6HbQWVh91dLr7lsScAzBmyRmLVM54rSLD_yVHw5jZjp7ELcXdnBBRF3b8VnbW65skr6abpyYj4VKZg0Da_i2ECCQy-g9mYjQrxsZ_XivJ54JuDUDRxwwI3GvYu38XaYYX946nAq-ZGa6I4dzUQz0TdhuvDPIaqOxBAPogNUisCjsrSkY2b-c9kenNDQaA8KUAfVEkXsei2z5frdB5ovtOWoQl0Vz4PP-OujrnX7Obg4279uQeWpSl8-Gao7TCzPNdl5Ixk_KAq_oyoiyw3Ic5_kHvSsoccyBSFS6uX7CGTI-7mrNDvbKiKv2sew",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3601918,
+               "lng" : -80.31159269999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3613760302915,
+                  "lng" : -80.31014186970849
+               },
+               "southwest" : {
+                  "lat" : 43.3586780697085,
+                  "lng" : -80.31283983029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Cambridge Centre for the Arts",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1371,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117671044600276177534\"\u003eCambridge Centre for the Arts\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKPnDAKXmAMpHLsC-IXIqsNRWwxWNwZ_DjyVCKcbXxQUgi4CYsUOnB0g7xu3jTEdZpHach87uMa56qV3m35LnmormGsg3c3hGv9H_hpkm3kt0WmsS66i7VCRdWfwapE5QuHbwRcyekDPWF785r2SxRYzTPg8_MootH1jw9wjewZ-8SP",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJq6tswrd3LIgRlDTzWRxCs4I",
+         "plus_code" : {
+            "compound_code" : "9M6Q+39 Cambridge, ON, Canada",
+            "global_code" : "86MX9M6Q+39"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJq6tswrd3LIgRlDTzWRxCs4I",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 5,
+         "vicinity" : "60 Dickson Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4238414,
+               "lng" : -80.3072365
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4251497302915,
+                  "lng" : -80.30578841970849
+               },
+               "southwest" : {
+                  "lat" : 43.4224517697085,
+                  "lng" : -80.3084863802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Rosemary Grant Fine Art",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJHwUx8FF2LIgRfz6k9eKVjg8",
+         "plus_code" : {
+            "compound_code" : "CMFV+G4 Cambridge, ON, Canada",
+            "global_code" : "86MXCMFV+G4"
+         },
+         "rating" : 1,
+         "reference" : "ChIJHwUx8FF2LIgRfz6k9eKVjg8",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "52 Westbury Crescent, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5418967,
+               "lng" : -80.2486237
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54331313029149,
+                  "lng" : -80.24722246970849
+               },
+               "southwest" : {
+                  "lat" : 43.5406151697085,
+                  "lng" : -80.2499204302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Renann Isaacs Contemporary Art",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117595983095516264525\"\u003eLaura Brown\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKofa5R6PVhBAcypSy0hBi3S_ThNhd2BTtAmXmMOQtGLnGH1-so6Rm1jFD9f12k02okZoCtgbWgygD_cQoi8xu-KQIipC50XEZO6GYmzjHwBpnLfIu65BWV4hXc8QaTGEf8xnNkPdAElx3YqUJytZqrpAFSYIieN6ooytmZfs-413XT",
+               "width" : 3036
+            }
+         ],
+         "place_id" : "ChIJB8zrxcGaK4gRpysoDFit9wI",
+         "plus_code" : {
+            "compound_code" : "GQR2+QH Guelph, ON, Canada",
+            "global_code" : "86MXGQR2+QH"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJB8zrxcGaK4gRpysoDFit9wI",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 6,
+         "vicinity" : "5 Gordon Street unit 107, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5329426,
+               "lng" : -80.2329196
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5343427302915,
+                  "lng" : -80.23150746970849
+               },
+               "southwest" : {
+                  "lat" : 43.5316447697085,
+                  "lng" : -80.2342054302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Art Gallery of Guelph",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1119,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115561404951301215064\"\u003eArt Gallery of Guelph\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLq4o0VP_B-UtZAeP3wAxhdUN37qiaDjIqra05bAdEPRtcztdQmWMF1YovTN6SXGLnNx1LU4EUda16Grj3-wEw25yKswpT5swCTiJKvYhM6Sg2XrZQ_EhyEyx79e_F4KOJCjlwTttDw1-l_3GfbPNgaTZa4fzlEaeBq9psxbSa9TqMs",
+               "width" : 2438
+            }
+         ],
+         "place_id" : "ChIJ_yHsStaaK4gRGHO3fJz-1jA",
+         "plus_code" : {
+            "compound_code" : "GQM8+5R Guelph, ON, Canada",
+            "global_code" : "86MXGQM8+5R"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ_yHsStaaK4gRGHO3fJz-1jA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 73,
+         "vicinity" : "358 Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5146997,
+               "lng" : -80.26744149999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5160453302915,
+                  "lng" : -80.26611711970851
+               },
+               "southwest" : {
+                  "lat" : 43.51334736970851,
+                  "lng" : -80.26881508029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Wellington Artist's Gallery & Arts Centre",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJG4hNCYK9K4gR_QkRWyacT98",
+         "plus_code" : {
+            "compound_code" : "GP7M+V2 Guelph/Eramosa, ON, Canada",
+            "global_code" : "86MXGP7M+V2"
+         },
+         "reference" : "ChIJG4hNCYK9K4gR_QkRWyacT98",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "6142 Wellington Rd 29, RR#4, Fergus, ON N1H 3K8"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5094102,
+               "lng" : -80.2286666
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5106550802915,
+                  "lng" : -80.2274092697085
+               },
+               "southwest" : {
+                  "lat" : 43.5079571197085,
+                  "lng" : -80.23010723029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "vickie martin originals",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 809,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118166148786959220308\"\u003evickie martin originals\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL0SVCKfSgXl9SptfoRSTJ1c5yPwTITY7OoyelwzBgScCrMjLhpFEEeGE6_GBWLBQaXEG2Yb-z3pOgA2YxFzvcKYbNVukAr4siiRpzKa0C7VqCNmfnBGFt31LkurOD08smwGjAIjMB8sIxmNAMAAXX3nZ_im1NjzFCbsb5P5SEKDrgp",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJl4FZ5d6EK4gR19MXMY63s1E",
+         "plus_code" : {
+            "compound_code" : "GQ5C+QG Guelph, ON, Canada",
+            "global_code" : "86MXGQ5C+QG"
+         },
+         "rating" : 5,
+         "reference" : "ChIJl4FZ5d6EK4gR19MXMY63s1E",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "34 Woodborough Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4034857,
+               "lng" : -80.3185659
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4047354802915,
+                  "lng" : -80.31718311970849
+               },
+               "southwest" : {
+                  "lat" : 43.4020375197085,
+                  "lng" : -80.31988108029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "West River Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 332,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100831162491461011502\"\u003eWest River Gallery\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJttUWis3711bsPTVEoc-Jlo9hm8pqv6kv8JXcUmU01OYhu9y1rSCM55BU5WZ88XTq74d2tmtdtQhI6Gi1N9q7i7XHHrwPRHeBzkcGZ2fU6o0xw4MwbW7T_wcq2Go0km_I7V3Lq_LaqfbM85by337nTu2_3fk-uJxGbMJ9Kn7tF4miR",
+               "width" : 418
+            }
+         ],
+         "place_id" : "ChIJM44bEkuIK4gRTwnncrHElYI",
+         "plus_code" : {
+            "compound_code" : "CM3J+9H Cambridge, ON, Canada",
+            "global_code" : "86MXCM3J+9H"
+         },
+         "reference" : "ChIJM44bEkuIK4gRTwnncrHElYI",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "100 Sheldon Drive, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.39375130000001,
+               "lng" : -80.32104199999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3953240302915,
+                  "lng" : -80.31992901970848
+               },
+               "southwest" : {
+                  "lat" : 43.39262606970851,
+                  "lng" : -80.3226269802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Sunrise Art Gallery",
+         "place_id" : "ChIJ95r0NTOIK4gRZTGKTCozkIQ",
+         "plus_code" : {
+            "compound_code" : "9MVH+GH Cambridge, ON, Canada",
+            "global_code" : "86MX9MVH+GH"
+         },
+         "reference" : "ChIJ95r0NTOIK4gRZTGKTCozkIQ",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "355 Hespeler Road, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3977148,
+               "lng" : -80.3616009
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39899493029149,
+                  "lng" : -80.36031871970849
+               },
+               "southwest" : {
+                  "lat" : 43.3962969697085,
+                  "lng" : -80.36301668029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Idea Exchange | Preston",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1236,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108511469992883614040\"\u003eIdea Exchange | Preston\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKS814vKMmW2s8g8sXwaRSK5f41ZsZbuuka--T8O5x9I5ObYh-Fc13tyxXJZl7xDJtnvP8knkXY2iY2OoB7BorozDhcKP8vTsBxCP4-YmpzIOAwhxdBK968HdwzFSEihzX2AfKFJYMKerkw1-ZF_S_o2HNzrSVRwYb_BqDoDtMWPgZI",
+               "width" : 2544
+            }
+         ],
+         "place_id" : "ChIJa0wTvfaJK4gRvzLvmBoVSW0",
+         "plus_code" : {
+            "compound_code" : "9JXQ+39 Cambridge, ON, Canada",
+            "global_code" : "86MX9JXQ+39"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJa0wTvfaJK4gRvzLvmBoVSW0",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "library", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 28,
+         "vicinity" : "435 King Street East, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3608157,
+               "lng" : -80.3145428
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3622265302915,
+                  "lng" : -80.31319136970848
+               },
+               "southwest" : {
+                  "lat" : 43.3595285697085,
+                  "lng" : -80.31588933029148
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "KirkwoodWagner Gallery",
+         "place_id" : "ChIJa579HbZ3LIgRfA3NsGm0oTU",
+         "plus_code" : {
+            "compound_code" : "9M6P+85 Cambridge, ON, Canada",
+            "global_code" : "86MX9M6P+85"
+         },
+         "reference" : "ChIJa579HbZ3LIgRfA3NsGm0oTU",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "11 Thorne Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3587948,
+               "lng" : -80.3138955
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3602002302915,
+                  "lng" : -80.31254416970849
+               },
+               "southwest" : {
+                  "lat" : 43.3575022697085,
+                  "lng" : -80.31524213029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Krajewski Gallery and Picture Framing",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1350,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105183014032851795535\"\u003eKrajewski Gallery and Picture Framing\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKWB_wXSN69x0B3pqpcWla2-ScJtfuAtti58dELcWhCLDoZcVtEceVn9-DXGk6uggd7bwGd-k3-7HWCVVWKup6PMC-wLCZjCZvNNA7C-woQCm9poJLJdsxiK6R0xDQwTHGTodAr9n06gJhBF7VZBBZj0uTzTFLRyrvWQEdP8ahZb8MF",
+               "width" : 1800
+            }
+         ],
+         "place_id" : "ChIJ-_K5W7Z3LIgRpq2InOqlCl8",
+         "plus_code" : {
+            "compound_code" : "9M5P+GC Cambridge, ON, Canada",
+            "global_code" : "86MX9M5P+GC"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJ-_K5W7Z3LIgRpq2InOqlCl8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "general_contractor",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 29,
+         "vicinity" : "63 Main Street, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3598216,
+               "lng" : -80.3134841
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.36120383029149,
+                  "lng" : -80.31213371970848
+               },
+               "southwest" : {
+                  "lat" : 43.35850586970849,
+                  "lng" : -80.31483168029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Prom Weekend",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJ6R4XN7Z3LIgRgifdy0xi8Sg",
+         "plus_code" : {
+            "compound_code" : "9M5P+WJ Cambridge, ON, Canada",
+            "global_code" : "86MX9M5P+WJ"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ6R4XN7Z3LIgRgifdy0xi8Sg",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "33 Dickson Street, Cambridge"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.3585403,
+               "lng" : -80.3167565
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3598921302915,
+                  "lng" : -80.31549606970849
+               },
+               "southwest" : {
+                  "lat" : 43.3571941697085,
+                  "lng" : -80.31819403029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Design at Riverside",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114235159964681101258\"\u003eDesign at Riverside\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKmqFaE929pQM1mE5Q6F84wOmOUhk-Mrsz-JY_KIt68sfwPaNkJqHg88xRKvxO5doQp0gIpb69sCb0FXHMTFtFqWUeZUwMkqpJXTBYNgEulSPyv5NQMGGDZ5tKDW4BtVZhH9bM3rVn2_tCtdJnZO-TrURhgkkuZjz_BkxC0Qb2h4fBW",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJTUpQN7R3LIgRkrbvjE0letQ",
+         "plus_code" : {
+            "compound_code" : "9M5M+C7 Cambridge, ON, Canada",
+            "global_code" : "86MX9M5M+C7"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJTUpQN7R3LIgRkrbvjE0letQ",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 13,
+         "vicinity" : "7 Melville Street South, Cambridge"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.45467499999999,
+               "lng" : -80.4844222
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45615658029148,
+                  "lng" : -80.48338201970849
+               },
+               "southwest" : {
+                  "lat" : 43.45345861970849,
+                  "lng" : -80.48607998029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Kitchener-Waterloo Art Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118359125612982385910\"\u003eJohn Linington\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIdrIfi68xVfAuFpzo1mgO1c03423npnASWlA0N3g69lOwZcoYFC5VWwmPr-TmmyjLwh4u_msZY7wzNNpnzdJUhRWM3EIABCPnY61WlrrU5AntFhfYvtvRK70xNCGh7Pe8jF_9T8JC8NYnbsyGxE2ecorhXbC6ceQfkF3dEYJr63YgK",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJUyT9Fx30K4gRtvojo_opXWg",
+         "plus_code" : {
+            "compound_code" : "FG38+V6 Kitchener, ON, Canada",
+            "global_code" : "86MXFG38+V6"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJUyT9Fx30K4gRtvojo_opXWg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 93,
+         "vicinity" : "101 Queen Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4578675,
+               "lng" : -80.4903016
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4592602802915,
+                  "lng" : -80.4888211697085
+               },
+               "southwest" : {
+                  "lat" : 43.4565623197085,
+                  "lng" : -80.49151913029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Pottery Lady",
+         "place_id" : "ChIJNWVPaY70K4gRDv5rOESgalY",
+         "plus_code" : {
+            "compound_code" : "FG55+4V Kitchener, ON, Canada",
+            "global_code" : "86MXFG55+4V"
+         },
+         "reference" : "ChIJNWVPaY70K4gRDv5rOESgalY",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "93 Margaret Avenue, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.39378689999999,
+               "lng" : -80.4273276
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.39518743029149,
+                  "lng" : -80.42605331970849
+               },
+               "southwest" : {
+                  "lat" : 43.39248946970849,
+                  "lng" : -80.42875128029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "McDonald Art",
+         "place_id" : "ChIJhyPZqJ6KK4gRvrzDaB1lKcg",
+         "plus_code" : {
+            "compound_code" : "9HVF+G3 Kitchener, ON, Canada",
+            "global_code" : "86MX9HVF+G3"
+         },
+         "reference" : "ChIJhyPZqJ6KK4gRvrzDaB1lKcg",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "132 Arrowhead Crescent, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6810601,
+               "lng" : -80.42992749999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6824228302915,
+                  "lng" : -80.42858181970848
+               },
+               "southwest" : {
+                  "lat" : 43.6797248697085,
+                  "lng" : -80.4312797802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Vrai Art Studio",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105578951517285354837\"\u003eDavid Dias\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKTkoK-CM55uj97C2uvV6FIpbF5V1NfbZ45BUYzfkyU4x4jcZnzBcW_87oBLx9Bhkctj-kmY5daquqexmryM4R2u50biEkua6OSxRCj4s-sAulI5wGrHOE8ajTh7lnxiHAPbxcLpHdS978LxVWek_yUOjg4YCB3fPXOOd11xQv4L79l",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJDz7Qj7aaK4gRfU2sP5INPIw",
+         "plus_code" : {
+            "compound_code" : "MHJC+C2 Elora, ON, Canada",
+            "global_code" : "86MXMHJC+C2"
+         },
+         "reference" : "ChIJDz7Qj7aaK4gRfU2sP5INPIw",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "Mill Street, West, Elora"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.68206259999999,
+               "lng" : -80.4306603
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6833397302915,
+                  "lng" : -80.42928666970849
+               },
+               "southwest" : {
+                  "lat" : 43.6806417697085,
+                  "lng" : -80.43198463029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Ancient Ways",
+         "place_id" : "ChIJ_8-_vGmVK4gRcdQKX5hXGBw",
+         "plus_code" : {
+            "compound_code" : "MHJ9+RP Elora, ON, Canada",
+            "global_code" : "86MXMHJ9+RP"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ_8-_vGmVK4gRcdQKX5hXGBw",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "30 Church Street West, Elora"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4506979,
+               "lng" : -80.4903296
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4520146302915,
+                  "lng" : -80.48890101970848
+               },
+               "southwest" : {
+                  "lat" : 43.4493166697085,
+                  "lng" : -80.4915989802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "James Nye Artist",
+         "place_id" : "ChIJK9lb7_L0K4gR6B08c_LXlHw",
+         "plus_code" : {
+            "compound_code" : "FG25+7V Kitchener, ON, Canada",
+            "global_code" : "86MXFG25+7V"
+         },
+         "reference" : "ChIJK9lb7_L0K4gR6B08c_LXlHw",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "20 Ontario Street North, Kitchener"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.454733,
+               "lng" : -80.49560699999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.45586618029151,
+                  "lng" : -80.49411991970848
+               },
+               "southwest" : {
+                  "lat" : 43.45316821970851,
+                  "lng" : -80.4968178802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "WONDERLAND STUDIOS",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1221,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111885445845515542135\"\u003eWONDERLAND STUDIOS\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLYs_dEkkOKYGEBwxowhYfLgfU8rkDJ7AlfSOkuUadmooSOeaktYGtLesstTLgr9cpLqOwwGqkEfnfgHxwbulgQfusu9jZNZtv4c5O02W_lZIOOa2Z3V33QPSFbqRTpmFlD7F08DpWmlgG1K5maAxDlmHn_Efg8pR7Zn0RTAN2U-0B9",
+               "width" : 2574
+            }
+         ],
+         "place_id" : "ChIJYVWlDov0K4gRI09nwGZ65wc",
+         "plus_code" : {
+            "compound_code" : "FG33+VQ Kitchener, ON, Canada",
+            "global_code" : "86MXFG33+VQ"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJYVWlDov0K4gRI09nwGZ65wc",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 222,
+         "vicinity" : "70 Victoria Street North, Kitchener"
+      }
+   ],
+   "status" : "OK"
+}

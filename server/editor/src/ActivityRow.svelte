@@ -1,5 +1,9 @@
 <script>
     export let item;
+    let jsRawText=null;
+    function OnJSRawClicked( item ){
+        jsRawText = JSON.stringify(item, null, 2);
+    }
 </script>
 <style>
     .container{
@@ -48,10 +52,25 @@
         font-size:80%;
     }
 
+    .jsraw_button{
+        grid-column:3;
+        grid-row:1;
+        float:right;
+        font-size:30%;
+        justify-self:right;
+    }
+
+    .jsraw_overlay{
+        grid-column:1/4;
+        grid-row:1/3;
+        background-color:white;
+    }
+
     
 </style>
 <tr><td>
 <div class="container">
+
     <div class="name">{item.name} <div class="vicinity">{item.vicinity}</div> <div class="business_status">Status:{item.business_status}</div></div>
    
     <div class="types">
@@ -65,7 +84,13 @@
            alt={item.name}/>
            {/if}
         </div>
-
+    <div class="jsraw_button">
+        <button on:click={()=>OnJSRawClicked(item)}>jsRaw</button>
+    </div>
+{#if jsRawText}
+    <div class="jsraw_overlay"><button on:click={()=>{jsRawText=null;}}>X</button><pre>{jsRawText}</pre></div>
+    
+{/if}
 </div>
 </td>
 </tr>

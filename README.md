@@ -8,3 +8,5 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=YOUR_GOOGLE_API
 
 
 https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=YOUR_GOOGLE_API_KEY&type=bar&radius=20000&location=43.538708,-80.246738
+
+

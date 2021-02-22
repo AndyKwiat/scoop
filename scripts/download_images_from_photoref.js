@@ -29,7 +29,7 @@ fs.readdirSync(imgFolder).forEach(file => {
 
 
 console.log("removed " + dupes + " exisiting images")
-
+let download_tokens = 5;
 for (ref in allRefs) {
     let uri = createGETUri("https://maps.googleapis.com/maps/api/place/photo", {
         maxwidth: 16000,
@@ -39,6 +39,7 @@ for (ref in allRefs) {
     console.log("URI: " + uri )
     
     downloadFile(uri, imgFolder + ref )
+    
    
 }
 
@@ -61,9 +62,16 @@ function downloadFile(url, destFile) {
     if (fs.existsSync(destFile + ".jpg")) throw "FILE EXISTS!! NOT DOWNLOADING" + destFile
     if (fs.existsSync(destFile + ".png")) throw "FILE EXISTS!! NOT DOWNLOADING" + destFile
     
+    if ( download_tokens <=0 ){
+        setTimeout ( ()=>{downloadFile( url, destFile )} ,1000 )
+        return;
+    }
+    download_tokens--;
+
     console.log("download begins: " + url)
     const request = http.get(url, function (response) {
         if ( response.statusCode == 302 ){ // moved
+            download_tokens++;
             console.log(JSON.stringify(response.headers))
             let newUri = response.headers.location; //"https://" + response.req.socket._host + response.req.path
            console.log("OK: 302: " + newUri )
@@ -77,7 +85,8 @@ function downloadFile(url, destFile) {
         if (response.headers['content-type'].includes("png")) ext = ".png"
         destFile += ext
         const file = fs.createWriteStream(destFile);
-        response.pipe(file);       
+        response.pipe(file);     
+        download_tokens++;  
     });
 }
 

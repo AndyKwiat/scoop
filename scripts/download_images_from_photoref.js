@@ -29,7 +29,7 @@ fs.readdirSync(imgFolder).forEach(file => {
 
 
 console.log("removed " + dupes + " exisiting images")
-let download_tokens = 5;
+let download_tokens = 2;
 for (ref in allRefs) {
     let uri = createGETUri("https://maps.googleapis.com/maps/api/place/photo", {
         maxwidth: 16000,
@@ -39,9 +39,13 @@ for (ref in allRefs) {
     console.log("URI: " + uri )
     
     downloadFile(uri, imgFolder + ref )
-    
-   
 }
+
+function pingTimer(){
+    console.log("PING TIMER----------->" + download_tokens + " download tokens")
+    setTimeout(pingTimer, 1000)
+}
+pingTimer();
 
 function createGETUri(base, params) {
 
@@ -77,6 +81,11 @@ function downloadFile(url, destFile) {
            console.log("OK: 302: " + newUri )
            fs.appendFileSync("download302list.txt","\n" +url + " ---> " + newUri)
             downloadFile( newUri, destFile  )
+            return
+        }
+
+        if ( response.statusCode != 200 ){
+            console.log("OOPS: STATUSCODE: " + response.statusCode)
             return
         }
        

@@ -80,9 +80,11 @@
       </div>
     <div class="pic">
         {#if item.photos?.length > 0 }
-        <img height="125px" max-width="20%" src={  "https://www.stirfrygames.com/img/" + item.photos[0].photo_reference + ".jpg" }
-           alt={item.name}/>
-           {/if}
+        {#each item.photos as ph}
+            <img height="125px" max-width="20%" src={  "https://www.stirfrygames.com/img/" + ph.photo_reference + ".jpg" }
+            alt={item.name}/>
+        {/each}
+        {/if}
         </div>
     <div class="jsraw_button">
         <button on:click={()=>OnJSRawClicked(item)}>jsRaw</button>

@@ -29,6 +29,7 @@
 			throw new Error("Something went wrong" + response.statusText);
 		}
 	}
+
 	AuthStore.subscribe( as =>{
 		if ( as.loggedIn  ){
 			promise=fetchData();

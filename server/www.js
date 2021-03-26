@@ -14,6 +14,8 @@ var docClient = new AWS.DynamoDB.DocumentClient();
 var express = require('express');
 var app = express();
 var cors = require('cors');
+const { NetworkAuthenticationRequire } = require("http-errors");
+const { GetItemCommand } = require("@aws-sdk/client-dynamodb");
 function log ( str ){
    console.log( str)
 }
@@ -36,9 +38,68 @@ app.get('/flushcache', function (req, res ){
 })
 
 app.use( express.static("editor/public"))
+app.use(express.json());
+ 
+app.post( '/saveItem', function(req, res ){
+   
+   let item = req.body
+
+   let prevItem = getItemById( item.id )
+   console.log( "PREV: \n" + JSON.stringify(prevItem) )
+   console.log( "NEW: \n" + JSON.stringify(item) )
+  
+   changes= findChanges( prevItem, item )
+   if (changes.length != 1 ){
+      sendError( res, "Too many changes", changes)
+      return   
+   }
+   if (changes.key == "id"){
+      sendError(res, "Can't change id")
+      return
+   }
+
+   res.send(changes)
+})
+function sendError( res, msg, obj ){
+   res.status(400).send( {error:msg,data:obj} )
+  
+}
+
+function findChanges(prevItem, item ){
+   let map = deepDiffMapper.map( prevItem, item )
+   let changes = []
+   findChangesHelper( map, changes )
+   return changes
+ 
+}
+function findChangesHelper( map , changes ){
+   for ( const k in map ){
+      if ( !map[k].diff_type ){
+         findChangesHelper( map[k], changes )
+      }
+      else if (map[k].diff_type != "unchanged" ){
+         changes.push( {key: k, change: map[k]})
+      }
+   }
+}
+function getItemById( id ){
+   for (i=0; i < cache.Items.length; i++ ){
+      let item = cache.Items[i];
+      if ( item.id === id )
+      return item;
+   }
+  return null
+}
+
 
 app.get('/places', function (req, res) {
+   if (cache != null ){
+      console.log("CACHED RESPONSE!" )
+      res.send(cache);
+      return;
+   }
 
+   console.log("Scanning entire table");
 var params = {
    TableName: "scoop-prod-places"
   /* ProjectionExpression: "#yr, title, info.rating",
@@ -53,7 +114,7 @@ var params = {
    */
 };
 
-console.log("Scanning entire table");
+
 
      // res.send( data );
       onScanWrapper( params, res, docClient)
@@ -64,16 +125,12 @@ console.log("Scanning entire table");
 var server = app.listen(3000, function () {
    var host = server.address().address
    var port = server.address().port
-   console.log("Example app listening at http://%s:%s", host, port)
+   console.log("Scoop server listening at http://%s:%s", host, port)
 })
 
 
 function onScanWrapper( params, response, docClient ){
-   if (cache != null ){
-      console.log("CACHED RESPONSE!" )
-      response.send(cache);
-      return;
-   }
+  
    let scanFunc = function onScan(err, data) {
       if (err) {
           console.error("Unable to scan the table. Error JSON:", JSON.stringify(err, null, 2));
@@ -100,7 +157,7 @@ function onScanWrapper( params, response, docClient ){
 let authKeyEditor = "CHANGE_ME_EDITOR_KEY" ; // uuid()
 
 function checkAuth(req,res,next){
-  
+ 
    console.log( "REQ PATH: " + req.path)
    console.log ( JSON.stringify(req.headers))
    if ( req.path.startsWith("/editor") ){ // just serve static files
@@ -114,3 +171,80 @@ function checkAuth(req,res,next){
    else
       res.send(401)
 }
+
+var deepDiffMapper = function () {
+   return {
+     VALUE_CREATED: 'created',
+     VALUE_UPDATED: 'updated',
+     VALUE_DELETED: 'deleted',
+     VALUE_UNCHANGED: 'unchanged',
+     map: function(obj1, obj2) {
+       if (this.isFunction(obj1) || this.isFunction(obj2)) {
+         throw 'Invalid argument. Function given, object expected.';
+       }
+       if (this.isValue(obj1) || this.isValue(obj2)) {
+         return {
+           diff_type: this.compareValues(obj1, obj2),
+           data: obj1 === undefined ? obj2 : obj1
+         };
+       }
+ 
+       var diff = {};
+       for (var key in obj1) {
+         if (this.isFunction(obj1[key])) {
+           continue;
+         }
+ 
+         var value2 = undefined;
+         if (obj2[key] !== undefined) {
+           value2 = obj2[key];
+         }
+         temp = this.map(obj1[key], value2);
+
+            diff[key] = temp
+       }
+       for (var key in obj2) {
+         if (this.isFunction(obj2[key]) || diff[key] !== undefined) {
+           continue;
+         }
+         temp = this.map(undefined, obj2[key]);
+
+            diff[key] = temp;
+       }
+ 
+       return diff;
+ 
+     },
+     compareValues: function (value1, value2) {
+       if (value1 === value2) {
+         return this.VALUE_UNCHANGED;
+       }
+       if (this.isDate(value1) && this.isDate(value2) && value1.getTime() === value2.getTime()) {
+         return this.VALUE_UNCHANGED;
+       }
+       if (value1 === undefined) {
+         return this.VALUE_CREATED;
+       }
+       if (value2 === undefined) {
+         return this.VALUE_DELETED;
+       }
+       return this.VALUE_UPDATED;
+     },
+     isFunction: function (x) {
+       return Object.prototype.toString.call(x) === '[object Function]';
+     },
+     isArray: function (x) {
+       return Object.prototype.toString.call(x) === '[object Array]';
+     },
+     isDate: function (x) {
+       return Object.prototype.toString.call(x) === '[object Date]';
+     },
+     isObject: function (x) {
+       return Object.prototype.toString.call(x) === '[object Object]';
+     },
+     isValue: function (x) {
+       return !this.isObject(x) && !this.isArray(x);
+     }
+   }
+ }();
+ 

@@ -1,5 +1,5 @@
 <script>
-    import { SaveItem } from './stores.js';
+    import {SaveItem } from './stores.js'
     export let item;
   
     let jsRawText=null;

@@ -2,7 +2,8 @@ const fs = require('fs');
 const path = require('path')
 const http = require('https');
 const Jimp = require("jimp")
-const imgFolder = './images/';
+const imgFolder = './images/orig/';
+const outputFolder = './images/960/'; // TODO: make the 960 an option
 
 
 let img_processed = 0;
@@ -16,8 +17,8 @@ fs.readdirSync(imgFolder).forEach(file => {
     // console.log("extension" + extension )
 
     if (extension.toLocaleLowerCase() != "jpg" ) return;
-    if (filename.endsWith("-125")) return;
-   downsample( imgFolder+file, imgFolder+filename+ "-125" + ".jpg", 125 )
+ 
+   downsample( imgFolder+file, outputFolder+filename+ "-960" + ".jpg", 960 )
    
 });
 

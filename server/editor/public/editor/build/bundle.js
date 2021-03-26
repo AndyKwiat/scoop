@@ -2163,7 +2163,7 @@ var app = (function () {
     			t = text(t_value);
     			set_style(p, "color", "red");
     			attr_dev(p, "class", "svelte-yo50r4");
-    			add_location(p, file$4, 89, 2, 1894);
+    			add_location(p, file$4, 89, 2, 1864);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -2234,15 +2234,15 @@ var app = (function () {
     			set_style(span, "margin-right", "20px");
     			set_style(span, "font-size", "25px");
     			attr_dev(span, "class", "svelte-yo50r4");
-    			add_location(span, file$4, 72, 2, 1330);
+    			add_location(span, file$4, 72, 2, 1300);
     			attr_dev(input, "type", "text");
     			set_style(input, "width", "50%");
     			set_style(input, "height", "40px");
     			set_style(input, "font-size", "29px");
     			attr_dev(input, "class", "svelte-yo50r4");
-    			add_location(input, file$4, 73, 1, 1423);
+    			add_location(input, file$4, 73, 1, 1393);
     			attr_dev(table, "class", "svelte-yo50r4");
-    			add_location(table, file$4, 75, 1, 1517);
+    			add_location(table, file$4, 75, 1, 1487);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -2683,8 +2683,6 @@ var app = (function () {
     					if (b.name.toLowerCase() > a.name.toLowerCase()) return -1;
     					return 0;
     				});
-
-    				d.Items[0].scoop_status = "red";
 
     				//console.log( JSON.stringify(d))
     				console.log(d.Items.length);

@@ -58,7 +58,22 @@ app.post( '/saveItem', function(req, res ){
       return
    }
 
-   res.send(changes)
+   let params = {
+      TableName: "scoop-prod-places",
+      Item:  item,
+ 
+  };
+
+  docClient.put(params, function(err, data) {
+     if (err) {
+         console.error("Unable to add item", item.id, ". Error JSON:", JSON.stringify(err, null, 2));
+         sendError(res, "Unable to save item", err)
+     } else {
+         console.log("PutItem succeeded:", item.id);
+         res.send(changes)
+     }
+  });
+   
 })
 function sendError( res, msg, obj ){
    res.status(400).send( {error:msg,data:obj} )

@@ -40,7 +40,7 @@
 					if ( b.name.toLowerCase() > a.name.toLowerCase() ) return -1
 					return 0
 				})
-				d.Items[0].scoop_status="red"
+			
 				//console.log( JSON.stringify(d))
 				console.log(d.Items.length);
 				console.log("LENGTH")

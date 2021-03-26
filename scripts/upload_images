@@ -1,0 +1,2 @@
+#!/bin/bash
+aws s3 sync images s3://www.stirfrygames.com/img

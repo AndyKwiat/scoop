@@ -81,7 +81,7 @@
     <div class="pic">
         {#if item.photos?.length > 0 }
         {#each item.photos as ph}
-            <img height="125px" max-width="20%" src={  "https://www.stirfrygames.com/img/" + ph.photo_reference + ".jpg" }
+            <img height="125px" max-width="20%" src={  "https://www.stirfrygames.com/img/" + ph.photo_reference + "-125.jpg" }
             alt={item.name}/>
         {/each}
         {/if}

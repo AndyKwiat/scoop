@@ -7,9 +7,7 @@
 
 	let searchTerm = null;
 	let promise = null; 
-	
-//	const visibleFields= [ "id", "name","vicinity", "types", "rating","user_ratings_total",  "business_status"]
-	
+
 	async function fetchData() {
 		
 		const response = await self.fetch(SERVER_URL + '/places',

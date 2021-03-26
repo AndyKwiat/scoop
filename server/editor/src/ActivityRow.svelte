@@ -1,4 +1,5 @@
 <script>
+    import { SaveItem } from './stores.js';
     export let item;
   
     let jsRawText=null;
@@ -11,8 +12,7 @@
         else if ( item.scoop_status == "yellow" )
         item.scoop_status = "green"
         else item.scoop_status = "red"     
-     
-      
+        SaveItem(item)      
     }
 </script>
 <style>

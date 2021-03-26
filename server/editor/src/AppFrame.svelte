@@ -1,5 +1,5 @@
 <script>
-    import {AuthStore,SERVER_URL} from './stores'
+    import {AuthStore,SERVER_URL, StatusLog} from './stores'
     let flushCacheBtnText = "Flush Cache3"
     let menuOpen = false;
     function OnFlushCacheClicked(){
@@ -35,14 +35,27 @@
     .admin button {
         font-size:50%;
     }
+    .statusLog{
+        position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  padding:5px;
+  border: 3px solid #73AD21;
+    
+    }
 </style>
-
+{#if $StatusLog.status?.length > 0 }
+<div class="statusLog">{$StatusLog.status}</div>
+{/if}
 <div>
     <span class="admin" on:click={()=>{menuOpen = !menuOpen}}>&#9881;
         {#if menuOpen }
         <button on:click|stopPropagation={OnFlushCacheClicked}>{flushCacheBtnText}</button>
         {/if}
+        
     </span>
-    
+      
     <slot></slot>
+    
 </div>

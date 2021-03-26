@@ -203,7 +203,7 @@ function onTapPic(myHt, isDetailsMode, setIsDetailsMode) {
 
 function getPicUri(idea) {
   if (idea.photos && idea.photos.length > 0)
-    return "https://www.stirfrygames.com/img/" + idea.photos[0].photo_reference + "-125.jpg";
+    return "https://www.stirfrygames.com/img/960/" + idea.photos[0].photo_reference + "-960.jpg";
   return "https://cdn4.vectorstock.com/i/thumb-large/19/58/no-image-vector-30371958.jpg"
 
 }

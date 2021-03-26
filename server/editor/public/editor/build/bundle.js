@@ -1295,35 +1295,116 @@ var app = (function () {
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[5] = list[i];
+    	child_ctx[7] = list[i];
     	return child_ctx;
     }
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[8] = list[i];
+    	child_ctx[10] = list[i];
     	return child_ctx;
     }
 
-    // (77:8) {#each item.types as tag }
+    // (98:8) {:else}
+    function create_else_block(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("⚠");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block.name,
+    		type: "else",
+    		source: "(98:8) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (96:45) 
+    function create_if_block_3(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("✖");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_3.name,
+    		type: "if",
+    		source: "(96:45) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (94:8) {#if !item.scoop_status || item.scoop_status == "green" }
+    function create_if_block_2(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("☑");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_2.name,
+    		type: "if",
+    		source: "(94:8) {#if !item.scoop_status || item.scoop_status == \\\"green\\\" }",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (106:8) {#each item.types as tag }
     function create_each_block_1(ctx) {
     	let span;
-    	let t_value = /*tag*/ ctx[8] + "";
+    	let t_value = /*tag*/ ctx[10] + "";
     	let t;
 
     	const block = {
     		c: function create() {
     			span = element("span");
     			t = text(t_value);
-    			attr_dev(span, "class", "svelte-i510do");
-    			add_location(span, file$3, 77, 12, 1637);
+    			attr_dev(span, "class", "svelte-162ne0l");
+    			add_location(span, file$3, 106, 12, 2504);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
     			append_dev(span, t);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*item*/ 1 && t_value !== (t_value = /*tag*/ ctx[8] + "")) set_data_dev(t, t_value);
+    			if (dirty & /*item*/ 1 && t_value !== (t_value = /*tag*/ ctx[10] + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(span);
@@ -1334,14 +1415,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(77:8) {#each item.types as tag }",
+    		source: "(106:8) {#each item.types as tag }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (82:8) {#if item.photos?.length > 0 }
+    // (111:8) {#if item.photos?.length > 0 }
     function create_if_block_1(ctx) {
     	let each_1_anchor;
     	let each_value = /*item*/ ctx[0].photos;
@@ -1402,14 +1483,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(82:8) {#if item.photos?.length > 0 }",
+    		source: "(111:8) {#if item.photos?.length > 0 }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (83:8) {#each item.photos as ph}
+    // (112:8) {#each item.photos as ph}
     function create_each_block(ctx) {
     	let img;
     	let img_src_value;
@@ -1420,15 +1501,15 @@ var app = (function () {
     			img = element("img");
     			attr_dev(img, "height", "125px");
     			attr_dev(img, "max-width", "20%");
-    			if (img.src !== (img_src_value = "https://www.stirfrygames.com/img/" + /*ph*/ ctx[5].photo_reference + "-125.jpg")) attr_dev(img, "src", img_src_value);
+    			if (img.src !== (img_src_value = "https://www.stirfrygames.com/img/125/" + /*ph*/ ctx[7].photo_reference + "-125.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*item*/ ctx[0].name);
-    			add_location(img, file$3, 83, 12, 1792);
+    			add_location(img, file$3, 112, 12, 2659);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*item*/ 1 && img.src !== (img_src_value = "https://www.stirfrygames.com/img/" + /*ph*/ ctx[5].photo_reference + "-125.jpg")) {
+    			if (dirty & /*item*/ 1 && img.src !== (img_src_value = "https://www.stirfrygames.com/img/125/" + /*ph*/ ctx[7].photo_reference + "-125.jpg")) {
     				attr_dev(img, "src", img_src_value);
     			}
 
@@ -1445,14 +1526,14 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(83:8) {#each item.photos as ph}",
+    		source: "(112:8) {#each item.photos as ph}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (92:0) {#if jsRawText}
+    // (121:0) {#if jsRawText}
     function create_if_block$2(ctx) {
     	let div;
     	let button;
@@ -1468,10 +1549,10 @@ var app = (function () {
     			button.textContent = "X";
     			pre = element("pre");
     			t1 = text(/*jsRawText*/ ctx[1]);
-    			add_location(button, file$3, 92, 31, 2138);
-    			add_location(pre, file$3, 92, 82, 2189);
-    			attr_dev(div, "class", "jsraw_overlay svelte-i510do");
-    			add_location(div, file$3, 92, 4, 2111);
+    			add_location(button, file$3, 121, 31, 3009);
+    			add_location(pre, file$3, 121, 82, 3060);
+    			attr_dev(div, "class", "jsraw_overlay svelte-162ne0l");
+    			add_location(div, file$3, 121, 4, 2982);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1480,7 +1561,7 @@ var app = (function () {
     			append_dev(pre, t1);
 
     			if (!mounted) {
-    				dispose = listen_dev(button, "click", /*click_handler_1*/ ctx[4], false, false, false);
+    				dispose = listen_dev(button, "click", /*click_handler_2*/ ctx[6], false, false, false);
     				mounted = true;
     			}
     		},
@@ -1498,7 +1579,7 @@ var app = (function () {
     		block,
     		id: create_if_block$2.name,
     		type: "if",
-    		source: "(92:0) {#if jsRawText}",
+    		source: "(121:0) {#if jsRawText}",
     		ctx
     	});
 
@@ -1508,8 +1589,8 @@ var app = (function () {
     function create_fragment$3(ctx) {
     	let tr;
     	let td;
-    	let div6;
-    	let div2;
+    	let div7;
+    	let div3;
     	let t0_value = /*item*/ ctx[0].name + "";
     	let t0;
     	let t1;
@@ -1522,15 +1603,28 @@ var app = (function () {
     	let t5_value = /*item*/ ctx[0].business_status + "";
     	let t5;
     	let t6;
-    	let div3;
+    	let div2;
+    	let span;
     	let t7;
     	let div4;
     	let t8;
     	let div5;
+    	let t9;
+    	let div6;
     	let button;
-    	let t10;
+    	let t11;
+    	let div7_style_value;
     	let mounted;
     	let dispose;
+
+    	function select_block_type(ctx, dirty) {
+    		if (!/*item*/ ctx[0].scoop_status || /*item*/ ctx[0].scoop_status == "green") return create_if_block_2;
+    		if (/*item*/ ctx[0].scoop_status == "red") return create_if_block_3;
+    		return create_else_block;
+    	}
+
+    	let current_block_type = select_block_type(ctx);
+    	let if_block0 = current_block_type(ctx);
     	let each_value_1 = /*item*/ ctx[0].types;
     	validate_each_argument(each_value_1);
     	let each_blocks = [];
@@ -1539,15 +1633,15 @@ var app = (function () {
     		each_blocks[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
     	}
 
-    	let if_block0 = /*item*/ ctx[0].photos?.length > 0 && create_if_block_1(ctx);
-    	let if_block1 = /*jsRawText*/ ctx[1] && create_if_block$2(ctx);
+    	let if_block1 = /*item*/ ctx[0].photos?.length > 0 && create_if_block_1(ctx);
+    	let if_block2 = /*jsRawText*/ ctx[1] && create_if_block$2(ctx);
 
     	const block = {
     		c: function create() {
     			tr = element("tr");
     			td = element("td");
-    			div6 = element("div");
-    			div2 = element("div");
+    			div7 = element("div");
+    			div3 = element("div");
     			t0 = text(t0_value);
     			t1 = space();
     			div0 = element("div");
@@ -1557,38 +1651,52 @@ var app = (function () {
     			t4 = text("Status:");
     			t5 = text(t5_value);
     			t6 = space();
-    			div3 = element("div");
+    			div2 = element("div");
+    			span = element("span");
+    			if_block0.c();
+    			t7 = space();
+    			div4 = element("div");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			t7 = space();
-    			div4 = element("div");
-    			if (if_block0) if_block0.c();
     			t8 = space();
     			div5 = element("div");
+    			if (if_block1) if_block1.c();
+    			t9 = space();
+    			div6 = element("div");
     			button = element("button");
     			button.textContent = "jsRaw";
-    			t10 = space();
-    			if (if_block1) if_block1.c();
-    			attr_dev(div0, "class", "vicinity svelte-i510do");
-    			add_location(div0, file$3, 73, 34, 1447);
-    			attr_dev(div1, "class", "business_status svelte-i510do");
-    			add_location(div1, file$3, 73, 78, 1491);
-    			attr_dev(div2, "class", "name svelte-i510do");
-    			add_location(div2, file$3, 73, 4, 1417);
-    			attr_dev(div3, "class", "types svelte-i510do");
-    			add_location(div3, file$3, 75, 4, 1570);
-    			attr_dev(div4, "class", "pic svelte-i510do");
-    			add_location(div4, file$3, 80, 4, 1689);
-    			add_location(button, file$3, 89, 8, 2021);
-    			attr_dev(div5, "class", "jsraw_button svelte-i510do");
-    			add_location(div5, file$3, 88, 4, 1986);
-    			attr_dev(div6, "class", "container svelte-i510do");
-    			add_location(div6, file$3, 71, 0, 1388);
-    			add_location(td, file$3, 70, 4, 1383);
-    			add_location(tr, file$3, 70, 0, 1379);
+    			t11 = space();
+    			if (if_block2) if_block2.c();
+    			attr_dev(div0, "class", "vicinity svelte-162ne0l");
+    			add_location(div0, file$3, 90, 34, 2009);
+    			attr_dev(div1, "class", "business_status svelte-162ne0l");
+    			add_location(div1, file$3, 91, 4, 2058);
+    			add_location(span, file$3, 92, 30, 2153);
+    			attr_dev(div2, "class", "scoop_status svelte-162ne0l");
+    			add_location(div2, file$3, 92, 4, 2127);
+    			attr_dev(div3, "class", "name svelte-162ne0l");
+    			add_location(div3, file$3, 90, 4, 1979);
+    			attr_dev(div4, "class", "types svelte-162ne0l");
+    			add_location(div4, file$3, 104, 4, 2437);
+    			attr_dev(div5, "class", "pic svelte-162ne0l");
+    			add_location(div5, file$3, 109, 4, 2556);
+    			add_location(button, file$3, 118, 8, 2892);
+    			attr_dev(div6, "class", "jsraw_button svelte-162ne0l");
+    			add_location(div6, file$3, 117, 4, 2857);
+    			attr_dev(div7, "class", "container svelte-162ne0l");
+
+    			attr_dev(div7, "style", div7_style_value = /*item*/ ctx[0]?.scoop_status == "red"
+    			? "background-color:rgb(237, 153, 153)"
+    			: /*item*/ ctx[0]?.scoop_status == "yellow"
+    				? "background-color:yellow"
+    				: "");
+
+    			add_location(div7, file$3, 88, 0, 1817);
+    			add_location(td, file$3, 87, 4, 1812);
+    			add_location(tr, file$3, 87, 0, 1808);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1596,34 +1704,42 @@ var app = (function () {
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
     			append_dev(tr, td);
-    			append_dev(td, div6);
-    			append_dev(div6, div2);
-    			append_dev(div2, t0);
-    			append_dev(div2, t1);
-    			append_dev(div2, div0);
+    			append_dev(td, div7);
+    			append_dev(div7, div3);
+    			append_dev(div3, t0);
+    			append_dev(div3, t1);
+    			append_dev(div3, div0);
     			append_dev(div0, t2);
-    			append_dev(div2, t3);
-    			append_dev(div2, div1);
+    			append_dev(div3, t3);
+    			append_dev(div3, div1);
     			append_dev(div1, t4);
     			append_dev(div1, t5);
-    			append_dev(div6, t6);
-    			append_dev(div6, div3);
+    			append_dev(div3, t6);
+    			append_dev(div3, div2);
+    			append_dev(div2, span);
+    			if_block0.m(span, null);
+    			append_dev(div7, t7);
+    			append_dev(div7, div4);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(div3, null);
+    				each_blocks[i].m(div4, null);
     			}
 
-    			append_dev(div6, t7);
-    			append_dev(div6, div4);
-    			if (if_block0) if_block0.m(div4, null);
-    			append_dev(div6, t8);
-    			append_dev(div6, div5);
-    			append_dev(div5, button);
-    			append_dev(div6, t10);
-    			if (if_block1) if_block1.m(div6, null);
+    			append_dev(div7, t8);
+    			append_dev(div7, div5);
+    			if (if_block1) if_block1.m(div5, null);
+    			append_dev(div7, t9);
+    			append_dev(div7, div6);
+    			append_dev(div6, button);
+    			append_dev(div7, t11);
+    			if (if_block2) if_block2.m(div7, null);
 
     			if (!mounted) {
-    				dispose = listen_dev(button, "click", /*click_handler*/ ctx[3], false, false, false);
+    				dispose = [
+    					listen_dev(span, "click", /*click_handler*/ ctx[4], false, false, false),
+    					listen_dev(button, "click", /*click_handler_1*/ ctx[5], false, false, false)
+    				];
+
     				mounted = true;
     			}
     		},
@@ -1631,6 +1747,16 @@ var app = (function () {
     			if (dirty & /*item*/ 1 && t0_value !== (t0_value = /*item*/ ctx[0].name + "")) set_data_dev(t0, t0_value);
     			if (dirty & /*item*/ 1 && t2_value !== (t2_value = /*item*/ ctx[0].vicinity + "")) set_data_dev(t2, t2_value);
     			if (dirty & /*item*/ 1 && t5_value !== (t5_value = /*item*/ ctx[0].business_status + "")) set_data_dev(t5, t5_value);
+
+    			if (current_block_type !== (current_block_type = select_block_type(ctx))) {
+    				if_block0.d(1);
+    				if_block0 = current_block_type(ctx);
+
+    				if (if_block0) {
+    					if_block0.c();
+    					if_block0.m(span, null);
+    				}
+    			}
 
     			if (dirty & /*item*/ 1) {
     				each_value_1 = /*item*/ ctx[0].types;
@@ -1645,7 +1771,7 @@ var app = (function () {
     					} else {
     						each_blocks[i] = create_each_block_1(child_ctx);
     						each_blocks[i].c();
-    						each_blocks[i].m(div3, null);
+    						each_blocks[i].m(div4, null);
     					}
     				}
 
@@ -1657,40 +1783,49 @@ var app = (function () {
     			}
 
     			if (/*item*/ ctx[0].photos?.length > 0) {
-    				if (if_block0) {
-    					if_block0.p(ctx, dirty);
-    				} else {
-    					if_block0 = create_if_block_1(ctx);
-    					if_block0.c();
-    					if_block0.m(div4, null);
-    				}
-    			} else if (if_block0) {
-    				if_block0.d(1);
-    				if_block0 = null;
-    			}
-
-    			if (/*jsRawText*/ ctx[1]) {
     				if (if_block1) {
     					if_block1.p(ctx, dirty);
     				} else {
-    					if_block1 = create_if_block$2(ctx);
+    					if_block1 = create_if_block_1(ctx);
     					if_block1.c();
-    					if_block1.m(div6, null);
+    					if_block1.m(div5, null);
     				}
     			} else if (if_block1) {
     				if_block1.d(1);
     				if_block1 = null;
+    			}
+
+    			if (/*jsRawText*/ ctx[1]) {
+    				if (if_block2) {
+    					if_block2.p(ctx, dirty);
+    				} else {
+    					if_block2 = create_if_block$2(ctx);
+    					if_block2.c();
+    					if_block2.m(div7, null);
+    				}
+    			} else if (if_block2) {
+    				if_block2.d(1);
+    				if_block2 = null;
+    			}
+
+    			if (dirty & /*item*/ 1 && div7_style_value !== (div7_style_value = /*item*/ ctx[0]?.scoop_status == "red"
+    			? "background-color:rgb(237, 153, 153)"
+    			: /*item*/ ctx[0]?.scoop_status == "yellow"
+    				? "background-color:yellow"
+    				: "")) {
+    				attr_dev(div7, "style", div7_style_value);
     			}
     		},
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(tr);
+    			if_block0.d();
     			destroy_each(each_blocks, detaching);
-    			if (if_block0) if_block0.d();
     			if (if_block1) if_block1.d();
+    			if (if_block2) if_block2.d();
     			mounted = false;
-    			dispose();
+    			run_all(dispose);
     		}
     	};
 
@@ -1715,15 +1850,20 @@ var app = (function () {
     		$$invalidate(1, jsRawText = JSON.stringify(item, null, 2));
     	}
 
+    	function OnScoopStatusClicked(it) {
+    		if (item.scoop_status == "red") $$invalidate(0, item.scoop_status = "yellow", item); else if (item.scoop_status == "yellow") $$invalidate(0, item.scoop_status = "green", item); else $$invalidate(0, item.scoop_status = "red", item);
+    	}
+
     	const writable_props = ["item"];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<ActivityRow> was created with unknown prop '${key}'`);
     	});
 
-    	const click_handler = () => OnJSRawClicked(item);
+    	const click_handler = () => OnScoopStatusClicked();
+    	const click_handler_1 = () => OnJSRawClicked(item);
 
-    	const click_handler_1 = () => {
+    	const click_handler_2 = () => {
     		$$invalidate(1, jsRawText = null);
     	};
 
@@ -1731,7 +1871,12 @@ var app = (function () {
     		if ("item" in $$props) $$invalidate(0, item = $$props.item);
     	};
 
-    	$$self.$capture_state = () => ({ item, jsRawText, OnJSRawClicked });
+    	$$self.$capture_state = () => ({
+    		item,
+    		jsRawText,
+    		OnJSRawClicked,
+    		OnScoopStatusClicked
+    	});
 
     	$$self.$inject_state = $$props => {
     		if ("item" in $$props) $$invalidate(0, item = $$props.item);
@@ -1742,7 +1887,15 @@ var app = (function () {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [item, jsRawText, OnJSRawClicked, click_handler, click_handler_1];
+    	return [
+    		item,
+    		jsRawText,
+    		OnJSRawClicked,
+    		OnScoopStatusClicked,
+    		click_handler,
+    		click_handler_1,
+    		click_handler_2
+    	];
     }
 
     class ActivityRow extends SvelteComponentDev {
@@ -1785,8 +1938,8 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (57:0) {:else}
-    function create_else_block(ctx) {
+    // (64:0) {:else}
+    function create_else_block$1(ctx) {
     	let appframe;
     	let current;
 
@@ -1831,16 +1984,16 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block.name,
+    		id: create_else_block$1.name,
     		type: "else",
-    		source: "(57:0) {:else}",
+    		source: "(64:0) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (54:0) {#if !$AuthStore.loggedIn}
+    // (61:0) {#if !$AuthStore.loggedIn}
     function create_if_block$3(ctx) {
     	let auth;
     	let current;
@@ -1881,14 +2034,14 @@ var app = (function () {
     		block,
     		id: create_if_block$3.name,
     		type: "if",
-    		source: "(54:0) {#if !$AuthStore.loggedIn}",
+    		source: "(61:0) {#if !$AuthStore.loggedIn}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (80:1) {:catch error}
+    // (90:1) {:catch error}
     function create_catch_block(ctx) {
     	let p;
     	let t_value = /*error*/ ctx[10].message + "";
@@ -1900,7 +2053,7 @@ var app = (function () {
     			t = text(t_value);
     			set_style(p, "color", "red");
     			attr_dev(p, "class", "svelte-yo50r4");
-    			add_location(p, file$4, 80, 2, 1710);
+    			add_location(p, file$4, 90, 2, 2007);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1920,14 +2073,14 @@ var app = (function () {
     		block,
     		id: create_catch_block.name,
     		type: "catch",
-    		source: "(80:1) {:catch error}",
+    		source: "(90:1) {:catch error}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (63:1) {:then places}
+    // (70:1) {:then places}
     function create_then_block(ctx) {
     	let t0_value = /*places*/ ctx[6].Items.length + "";
     	let t0;
@@ -1957,7 +2110,7 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = text(" is how may places yo got..,\n\n\t\t");
     			span = element("span");
-    			span.textContent = "Search";
+    			span.textContent = "Search name/tags";
     			t3 = space();
     			input = element("input");
     			t4 = space();
@@ -1971,15 +2124,15 @@ var app = (function () {
     			set_style(span, "margin-right", "20px");
     			set_style(span, "font-size", "25px");
     			attr_dev(span, "class", "svelte-yo50r4");
-    			add_location(span, file$4, 65, 2, 1223);
+    			add_location(span, file$4, 73, 2, 1443);
     			attr_dev(input, "type", "text");
     			set_style(input, "width", "50%");
     			set_style(input, "height", "40px");
     			set_style(input, "font-size", "29px");
     			attr_dev(input, "class", "svelte-yo50r4");
-    			add_location(input, file$4, 66, 1, 1306);
+    			add_location(input, file$4, 74, 1, 1536);
     			attr_dev(table, "class", "svelte-yo50r4");
-    			add_location(table, file$4, 68, 1, 1400);
+    			add_location(table, file$4, 76, 1, 1630);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -2073,14 +2226,14 @@ var app = (function () {
     		block,
     		id: create_then_block.name,
     		type: "then",
-    		source: "(63:1) {:then places}",
+    		source: "(70:1) {:then places}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (72:2) {#if ( item.types?.filter(t=>t.startsWith(searchTerm)).length>0 || searchTerm == null || searchTerm.length <=0)}
+    // (80:2) {#if ( searchTerm == null || searchTerm.length <=0 ||   item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||   item.types?.filter(t=>t.startsWith(searchTerm)).length>0 )}
     function create_if_block_1$1(ctx) {
     	let activityrow;
     	let current;
@@ -2121,16 +2274,16 @@ var app = (function () {
     		block,
     		id: create_if_block_1$1.name,
     		type: "if",
-    		source: "(72:2) {#if ( item.types?.filter(t=>t.startsWith(searchTerm)).length>0 || searchTerm == null || searchTerm.length <=0)}",
+    		source: "(80:2) {#if ( searchTerm == null || searchTerm.length <=0 ||   item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||   item.types?.filter(t=>t.startsWith(searchTerm)).length>0 )}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (71:2) {#each places.Items as item }
+    // (79:2) {#each places.Items as item }
     function create_each_block$1(ctx) {
-    	let show_if = /*item*/ ctx[7].types?.filter(/*func*/ ctx[3]).length > 0 || /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0;
+    	let show_if = /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0 || /*item*/ ctx[7].name.toLowerCase().includes(/*searchTerm*/ ctx[0].toLowerCase()) || /*item*/ ctx[7].types?.filter(/*func*/ ctx[3]).length > 0;
     	let if_block_anchor;
     	let current;
     	let if_block = show_if && create_if_block_1$1(ctx);
@@ -2146,13 +2299,13 @@ var app = (function () {
     			current = true;
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*promise, searchTerm*/ 3) show_if = /*item*/ ctx[7].types?.filter(/*func*/ ctx[3]).length > 0 || /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0;
+    			if (dirty & /*searchTerm, promise*/ 3) show_if = /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0 || /*item*/ ctx[7].name.toLowerCase().includes(/*searchTerm*/ ctx[0].toLowerCase()) || /*item*/ ctx[7].types?.filter(/*func*/ ctx[3]).length > 0;
 
     			if (show_if) {
     				if (if_block) {
     					if_block.p(ctx, dirty);
 
-    					if (dirty & /*promise, searchTerm*/ 3) {
+    					if (dirty & /*searchTerm, promise*/ 3) {
     						transition_in(if_block, 1);
     					}
     				} else {
@@ -2190,14 +2343,14 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(71:2) {#each places.Items as item }",
+    		source: "(79:2) {#each places.Items as item }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (61:17)    WAITING...  {:then places}
+    // (68:17)    WAITING...  {:then places}
     function create_pending_block(ctx) {
     	let t;
 
@@ -2220,14 +2373,14 @@ var app = (function () {
     		block,
     		id: create_pending_block.name,
     		type: "pending",
-    		source: "(61:17)    WAITING...  {:then places}",
+    		source: "(68:17)    WAITING...  {:then places}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (58:0) <AppFrame>
+    // (65:0) <AppFrame>
     function create_default_slot_1(ctx) {
     	let await_block_anchor;
     	let promise_1;
@@ -2295,7 +2448,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(58:0) <AppFrame>",
+    		source: "(65:0) <AppFrame>",
     		ctx
     	});
 
@@ -2307,7 +2460,7 @@ var app = (function () {
     	let if_block;
     	let if_block_anchor;
     	let current;
-    	const if_block_creators = [create_if_block$3, create_else_block];
+    	const if_block_creators = [create_if_block$3, create_else_block$1];
     	const if_blocks = [];
 
     	function select_block_type(ctx, dirty) {
@@ -2416,6 +2569,14 @@ var app = (function () {
     			$$invalidate(1, promise = fetchData());
 
     			promise.then(d => {
+    				d.Items.sort((a, b) => {
+    					if (a.name.toLowerCase() > b.name.toLowerCase()) return 1;
+    					if (b.name.toLowerCase() > a.name.toLowerCase()) return -1;
+    					return 0;
+    				});
+
+    				d.Items[0].scoop_status = "red";
+
     				//console.log( JSON.stringify(d))
     				console.log(d.Items.length);
 

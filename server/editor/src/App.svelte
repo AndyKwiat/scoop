@@ -20,7 +20,7 @@
         'Authorization': $AuthStore.key
 		})})
 
-		if (response.ok) {
+		if (response.ok) {		
   			return response.json();
 			
 		} else {
@@ -35,6 +35,13 @@
 		if ( as.loggedIn  ){
 			promise=fetchData();
 			promise.then(d=>{
+			
+				d.Items.sort((a,b)=>{
+					if (a.name.toLowerCase() > b.name.toLowerCase() ) return 1
+					if ( b.name.toLowerCase() > a.name.toLowerCase() ) return -1
+					return 0
+				})
+				d.Items[0].scoop_status="red"
 				//console.log( JSON.stringify(d))
 				console.log(d.Items.length);
 				console.log("LENGTH")
@@ -61,15 +68,18 @@
 	{#await promise}
 		WAITING...
 	{:then places} 
+		
 		{places.Items.length } is how may places yo got..,
 
-		<span style="margin-left:100px;margin-right:20px;font-size:25px">Search   </span>
+		<span style="margin-left:100px;margin-right:20px;font-size:25px">Search name/tags   </span>
 	<input type="text" bind:value={searchTerm} style=" width:50%; height:40px; font-size:29px">
 
 	<table>
 		<!-- <thead><tr><th>Desc</th><th>Id</th></tr></thead> -->
 		{#each places.Items as item }
-		{#if ( item.types?.filter(t=>t.startsWith(searchTerm)).length>0 || searchTerm == null || searchTerm.length <=0)}
+		{#if ( searchTerm == null || searchTerm.length <=0 ||
+		item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+		item.types?.filter(t=>t.startsWith(searchTerm)).length>0 )}
 			<ActivityRow {item}></ActivityRow>
 			
 				

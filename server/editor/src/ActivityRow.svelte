@@ -1,8 +1,18 @@
 <script>
     export let item;
+  
     let jsRawText=null;
     function OnJSRawClicked( item ){
         jsRawText = JSON.stringify(item, null, 2);
+    }
+    function OnScoopStatusClicked(it){
+        if (item.scoop_status == "red" ) 
+        item.scoop_status = "yellow"
+        else if ( item.scoop_status == "yellow" )
+        item.scoop_status = "green"
+        else item.scoop_status = "red"     
+     
+      
     }
 </script>
 <style>
@@ -51,6 +61,13 @@
         font-weight: normal;
         font-size:80%;
     }
+    .scoop_status{
+        font-style:normal;
+        font-weight: bolder;
+        font-size:280%;
+        color:rgb(0, 67, 0);
+        cursor: pointer;
+    }
 
     .jsraw_button{
         grid-column:3;
@@ -69,9 +86,21 @@
     
 </style>
 <tr><td>
-<div class="container">
+<div class="container" style={ item?.scoop_status=="red"?"background-color:rgb(237, 153, 153)":(item?.scoop_status=="yellow"?"background-color:yellow":"")}>
 
-    <div class="name">{item.name} <div class="vicinity">{item.vicinity}</div> <div class="business_status">Status:{item.business_status}</div></div>
+    <div class="name">{item.name} <div class="vicinity">{item.vicinity}</div> 
+    <div class="business_status">Status:{item.business_status}</div>
+    <div class="scoop_status"><span  on:click={()=>OnScoopStatusClicked(item)}>
+        {#if !item.scoop_status || item.scoop_status == "green" }
+        &#9745;
+        {:else if item.scoop_status == "red"}
+        &#10006;
+        {:else}
+        &#9888;
+        {/if}
+     
+    </span></div>
+    </div>
    
     <div class="types">
         {#each item.types as tag }
@@ -81,7 +110,7 @@
     <div class="pic">
         {#if item.photos?.length > 0 }
         {#each item.photos as ph}
-            <img height="125px" max-width="20%" src={  "https://www.stirfrygames.com/img/" + ph.photo_reference + "-125.jpg" }
+            <img height="125px" max-width="20%" src={  "https://www.stirfrygames.com/img/125/" + ph.photo_reference + "-125.jpg" }
             alt={item.name}/>
         {/each}
         {/if}

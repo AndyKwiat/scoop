@@ -13,12 +13,18 @@ const App = () => {
   const [touchTime, setTouchTime] = useState(0);
   const [isDetailsMode, setIsDetailsMode] = useState(false);
   const [ideas, setIdeas] = useState(null)
+  const [allIdeas, setAllIdeas] = useState(null)
 
   const [fetchStarted, setFetchStarted] = useState(false)
   const [msg,setMsg] = useState("loading..")
   
+  if (allIdeas == null){
+    return fetchIdeas(setAllIdeas, fetchStarted, setFetchStarted, msg, setMsg)
+  }
+
   if (ideas == null){
-    return fetchIdeas(setIdeas, fetchStarted, setFetchStarted, msg, setMsg)
+    setIdeas(allIdeas.filter(x=>distanceToMe(x) < 20))
+    return
   }
     
   const onSwipeAnimEnded = ()=>{
@@ -87,6 +93,7 @@ const App = () => {
             source={{ uri: getPicUri(ideas[frontIdea]) }} 
             resizeMode="cover" 
             onLoad={() => {
+             
               if ( !loaded){
                 setNextIdea((nextIdea +1) % ideas.length)
               }
@@ -96,11 +103,14 @@ const App = () => {
 
         <Animated.Text style={styles.cardText}>{ideas[frontIdea].name}</Animated.Text>
        
+        
         </Animated.View>
+        <PhotoDots idea={ideas[frontIdea]}/>
 
         { renderDetailsMode(ideas[frontIdea], detailsModeAnim)}
  
       </View>
+    
     </View>
   );
 }
@@ -121,8 +131,13 @@ function onTapPic(myHt, isDetailsMode, setIsDetailsMode) {
 }
 
 function getPicUri(idea) {
-  if (idea.photos && idea.photos.length > 0)
-    return "https://www.stirfrygames.com/img/960/" + idea.photos[0].photo_reference + "-960.jpg";
+ 
+  
+  if (idea.photos && idea.photos.length > 0){
+    let pic = "https://www.stirfrygames.com/img/960/" + idea.photos[0].photo_reference + "-960.jpg";
+    console.log("pic check: " + pic )
+    return pic;
+  }
   return "https://cdn4.vectorstock.com/i/thumb-large/19/58/no-image-vector-30371958.jpg"
 
 }
@@ -155,7 +170,10 @@ const styles = StyleSheet.create({
     color:"white",
     paddingTop:"20%",
     paddingLeft:10,
-    fontSize:18
+    fontSize:18,
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+  textShadowOffset: {width: -1, height: 1},
+  textShadowRadius: 2
   },
   ideaCard: {
     position: "absolute",
@@ -167,6 +185,18 @@ const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 24,
     fontWeight: "bold"
+  },
+  reverseShadow:{
+    textShadowColor: 'rgba(99, 99, 99, 0.75)',
+    textShadowOffset: {width: -2, height: 2},
+    textShadowRadius: 1,
+    color:"black",
+  },
+  frontShadow:{
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: {width: -2, height: 2},
+    textShadowRadius: 1,
+    color:"white",
   }
  
 });
@@ -236,4 +266,17 @@ function fetchIdeas(setIdeas, fetchStarted, setFetchStarted, msg, setMsg){
     ); 
   
 }
+function PhotoDots({idea}){
+  return (
+    <Text style={{  position:"absolute",
+    color:"white",
+    right:0,
+    fontSize:38,
+   
+    paddingTop:"10%", }}>{idea.photos.map((obj,i)=><Text key={i} 
+    style={(i==1)?styles.frontShadow:styles.reverseShadow}>&#8226;</Text>)}</Text>
+
+  )
+}
+
 export default App;

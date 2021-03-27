@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import { Animated, View, StyleSheet, PanResponder, Text, Image, Easing, Dimensions, TouchableHighlight } from "react-native";
 
 let ideas = null;
-let msg = "kewl"
+let msg = "Loading..."
 
 const App = () => {
 

@@ -2,11 +2,11 @@ import { setStatusBarNetworkActivityIndicatorVisible } from "expo-status-bar";
 import React, { useRef, useState } from "react";
 import { Animated, View, StyleSheet, PanResponder, Text, Image, Easing, Dimensions, TouchableHighlight } from "react-native";
 
-let ideas = null;
+
 let msg = "Loading..."
 
 const App = () => {
-
+ 
 
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
@@ -16,6 +16,8 @@ const App = () => {
   const [loaded, setLoaded] = useState(false);
   const [touchTime, setTouchTime] = useState(0);
   const [isDetailsMode, setIsDetailsMode] = useState(false);
+
+  const [ideas, setIdeas] = useState(null)
 
   if ( !isReady){
     
@@ -33,7 +35,8 @@ const App = () => {
     })
     .then((json) => {     
       console.log(json)
-      ideas = json;
+      setIdeas(json)
+    
       //shuffleArray(ideas)
       setIsReady(true)
      // return json.movies;
@@ -145,11 +148,9 @@ const App = () => {
               })
             }]
           }]}
-          {...panResponder.panHandlers}
-        >
-
-          <Animated.Image style={[styles.ideaCard,
+          {...panResponder.panHandlers}>
         
+          <Animated.Image style={[styles.ideaCard,        
           loaded ? {} : { display: 'none' }
           ]} source={{ uri: getPicUri(ideas[frontIdea]) }} resizeMode="cover" onLoad={() => {
             if ( !loaded){
@@ -162,23 +163,10 @@ const App = () => {
 
         </Animated.View>
 
-       
-        <Animated.View style={{
-          backgroundColor: "rgb(50,50,50)",
-          height: detailsModeAnim.interpolate({ inputRange: [0, 1], outputRange: ["0%", "50%"] }),
-          justifyContent: "center",
-          alignItems: "center"
+        {
+        renderDetailsMode(ideas[frontIdea], detailsModeAnim)
         }
-        }>
-            <Animated.Text style={{
-              color: "white",
-              opacity: detailsModeAnim
-            }}>{ideas[frontIdea].name}</Animated.Text>
-            <Animated.Text style={{
-              color: "white",
-              opacity: detailsModeAnim
-            }}>{ideas[frontIdea].vicinity}</Animated.Text>
-        </Animated.View>
+        
 
       </View>
     </View>
@@ -208,6 +196,22 @@ function getPicUri(idea) {
 
 }
 
+function renderDetailsMode(idea, anim ){
+  let textStyle={ color: "white", opacity: anim }
+  return (
+    <Animated.View style={{
+      backgroundColor: "rgb(50,50,50)",
+      height: anim.interpolate({ inputRange: [0, 1], outputRange: ["0%", "50%"] }),
+      justifyContent: "center",
+      alignItems: "center"
+    }}>
+          
+          <Animated.Text style={textStyle}>{idea.name}</Animated.Text>
+          <Animated.Text style={textStyle}>{idea.vicinity}</Animated.Text>
+          <Animated.Text style={textStyle}>{distanceToMe(idea).toFixed(2)} km</Animated.Text>
+    </Animated.View>)
+}
+
 const styles = StyleSheet.create({
   container: {
     //  flex: 1,
@@ -215,6 +219,7 @@ const styles = StyleSheet.create({
     height: "90%",
 
   },
+ 
   ideaCard: {
     position: "absolute",
     height: "100%",
@@ -228,6 +233,31 @@ const styles = StyleSheet.create({
   }
  
 });
+function distanceToMe(idea){
+  const GuelphLocation = { lat: 43.544878, lng: -80.248004 }
+  return getDistanceFromLatLonInKm( GuelphLocation.lat, GuelphLocation.lng, idea.geometry.location.lat, idea.geometry.location.lng)
+
+  
+}
+
+function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
+  var R = 6371; // Radius of the earth in km
+  var dLat = deg2rad(lat2-lat1);  // deg2rad below
+  var dLon = deg2rad(lon2-lon1); 
+  var a = 
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
+    Math.sin(dLon/2) * Math.sin(dLon/2)
+    ; 
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+  var d = R * c; // Distance in km
+  return d;
+}
+
+function deg2rad(deg) {
+  return deg * (Math.PI/180)
+}
+
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {

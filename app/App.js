@@ -68,6 +68,7 @@ const App = () => {
       <View style={styles.container} >
         
         <Image style={[styles.ideaCard]} source={{ uri: getPicUri(ideas[nextIdea]) }} resizeMode="cover" />
+        <Animated.Text style={styles.cardText}>{ideas[nextIdea].name}</Animated.Text>
 
         <Animated.View
           style={[mypos.getLayout(), {
@@ -80,7 +81,7 @@ const App = () => {
                 outputRange: [0, 0]  // 0 : 150, 0.5 : 75, 1 : 0
             })}]
           }]} {...panResponder.panHandlers}>
-        
+           
           <Animated.Image 
             style={[styles.ideaCard,loaded ? {} : { display: 'none' }]} 
             source={{ uri: getPicUri(ideas[frontIdea]) }} 
@@ -92,6 +93,8 @@ const App = () => {
               setLoaded(true);
             }}
           />
+
+        <Animated.Text style={styles.cardText}>{ideas[frontIdea].name}</Animated.Text>
        
         </Animated.View>
 
@@ -147,7 +150,13 @@ const styles = StyleSheet.create({
     height: "90%",
 
   },
- 
+  cardText:{
+    position:"absolute",
+    color:"white",
+    paddingTop:"20%",
+    paddingLeft:10,
+    fontSize:18
+  },
   ideaCard: {
     position: "absolute",
     height: "100%",
@@ -192,7 +201,6 @@ function shuffleArray(array) {
   }
 }
 function fetchIdeas(setIdeas, fetchStarted, setFetchStarted, msg, setMsg){
- 
   
   if ( !fetchStarted){
     setFetchStarted(true)

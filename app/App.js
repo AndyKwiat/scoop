@@ -3,8 +3,6 @@ import React, { useRef, useState } from "react";
 import { Animated, View, StyleSheet, PanResponder, Text, Image, Easing, Dimensions, TouchableHighlight } from "react-native";
 
 
-let msg = "Loading..."
-
 const App = () => {
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
@@ -94,6 +92,7 @@ const App = () => {
               setLoaded(true);
             }}
           />
+       
         </Animated.View>
 
         { renderDetailsMode(ideas[frontIdea], detailsModeAnim)}

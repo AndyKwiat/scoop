@@ -111,6 +111,7 @@ async function getItemById( id ){
       return await onScanWrapper( { TableName: "scoop-prod-places"})
    })
 
+   
    for (i=0; i < cache.length; i++ ){
       let item = cache[i];
       if ( item.id === id )

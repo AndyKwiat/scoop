@@ -1978,17 +1978,17 @@ var app = (function () {
 
     function get_each_context$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[10] = list[i];
+    	child_ctx[11] = list[i];
     	return child_ctx;
     }
 
     function get_each_context_1$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[13] = list[i];
+    	child_ctx[14] = list[i];
     	return child_ctx;
     }
 
-    // (73:0) {:else}
+    // (88:0) {:else}
     function create_else_block$1(ctx) {
     	let appframe;
     	let current;
@@ -2012,7 +2012,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const appframe_changes = {};
 
-    			if (dirty & /*$$scope, filteredItems, searchTerm, scoop_status_filter*/ 65547) {
+    			if (dirty & /*$$scope, filteredItems, searchTerm, scoop_status_filter*/ 131079) {
     				appframe_changes.$$scope = { dirty, ctx };
     			}
 
@@ -2036,14 +2036,14 @@ var app = (function () {
     		block,
     		id: create_else_block$1.name,
     		type: "else",
-    		source: "(73:0) {:else}",
+    		source: "(88:0) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (70:0) {#if !$AuthStore.loggedIn}
+    // (85:0) {#if !$AuthStore.loggedIn}
     function create_if_block$3(ctx) {
     	let auth;
     	let current;
@@ -2060,7 +2060,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const auth_changes = {};
 
-    			if (dirty & /*$$scope*/ 65536) {
+    			if (dirty & /*$$scope*/ 131072) {
     				auth_changes.$$scope = { dirty, ctx };
     			}
 
@@ -2084,17 +2084,17 @@ var app = (function () {
     		block,
     		id: create_if_block$3.name,
     		type: "if",
-    		source: "(70:0) {#if !$AuthStore.loggedIn}",
+    		source: "(85:0) {#if !$AuthStore.loggedIn}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (78:3) {#each scoop_status_options as option}
+    // (93:3) {#each scoop_status_options as option}
     function create_each_block_1$1(ctx) {
     	let option;
-    	let t0_value = /*option*/ ctx[13] + "";
+    	let t0_value = /*option*/ ctx[14] + "";
     	let t0;
     	let t1;
 
@@ -2103,10 +2103,10 @@ var app = (function () {
     			option = element("option");
     			t0 = text(t0_value);
     			t1 = space();
-    			option.__value = /*option*/ ctx[13];
+    			option.__value = /*option*/ ctx[14];
     			option.value = option.__value;
     			attr_dev(option, "class", "svelte-cfiq38");
-    			add_location(option, file$4, 78, 4, 1807);
+    			add_location(option, file$4, 93, 4, 2274);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -2123,20 +2123,20 @@ var app = (function () {
     		block,
     		id: create_each_block_1$1.name,
     		type: "each",
-    		source: "(78:3) {#each scoop_status_options as option}",
+    		source: "(93:3) {#each scoop_status_options as option}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (88:2) {#each filteredItems as item }
+    // (104:2) {#each filteredItems as item }
     function create_each_block$1(ctx) {
     	let activityrow;
     	let current;
 
     	activityrow = new ActivityRow({
-    			props: { item: /*item*/ ctx[10] },
+    			props: { item: /*item*/ ctx[11] },
     			$$inline: true
     		});
 
@@ -2150,7 +2150,7 @@ var app = (function () {
     		},
     		p: function update(ctx, dirty) {
     			const activityrow_changes = {};
-    			if (dirty & /*filteredItems*/ 8) activityrow_changes.item = /*item*/ ctx[10];
+    			if (dirty & /*filteredItems*/ 4) activityrow_changes.item = /*item*/ ctx[11];
     			activityrow.$set(activityrow_changes);
     		},
     		i: function intro(local) {
@@ -2171,24 +2171,26 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(88:2) {#each filteredItems as item }",
+    		source: "(104:2) {#each filteredItems as item }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (74:0) <AppFrame>
+    // (89:0) <AppFrame>
     function create_default_slot_1(ctx) {
-    	let t0_value = /*filteredItems*/ ctx[3].length + "";
+    	let t0_value = /*filteredItems*/ ctx[2].length + "";
     	let t0;
     	let t1;
     	let select;
     	let t2;
-    	let span;
+    	let button;
     	let t4;
+    	let span;
+    	let t6;
     	let input;
-    	let t5;
+    	let t7;
     	let table;
     	let current;
     	let mounted;
@@ -2201,7 +2203,7 @@ var app = (function () {
     		each_blocks_1[i] = create_each_block_1$1(get_each_context_1$1(ctx, each_value_1, i));
     	}
 
-    	let each_value = /*filteredItems*/ ctx[3];
+    	let each_value = /*filteredItems*/ ctx[2];
     	validate_each_argument(each_value);
     	let each_blocks = [];
 
@@ -2224,11 +2226,14 @@ var app = (function () {
     			}
 
     			t2 = space();
+    			button = element("button");
+    			button.textContent = "Green->Red Selected";
+    			t4 = space();
     			span = element("span");
     			span.textContent = "Search name/tags";
-    			t4 = space();
+    			t6 = space();
     			input = element("input");
-    			t5 = space();
+    			t7 = space();
     			table = element("table");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -2236,21 +2241,23 @@ var app = (function () {
     			}
 
     			attr_dev(select, "class", "svelte-cfiq38");
-    			if (/*scoop_status_filter*/ ctx[1] === void 0) add_render_callback(() => /*select_change_handler*/ ctx[6].call(select));
-    			add_location(select, file$4, 76, 2, 1718);
+    			if (/*scoop_status_filter*/ ctx[1] === void 0) add_render_callback(() => /*select_change_handler*/ ctx[7].call(select));
+    			add_location(select, file$4, 91, 2, 2185);
+    			attr_dev(button, "class", "svelte-cfiq38");
+    			add_location(button, file$4, 98, 2, 2351);
     			set_style(span, "margin-left", "100px");
     			set_style(span, "margin-right", "20px");
     			set_style(span, "font-size", "25px");
     			attr_dev(span, "class", "svelte-cfiq38");
-    			add_location(span, file$4, 83, 2, 1884);
+    			add_location(span, file$4, 99, 2, 2435);
     			attr_dev(input, "type", "text");
     			set_style(input, "width", "50%");
     			set_style(input, "height", "40px");
     			set_style(input, "font-size", "29px");
     			attr_dev(input, "class", "svelte-cfiq38");
-    			add_location(input, file$4, 84, 1, 1977);
+    			add_location(input, file$4, 100, 1, 2528);
     			attr_dev(table, "class", "svelte-cfiq38");
-    			add_location(table, file$4, 86, 1, 2071);
+    			add_location(table, file$4, 102, 1, 2622);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -2263,11 +2270,13 @@ var app = (function () {
 
     			select_option(select, /*scoop_status_filter*/ ctx[1]);
     			insert_dev(target, t2, anchor);
-    			insert_dev(target, span, anchor);
+    			insert_dev(target, button, anchor);
     			insert_dev(target, t4, anchor);
+    			insert_dev(target, span, anchor);
+    			insert_dev(target, t6, anchor);
     			insert_dev(target, input, anchor);
     			set_input_value(input, /*searchTerm*/ ctx[0]);
-    			insert_dev(target, t5, anchor);
+    			insert_dev(target, t7, anchor);
     			insert_dev(target, table, anchor);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -2278,15 +2287,16 @@ var app = (function () {
 
     			if (!mounted) {
     				dispose = [
-    					listen_dev(select, "change", /*select_change_handler*/ ctx[6]),
-    					listen_dev(input, "input", /*input_input_handler*/ ctx[7])
+    					listen_dev(select, "change", /*select_change_handler*/ ctx[7]),
+    					listen_dev(button, "click", stop_propagation(/*GreenToRedClicked*/ ctx[5]), false, false, true),
+    					listen_dev(input, "input", /*input_input_handler*/ ctx[8])
     				];
 
     				mounted = true;
     			}
     		},
     		p: function update(ctx, dirty) {
-    			if ((!current || dirty & /*filteredItems*/ 8) && t0_value !== (t0_value = /*filteredItems*/ ctx[3].length + "")) set_data_dev(t0, t0_value);
+    			if ((!current || dirty & /*filteredItems*/ 4) && t0_value !== (t0_value = /*filteredItems*/ ctx[2].length + "")) set_data_dev(t0, t0_value);
 
     			if (dirty & /*scoop_status_options*/ 16) {
     				each_value_1 = /*scoop_status_options*/ ctx[4];
@@ -2320,8 +2330,8 @@ var app = (function () {
     				set_input_value(input, /*searchTerm*/ ctx[0]);
     			}
 
-    			if (dirty & /*filteredItems*/ 8) {
-    				each_value = /*filteredItems*/ ctx[3];
+    			if (dirty & /*filteredItems*/ 4) {
+    				each_value = /*filteredItems*/ ctx[2];
     				validate_each_argument(each_value);
     				let i;
 
@@ -2372,10 +2382,12 @@ var app = (function () {
     			if (detaching) detach_dev(select);
     			destroy_each(each_blocks_1, detaching);
     			if (detaching) detach_dev(t2);
-    			if (detaching) detach_dev(span);
+    			if (detaching) detach_dev(button);
     			if (detaching) detach_dev(t4);
+    			if (detaching) detach_dev(span);
+    			if (detaching) detach_dev(t6);
     			if (detaching) detach_dev(input);
-    			if (detaching) detach_dev(t5);
+    			if (detaching) detach_dev(t7);
     			if (detaching) detach_dev(table);
     			destroy_each(each_blocks, detaching);
     			mounted = false;
@@ -2387,7 +2399,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(74:0) <AppFrame>",
+    		source: "(89:0) <AppFrame>",
     		ctx
     	});
 
@@ -2403,7 +2415,7 @@ var app = (function () {
     	const if_blocks = [];
 
     	function select_block_type(ctx, dirty) {
-    		if (!/*$AuthStore*/ ctx[2].loggedIn) return 0;
+    		if (!/*$AuthStore*/ ctx[3].loggedIn) return 0;
     		return 1;
     	}
 
@@ -2480,7 +2492,7 @@ var app = (function () {
     	let filteredItems;
     	let $AuthStore;
     	validate_store(AuthStore, "AuthStore");
-    	component_subscribe($$self, AuthStore, $$value => $$invalidate(2, $AuthStore = $$value));
+    	component_subscribe($$self, AuthStore, $$value => $$invalidate(3, $AuthStore = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("App", slots, []);
     	let searchTerm = null;
@@ -2488,6 +2500,28 @@ var app = (function () {
     	let scoop_status_filter = "all";
     	let scoop_status_options = ["all", "green", "yellow", "red"];
     	let pulledItems = [];
+
+    	function GreenToRedClicked() {
+    		let changingItems = filteredItems.filter(x => x.scoop_status == "green" || !x.scoop_status);
+
+    		if (confirm("Will change " + changingItems.length + " items, are you sure?")) {
+    			for (let i = 0; i < changingItems.length; i++) {
+    				let x = changingItems[i];
+
+    				setTimeout(
+    					() => {
+    						x.scoop_status = "red";
+    						SaveItem(x);
+    					},
+    					5000 * i
+    				);
+    			}
+
+    			changingItems.forEach(x => {
+    				
+    			});
+    		}
+    	}
 
     	async function fetchData() {
     		const response = await self.fetch(SERVER_URL + "/places?all=true", {
@@ -2517,7 +2551,7 @@ var app = (function () {
     					return 0;
     				});
 
-    				$$invalidate(5, pulledItems = d);
+    				$$invalidate(6, pulledItems = d);
     			});
     		}
     	});
@@ -2545,14 +2579,16 @@ var app = (function () {
     		Auth,
     		AppFrame,
     		ActivityRow,
+    		SaveItem,
     		searchTerm,
     		promise,
     		scoop_status_filter,
     		scoop_status_options,
     		pulledItems,
+    		GreenToRedClicked,
     		fetchData,
-    		$AuthStore,
-    		filteredItems
+    		filteredItems,
+    		$AuthStore
     	});
 
     	$$self.$inject_state = $$props => {
@@ -2560,8 +2596,8 @@ var app = (function () {
     		if ("promise" in $$props) promise = $$props.promise;
     		if ("scoop_status_filter" in $$props) $$invalidate(1, scoop_status_filter = $$props.scoop_status_filter);
     		if ("scoop_status_options" in $$props) $$invalidate(4, scoop_status_options = $$props.scoop_status_options);
-    		if ("pulledItems" in $$props) $$invalidate(5, pulledItems = $$props.pulledItems);
-    		if ("filteredItems" in $$props) $$invalidate(3, filteredItems = $$props.filteredItems);
+    		if ("pulledItems" in $$props) $$invalidate(6, pulledItems = $$props.pulledItems);
+    		if ("filteredItems" in $$props) $$invalidate(2, filteredItems = $$props.filteredItems);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -2569,17 +2605,18 @@ var app = (function () {
     	}
 
     	$$self.$$.update = () => {
-    		if ($$self.$$.dirty & /*pulledItems, searchTerm, scoop_status_filter*/ 35) {
-    			$$invalidate(3, filteredItems = pulledItems.filter(item => searchTerm == null || searchTerm.length <= 0 || item.name.toLowerCase().includes(searchTerm.toLowerCase()) || item.types?.filter(t => t.includes(searchTerm)).length > 0).filter(x => scoop_status_filter == "all" || x.scoop_status == scoop_status_filter || scoop_status_filter == "green" && !x.scoop_status)); // defaults to green
+    		if ($$self.$$.dirty & /*pulledItems, searchTerm, scoop_status_filter*/ 67) {
+    			$$invalidate(2, filteredItems = pulledItems.filter(item => searchTerm == null || searchTerm.length <= 0 || item.name.toLowerCase().includes(searchTerm.toLowerCase()) || item.types?.filter(t => t.includes(searchTerm.toLowerCase())).length > 0).filter(x => scoop_status_filter == "all" || x.scoop_status == scoop_status_filter || scoop_status_filter == "green" && !x.scoop_status)); // defaults to green
     		}
     	};
 
     	return [
     		searchTerm,
     		scoop_status_filter,
-    		$AuthStore,
     		filteredItems,
+    		$AuthStore,
     		scoop_status_options,
+    		GreenToRedClicked,
     		pulledItems,
     		select_change_handler,
     		input_input_handler

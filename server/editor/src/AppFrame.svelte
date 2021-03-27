@@ -1,7 +1,24 @@
 <script>
-    import {AuthStore,SERVER_URL, StatusLog} from './stores'
+    import {AuthStore,SERVER_URL, StatusLog,addStatus} from './stores'
     let flushCacheBtnText = "Flush Cache3"
     let menuOpen = false;
+    function OnJobButtonClicked(){
+        addStatus( "Running Job...")
+        fetch( SERVER_URL + '/runjob',{
+            method: 'get', 
+        headers: new Headers({
+        'Authorization': $AuthStore.key
+		})}).then ( (resp)=>{
+            if ( resp.ok ){
+                addStatus("JOB OK")
+            }else {
+                addStatus("JOB FAIL")
+            }
+        }).catch( e =>{
+            addStatus("JOB FAIL" + e.message)
+        })
+        
+    }
     function OnFlushCacheClicked(){
         flushCacheBtnText = "Flushing..."
         fetch(SERVER_URL + '/flushcache',
@@ -52,6 +69,7 @@
     <span class="admin" on:click={()=>{menuOpen = !menuOpen}}>&#9881;
         {#if menuOpen }
         <button on:click|stopPropagation={OnFlushCacheClicked}>{flushCacheBtnText}</button>
+        <button on:click|stopPropagation={OnJobButtonClicked}>RUN JOB</button>
         {/if}
         
     </span>

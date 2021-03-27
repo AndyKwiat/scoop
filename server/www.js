@@ -39,6 +39,26 @@ app.get('/flushcache', function (req, res ){
    res.send(200)
 })
 
+app.get('/runjob', function(req,res){
+   log("RUNNING JOB")
+   if ( !cachedData.placesAll ){
+      throw new Error("NO CACHE FOR JOB")
+   }
+   let count = 0;
+   log("RUNNING YELLOW PHOTO JOB")
+   cachedData.placesAll.forEach( x=>{
+      if ( (x.scoop_status=="green" || !x.scoop_status )
+         && (!x.photos || x.photos.length <=0) ){
+            x.scoop_status = "yellow"
+            dbSaveItem(x)
+            count++
+         }
+   })
+   console.log("JOB DONE COUNT: ",count)
+   /// enter job here
+   res.send(200)
+})
+
 
 
 app.use( express.static("editor/public"))
@@ -62,24 +82,26 @@ app.post( '/saveItem', function(req, res ){
          return
       }
 
-      let params = {
-         TableName: "scoop-prod-places",
-         Item:  item,
+      
+   dbSaveItem( item,res )
+   })
    
-   };
+})
 
+function dbSaveItem( item,res ){
+   let params = { TableName: "scoop-prod-places", Item:  item}
    docClient.put(params, function(err, data) {
       if (err) {
             console.error("Unable to add item", item.id, ". Error JSON:", JSON.stringify(err, null, 2));
             sendError(res, "Unable to save item", err)
       } else {
             console.log("PutItem succeeded:", item.id);
+            if (res )
             res.send(changes)
             flushCache( item )
       }
-  });})
-   
-})
+  });
+}
 
 function flushCache( item ){
    if ( item ){

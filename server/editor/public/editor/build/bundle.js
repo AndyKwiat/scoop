@@ -1046,7 +1046,7 @@ var app = (function () {
     const { console: console_1$1 } = globals;
     const file$2 = "src/AppFrame.svelte";
 
-    // (48:0) {#if $StatusLog.status?.length > 0 }
+    // (65:0) {#if $StatusLog.status?.length > 0 }
     function create_if_block_1(ctx) {
     	let div;
     	let t_value = /*$StatusLog*/ ctx[2].status + "";
@@ -1057,7 +1057,7 @@ var app = (function () {
     			div = element("div");
     			t = text(t_value);
     			attr_dev(div, "class", "statusLog svelte-1se4znc");
-    			add_location(div, file$2, 48, 0, 1161);
+    			add_location(div, file$2, 65, 0, 1638);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1075,43 +1075,58 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(48:0) {#if $StatusLog.status?.length > 0 }",
+    		source: "(65:0) {#if $StatusLog.status?.length > 0 }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (53:8) {#if menuOpen }
+    // (70:8) {#if menuOpen }
     function create_if_block$1(ctx) {
-    	let button;
-    	let t;
+    	let button0;
+    	let t0;
+    	let t1;
+    	let button1;
     	let mounted;
     	let dispose;
 
     	const block = {
     		c: function create() {
-    			button = element("button");
-    			t = text(/*flushCacheBtnText*/ ctx[0]);
-    			attr_dev(button, "class", "svelte-1se4znc");
-    			add_location(button, file$2, 53, 8, 1324);
+    			button0 = element("button");
+    			t0 = text(/*flushCacheBtnText*/ ctx[0]);
+    			t1 = space();
+    			button1 = element("button");
+    			button1.textContent = "RUN JOB";
+    			attr_dev(button0, "class", "svelte-1se4znc");
+    			add_location(button0, file$2, 70, 8, 1801);
+    			attr_dev(button1, "class", "svelte-1se4znc");
+    			add_location(button1, file$2, 71, 8, 1893);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, button, anchor);
-    			append_dev(button, t);
+    			insert_dev(target, button0, anchor);
+    			append_dev(button0, t0);
+    			insert_dev(target, t1, anchor);
+    			insert_dev(target, button1, anchor);
 
     			if (!mounted) {
-    				dispose = listen_dev(button, "click", stop_propagation(/*OnFlushCacheClicked*/ ctx[3]), false, false, true);
+    				dispose = [
+    					listen_dev(button0, "click", stop_propagation(/*OnFlushCacheClicked*/ ctx[4]), false, false, true),
+    					listen_dev(button1, "click", stop_propagation(/*OnJobButtonClicked*/ ctx[3]), false, false, true)
+    				];
+
     				mounted = true;
     			}
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*flushCacheBtnText*/ 1) set_data_dev(t, /*flushCacheBtnText*/ ctx[0]);
+    			if (dirty & /*flushCacheBtnText*/ 1) set_data_dev(t0, /*flushCacheBtnText*/ ctx[0]);
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(button);
+    			if (detaching) detach_dev(button0);
+    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(button1);
     			mounted = false;
-    			dispose();
+    			run_all(dispose);
     		}
     	};
 
@@ -1119,7 +1134,7 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(53:8) {#if menuOpen }",
+    		source: "(70:8) {#if menuOpen }",
     		ctx
     	});
 
@@ -1137,8 +1152,8 @@ var app = (function () {
     	let dispose;
     	let if_block0 = /*$StatusLog*/ ctx[2].status?.length > 0 && create_if_block_1(ctx);
     	let if_block1 = /*menuOpen*/ ctx[1] && create_if_block$1(ctx);
-    	const default_slot_template = /*#slots*/ ctx[5].default;
-    	const default_slot = create_slot(default_slot_template, ctx, /*$$scope*/ ctx[4], null);
+    	const default_slot_template = /*#slots*/ ctx[6].default;
+    	const default_slot = create_slot(default_slot_template, ctx, /*$$scope*/ ctx[5], null);
 
     	const block = {
     		c: function create() {
@@ -1151,9 +1166,9 @@ var app = (function () {
     			t2 = space();
     			if (default_slot) default_slot.c();
     			attr_dev(span, "class", "admin svelte-1se4znc");
-    			add_location(span, file$2, 51, 4, 1226);
+    			add_location(span, file$2, 68, 4, 1703);
     			attr_dev(div, "class", "svelte-1se4znc");
-    			add_location(div, file$2, 50, 0, 1216);
+    			add_location(div, file$2, 67, 0, 1693);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1174,7 +1189,7 @@ var app = (function () {
     			current = true;
 
     			if (!mounted) {
-    				dispose = listen_dev(span, "click", /*click_handler*/ ctx[6], false, false, false);
+    				dispose = listen_dev(span, "click", /*click_handler*/ ctx[7], false, false, false);
     				mounted = true;
     			}
     		},
@@ -1206,8 +1221,8 @@ var app = (function () {
     			}
 
     			if (default_slot) {
-    				if (default_slot.p && dirty & /*$$scope*/ 16) {
-    					update_slot(default_slot, default_slot_template, ctx, /*$$scope*/ ctx[4], dirty, null, null);
+    				if (default_slot.p && dirty & /*$$scope*/ 32) {
+    					update_slot(default_slot, default_slot_template, ctx, /*$$scope*/ ctx[5], dirty, null, null);
     				}
     			}
     		},
@@ -1246,13 +1261,30 @@ var app = (function () {
     	let $AuthStore;
     	let $StatusLog;
     	validate_store(AuthStore, "AuthStore");
-    	component_subscribe($$self, AuthStore, $$value => $$invalidate(7, $AuthStore = $$value));
+    	component_subscribe($$self, AuthStore, $$value => $$invalidate(8, $AuthStore = $$value));
     	validate_store(StatusLog, "StatusLog");
     	component_subscribe($$self, StatusLog, $$value => $$invalidate(2, $StatusLog = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("AppFrame", slots, ['default']);
     	let flushCacheBtnText = "Flush Cache3";
     	let menuOpen = false;
+
+    	function OnJobButtonClicked() {
+    		addStatus("Running Job...");
+
+    		fetch(SERVER_URL + "/runjob", {
+    			method: "get",
+    			headers: new Headers({ "Authorization": $AuthStore.key })
+    		}).then(resp => {
+    			if (resp.ok) {
+    				addStatus("JOB OK");
+    			} else {
+    				addStatus("JOB FAIL");
+    			}
+    		}).catch(e => {
+    			addStatus("JOB FAIL" + e.message);
+    		});
+    	}
 
     	function OnFlushCacheClicked() {
     		$$invalidate(0, flushCacheBtnText = "Flushing...");
@@ -1284,15 +1316,17 @@ var app = (function () {
     	};
 
     	$$self.$$set = $$props => {
-    		if ("$$scope" in $$props) $$invalidate(4, $$scope = $$props.$$scope);
+    		if ("$$scope" in $$props) $$invalidate(5, $$scope = $$props.$$scope);
     	};
 
     	$$self.$capture_state = () => ({
     		AuthStore,
     		SERVER_URL,
     		StatusLog,
+    		addStatus,
     		flushCacheBtnText,
     		menuOpen,
+    		OnJobButtonClicked,
     		OnFlushCacheClicked,
     		$AuthStore,
     		$StatusLog
@@ -1311,6 +1345,7 @@ var app = (function () {
     		flushCacheBtnText,
     		menuOpen,
     		$StatusLog,
+    		OnJobButtonClicked,
     		OnFlushCacheClicked,
     		$$scope,
     		slots,

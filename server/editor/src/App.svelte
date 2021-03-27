@@ -14,14 +14,10 @@
 	function GreenToRedClicked(){
 		let changingItems = filteredItems.filter(x=>x.scoop_status == "green" || !x.scoop_status)
 		if ( confirm("Will change " + changingItems.length + " items, are you sure?" )){
-			for ( let i=0 ; i < changingItems.length; i++ ){
-				let x = changingItems[i]
-				setTimeout(()=>{
-				x.scoop_status = "red"
-				SaveItem(x)},5000*i)
-			}
+			
 			changingItems.forEach( x=>{
-				
+				x.scoop_status = "red"
+				SaveItem(x)
 			})
 		}
 	}

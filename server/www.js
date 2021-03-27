@@ -75,14 +75,37 @@ app.post( '/saveItem', function(req, res ){
       } else {
             console.log("PutItem succeeded:", item.id);
             res.send(changes)
-            flushCache( item.id )
+            flushCache( item )
       }
   });})
    
 })
 
-function flushCache( id ){
-   cachedData = {};
+function flushCache( item ){
+   if ( item ){
+      if (cachedData.placesAll){
+         cachedData.placesAll.forEach((x,idx)=>{
+            if ( x.id == item.id){
+               cachedData[idx]=item
+            }
+         })
+      }
+      // surgically replace the cache
+      ["placesAll","placesActive"].forEach( (key)=>{
+         if (cachedData[key]){
+            cachedData[key].forEach((x,idx)=>{
+               if ( x.id == item.id){
+                  cachedData[key][idx]=item
+               }
+            })
+         }
+      })
+      
+   }
+   else{
+      log("BIG CACHE FLUSH")
+      cachedData = {};
+   }
 }
 function sendError( res, msg, obj ){
    res.status(400).send( {error:msg,data:obj} )
@@ -111,7 +134,7 @@ async function getItemById( id ){
       return await onScanWrapper( { TableName: "scoop-prod-places"})
    })
 
-   
+
    for (i=0; i < cache.length; i++ ){
       let item = cache[i];
       if ( item.id === id )
@@ -190,8 +213,8 @@ let authKeyEditor = "CHANGE_ME_EDITOR_KEY" ; // uuid()
 
 function checkAuth(req,res,next){
  
-   console.log( "REQ PATH: " + req.path)
-   console.log ( JSON.stringify(req.headers))
+  // console.log( "REQ PATH: " + req.path)
+  // console.log ( JSON.stringify(req.headers))
    if ( req.path.startsWith("/editor") ){ // just serve static files
       next();
       return;

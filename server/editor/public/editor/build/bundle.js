@@ -1988,7 +1988,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (88:0) {:else}
+    // (84:0) {:else}
     function create_else_block$1(ctx) {
     	let appframe;
     	let current;
@@ -2036,14 +2036,14 @@ var app = (function () {
     		block,
     		id: create_else_block$1.name,
     		type: "else",
-    		source: "(88:0) {:else}",
+    		source: "(84:0) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (85:0) {#if !$AuthStore.loggedIn}
+    // (81:0) {#if !$AuthStore.loggedIn}
     function create_if_block$3(ctx) {
     	let auth;
     	let current;
@@ -2084,14 +2084,14 @@ var app = (function () {
     		block,
     		id: create_if_block$3.name,
     		type: "if",
-    		source: "(85:0) {#if !$AuthStore.loggedIn}",
+    		source: "(81:0) {#if !$AuthStore.loggedIn}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (93:3) {#each scoop_status_options as option}
+    // (89:3) {#each scoop_status_options as option}
     function create_each_block_1$1(ctx) {
     	let option;
     	let t0_value = /*option*/ ctx[14] + "";
@@ -2106,7 +2106,7 @@ var app = (function () {
     			option.__value = /*option*/ ctx[14];
     			option.value = option.__value;
     			attr_dev(option, "class", "svelte-cfiq38");
-    			add_location(option, file$4, 93, 4, 2274);
+    			add_location(option, file$4, 89, 4, 2157);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -2123,14 +2123,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1$1.name,
     		type: "each",
-    		source: "(93:3) {#each scoop_status_options as option}",
+    		source: "(89:3) {#each scoop_status_options as option}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (104:2) {#each filteredItems as item }
+    // (100:2) {#each filteredItems as item }
     function create_each_block$1(ctx) {
     	let activityrow;
     	let current;
@@ -2171,14 +2171,14 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(104:2) {#each filteredItems as item }",
+    		source: "(100:2) {#each filteredItems as item }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (89:0) <AppFrame>
+    // (85:0) <AppFrame>
     function create_default_slot_1(ctx) {
     	let t0_value = /*filteredItems*/ ctx[2].length + "";
     	let t0;
@@ -2242,22 +2242,22 @@ var app = (function () {
 
     			attr_dev(select, "class", "svelte-cfiq38");
     			if (/*scoop_status_filter*/ ctx[1] === void 0) add_render_callback(() => /*select_change_handler*/ ctx[7].call(select));
-    			add_location(select, file$4, 91, 2, 2185);
+    			add_location(select, file$4, 87, 2, 2068);
     			attr_dev(button, "class", "svelte-cfiq38");
-    			add_location(button, file$4, 98, 2, 2351);
+    			add_location(button, file$4, 94, 2, 2234);
     			set_style(span, "margin-left", "100px");
     			set_style(span, "margin-right", "20px");
     			set_style(span, "font-size", "25px");
     			attr_dev(span, "class", "svelte-cfiq38");
-    			add_location(span, file$4, 99, 2, 2435);
+    			add_location(span, file$4, 95, 2, 2318);
     			attr_dev(input, "type", "text");
     			set_style(input, "width", "50%");
     			set_style(input, "height", "40px");
     			set_style(input, "font-size", "29px");
     			attr_dev(input, "class", "svelte-cfiq38");
-    			add_location(input, file$4, 100, 1, 2528);
+    			add_location(input, file$4, 96, 1, 2411);
     			attr_dev(table, "class", "svelte-cfiq38");
-    			add_location(table, file$4, 102, 1, 2622);
+    			add_location(table, file$4, 98, 1, 2505);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -2399,7 +2399,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(89:0) <AppFrame>",
+    		source: "(85:0) <AppFrame>",
     		ctx
     	});
 
@@ -2505,20 +2505,9 @@ var app = (function () {
     		let changingItems = filteredItems.filter(x => x.scoop_status == "green" || !x.scoop_status);
 
     		if (confirm("Will change " + changingItems.length + " items, are you sure?")) {
-    			for (let i = 0; i < changingItems.length; i++) {
-    				let x = changingItems[i];
-
-    				setTimeout(
-    					() => {
-    						x.scoop_status = "red";
-    						SaveItem(x);
-    					},
-    					5000 * i
-    				);
-    			}
-
     			changingItems.forEach(x => {
-    				
+    				x.scoop_status = "red";
+    				SaveItem(x);
     			});
     		}
     	}

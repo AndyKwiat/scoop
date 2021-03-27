@@ -33,7 +33,7 @@ const App = () => {
     })
     .then((json) => {     
       console.log(json)
-      ideas = json.Items;
+      ideas = json;
       //shuffleArray(ideas)
       setIsReady(true)
      // return json.movies;

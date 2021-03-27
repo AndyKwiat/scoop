@@ -6,8 +6,10 @@
 	
 
 	let searchTerm = null;
-	let promise = null; 
-
+	let promise = null;
+	let scoop_status_filter = "all";
+	let scoop_status_options = [ "all", "green","yellow","red"]
+	let pulledItems = []
 	async function fetchData() {
 		
 		const response = await self.fetch(SERVER_URL + '/places?all=true',
@@ -41,13 +43,17 @@
 					return 0
 				})
 			
-				//console.log( JSON.stringify(d))
-				console.log(d.length);
-				console.log("LENGTH")
+				pulledItems = d
 			})
 		
 		}
 	})
+
+	$: filteredItems = pulledItems.filter( item=> searchTerm == null || 
+	searchTerm.length <=0 || item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+		item.types?.filter(t=>t.includes(searchTerm)).length>0 
+		).filter( x=> scoop_status_filter == "all" || x.scoop_status == scoop_status_filter ||
+		(scoop_status_filter == "green" && !x.scoop_status)) // defaults to green
 	
 
 </script>
@@ -55,6 +61,10 @@
 	:root{
 		background-color: cornflowerblue;
     }
+	.scoop_filter{
+		padding:2px;
+		margin:2px;
+	}
 </style>
 
 {#if !$AuthStore.loggedIn}
@@ -63,38 +73,22 @@
 {:else}
 <AppFrame>
 
-	
-	{#await promise}
-		WAITING...
-	{:then places} 
-		
-		{places.length } is how may places yo got..,
-
+		{filteredItems.length } is how may places yo got..,
+		<select bind:value={scoop_status_filter} >
+			{#each scoop_status_options as option}
+				<option value={option}>
+					{option}
+				</option>
+			{/each}
+		</select>
 		<span style="margin-left:100px;margin-right:20px;font-size:25px">Search name/tags   </span>
 	<input type="text" bind:value={searchTerm} style=" width:50%; height:40px; font-size:29px">
 
 	<table>
-		<!-- <thead><tr><th>Desc</th><th>Id</th></tr></thead> -->
-		{#each places as item }
-		{#if ( searchTerm == null || searchTerm.length <=0 ||
-		item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-		item.types?.filter(t=>t.startsWith(searchTerm)).length>0 )}
+		{#each filteredItems as item }
 			<ActivityRow {item}></ActivityRow>
-			
-				
-			{/if}
 		{/each}
 	</table>
-
-	{:catch error}
-		<p style="color: red">{error.message}</p>
-	{/await}
-
-	
-
-	
-
-
 
 
 </AppFrame>

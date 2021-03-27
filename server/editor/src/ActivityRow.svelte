@@ -1,7 +1,11 @@
 <script>
-    import {SaveItem } from './stores.js'
+    import {SaveItem,getDistanceFromLatLonInKm } from './stores.js'
     export let item;
-  
+   let GuelphLocation = { lat: 43.544878, lng: -80.248004 }
+    let distance = "none"
+    if ( item.geometry?.location )
+        distance =getDistanceFromLatLonInKm( GuelphLocation.lat, GuelphLocation.lng, item.geometry.location.lat, item.geometry.location.lng)
+
     let jsRawText=null;
     function OnJSRawClicked( item ){
         jsRawText = JSON.stringify(item, null, 2);
@@ -88,7 +92,7 @@
 <tr><td>
 <div class="container" style={ item?.scoop_status=="red"?"background-color:rgb(237, 153, 153)":(item?.scoop_status=="yellow"?"background-color:yellow":"")}>
 
-    <div class="name">{item.name} <div class="vicinity">{item.vicinity}</div> 
+    <div class="name">{item.name} <div class="vicinity">{item.vicinity} ({distance.toFixed(2)}km)</div> 
     <div class="business_status">Status:{item.business_status}</div>
     <div class="scoop_status"><span  on:click={()=>OnScoopStatusClicked(item)}>
         {#if !item.scoop_status || item.scoop_status == "green" }

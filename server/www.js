@@ -2,7 +2,8 @@
 
 
 var AWS = require("aws-sdk");
-
+const { NetworkAuthenticationRequire } = require("http-errors");
+const { GetItemCommand } = require("@aws-sdk/client-dynamodb");
 const { v4: uuid } = require('uuid');
 
 AWS.config.update({
@@ -16,8 +17,7 @@ let cachedData={}
 var express = require('express');
 var app = express();
 var cors = require('cors');
-const { NetworkAuthenticationRequire } = require("http-errors");
-const { GetItemCommand } = require("@aws-sdk/client-dynamodb");
+
 function log ( str ){
    console.log( str)
 }
@@ -35,9 +35,11 @@ app.get( '/editor/login', function(req,res ) {
 })
 app.get('/flushcache', function (req, res ){
    log ("Flush cache requested..." )
-   cachedData = {};
+   flushCache()
    res.send(200)
 })
+
+
 
 app.use( express.static("editor/public"))
 app.use(express.json());
@@ -73,10 +75,15 @@ app.post( '/saveItem', function(req, res ){
       } else {
             console.log("PutItem succeeded:", item.id);
             res.send(changes)
+            flushCache( item.id )
       }
   });})
    
 })
+
+function flushCache( id ){
+   cachedData = {};
+}
 function sendError( res, msg, obj ){
    res.status(400).send( {error:msg,data:obj} )
   

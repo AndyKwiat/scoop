@@ -10,7 +10,7 @@
 
 	async function fetchData() {
 		
-		const response = await self.fetch(SERVER_URL + '/places',
+		const response = await self.fetch(SERVER_URL + '/places?all=true',
 		{
 			
 			method: 'get', 
@@ -35,14 +35,14 @@
 			promise=fetchData();
 			promise.then(d=>{
 			
-				d.Items.sort((a,b)=>{
+				d.sort((a,b)=>{
 					if (a.name.toLowerCase() > b.name.toLowerCase() ) return 1
 					if ( b.name.toLowerCase() > a.name.toLowerCase() ) return -1
 					return 0
 				})
 			
 				//console.log( JSON.stringify(d))
-				console.log(d.Items.length);
+				console.log(d.length);
 				console.log("LENGTH")
 			})
 		
@@ -68,14 +68,14 @@
 		WAITING...
 	{:then places} 
 		
-		{places.Items.length } is how may places yo got..,
+		{places.length } is how may places yo got..,
 
 		<span style="margin-left:100px;margin-right:20px;font-size:25px">Search name/tags   </span>
 	<input type="text" bind:value={searchTerm} style=" width:50%; height:40px; font-size:29px">
 
 	<table>
 		<!-- <thead><tr><th>Desc</th><th>Id</th></tr></thead> -->
-		{#each places.Items as item }
+		{#each places as item }
 		{#if ( searchTerm == null || searchTerm.length <=0 ||
 		item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
 		item.types?.filter(t=>t.startsWith(searchTerm)).length>0 )}

@@ -8,9 +8,11 @@ const { v4: uuid } = require('uuid');
 AWS.config.update({
     region: "ca-central-1",
 });
-let cache = null;
+
 var docClient = new AWS.DynamoDB.DocumentClient();
 
+
+let cachedData={}
 var express = require('express');
 var app = express();
 var cors = require('cors');
@@ -33,7 +35,7 @@ app.get( '/editor/login', function(req,res ) {
 })
 app.get('/flushcache', function (req, res ){
    log ("Flush cache requested..." )
-   cache = null;
+   cachedData = {};
    res.send(200)
 })
 
@@ -44,35 +46,35 @@ app.post( '/saveItem', function(req, res ){
    
    let item = req.body
 
-   let prevItem = getItemById( item.id )
-   console.log( "PREV: \n" + JSON.stringify(prevItem) )
-   console.log( "NEW: \n" + JSON.stringify(item) )
-  
-   changes= findChanges( prevItem, item )
-   if (changes.length != 1 ){
-      sendError( res, "Too many changes", changes)
-      return   
-   }
-   if (changes.key == "id"){
-      sendError(res, "Can't change id")
-      return
-   }
+   getItemById( item.id ).then( prevItem=>{
+    //  console.log( "PREV: \n" + JSON.stringify(prevItem) )
+   //   console.log( "NEW: \n" + JSON.stringify(item) )
+   
+      changes= findChanges( prevItem, item )
+      if (changes.length != 1 ){
+         sendError( res, "Too many changes", changes)
+         return   
+      }
+      if (changes.key == "id"){
+         sendError(res, "Can't change id")
+         return
+      }
 
-   let params = {
-      TableName: "scoop-prod-places",
-      Item:  item,
- 
-  };
+      let params = {
+         TableName: "scoop-prod-places",
+         Item:  item,
+   
+   };
 
-  docClient.put(params, function(err, data) {
-     if (err) {
-         console.error("Unable to add item", item.id, ". Error JSON:", JSON.stringify(err, null, 2));
-         sendError(res, "Unable to save item", err)
-     } else {
-         console.log("PutItem succeeded:", item.id);
-         res.send(changes)
-     }
-  });
+   docClient.put(params, function(err, data) {
+      if (err) {
+            console.error("Unable to add item", item.id, ". Error JSON:", JSON.stringify(err, null, 2));
+            sendError(res, "Unable to save item", err)
+      } else {
+            console.log("PutItem succeeded:", item.id);
+            res.send(changes)
+      }
+  });})
    
 })
 function sendError( res, msg, obj ){
@@ -97,43 +99,38 @@ function findChangesHelper( map , changes ){
       }
    }
 }
-function getItemById( id ){
-   for (i=0; i < cache.Items.length; i++ ){
-      let item = cache.Items[i];
+async function getItemById( id ){
+   let cache = await withCache( "placesAll",async ()=>{
+      return await onScanWrapper( { TableName: "scoop-prod-places"})
+   })
+
+   for (i=0; i < cache.length; i++ ){
+      let item = cache[i];
       if ( item.id === id )
       return item;
    }
-  return null
+   return null
+ 
 }
 
 
 app.get('/places', function (req, res) {
-   if (cache != null ){
-      console.log("CACHED RESPONSE!" )
-      res.send(cache);
-      return;
+   console.log("PARAMS: "+ JSON.stringify(req.query))
+   if (req.query.all  ){
+
+         withCache( "placesAll", async function(){
+            return await onScanWrapper( { TableName: "scoop-prod-places"})})
+            .then( data=>res.send(data))
+     
+   }else{
+     
+         withCache( "placesActive", async function() {
+            data = await onScanWrapper( { TableName: "scoop-prod-places"}) 
+            return data.filter ( (p => !p.scoop_status || !p.scoop_status == "green") &&
+             p.photos)
+         }).then( data=>res.send(data))
+      
    }
-
-   console.log("Scanning entire table");
-var params = {
-   TableName: "scoop-prod-places"
-  /* ProjectionExpression: "#yr, title, info.rating",
-   FilterExpression: "#yr between :start_yr and :end_yr",
-   ExpressionAttributeNames: {
-       "#yr": "year",
-   },
-   ExpressionAttributeValues: {
-        ":start_yr": 1950,
-        ":end_yr": 1959 
-   }
-   */
-};
-
-
-
-     // res.send( data );
-      onScanWrapper( params, res, docClient)
-    
   
 })
 
@@ -143,31 +140,43 @@ var server = app.listen(3000, function () {
    console.log("Scoop server listening at http://%s:%s", host, port)
 })
 
-
-function onScanWrapper( params, response, docClient ){
-  
+async function withCache( key,  fetchFunc ){
+   return new Promise( async (resolve,reject)=>{
+   if ( !( key in cachedData )){
+      log("Fetching data: " + key )
+      cachedData[key] = await fetchFunc()
+   }else{
+      log("Cached Data Found: " + key )
+   }
+   resolve(cachedData[key])
+   })
+}
+async function onScanWrapper( params, dc=docClient ){
+   return new Promise( (resolve, reject) => {
    let scanFunc = function onScan(err, data) {
       if (err) {
-          console.error("Unable to scan the table. Error JSON:", JSON.stringify(err, null, 2));
+         throw new Error("Unable to scan the table. Error JSON:", JSON.stringify(err, null, 2));
       } else {
           // print all the stuff
           console.log("Scan succeeded.");
-          cache=data;
-          response.send(data)
-         return
+          resolve(data.Items)
+          return 
+         
+        
    
           // continue scanning if we have more movies, because
           // scan can retrieve a maximum of 1MB of data
           if (typeof data.LastEvaluatedKey != "undefined") {
               console.log("Scanning for more...");
               params.ExclusiveStartKey = data.LastEvaluatedKey;
-              onScanWrapper( params, response, docClient)
+              onScanWrapper( params,  dc)
              // docClient.scan(params, scanFunc);
           }
       }
    }
-   docClient.scan(params, scanFunc);
-;}
+   dc.scan(params, scanFunc);
+   })
+}
 
 let authKeyEditor = "CHANGE_ME_EDITOR_KEY" ; // uuid()
 

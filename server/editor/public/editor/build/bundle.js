@@ -2163,7 +2163,7 @@ var app = (function () {
     			t = text(t_value);
     			set_style(p, "color", "red");
     			attr_dev(p, "class", "svelte-yo50r4");
-    			add_location(p, file$4, 89, 2, 1864);
+    			add_location(p, file$4, 89, 2, 1849);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -2192,7 +2192,7 @@ var app = (function () {
 
     // (69:1) {:then places}
     function create_then_block(ctx) {
-    	let t0_value = /*places*/ ctx[6].Items.length + "";
+    	let t0_value = /*places*/ ctx[6].length + "";
     	let t0;
     	let t1;
     	let span;
@@ -2203,7 +2203,7 @@ var app = (function () {
     	let current;
     	let mounted;
     	let dispose;
-    	let each_value = /*places*/ ctx[6].Items;
+    	let each_value = /*places*/ ctx[6];
     	validate_each_argument(each_value);
     	let each_blocks = [];
 
@@ -2234,15 +2234,15 @@ var app = (function () {
     			set_style(span, "margin-right", "20px");
     			set_style(span, "font-size", "25px");
     			attr_dev(span, "class", "svelte-yo50r4");
-    			add_location(span, file$4, 72, 2, 1300);
+    			add_location(span, file$4, 72, 2, 1291);
     			attr_dev(input, "type", "text");
     			set_style(input, "width", "50%");
     			set_style(input, "height", "40px");
     			set_style(input, "font-size", "29px");
     			attr_dev(input, "class", "svelte-yo50r4");
-    			add_location(input, file$4, 73, 1, 1393);
+    			add_location(input, file$4, 73, 1, 1384);
     			attr_dev(table, "class", "svelte-yo50r4");
-    			add_location(table, file$4, 75, 1, 1487);
+    			add_location(table, file$4, 75, 1, 1478);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -2266,14 +2266,14 @@ var app = (function () {
     			}
     		},
     		p: function update(ctx, dirty) {
-    			if ((!current || dirty & /*promise*/ 2) && t0_value !== (t0_value = /*places*/ ctx[6].Items.length + "")) set_data_dev(t0, t0_value);
+    			if ((!current || dirty & /*promise*/ 2) && t0_value !== (t0_value = /*places*/ ctx[6].length + "")) set_data_dev(t0, t0_value);
 
     			if (dirty & /*searchTerm*/ 1 && input.value !== /*searchTerm*/ ctx[0]) {
     				set_input_value(input, /*searchTerm*/ ctx[0]);
     			}
 
     			if (dirty & /*promise, searchTerm*/ 3) {
-    				each_value = /*places*/ ctx[6].Items;
+    				each_value = /*places*/ ctx[6];
     				validate_each_argument(each_value);
     				let i;
 
@@ -2391,7 +2391,7 @@ var app = (function () {
     	return block;
     }
 
-    // (78:2) {#each places.Items as item }
+    // (78:2) {#each places as item }
     function create_each_block$1(ctx) {
     	let show_if = /*searchTerm*/ ctx[0] == null || /*searchTerm*/ ctx[0].length <= 0 || /*item*/ ctx[7].name.toLowerCase().includes(/*searchTerm*/ ctx[0].toLowerCase()) || /*item*/ ctx[7].types?.filter(/*func*/ ctx[3]).length > 0;
     	let if_block_anchor;
@@ -2453,7 +2453,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(78:2) {#each places.Items as item }",
+    		source: "(78:2) {#each places as item }",
     		ctx
     	});
 
@@ -2657,7 +2657,7 @@ var app = (function () {
     	let promise = null;
 
     	async function fetchData() {
-    		const response = await self.fetch(SERVER_URL + "/places", {
+    		const response = await self.fetch(SERVER_URL + "/places?all=true", {
     			method: "get",
     			headers: new Headers({ "Authorization": $AuthStore.key })
     		});
@@ -2678,14 +2678,14 @@ var app = (function () {
     			$$invalidate(1, promise = fetchData());
 
     			promise.then(d => {
-    				d.Items.sort((a, b) => {
+    				d.sort((a, b) => {
     					if (a.name.toLowerCase() > b.name.toLowerCase()) return 1;
     					if (b.name.toLowerCase() > a.name.toLowerCase()) return -1;
     					return 0;
     				});
 
     				//console.log( JSON.stringify(d))
-    				console.log(d.Items.length);
+    				console.log(d.length);
 
     				console.log("LENGTH");
     			});

@@ -1,6 +1,7 @@
 import { setStatusBarNetworkActivityIndicatorVisible } from "expo-status-bar";
 import React, { useRef, useState } from "react";
-import { Animated, View, StyleSheet, PanResponder, Text, Image, Easing, Dimensions, TouchableHighlight } from "react-native";
+import { Switch,
+  Pressable, Button, Animated, View, StyleSheet, PanResponder, Text, Image, Easing, Dimensions } from "react-native";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
   const [allIdeas, setAllIdeas] = useState(null)
 
   const [fetchStarted, setFetchStarted] = useState(false)
+  const [showingSettings,setShowingSettings]= useState(false)
   const [msg,setMsg] = useState("loading..")
   
 
@@ -40,6 +42,10 @@ const App = () => {
      setCurrentPhotoIdx(0)
      mypos.setValue({ x: 0, y: 0 });
      Image.prefetch(getPicUri(ideas[nextIdea + 1]%ideas.length,0))
+  }
+
+  function onGearPressed(){
+    setIsDetailsMode( !isDetailsMode )
   }
 
   const panResponder = PanResponder.create({
@@ -133,9 +139,58 @@ const App = () => {
         { renderDetailsMode(ideas[frontIdea], detailsModeAnim)}
  
       </View>
-    
+
+      <Pressable onPress={()=>{setShowingSettings(!showingSettings)}}>
+      <Text style={{ // position:"absolute",
+    color:"white",
+    right:0,
+    textAlign:"right",
+    fontSize:38}}>&#9881;</Text></Pressable>
+
+    <SettingsPage showingSettings={showingSettings} setShowingSettings={setShowingSettings}/>
+
     </View>
   );
+}
+
+function SettingsPage({showingSettings, setShowingSettings} ){
+  const [filters,setFilters] = useState({bars:false, museums:true})
+  if (!showingSettings )  return null
+  let isEnabled = true
+  function toggleSwitch(key){
+    let f ={}
+    Object.assign(f, filters)
+    f[key] = !f[key]
+    setFilters(f)
+  }
+  return (
+    <View style={styles.settingsContainer}>
+      <Text >SETTTTTTINGS!!!</Text>
+
+      {Object.keys(filters).map((f2,i)=>{
+      return(
+      <View key={i} style={{padding:15,marginTop:10, width:"35%"}}>
+      <Text style={{top:0,position:"absolute"}}>{f2.toUpperCase()}</Text>
+      <Switch
+          trackColor={{ false: "#767577", true: "#81b0ff" }}
+          thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
+         
+          onValueChange={()=>{toggleSwitch(f2)}}
+          value={filters[f2]}
+          
+          style={{ transform: [{ scaleX: 1.5 }, { scaleY: 1.5 }],
+          position: "absolute",
+          right:0
+           }}
+        />
+      </View>)})}
+
+        <Button
+  style={{marginTop:35}}
+  title="Done"
+/>
+     </View>
+  )
 }
 
 function onTapPic(myHt, isDetailsMode, setIsDetailsMode) {
@@ -187,6 +242,14 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "90%",
 
+  },
+  settingsContainer:{
+    width:"100%",
+    height:"100%",
+    backgroundColor:"grey",
+    position:"absolute",
+    alignItems: "center",
+    justifyContent: "center"
   },
   cardText:{
     position:"absolute",

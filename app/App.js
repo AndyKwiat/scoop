@@ -37,8 +37,9 @@ const App = () => {
      //swipe animation is over
      setLoaded(false)  // this will hide the front pic until it it loaded
      setFrontIdea(nextIdea) // start loading the front pic
+     setCurrentPhotoIdx(0)
      mypos.setValue({ x: 0, y: 0 });
-     Image.prefetch(getPicUri(ideas[nextIdea + 1]%ideas.length))
+     Image.prefetch(getPicUri(ideas[nextIdea + 1]%ideas.length,0))
   }
 
   const panResponder = PanResponder.create({
@@ -57,11 +58,15 @@ const App = () => {
           let idx= currentPhotoIdx-1;
           if ( idx < 0 ) idx += currentIdea().photos.length;
           setCurrentPhotoIdx( idx )
+          idx-=1
+          if ( idx < 0 ) idx += currentIdea().photos.length;
+          Image.prefetch(getPicUri(currentIdea(),idx))
           return
         }
         // tap right side look at diff pic in same idea
         if ( gesture.moveX > Dimensions.get('window').width * 0.7 ){
           setCurrentPhotoIdx( (currentPhotoIdx+1)% currentIdea().photos.length )
+          Image.prefetch(getPicUri(currentIdea(),(currentPhotoIdx+2)% currentIdea().photos.length))
           return
         }
         // picture tapped, enter or exit details mode
@@ -91,7 +96,7 @@ const App = () => {
     <View style={{ backgroundColor: "black", height: "100%" }}>
       <View style={styles.container} >
         
-        <Image style={[styles.ideaCard]} source={{ uri: getPicUri(ideas[nextIdea]) }} resizeMode="cover" />
+        <Image style={[styles.ideaCard]} source={{ uri: getPicUri(ideas[nextIdea],0) }} resizeMode="cover" />
         <Animated.Text style={styles.cardText}>{ideas[nextIdea].name}</Animated.Text>
 
         <Animated.View
@@ -108,7 +113,7 @@ const App = () => {
            
           <Animated.Image 
             style={[styles.ideaCard,loaded ? {} : { display: 'none' }]} 
-            source={{ uri: getPicUri(ideas[frontIdea]) }} 
+            source={{ uri: getPicUri(ideas[frontIdea], currentPhotoIdx) }} 
             resizeMode="cover" 
             onLoad={() => {
              
@@ -148,11 +153,11 @@ function onTapPic(myHt, isDetailsMode, setIsDetailsMode) {
   }).start()
 }
 
-function getPicUri(idea) {
+function getPicUri(idea,photoIndex) {
  
-  
+  const res = "125";
   if (idea.photos && idea.photos.length > 0){
-    let pic = "https://www.stirfrygames.com/img/960/" + idea.photos[0].photo_reference + "-960.jpg";
+    let pic = "https://www.stirfrygames.com/img/"+res+"/" + idea.photos[photoIndex%idea.photos.length].photo_reference + "-"+res+".jpg";
     console.log("pic check: " + pic )
     return pic;
   }
@@ -197,7 +202,8 @@ const styles = StyleSheet.create({
     position: "absolute",
     height: "100%",
     width: "100%",
-    borderRadius: 15
+    borderRadius: 15,
+    backgroundColor: 'rgba(0,0,0,1)'
   },
   titleText: {
     fontSize: 14,
@@ -285,7 +291,7 @@ function fetchIdeas(setIdeas, fetchStarted, setFetchStarted, msg, setMsg){
   
 }
 function PhotoDots({idea, currentPhotoIdx}){
-  
+  if ( idea.photos.length <=1 ) return null;
   return (
     <Text style={{  position:"absolute",
     color:"white",

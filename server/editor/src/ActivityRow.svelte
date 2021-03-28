@@ -1,10 +1,10 @@
 <script>
     import {SaveItem,getDistanceFromLatLonInKm } from './stores.js'
     export let item;
-   let GuelphLocation = { lat: 43.544878, lng: -80.248004 }
-    let distance = "none"
-    if ( item.geometry?.location )
-        distance =getDistanceFromLatLonInKm( GuelphLocation.lat, GuelphLocation.lng, item.geometry.location.lat, item.geometry.location.lng)
+    let GuelphLocation = { lat: 43.544878, lng: -80.248004 }
+  
+    $:   distance =getDistanceFromLatLonInKm( GuelphLocation.lat, GuelphLocation.lng, 
+        item.geometry.location.lat, item.geometry.location.lng)
 
     let jsRawText=null;
     function OnJSRawClicked( item ){

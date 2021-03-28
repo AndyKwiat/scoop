@@ -147,16 +147,34 @@ const App = () => {
     textAlign:"right",
     fontSize:38}}>&#9881;</Text></Pressable>
 
-    <SettingsPage showingSettings={showingSettings} setShowingSettings={setShowingSettings}/>
+    <SettingsPage showingSettings={showingSettings} setFrontIdea={setFrontIdea} setNextIdea={setNextIdea} setShowingSettings={setShowingSettings} setIdeas={setIdeas} allIdeas={allIdeas}/>
 
     </View>
   );
 }
 
-function SettingsPage({showingSettings, setShowingSettings} ){
-  const [filters,setFilters] = useState({bars:false, museums:true})
+function SettingsPage({showingSettings, setShowingSettings, allIdeas, setIdeas,setFrontIdea, setNextIdea } ){
+  const [filters,setFilters] = useState({bar:true, gym:true, library:true , museum:true, park:true, art_gallery:true})
   if (!showingSettings )  return null
   let isEnabled = true
+  function donePressed(){
+      setShowingSettings( false )
+      let ideas = allIdeas.filter(x=>distanceToMe(x) < 20)
+      ideas = ideas.filter( idea=>{
+        let curVal = true
+        for (const category in filters ){
+          if ( idea.types.includes(category) ){
+            if ( filters[category] ) return true; // if we match any filters keep the idea
+            curVal= false;                        // if we fail any filters and match 0 get rid of the idea
+          }
+        }
+        return curVal
+      })
+      shuffleArray(ideas)
+      setIdeas(ideas)
+      setFrontIdea(0)
+      setNextIdea(1)
+  }
   function toggleSwitch(key){
     let f ={}
     Object.assign(f, filters)
@@ -186,6 +204,7 @@ function SettingsPage({showingSettings, setShowingSettings} ){
       </View>)})}
 
         <Button
+        onPress={donePressed}
   style={{marginTop:35}}
   title="Done"
 />

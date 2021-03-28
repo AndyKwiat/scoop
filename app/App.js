@@ -155,7 +155,7 @@ function onTapPic(myHt, isDetailsMode, setIsDetailsMode) {
 
 function getPicUri(idea,photoIndex) {
  
-  const res = "125";
+  const res = "960";
   if (idea.photos && idea.photos.length > 0){
     let pic = "https://www.stirfrygames.com/img/"+res+"/" + idea.photos[photoIndex%idea.photos.length].photo_reference + "-"+res+".jpg";
     console.log("pic check: " + pic )

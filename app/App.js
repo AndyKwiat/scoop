@@ -6,6 +6,7 @@ import { Animated, View, StyleSheet, PanResponder, Text, Image, Easing, Dimensio
 const App = () => {
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
+  const [currentPhotoIdx, setCurrentPhotoIdx] = useState(2);
 
   const mypos = useRef(new Animated.ValueXY()).current;
   const detailsModeAnim = useRef(new Animated.Value(0)).current
@@ -18,6 +19,7 @@ const App = () => {
   const [fetchStarted, setFetchStarted] = useState(false)
   const [msg,setMsg] = useState("loading..")
   
+
   if (allIdeas == null){
     return fetchIdeas(setAllIdeas, fetchStarted, setFetchStarted, msg, setMsg)
   }
@@ -25,6 +27,10 @@ const App = () => {
   if (ideas == null){
     setIdeas(allIdeas.filter(x=>distanceToMe(x) < 20))
     return
+  }
+
+  function currentIdea(){
+    return ideas[frontIdea]
   }
     
   const onSwipeAnimEnded = ()=>{
@@ -46,6 +52,18 @@ const App = () => {
     },
     onPanResponderRelease: (event, gesture) => {
       if ((new Date()).getTime() - touchTime < 150 && gesture.vx < .1 && gesture.vy < .1 && Math.abs(gesture.dx) < 10 && Math.abs(gesture.dy) < 10) {
+        // tap left side look at diff pic in same idea
+        if ( gesture.moveX < Dimensions.get('window').width * 0.3 ){
+          let idx= currentPhotoIdx-1;
+          if ( idx < 0 ) idx += currentIdea().photos.length;
+          setCurrentPhotoIdx( idx )
+          return
+        }
+        // tap right side look at diff pic in same idea
+        if ( gesture.moveX > Dimensions.get('window').width * 0.7 ){
+          setCurrentPhotoIdx( (currentPhotoIdx+1)% currentIdea().photos.length )
+          return
+        }
         // picture tapped, enter or exit details mode
         onTapPic(detailsModeAnim, isDetailsMode, setIsDetailsMode)
         return  
@@ -105,7 +123,7 @@ const App = () => {
        
         
         </Animated.View>
-        <PhotoDots idea={ideas[frontIdea]}/>
+        <PhotoDots idea={ideas[frontIdea]} currentPhotoIdx={currentPhotoIdx}/>
 
         { renderDetailsMode(ideas[frontIdea], detailsModeAnim)}
  
@@ -266,7 +284,8 @@ function fetchIdeas(setIdeas, fetchStarted, setFetchStarted, msg, setMsg){
     ); 
   
 }
-function PhotoDots({idea}){
+function PhotoDots({idea, currentPhotoIdx}){
+  
   return (
     <Text style={{  position:"absolute",
     color:"white",
@@ -274,7 +293,7 @@ function PhotoDots({idea}){
     fontSize:38,
    
     paddingTop:"10%", }}>{idea.photos.map((obj,i)=><Text key={i} 
-    style={(i==1)?styles.frontShadow:styles.reverseShadow}>&#8226;</Text>)}</Text>
+    style={(i==currentPhotoIdx)?styles.frontShadow:styles.reverseShadow}>&#8226;</Text>)}</Text>
 
   )
 }

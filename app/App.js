@@ -154,21 +154,20 @@ const App = () => {
 }
 
 function SettingsPage({showingSettings, setShowingSettings, allIdeas, setIdeas,setFrontIdea, setNextIdea } ){
-  const [filters,setFilters] = useState({bar:true, gym:true, library:true , museum:true, park:true, art_gallery:true})
+  const [filters,setFilters] = useState({bar:true, gym:true, library:true , museum:true, park:true, art_gallery:true, other:true})
   if (!showingSettings )  return null
   let isEnabled = true
   function donePressed(){
       setShowingSettings( false )
       let ideas = allIdeas.filter(x=>distanceToMe(x) < 20)
       ideas = ideas.filter( idea=>{
-        let curVal = true
+   
         for (const category in filters ){
           if ( idea.types.includes(category) ){
             if ( filters[category] ) return true; // if we match any filters keep the idea
-            curVal= false;                        // if we fail any filters and match 0 get rid of the idea
           }
         }
-        return curVal
+        return filters.other; // don't match anything, we call you 'other'
       })
       shuffleArray(ideas)
       setIdeas(ideas)

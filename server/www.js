@@ -73,7 +73,12 @@ app.post( '/saveItem', function(req, res ){
    //   console.log( "NEW: \n" + JSON.stringify(item) )
    
       changes= findChanges( prevItem, item )
-      if (changes.length != 1 ){
+      // ignore changes to pic
+      changes = changes.filter( x=> x.key != "photo_reference" && x.key != "height"
+      && x.key != "width" && x.key != "rejected" )
+      
+      if (changes.length > 1 || prevItem.photos.length != item.photos.length){
+      
          sendError( res, "Too many changes", changes)
          return   
       }

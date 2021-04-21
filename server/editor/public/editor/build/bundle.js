@@ -4,6 +4,7 @@ var app = (function () {
     'use strict';
 
     function noop() { }
+    const identity = x => x;
     function assign(tar, src) {
         // @ts-ignore
         for (const k in src)
@@ -83,6 +84,9 @@ var app = (function () {
             const slot_context = get_slot_context(slot_definition, ctx, $$scope, get_slot_context_fn);
             slot.p(slot_context, slot_changes);
         }
+    }
+    function null_to_empty(value) {
+        return value == null ? '' : value;
     }
 
     function append(target, node) {
@@ -1395,17 +1399,18 @@ var app = (function () {
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[9] = list[i];
+    	child_ctx[15] = list[i];
+    	child_ctx[17] = i;
     	return child_ctx;
     }
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[12] = list[i];
+    	child_ctx[18] = list[i];
     	return child_ctx;
     }
 
-    // (102:8) {:else}
+    // (132:8) {:else}
     function create_else_block(ctx) {
     	let t;
 
@@ -1425,15 +1430,15 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(102:8) {:else}",
+    		source: "(132:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (100:45) 
-    function create_if_block_3(ctx) {
+    // (130:45) 
+    function create_if_block_5(ctx) {
     	let t;
 
     	const block = {
@@ -1450,17 +1455,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_3.name,
+    		id: create_if_block_5.name,
     		type: "if",
-    		source: "(100:45) ",
+    		source: "(130:45) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (98:8) {#if !item.scoop_status || item.scoop_status == "green" }
-    function create_if_block_2(ctx) {
+    // (128:8) {#if !item.scoop_status || item.scoop_status == "green" }
+    function create_if_block_4(ctx) {
     	let t;
 
     	const block = {
@@ -1477,34 +1482,34 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_2.name,
+    		id: create_if_block_4.name,
     		type: "if",
-    		source: "(98:8) {#if !item.scoop_status || item.scoop_status == \\\"green\\\" }",
+    		source: "(128:8) {#if !item.scoop_status || item.scoop_status == \\\"green\\\" }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (110:8) {#each item.types as tag }
+    // (140:8) {#each item.types as tag }
     function create_each_block_1(ctx) {
     	let span;
-    	let t_value = /*tag*/ ctx[12] + "";
+    	let t_value = /*tag*/ ctx[18] + "";
     	let t;
 
     	const block = {
     		c: function create() {
     			span = element("span");
     			t = text(t_value);
-    			attr_dev(span, "class", "svelte-162ne0l");
-    			add_location(span, file$3, 110, 12, 2827);
+    			attr_dev(span, "class", "svelte-7zsplm");
+    			add_location(span, file$3, 140, 12, 3709);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
     			append_dev(span, t);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*item*/ 1 && t_value !== (t_value = /*tag*/ ctx[12] + "")) set_data_dev(t, t_value);
+    			if (dirty & /*item*/ 1 && t_value !== (t_value = /*tag*/ ctx[18] + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(span);
@@ -1515,14 +1520,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(110:8) {#each item.types as tag }",
+    		source: "(140:8) {#each item.types as tag }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (115:8) {#if item.photos?.length > 0 }
+    // (145:8) {#if item.photos?.length > 0 }
     function create_if_block_1$1(ctx) {
     	let each_1_anchor;
     	let each_value = /*item*/ ctx[0].photos;
@@ -1549,7 +1554,7 @@ var app = (function () {
     			insert_dev(target, each_1_anchor, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*item*/ 1) {
+    			if (dirty & /*OnPicStatusToggleClicked, OnPicArrowClicked, item*/ 49) {
     				each_value = /*item*/ ctx[0].photos;
     				validate_each_argument(each_value);
     				let i;
@@ -1583,42 +1588,216 @@ var app = (function () {
     		block,
     		id: create_if_block_1$1.name,
     		type: "if",
-    		source: "(115:8) {#if item.photos?.length > 0 }",
+    		source: "(145:8) {#if item.photos?.length > 0 }",
     		ctx
     	});
 
     	return block;
     }
 
-    // (116:8) {#each item.photos as ph}
+    // (149:12) {#if idx >0 }
+    function create_if_block_3(ctx) {
+    	let span0;
+    	let t1;
+    	let span1;
+    	let mounted;
+    	let dispose;
+
+    	function click_handler_1() {
+    		return /*click_handler_1*/ ctx[8](/*idx*/ ctx[17]);
+    	}
+
+    	function click_handler_2() {
+    		return /*click_handler_2*/ ctx[9](/*idx*/ ctx[17]);
+    	}
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			span0.textContent = "➊";
+    			t1 = space();
+    			span1 = element("span");
+    			span1.textContent = "←";
+    			attr_dev(span0, "class", "arrow svelte-7zsplm");
+    			add_location(span0, file$3, 150, 12, 4102);
+    			attr_dev(span1, "class", "arrow svelte-7zsplm");
+    			add_location(span1, file$3, 151, 12, 4192);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			insert_dev(target, t1, anchor);
+    			insert_dev(target, span1, anchor);
+
+    			if (!mounted) {
+    				dispose = [
+    					listen_dev(span0, "click", click_handler_1, false, false, false),
+    					listen_dev(span1, "click", click_handler_2, false, false, false)
+    				];
+
+    				mounted = true;
+    			}
+    		},
+    		p: function update(new_ctx, dirty) {
+    			ctx = new_ctx;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(span1);
+    			mounted = false;
+    			run_all(dispose);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_3.name,
+    		type: "if",
+    		source: "(149:12) {#if idx >0 }",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (154:12) {#if idx < item.photos.length -1 }
+    function create_if_block_2(ctx) {
+    	let span;
+    	let mounted;
+    	let dispose;
+
+    	function click_handler_3() {
+    		return /*click_handler_3*/ ctx[10](/*idx*/ ctx[17]);
+    	}
+
+    	const block = {
+    		c: function create() {
+    			span = element("span");
+    			span.textContent = "→";
+    			attr_dev(span, "class", "arrow svelte-7zsplm");
+    			add_location(span, file$3, 154, 12, 4350);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span, anchor);
+
+    			if (!mounted) {
+    				dispose = listen_dev(span, "click", click_handler_3, false, false, false);
+    				mounted = true;
+    			}
+    		},
+    		p: function update(new_ctx, dirty) {
+    			ctx = new_ctx;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span);
+    			mounted = false;
+    			dispose();
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_2.name,
+    		type: "if",
+    		source: "(154:12) {#if idx < item.photos.length -1 }",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (146:8) {#each item.photos as ph,idx}
     function create_each_block(ctx) {
     	let img;
+    	let img_class_value;
     	let img_src_value;
     	let img_alt_value;
+    	let t0;
+    	let t1;
+    	let t2;
+    	let span;
+    	let mounted;
+    	let dispose;
+    	let if_block0 = /*idx*/ ctx[17] > 0 && create_if_block_3(ctx);
+    	let if_block1 = /*idx*/ ctx[17] < /*item*/ ctx[0].photos.length - 1 && create_if_block_2(ctx);
+
+    	function click_handler_4() {
+    		return /*click_handler_4*/ ctx[11](/*idx*/ ctx[17]);
+    	}
 
     	const block = {
     		c: function create() {
     			img = element("img");
+    			t0 = space();
+    			if (if_block0) if_block0.c();
+    			t1 = space();
+    			if (if_block1) if_block1.c();
+    			t2 = space();
+    			span = element("span");
+    			span.textContent = "✖";
+    			attr_dev(img, "class", img_class_value = "" + (null_to_empty(/*ph*/ ctx[15].rejected ? "pic_rejected" : "") + " svelte-7zsplm"));
     			attr_dev(img, "height", "125px");
     			attr_dev(img, "max-width", "20%");
-    			if (img.src !== (img_src_value = "https://www.stirfrygames.com/img/125/" + /*ph*/ ctx[9].photo_reference + "-125.jpg")) attr_dev(img, "src", img_src_value);
+    			if (img.src !== (img_src_value = "https://www.stirfrygames.com/img/125/" + /*ph*/ ctx[15].photo_reference + "-125.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*item*/ ctx[0].name);
-    			add_location(img, file$3, 116, 12, 2982);
+    			add_location(img, file$3, 146, 12, 3868);
+    			attr_dev(span, "class", "arrow svelte-7zsplm");
+    			add_location(span, file$3, 156, 12, 4461);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
+    			insert_dev(target, t0, anchor);
+    			if (if_block0) if_block0.m(target, anchor);
+    			insert_dev(target, t1, anchor);
+    			if (if_block1) if_block1.m(target, anchor);
+    			insert_dev(target, t2, anchor);
+    			insert_dev(target, span, anchor);
+
+    			if (!mounted) {
+    				dispose = listen_dev(span, "click", click_handler_4, false, false, false);
+    				mounted = true;
+    			}
     		},
-    		p: function update(ctx, dirty) {
-    			if (dirty & /*item*/ 1 && img.src !== (img_src_value = "https://www.stirfrygames.com/img/125/" + /*ph*/ ctx[9].photo_reference + "-125.jpg")) {
+    		p: function update(new_ctx, dirty) {
+    			ctx = new_ctx;
+
+    			if (dirty & /*item*/ 1 && img_class_value !== (img_class_value = "" + (null_to_empty(/*ph*/ ctx[15].rejected ? "pic_rejected" : "") + " svelte-7zsplm"))) {
+    				attr_dev(img, "class", img_class_value);
+    			}
+
+    			if (dirty & /*item*/ 1 && img.src !== (img_src_value = "https://www.stirfrygames.com/img/125/" + /*ph*/ ctx[15].photo_reference + "-125.jpg")) {
     				attr_dev(img, "src", img_src_value);
     			}
 
     			if (dirty & /*item*/ 1 && img_alt_value !== (img_alt_value = /*item*/ ctx[0].name)) {
     				attr_dev(img, "alt", img_alt_value);
     			}
+
+    			if (/*idx*/ ctx[17] > 0) if_block0.p(ctx, dirty);
+
+    			if (/*idx*/ ctx[17] < /*item*/ ctx[0].photos.length - 1) {
+    				if (if_block1) {
+    					if_block1.p(ctx, dirty);
+    				} else {
+    					if_block1 = create_if_block_2(ctx);
+    					if_block1.c();
+    					if_block1.m(t2.parentNode, t2);
+    				}
+    			} else if (if_block1) {
+    				if_block1.d(1);
+    				if_block1 = null;
+    			}
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(img);
+    			if (detaching) detach_dev(t0);
+    			if (if_block0) if_block0.d(detaching);
+    			if (detaching) detach_dev(t1);
+    			if (if_block1) if_block1.d(detaching);
+    			if (detaching) detach_dev(t2);
+    			if (detaching) detach_dev(span);
+    			mounted = false;
+    			dispose();
     		}
     	};
 
@@ -1626,14 +1805,14 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(116:8) {#each item.photos as ph}",
+    		source: "(146:8) {#each item.photos as ph,idx}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (125:0) {#if jsRawText}
+    // (166:0) {#if jsRawText}
     function create_if_block$2(ctx) {
     	let div;
     	let button;
@@ -1649,10 +1828,10 @@ var app = (function () {
     			button.textContent = "X";
     			pre = element("pre");
     			t1 = text(/*jsRawText*/ ctx[1]);
-    			add_location(button, file$3, 125, 31, 3332);
-    			add_location(pre, file$3, 125, 82, 3383);
-    			attr_dev(div, "class", "jsraw_overlay svelte-162ne0l");
-    			add_location(div, file$3, 125, 4, 3305);
+    			add_location(button, file$3, 166, 31, 4760);
+    			add_location(pre, file$3, 166, 82, 4811);
+    			attr_dev(div, "class", "jsraw_overlay svelte-7zsplm");
+    			add_location(div, file$3, 166, 4, 4733);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1661,7 +1840,7 @@ var app = (function () {
     			append_dev(pre, t1);
 
     			if (!mounted) {
-    				dispose = listen_dev(button, "click", /*click_handler_2*/ ctx[7], false, false, false);
+    				dispose = listen_dev(button, "click", /*click_handler_6*/ ctx[13], false, false, false);
     				mounted = true;
     			}
     		},
@@ -1679,7 +1858,7 @@ var app = (function () {
     		block,
     		id: create_if_block$2.name,
     		type: "if",
-    		source: "(125:0) {#if jsRawText}",
+    		source: "(166:0) {#if jsRawText}",
     		ctx
     	});
 
@@ -1722,8 +1901,8 @@ var app = (function () {
     	let dispose;
 
     	function select_block_type(ctx, dirty) {
-    		if (!/*item*/ ctx[0].scoop_status || /*item*/ ctx[0].scoop_status == "green") return create_if_block_2;
-    		if (/*item*/ ctx[0].scoop_status == "red") return create_if_block_3;
+    		if (!/*item*/ ctx[0].scoop_status || /*item*/ ctx[0].scoop_status == "green") return create_if_block_4;
+    		if (/*item*/ ctx[0].scoop_status == "red") return create_if_block_5;
     		return create_else_block;
     	}
 
@@ -1777,23 +1956,23 @@ var app = (function () {
     			button.textContent = "jsRaw";
     			t14 = space();
     			if (if_block2) if_block2.c();
-    			attr_dev(div0, "class", "vicinity svelte-162ne0l");
-    			add_location(div0, file$3, 94, 34, 2306);
-    			attr_dev(div1, "class", "business_status svelte-162ne0l");
-    			add_location(div1, file$3, 95, 4, 2381);
-    			add_location(span, file$3, 96, 30, 2476);
-    			attr_dev(div2, "class", "scoop_status svelte-162ne0l");
-    			add_location(div2, file$3, 96, 4, 2450);
-    			attr_dev(div3, "class", "name svelte-162ne0l");
-    			add_location(div3, file$3, 94, 4, 2276);
-    			attr_dev(div4, "class", "types svelte-162ne0l");
-    			add_location(div4, file$3, 108, 4, 2760);
-    			attr_dev(div5, "class", "pic svelte-162ne0l");
-    			add_location(div5, file$3, 113, 4, 2879);
-    			add_location(button, file$3, 122, 8, 3215);
-    			attr_dev(div6, "class", "jsraw_button svelte-162ne0l");
-    			add_location(div6, file$3, 121, 4, 3180);
-    			attr_dev(div7, "class", "container svelte-162ne0l");
+    			attr_dev(div0, "class", "vicinity svelte-7zsplm");
+    			add_location(div0, file$3, 124, 34, 3188);
+    			attr_dev(div1, "class", "business_status svelte-7zsplm");
+    			add_location(div1, file$3, 125, 4, 3263);
+    			add_location(span, file$3, 126, 30, 3358);
+    			attr_dev(div2, "class", "scoop_status svelte-7zsplm");
+    			add_location(div2, file$3, 126, 4, 3332);
+    			attr_dev(div3, "class", "name svelte-7zsplm");
+    			add_location(div3, file$3, 124, 4, 3158);
+    			attr_dev(div4, "class", "types svelte-7zsplm");
+    			add_location(div4, file$3, 138, 4, 3642);
+    			attr_dev(div5, "class", "pic svelte-7zsplm");
+    			add_location(div5, file$3, 143, 4, 3761);
+    			add_location(button, file$3, 163, 8, 4643);
+    			attr_dev(div6, "class", "jsraw_button svelte-7zsplm");
+    			add_location(div6, file$3, 162, 4, 4608);
+    			attr_dev(div7, "class", "container svelte-7zsplm");
 
     			attr_dev(div7, "style", div7_style_value = /*item*/ ctx[0]?.scoop_status == "red"
     			? "background-color:rgb(237, 153, 153)"
@@ -1801,9 +1980,9 @@ var app = (function () {
     				? "background-color:yellow"
     				: "");
 
-    			add_location(div7, file$3, 92, 0, 2114);
-    			add_location(td, file$3, 91, 4, 2109);
-    			add_location(tr, file$3, 91, 0, 2105);
+    			add_location(div7, file$3, 122, 0, 2996);
+    			add_location(td, file$3, 121, 4, 2991);
+    			add_location(tr, file$3, 121, 0, 2987);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1846,8 +2025,8 @@ var app = (function () {
 
     			if (!mounted) {
     				dispose = [
-    					listen_dev(span, "click", /*click_handler*/ ctx[5], false, false, false),
-    					listen_dev(button, "click", /*click_handler_1*/ ctx[6], false, false, false)
+    					listen_dev(span, "click", /*click_handler*/ ctx[7], false, false, false),
+    					listen_dev(button, "click", /*click_handler_5*/ ctx[12], false, false, false)
     				];
 
     				mounted = true;
@@ -1963,6 +2142,25 @@ var app = (function () {
     		$$invalidate(1, jsRawText = JSON.stringify(item, null, 2));
     	}
 
+    	function OnPicStatusToggleClicked(idx) {
+    		if (item.photos[idx].rejected) {
+    			delete item.photos[idx].rejected;
+    			$$invalidate(0, item);
+    		} else {
+    			$$invalidate(0, item.photos[idx].rejected = true, item);
+    		}
+
+    		SaveItem(item);
+    	}
+
+    	function OnPicArrowClicked(photoIndex, newIndex) {
+    		let photo = item.photos[photoIndex];
+    		item.photos.splice(photoIndex, 1); // remove from where you are
+    		item.photos.splice(newIndex, 0, photo); // add to the new index
+    		$$invalidate(0, item);
+    		SaveItem(item);
+    	}
+
     	function OnScoopStatusClicked(it) {
     		if (item.scoop_status == "red") $$invalidate(0, item.scoop_status = "yellow", item); else if (item.scoop_status == "yellow") $$invalidate(0, item.scoop_status = "green", item); else $$invalidate(0, item.scoop_status = "red", item);
     		SaveItem(item);
@@ -1975,9 +2173,13 @@ var app = (function () {
     	});
 
     	const click_handler = () => OnScoopStatusClicked();
-    	const click_handler_1 = () => OnJSRawClicked(item);
+    	const click_handler_1 = idx => OnPicArrowClicked(idx, 0);
+    	const click_handler_2 = idx => OnPicArrowClicked(idx, idx - 1);
+    	const click_handler_3 = idx => OnPicArrowClicked(idx, idx + 1);
+    	const click_handler_4 = idx => OnPicStatusToggleClicked(idx);
+    	const click_handler_5 = () => OnJSRawClicked(item);
 
-    	const click_handler_2 = () => {
+    	const click_handler_6 = () => {
     		$$invalidate(1, jsRawText = null);
     	};
 
@@ -1986,19 +2188,22 @@ var app = (function () {
     	};
 
     	$$self.$capture_state = () => ({
+    		identity,
     		SaveItem,
     		getDistanceFromLatLonInKm,
     		item,
     		GuelphLocation,
     		jsRawText,
     		OnJSRawClicked,
+    		OnPicStatusToggleClicked,
+    		OnPicArrowClicked,
     		OnScoopStatusClicked,
     		distance
     	});
 
     	$$self.$inject_state = $$props => {
     		if ("item" in $$props) $$invalidate(0, item = $$props.item);
-    		if ("GuelphLocation" in $$props) $$invalidate(8, GuelphLocation = $$props.GuelphLocation);
+    		if ("GuelphLocation" in $$props) $$invalidate(14, GuelphLocation = $$props.GuelphLocation);
     		if ("jsRawText" in $$props) $$invalidate(1, jsRawText = $$props.jsRawText);
     		if ("distance" in $$props) $$invalidate(2, distance = $$props.distance);
     	};
@@ -2018,10 +2223,16 @@ var app = (function () {
     		jsRawText,
     		distance,
     		OnJSRawClicked,
+    		OnPicStatusToggleClicked,
+    		OnPicArrowClicked,
     		OnScoopStatusClicked,
     		click_handler,
     		click_handler_1,
-    		click_handler_2
+    		click_handler_2,
+    		click_handler_3,
+    		click_handler_4,
+    		click_handler_5,
+    		click_handler_6
     	];
     }
 

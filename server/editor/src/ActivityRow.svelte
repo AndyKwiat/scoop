@@ -1,5 +1,6 @@
 <script>
-    import {SaveItem,getDistanceFromLatLonInKm } from './stores.js'
+    import { identity } from 'svelte/internal';
+import {SaveItem,getDistanceFromLatLonInKm } from './stores.js'
     export let item;
     let GuelphLocation = { lat: 43.544878, lng: -80.248004 }
   
@@ -9,6 +10,25 @@
     let jsRawText=null;
     function OnJSRawClicked( item ){
         jsRawText = JSON.stringify(item, null, 2);
+    }
+    function OnPicStatusToggleClicked( idx ){
+        if (item.photos[idx].rejected){
+            delete item.photos[idx].rejected
+            item.photos[idx]=item.photos[idx];
+        }else{
+            item.photos[idx].rejected = true;
+        }
+        SaveItem(item)    
+    }
+    function OnPicArrowClicked( photoIndex, newIndex ){
+      
+     
+        let photo = item.photos[photoIndex]
+        item.photos.splice(photoIndex,1)    // remove from where you are
+        item.photos.splice(newIndex,0,photo) // add to the new index
+        item.photos = item.photos
+        SaveItem(item)    
+
     }
     function OnScoopStatusClicked(it){
         if (item.scoop_status == "red" ) 
@@ -86,6 +106,16 @@
         grid-row:1/3;
         background-color:white;
     }
+    .arrow{
+        cursor: pointer;
+    }
+    .pic_rejected{
+        border:red;
+        border-style: solid;
+        border-radius:15px;
+        outline: 50px solid rgba(255, 0, 0, 0.5) !important;
+    outline-offset: -50px;
+    }
 
     
 </style>
@@ -113,10 +143,21 @@
       </div>
     <div class="pic">
         {#if item.photos?.length > 0 }
-        {#each item.photos as ph}
-            <img height="125px" max-width="20%" src={  "https://www.stirfrygames.com/img/125/" + ph.photo_reference + "-125.jpg" }
+        {#each item.photos as ph,idx}
+            <img class={ph.rejected?"pic_rejected":""} height="125px" max-width="20%" src={  "https://www.stirfrygames.com/img/125/" + ph.photo_reference + "-125.jpg" }
             alt={item.name}/>
-        {/each}
+            {#if idx >0 }
+        
+            <span class="arrow" on:click={()=>OnPicArrowClicked(idx, 0 )}>&#10122;</span>
+            <span class="arrow" on:click={()=>OnPicArrowClicked(idx, idx-1 )}>&#8592;</span>
+            {/if}
+            {#if idx < item.photos.length -1 }
+            <span class="arrow" on:click={()=>OnPicArrowClicked(idx, idx+1 )}>&#8594;</span>
+            {/if}
+            <span class="arrow" on:click={()=>OnPicStatusToggleClicked(idx )}>&#10006;</span>
+            
+
+          {/each}
         {/if}
         </div>
     <div class="jsraw_button">

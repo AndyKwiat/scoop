@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -avzh ~/ark/scoop/server user@your-server:~/projects
+rsync -avzh -e "ssh -i ~/.ssh/your-key.pem" ~/ark/scoop/server user@your-server:~/projects

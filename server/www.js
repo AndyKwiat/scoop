@@ -185,7 +185,7 @@ app.get('/places', function (req, res) {
          withCache( "placesActive", async function() {
             data = await onScanWrapper( { TableName: "scoop-prod-places"}) 
             return data.filter ( p => (!p.scoop_status || !p.scoop_status == "green") &&
-             p.photos)
+             p.photos && p.photos.filter(i=> !i.rejected).length>0)
          }).then( data=>res.send(data))
       
    }

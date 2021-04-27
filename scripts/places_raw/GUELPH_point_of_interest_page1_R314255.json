@@ -1,0 +1,924 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwJG1j8NdMq6KPjtYF4Gbpq9-ua8wjtcdksENJp_okwJzmwTwcRjWBMmlmGqyRFxBix9VJcv2R3Pp7Y9LzKBpWmx5jfeXzj1VuztK7nQK1dRnakbbaW6Zp3t7iPB5R6Dq74Y7IoBpW-VpLWHdkQ2wbkeabFd5JD2ATm5DZxGEy_fvnNz2BbrgHdtXYS-UFMEPawRlXbtEKJNjtBb8PH4cpa6jwhkQLyBteilG8IMhWYD8Dnc9FuQl6zuDAjR-qQNXJ_q74vaVmk39IiCflSrKaLwcHXfTFVvCUPag1UwANhTtzIDilSmxcD5pjHMs1ALU-LycxGvKv1mDTiGJRftmbUs4-wDnCiYyB1K5jEDVZwMWH9hU7u8dGtsx3dmZ-Fdozm-NdGU3qn_CJLLkcN75yurLvDVzNKTzuIMUHpv5We_sA-DKo2AZNYWNp1O-DjWtJ0LUg",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5156452,
+               "lng" : -80.2403204
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.51704043029149,
+                  "lng" : -80.23890966970849
+               },
+               "southwest" : {
+                  "lat" : 43.5143424697085,
+                  "lng" : -80.2416076302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "name" : "Holiday Inn Guelph Hotel & Conference Ctr",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1363,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105757899348363190772\"\u003eHoliday Inn Guelph Hotel &amp; Conference Ctr\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKRAEl3DBxgWnQXQiJO6Xr5xUe0OxbTkMghEvBFvVm227YbNmUfSnf3BQ7KJoshYOl5CgVi_VoXJ0y4yJzL6Vc8IUJk9DLaHMMw_LsUmuOM8lbF4wTOjfAZGOPABLlkB-v5O68iz9INGbkdNCPJG2F9yhDydhHhQaClTSiRpgwKZNzL",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ8Y8JmSWFK4gR5ST6thR6KOc",
+         "plus_code" : {
+            "compound_code" : "GQ85+7V Guelph, ON, Canada",
+            "global_code" : "86MXGQ85+7V"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ8Y8JmSWFK4gR5ST6thR6KOc",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 622,
+         "vicinity" : "601 Scottsdale Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5261945,
+               "lng" : -80.22462589999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5275688802915,
+                  "lng" : -80.22327991970849
+               },
+               "southwest" : {
+                  "lat" : 43.5248709197085,
+                  "lng" : -80.2259778802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "name" : "Delta Hotels by Marriott Guelph Conference Centre",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114621156131476871049\"\u003eRabin Ramah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIcHglf-7xykniGkw2NntEVSvxVjutRJ7c4UCGAwG2s48YZvEHAmjfAJofwGlTxeys5mMle55UDr54xMRfJQXYysqFg_TXOfkgLbeB_0weYfmkz1wvdKM3_IJp2J0TTpEgDWMEbjEoDoOuOo4urfoi3vbDDzna4y1A-z_kjhGnYxS6z",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJz-m_6SybK4gRsDWcC1JqyXI",
+         "plus_code" : {
+            "compound_code" : "GQGG+F4 Guelph, ON, Canada",
+            "global_code" : "86MXGQGG+F4"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJz-m_6SybK4gRsDWcC1JqyXI",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 778,
+         "vicinity" : "50 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.52478259999999,
+               "lng" : -80.22048579999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.52609633029149,
+                  "lng" : -80.2190883697085
+               },
+               "southwest" : {
+                  "lat" : 43.5233983697085,
+                  "lng" : -80.22178633029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "name" : "Days Inn by Wyndham Guelph",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118227677084010975899\"\u003eDays Inn by Wyndham Guelph\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK8PZONtmL6RYvoAWwy2bjLUR4yh373-V3mfK1OIrCZ8jy7C9ZJcVc4bSPtZUi22HeYLt3PTyczMNhmWf059CeMbr4MAzz76zubR2OSGumtZVtljSgxMTa7fsTeO2zt27HvXXecFSARnYHUr-9eNiLdZGSoxpM_pUB7iosduv5D0YQm",
+               "width" : 6000
+            }
+         ],
+         "place_id" : "ChIJyQHrBs5rKogR2G4F9m_dQnU",
+         "plus_code" : {
+            "compound_code" : "GQFH+WR Guelph, ON, Canada",
+            "global_code" : "86MXGQFH+WR"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJyQHrBs5rKogR2G4F9m_dQnU",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 410,
+         "vicinity" : "785 Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5327217,
+               "lng" : -80.22618039999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5437399,
+                  "lng" : -80.2076828
+               },
+               "southwest" : {
+                  "lat" : 43.5210835,
+                  "lng" : -80.24798680000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "University of Guelph",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114621156131476871049\"\u003eRabin Ramah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIEwE0lcnIbiZkOVDIzccofYibiBcNk88EFhwdlO_7VwWCZvQfAWpPvvCFq8cdBY__mu0XWKSFkNx79pXbUI2K-5s8PxW8OS_6hgjCW4zMczFGCwRkCrOe0Z9txRRWWGvEELcNhP0SAK-jBIIQ_ZXr6-_qyk1ow3x6mfbED2mfbgelZ",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJt6A4HTybK4gRxxNATeWZ648",
+         "plus_code" : {
+            "compound_code" : "GQMF+3G Guelph, ON, Canada",
+            "global_code" : "86MXGQMF+3G"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJt6A4HTybK4gRxxNATeWZ648",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 365,
+         "vicinity" : "50 Stone Road East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5444442,
+               "lng" : -80.25155150000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5458788302915,
+                  "lng" : -80.25032711970849
+               },
+               "southwest" : {
+                  "lat" : 43.5431808697085,
+                  "lng" : -80.25302508029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Restorative Healing Clinic (Formerly MYG)",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwISMHLP_ZW_gkTDPRUqeczhMPbIMQre6KCp13d0fDjtR7AUwjyN9b7st_NbsLZunDLc8m-2si8HL9IkAv8Varzy7hJexZ1rGTy-MDbXHkc8WlZehb7P1FhxSN8QToEwQ3lDhIKMw-B5LPPBWOrdDQwH85YDi6U54ugIhRujSbg0oMPv",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJxayOrMGaK4gRA0b_cKFO1v8",
+         "plus_code" : {
+            "compound_code" : "GPVX+Q9 Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+Q9"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJxayOrMGaK4gRA0b_cKFO1v8",
+         "scope" : "GOOGLE",
+         "types" : [ "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 175,
+         "vicinity" : "78 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5445771,
+               "lng" : -80.24757719999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5458575802915,
+                  "lng" : -80.2462234697085
+               },
+               "southwest" : {
+                  "lat" : 43.5431596197085,
+                  "lng" : -80.2489214302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "The Cornerstone",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKpa51jXZau57zwq-x5rlITBbifTM5Bwf_xwxd5t0yKfte45g7hRDXKdwIxqlqNTFtR0Vlxoc_6wgXKwW_hu2SMC4FILnxCuIrW8zJLu-LlW0A79NUTPBsglvMncXiyTNRYYw1ZWdVLLXmJq0b9UqoP4Y1p1gVusSlAGGR4Av6btT4j",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJYzr8OMKaK4gRW97mKCaEwJU",
+         "plus_code" : {
+            "compound_code" : "GQV2+RX Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+RX"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJYzr8OMKaK4gRW97mKCaEwJU",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 383,
+         "vicinity" : "1 Wyndham Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5199047,
+               "lng" : -80.2339114
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5212313302915,
+                  "lng" : -80.2325318197085
+               },
+               "southwest" : {
+                  "lat" : 43.5185333697085,
+                  "lng" : -80.2352297802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Foot Locker",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKP3VSTPWCcunUtz5Vj34Q2_GHJ21pV1Va6rUpiR-dyB7XmrFmmghmPVf1YuxnlXRV4ZTqq8lfuAdCDyCMOGHJxDCCGgQVrre77nMBc3EWjxg82LDsiKyoondhHX9NTuQvrczXb3A-kELsdz4S4Z4H5zQdkr-smaMTRxjVYqbmTKu9o",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJ_ZHs0yiFK4gRdA5chOxpFJQ",
+         "plus_code" : {
+            "compound_code" : "GQ98+XC Guelph, ON, Canada",
+            "global_code" : "86MXGQ98+XC"
+         },
+         "price_level" : 2,
+         "rating" : 3.4,
+         "reference" : "ChIJ_ZHs0yiFK4gRdA5chOxpFJQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "shoe_store",
+            "point_of_interest",
+            "clothing_store",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 59,
+         "vicinity" : "435 Stone Road West Space C4, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5184881,
+               "lng" : -80.23447089999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5197841302915,
+                  "lng" : -80.23304191970848
+               },
+               "southwest" : {
+                  "lat" : 43.5170861697085,
+                  "lng" : -80.2357398802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "The UPS Store",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100315042258990303956\"\u003eThe UPS Store\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK-g9uXB5AUweCnBNfY2v5HzZ7gtLh3oZ18NNq5qx9zz9uIYzzAVyfu3YgBL-ImF7Fcu8JV4VJ5pawUrwYV3OzSaVFdAHt4zQhrVHU0BCvIH-s-XeB1tcFhgEVn3htf7U8K4yOZwfFpnK84cmqivJdHXVO1xjFMiWXh-rFHcjYjRAU7",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJR8j76iybK4gR6IjXH-v_wGY",
+         "plus_code" : {
+            "compound_code" : "GQ98+96 Guelph, ON, Canada",
+            "global_code" : "86MXGQ98+96"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJR8j76iybK4gR6IjXH-v_wGY",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 70,
+         "vicinity" : "304 Stone Road West #3, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5389532,
+               "lng" : -80.25282340000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54022588029149,
+                  "lng" : -80.25133551970849
+               },
+               "southwest" : {
+                  "lat" : 43.5375279197085,
+                  "lng" : -80.25403348029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "91 Waterloo Avenue",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 420,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101430187131262449599\"\u003e91 Waterloo Avenue\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI6OyiYF8HHLxR4nR91ZH8Cx5LH6AT0FYuO3Wx5q8DnmM34WCm-YGMVrmBQU1E9iivtnbLOkfS1Rt0tB-UJuIFxNcGfLtUNyLcZMx3lVgSXh_RIIWF8WjRZcwiShPEmYRagGGA-3Z-f5ADYKck6iGj0pRn-BKmzQNZmx0JLl-cOIAPk",
+               "width" : 746
+            }
+         ],
+         "place_id" : "ChIJFZODg8GaK4gRaSb8OkHZgrU",
+         "plus_code" : {
+            "compound_code" : "GPQW+HV Guelph, ON, Canada",
+            "global_code" : "86MXGPQW+HV"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJFZODg8GaK4gRaSb8OkHZgrU",
+         "scope" : "GOOGLE",
+         "types" : [
+            "beauty_salon",
+            "hair_care",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 59,
+         "vicinity" : "91 Waterloo Avenue, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54176589999999,
+               "lng" : -80.2446114
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54303513029151,
+                  "lng" : -80.2432304197085
+               },
+               "southwest" : {
+                  "lat" : 43.54033716970851,
+                  "lng" : -80.2459283802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Tim Hortons",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2252,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114621156131476871049\"\u003eRabin Ramah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIBTR_wBSW9IqARSLWTaqi0kRqvhZrJ3mNc1YXwBmGDwoN7tNGkB0nuH6Sd0jugPSQsEMrl0LHLVz9DcfnlSxopVOeUklsYX8f8NTkycv4_a27QYWgJ6udLfk9gUwB6Nj9nUY66VCyhZXiS4yPCf8TBadmvxdGHTbWGtP0nxJdRdJ5g",
+               "width" : 4016
+            }
+         ],
+         "place_id" : "ChIJ32YOW8OaK4gR17AHqceDDVs",
+         "plus_code" : {
+            "compound_code" : "GQR4+P5 Guelph, ON, Canada",
+            "global_code" : "86MXGQR4+P5"
+         },
+         "price_level" : 1,
+         "rating" : 3.7,
+         "reference" : "ChIJ32YOW8OaK4gR17AHqceDDVs",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 420,
+         "vicinity" : "28 Wellington Street East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54538779999999,
+               "lng" : -80.24655629999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54687898029149,
+                  "lng" : -80.24503381970848
+               },
+               "southwest" : {
+                  "lat" : 43.54418101970849,
+                  "lng" : -80.24773178029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+         "name" : "Royal Inn & Suites",
+         "photos" : [
+            {
+               "height" : 1515,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105000146083269971359\"\u003eRoyal Inn &amp; Suites\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIErw5XcnAhQw11UBW0a_PKS8_S6kH_xOLnMgPlD1qnXW2scujPmvKHSy1jSIAKAQNbPtdeYaoCO_xB3tXVpAgO6cCv9vQ8Z5jXVzP-RtrBHV_bWDYS97jMLPhIIPoWoCM72EqMgo-JaRUPcWGxxhe92kPGPS38ccG6Y0ih5fJ1ii9N",
+               "width" : 2592
+            }
+         ],
+         "place_id" : "ChIJ04xZYcKaK4gR4t4xcdYGp68",
+         "plus_code" : {
+            "compound_code" : "GQW3+59 Guelph, ON, Canada",
+            "global_code" : "86MXGQW3+59"
+         },
+         "rating" : 2.9,
+         "reference" : "ChIJ04xZYcKaK4gR4t4xcdYGp68",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 102,
+         "vicinity" : "95 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5181087,
+               "lng" : -80.2386384
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5192434802915,
+                  "lng" : -80.23704871970848
+               },
+               "southwest" : {
+                  "lat" : 43.5165455197085,
+                  "lng" : -80.2397466802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "ALDO",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2892,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIMOxYjxm8gE6CCuXYe3jpT0QHYmwOGieCnhPK1c2LhbHES7H6LF93p9mLeAmihlzwQseBEpM9882oTy693iuGsgglNqmojrElX5C79BhqordIl0rlT3KlWu2vOE3YYTRbP9W2KuJ4bPAntkL-X6ygw0iL4bFLcs48xIUscL3YfGA8G",
+               "width" : 3858
+            }
+         ],
+         "place_id" : "ChIJ_ZHs0yiFK4gRDPcf_Ay_xYg",
+         "plus_code" : {
+            "compound_code" : "GQ96+6G Guelph, ON, Canada",
+            "global_code" : "86MXGQ96+6G"
+         },
+         "price_level" : 2,
+         "rating" : 3,
+         "reference" : "ChIJ_ZHs0yiFK4gRDPcf_Ay_xYg",
+         "scope" : "GOOGLE",
+         "types" : [ "shoe_store", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 33,
+         "vicinity" : "435 Stone Road West a10, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5451701,
+               "lng" : -80.2476597
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5464664302915,
+                  "lng" : -80.2462617697085
+               },
+               "southwest" : {
+                  "lat" : 43.5437684697085,
+                  "lng" : -80.24895973029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Subway",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2848,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL5yCsSj_B2luPcBOz5AGBJ5_ya96I-R7pNPGt6jmom0jLrzuq-kW3F-piPlkzu7wfB_4ZRtiaRDFSEmNf0mhJXMnG6BON-4T1cKj7NE0aWOtx-kXXcFlNF64La6kmC1DN9mnNwsgx6hryC8dUWn18S7LsaxOwQnnO8S95UDlkFKkqw",
+               "width" : 4288
+            }
+         ],
+         "place_id" : "ChIJXftFFMKaK4gRNRFHwUiraDI",
+         "plus_code" : {
+            "compound_code" : "GQW2+3W Guelph, ON, Canada",
+            "global_code" : "86MXGQW2+3W"
+         },
+         "price_level" : 1,
+         "rating" : 2.6,
+         "reference" : "ChIJXftFFMKaK4gRNRFHwUiraDI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 79,
+         "vicinity" : "72 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.51602829999999,
+               "lng" : -80.2390073
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5173556302915,
+                  "lng" : -80.23762676970848
+               },
+               "southwest" : {
+                  "lat" : 43.5146576697085,
+                  "lng" : -80.24032473029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "American Eagle Store",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116719867247921839977\"\u003eNiroshan Udith Bandara\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJrBA1yum5x56Tfgyx3Q6yB0YqoWaar5qzRIZ9paz3imBVbQ4ZtiogAeEsvajJQ9Mmha3YHWDPQBBnqUq7JtD0HtCpzzEcW2GqhYKYmpk9GA_kyJ2-vT5Y58Nndi8tOjtlPGajZ513nTB1w_bGu5pNlDd0IrCqmno0kyUAoE0hnzRBp",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJVeMk0iiFK4gR7u7rfqihGlc",
+         "plus_code" : {
+            "compound_code" : "GQ86+C9 Guelph, ON, Canada",
+            "global_code" : "86MXGQ86+C9"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJVeMk0iiFK4gR7u7rfqihGlc",
+         "scope" : "GOOGLE",
+         "types" : [ "clothing_store", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 77,
+         "vicinity" : "435 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5474833,
+               "lng" : -80.2461222
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5487787302915,
+                  "lng" : -80.24478816970849
+               },
+               "southwest" : {
+                  "lat" : 43.5460807697085,
+                  "lng" : -80.24748613029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "River Run Centre",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117358041895426319556\"\u003esteve ritsema\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKEZHwE1xMVXTeKW_KOU-a2NwGUmoAt0t2YT00WPyAv4RDOsJ8X36QrhFqdgo4aXr7-RmAd-UF1egImC3VsdwWd8MuPi_XWgoZUhidq6MEW0RKLGX16VeFWD7nvtDz-kRdoXpRQ_t7P55OoAA4i82MRSe-Ef5mzM1_M1-FJZJZUDclz",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJMV9KE-iaK4gROQfWbsrv6H0",
+         "plus_code" : {
+            "compound_code" : "GQW3+XH Guelph, ON, Canada",
+            "global_code" : "86MXGQW3+XH"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJMV9KE-iaK4gROQfWbsrv6H0",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 596,
+         "vicinity" : "35 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5470921,
+               "lng" : -80.24968559999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54833868029149,
+                  "lng" : -80.24854086970849
+               },
+               "southwest" : {
+                  "lat" : 43.54564071970849,
+                  "lng" : -80.2512388302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+         "name" : "Young Drivers of Canada - Guelph Driving School",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2848,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116120959114501081989\"\u003eAJ Marek\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJyWQsZGBN1Q6cHhESaKWLxguzKvvdcPu4Q0E7iEbpAKUo3VIlFPHNwq7vhtPCQVPvO_1C7B0NCW9HnBV1vnZQFFBgT6HZnRhri8VhlVHRCR3mfBfu68ZAFMZNgdKkXadAeBwk_9QuTvdJq5-aGo9QMGwdQV8YAsgqdwMp2WNcBk9MG",
+               "width" : 4288
+            }
+         ],
+         "place_id" : "ChIJ_RJ8DeqaK4gRzSlg3m_NrJI",
+         "plus_code" : {
+            "compound_code" : "GQW2+R4 Guelph, ON, Canada",
+            "global_code" : "86MXGQW2+R4"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJ_RJ8DeqaK4gRzSlg3m_NrJI",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 268,
+         "vicinity" : "121 Wyndham Street North Suite 205, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5182747,
+               "lng" : -80.2387533
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5198297802915,
+                  "lng" : -80.23771266970849
+               },
+               "southwest" : {
+                  "lat" : 43.5171318197085,
+                  "lng" : -80.24041063029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Dynamite",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJLKjBT9JK9N5QH-mPnj8xGpuyj27OCxBYOM6jMHwiO8DjI4ZIQgVEYrsHremeqpD1ODoQNLqistXnrUzMNeqsVHVnbPE8_CF0J_JlnBjIEPZ1jQsyPLCfxWd62Zqo0I0bidIq4iPukEIdhRbvvZ1TvILW9-iwOHwUAnIOTjOkeslpN",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJ_ZHs0yiFK4gRIbAY-FF9ZJI",
+         "plus_code" : {
+            "compound_code" : "GQ96+8F Guelph, ON, Canada",
+            "global_code" : "86MXGQ96+8F"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJ_ZHs0yiFK4gRIbAY-FF9ZJI",
+         "scope" : "GOOGLE",
+         "types" : [ "clothing_store", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 13,
+         "vicinity" : "435 Stone Road West N11, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5437756,
+               "lng" : -80.2585563
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5450216302915,
+                  "lng" : -80.2571108197085
+               },
+               "southwest" : {
+                  "lat" : 43.5423236697085,
+                  "lng" : -80.25980878029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Oxford Manor",
+         "photos" : [
+            {
+               "height" : 1960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116542123704421016745\"\u003eZed Dean\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIK6RNRLLiO8RkOE0vV5EpWO7Un3upGhlYFFwOwSyXBuppF3Rfp70Lyyj_WTnecfXRqwAci9xZy55ufhCHjeO-KV8eJbvO6Vr3Z69k-FQ7o212LiVVY0c0uCxladTOFQJOBnA2ldJ_KJ8kUVqjRSGJkgOoYt45zseLvhCcHnboxufxi",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJeRYG676aK4gRmptaIe71u3s",
+         "plus_code" : {
+            "compound_code" : "GPVR+GH Guelph, ON, Canada",
+            "global_code" : "86MXGPVR+GH"
+         },
+         "rating" : 2.3,
+         "reference" : "ChIJeRYG676aK4gRmptaIe71u3s",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4,
+         "vicinity" : "Care of Superintendent, 308-135 Oxford Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.51602829999999,
+               "lng" : -80.2390073
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5173556302915,
+                  "lng" : -80.2376268197085
+               },
+               "southwest" : {
+                  "lat" : 43.51465766970851,
+                  "lng" : -80.2403247802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Claire's",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111397641224719226337\"\u003eTuco Salamanca\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJRc4LwnYDeGOW4G81e2e8WveCX2-eFB_IjR1HrI2gLn3jBHFNOIDsaNkRoQsuvdEeehnCx4hFWhU5Fne3nm4y4vdzIHGGjpwY-fMGhr3EH9pcBzDsN1n-bwnOF5sVKBecNd4XdEYg5Mn4uo6w6Xu7xwOWtryr9uobygheygLycbTu-",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ_ZHs0yiFK4gRFfmKqBizaWs",
+         "plus_code" : {
+            "compound_code" : "GQ86+C9 Guelph, ON, Canada",
+            "global_code" : "86MXGQ86+C9"
+         },
+         "price_level" : 2,
+         "rating" : 3.8,
+         "reference" : "ChIJ_ZHs0yiFK4gRFfmKqBizaWs",
+         "scope" : "GOOGLE",
+         "types" : [ "jewelry_store", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 19,
+         "vicinity" : "435 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5215407,
+               "lng" : -80.23555259999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.52282898029149,
+                  "lng" : -80.23410821970849
+               },
+               "southwest" : {
+                  "lat" : 43.52013101970849,
+                  "lng" : -80.2368061802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Rogers",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 955,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114307660027838465443\"\u003eRogers\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJFdeQJscpMVQoF2ipwb_MWu9FaQZTPikUsqN79wMdRW5a8ayos1UX-ta8TJbUMYZP-IYciMAE6DwKpuDWmV_ZqCtHFyoKDYkbsFRuZubn_lRRIgnaloZblk6UNQUw4zyyaGcBO1pzc1JNVJRE-K1EV6p0Pc_txhD0TKH0HWU_NjUsF",
+               "width" : 1111
+            }
+         ],
+         "place_id" : "ChIJr0YQeCmFK4gRRIF25Yk_npI",
+         "plus_code" : {
+            "compound_code" : "GQC7+JQ Guelph, ON, Canada",
+            "global_code" : "86MXGQC7+JQ"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJr0YQeCmFK4gRRIF25Yk_npI",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 35,
+         "vicinity" : "492 Edinburgh Road South, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

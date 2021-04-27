@@ -1,0 +1,464 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5418967,
+               "lng" : -80.2486237
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54331313029149,
+                  "lng" : -80.24722246970849
+               },
+               "southwest" : {
+                  "lat" : 43.5406151697085,
+                  "lng" : -80.2499204302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Renann Isaacs Contemporary Art",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117595983095516264525\"\u003eLaura Brown\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK5fsQrH2gPTdYUjwoMkJo3cmWYeX45aPUTsl0m4RAvosnNfr_r8t96-ch69Lh0qjHRunefHDzuFTzNpuRsp04ynWEMbWvMvc1Z0p26cNY8dDvB4kDOfGzaMxbOlJBzf1yvBt1FWq4prhT-g8nYXp4RdV3zeiGdr00bYG0fzpaVAd3H",
+               "width" : 3036
+            }
+         ],
+         "place_id" : "ChIJB8zrxcGaK4gRpysoDFit9wI",
+         "plus_code" : {
+            "compound_code" : "GQR2+QH Guelph, ON, Canada",
+            "global_code" : "86MXGQR2+QH"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJB8zrxcGaK4gRpysoDFit9wI",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 6,
+         "vicinity" : "5 Gordon Street unit 107, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5329426,
+               "lng" : -80.2329196
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5343427302915,
+                  "lng" : -80.23150746970849
+               },
+               "southwest" : {
+                  "lat" : 43.5316447697085,
+                  "lng" : -80.2342054302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Art Gallery of Guelph",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1119,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115561404951301215064\"\u003eArt Gallery of Guelph\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK3KJ3RBn4sYgUHZmGQHr2ON_TVwSTUY-x-qqIsrLXQfjxz5SVbdUar7K7zyXjVHSMQMZoc6i53BvMFNSbiZyHrDBf6vCU-lK10kwwFBGh_w3bT-Eze3vWxIYAcXDt35goOFDv90WQuCVUiMiVjzN4fctNIUQMgirRNTcWj3qLvC8R0",
+               "width" : 2438
+            }
+         ],
+         "place_id" : "ChIJ_yHsStaaK4gRGHO3fJz-1jA",
+         "plus_code" : {
+            "compound_code" : "GQM8+5R Guelph, ON, Canada",
+            "global_code" : "86MXGQM8+5R"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ_yHsStaaK4gRGHO3fJz-1jA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 74,
+         "vicinity" : "358 Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5146997,
+               "lng" : -80.26744149999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5160453302915,
+                  "lng" : -80.26611711970851
+               },
+               "southwest" : {
+                  "lat" : 43.51334736970851,
+                  "lng" : -80.26881508029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Wellington Artist's Gallery & Arts Centre",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJG4hNCYK9K4gR_QkRWyacT98",
+         "plus_code" : {
+            "compound_code" : "GP7M+V2 Guelph/Eramosa, ON, Canada",
+            "global_code" : "86MXGP7M+V2"
+         },
+         "reference" : "ChIJG4hNCYK9K4gR_QkRWyacT98",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "6142 Wellington Rd 29, RR#4, Fergus, ON N1H 3K8"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5094102,
+               "lng" : -80.2286666
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5106550802915,
+                  "lng" : -80.2274092697085
+               },
+               "southwest" : {
+                  "lat" : 43.5079571197085,
+                  "lng" : -80.23010723029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "vickie martin originals",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 809,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118166148786959220308\"\u003evickie martin originals\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJE1UKAPYrbz0hmrOjowjA5F3cnHMndGmCVew3lBwSGK_FVZeWnfSAq14A0YWhx2dix2DFliMda8jZZz_2tb77nn4--0_072pRSaaux6MkLwK7uJW4RPR0WprFfIpaifbJopJau5cqJA2f3SH6WwR0HdvwGKVHbGLKCSOr3f45EqBri",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJl4FZ5d6EK4gR19MXMY63s1E",
+         "plus_code" : {
+            "compound_code" : "GQ5C+QG Guelph, ON, Canada",
+            "global_code" : "86MXGQ5C+QG"
+         },
+         "rating" : 5,
+         "reference" : "ChIJl4FZ5d6EK4gR19MXMY63s1E",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "34 Woodborough Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5448805,
+               "lng" : -80.2486016
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5462996802915,
+                  "lng" : -80.2471141697085
+               },
+               "southwest" : {
+                  "lat" : 43.5436017197085,
+                  "lng" : -80.2498121302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Ed Video Media Arts Ctr",
+         "place_id" : "ChIJfSuGIsKaK4gR5YEMQrKNWGY",
+         "plus_code" : {
+            "compound_code" : "GQV2+XH Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+XH"
+         },
+         "reference" : "ChIJfSuGIsKaK4gR5YEMQrKNWGY",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "16 Wyndham Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5449861,
+               "lng" : -80.2534084
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5463314802915,
+                  "lng" : -80.25193586970849
+               },
+               "southwest" : {
+                  "lat" : 43.5436335197085,
+                  "lng" : -80.25463383029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Kloepfer Custom Framing & Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105668483526030997826\"\u003eBrett Forsyth\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLgaHgHFfO4rXsQ_sUxCNEk5T2ZLJSkrpi2XP5iDvic-Z2-9QIsS2MBx0Ph8_2KxUc68eQtl9XVHD4zhJVH2EEpVfv3yG7_P5YTyVYCROIxr4j1v4OcorzMgVAb7fo3PlyoIUZ8tuXCVx7U1las0iFK5ngRcXDcnM0W8nnCMLeXfnM",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJbcLDb8CaK4gR2QZqf0iYtc0",
+         "plus_code" : {
+            "compound_code" : "GPVW+XJ Guelph, ON, Canada",
+            "global_code" : "86MXGPVW+XJ"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJbcLDb8CaK4gR2QZqf0iYtc0",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 31,
+         "vicinity" : "18 Paisley Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54708350000001,
+               "lng" : -80.2527427
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54844398029151,
+                  "lng" : -80.2513148197085
+               },
+               "southwest" : {
+                  "lat" : 43.54574601970851,
+                  "lng" : -80.2540127802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "A Corner Peace Gallery",
+         "place_id" : "ChIJ60CSmeqaK4gR6RGn2glKZLw",
+         "plus_code" : {
+            "compound_code" : "GPWW+RW Guelph, ON, Canada",
+            "global_code" : "86MXGPWW+RW"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ60CSmeqaK4gR6RGn2glKZLw",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "54 Yarmouth Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5479588,
+               "lng" : -80.24933879999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54918638029149,
+                  "lng" : -80.2480438697085
+               },
+               "southwest" : {
+                  "lat" : 43.5464884197085,
+                  "lng" : -80.2507418302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Portrait Artist Robert Howson",
+         "place_id" : "ChIJsyhKO-qaK4gRLXNdCVIAI9U",
+         "plus_code" : {
+            "compound_code" : "GQX2+57 Guelph, ON, Canada",
+            "global_code" : "86MXGQX2+57"
+         },
+         "reference" : "ChIJsyhKO-qaK4gRLXNdCVIAI9U",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "123 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5445014,
+               "lng" : -80.2609451
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5457273302915,
+                  "lng" : -80.25947876970849
+               },
+               "southwest" : {
+                  "lat" : 43.5430293697085,
+                  "lng" : -80.26217673029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Barber Gallery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102815196585492015354\"\u003eJohn Smith\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK-FrHavxfyHxMksoNSMZPKG_AvuJF_0CGMpTPr5AN3dMMSakF9WV5l5U19-lqHMFjUMhhk0ICtxYalvaBuqN2V-Qr6brJwTNJyBmwAY2UbaeOH7bFSenRyLTEj4FjHdm0nlrlxKqUYApaBu_BDtDSBHtYjatT0qIH17aEQlAK7nruf",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJZRqwL7yaK4gRgUZYXflY7Nk",
+         "plus_code" : {
+            "compound_code" : "GPVQ+RJ Guelph, ON, Canada",
+            "global_code" : "86MXGPVQ+RJ"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJZRqwL7yaK4gRgUZYXflY7Nk",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "167 Suffolk Street West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5247594,
+               "lng" : -80.2490232
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5260395302915,
+                  "lng" : -80.24753036970849
+               },
+               "southwest" : {
+                  "lat" : 43.5233415697085,
+                  "lng" : -80.25022833029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "luxBorealis - photographs by Terry A. McDonald",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1153,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104781471519277750919\"\u003eluxBorealis - photographs by Terry A. McDonald\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL_fshwCT7pYTHReOjgPu2xf11jPrarlE2MSmxtI44lapXX9xv6HOU2PAxZPB2Ec4Xmj43Hn60_4x2TtVvPcEY-TPuh2umLEHpRChlthsxh8dBC_Lyj_IW1B82d1eld3SViLafNwyyTmIQ5K5whyECVSBft7EDspTacJhM1VhqfBmC3",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJV3rggTOFK4gR5bvJZFJOp0I",
+         "plus_code" : {
+            "compound_code" : "GQF2+W9 Guelph, ON, Canada",
+            "global_code" : "86MXGQF2+W9"
+         },
+         "reference" : "ChIJV3rggTOFK4gR5bvJZFJOp0I",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "79 Vanier Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.50464540000001,
+               "lng" : -80.1610082
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5063725302915,
+                  "lng" : -80.1591343697085
+               },
+               "southwest" : {
+                  "lat" : 43.5036745697085,
+                  "lng" : -80.16183233029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Garden House Gallery",
+         "place_id" : "ChIJHbEFHTmDK4gRDh_12hu-814",
+         "plus_code" : {
+            "compound_code" : "GR3Q+VH Guelph, ON, Canada",
+            "global_code" : "86MXGR3Q+VH"
+         },
+         "reference" : "ChIJHbEFHTmDK4gRDh_12hu-814",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "1953 Victoria Road South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5785142,
+               "lng" : -80.1422154
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5798828302915,
+                  "lng" : -80.14090036970849
+               },
+               "southwest" : {
+                  "lat" : 43.5771848697085,
+                  "lng" : -80.1435983302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Dances with Ghosts Gallery",
+         "place_id" : "ChIJwTRuN8udK4gRhE8jMbfD7Oc",
+         "plus_code" : {
+            "compound_code" : "HVH5+C4 Eden Mills, ON, Canada",
+            "global_code" : "86MXHVH5+C4"
+         },
+         "reference" : "ChIJwTRuN8udK4gRhE8jMbfD7Oc",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "Corner of Ash and, Wilson Street, Eden Mills"
+      }
+   ],
+   "status" : "OK"
+}

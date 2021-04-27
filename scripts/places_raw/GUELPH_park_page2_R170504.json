@@ -1,0 +1,827 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwI4GP31DKvvd4aeV_4ZYsyKmgZry53sZS3foSJneIHdYOCQ1wxQiTL51gSCMrhFNt1tcyuVm2R2l1GTAdiMJf4MyCpAkS2h8htQ1t4KtjqdnTfsaq6fAG_KKxx7JJ0rd7Ekh-R56b7qWhmgZ5Gs5_rXye1rfDGyrfh2rMKMg0qVJSKQ1h3lyTYzFPYZPwg-QTqw1qxnQPmGVfanoFg6pHm9daw5sMb_5OxXovIA-jiVNJ-_Nh2Z_wm--fn43gQGyPTJLBIzScgE4rTEpFrEvgJx0xC9zGgf7nbp5Pkui7gTXq13fDphxYkT9D67Di0t8z0rUkmd8Bl4CgJboOOEVmAPIuaiJPQc0HxptBL9r8G16G9oWwK-vXVnmDboZFvPOS79t6-BsEJWZXBDJuvpt346-WAi9DbTkpSGs35yDBpuT0sesf0QQ--1o2EFf_ChXXXAWT2kH-V16L26vZfVWOvPH8Inzoak_eRat0GGMYvlUOJ3IPhOatti2Sn6FOOxGO1vW4WeZRhQDbmiyi2thzTfpr6zFq4Ug2eZVzITOkmEBp9u2YN-q9mrBRymGPHNC-WvLDSNp7t9cusFlGpY7b_VzweQkRLjdA3BCkq2nfxXv0jWvC93Npi5aBlAbH9v_klzmv3EHw",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.60579,
+               "lng" : -80.256715
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6071430302915,
+                  "lng" : -80.25537191970849
+               },
+               "southwest" : {
+                  "lat" : 43.6044450697085,
+                  "lng" : -80.2580698802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Guelph Lake Conservation Area",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1138,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111483985129041393526\"\u003eGuelph Lake Conservation Area\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLjh6YzDj0ekcOaNPmPfgQHCy6oCssgC9So1eWmFm12rC3uPRs37uFqCpJBn7cdqdQoJgk_3EiWfQiJV6vl3WmYxdiDsZvG-v1qaKbgeLijFPorKluzVAtML35wGR1p4htX1Tv9bYqHebqS12QRvcbafIQE9ZC7MT0tBSFC0MZReMS4",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJBVKWEaCQK4gRpJNBurdRA4k",
+         "plus_code" : {
+            "compound_code" : "JP4V+88 Guelph, ON, Canada",
+            "global_code" : "86MXJP4V+88"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJBVKWEaCQK4gRpJNBurdRA4k",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1968,
+         "vicinity" : "7743 Conservation Road RR4, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.56238459999999,
+               "lng" : -80.27742940000002
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5637339302915,
+                  "lng" : -80.27611806970849
+               },
+               "southwest" : {
+                  "lat" : 43.5610359697085,
+                  "lng" : -80.27881603029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cemetery_grave-71.png",
+         "name" : "Woodlawn Memorial Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 606,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112016543279733767872\"\u003eWoodlawn Memorial Park\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJcwohs-70npPv1Fn-fR08J6wjMpmQLi-jk7ouY4HFnW8rLgryX4MssnUF3poJVF7eMlcqieFgl2NURURH3LvwUcMVc3NTQmSVJ7RFT8jpue72-X75glow5lrio5A7e_xILTWZZ5nOBF1hhGTtzQqD8cnyJlC9UepF9wGycYTXVNC4Q",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJL6P_sHiQK4gRACVX-LcH5lE",
+         "plus_code" : {
+            "compound_code" : "HP6F+X2 Guelph, ON, Canada",
+            "global_code" : "86MXHP6F+X2"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJL6P_sHiQK4gRACVX-LcH5lE",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cemetery",
+            "tourist_attraction",
+            "park",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 60,
+         "vicinity" : "762 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5518864,
+               "lng" : -80.2539123
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5533301802915,
+                  "lng" : -80.25237636970849
+               },
+               "southwest" : {
+                  "lat" : 43.5506322197085,
+                  "lng" : -80.25507433029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Joseph Wolfond Park East",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2121,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112045130505577271104\"\u003eJason Fowler\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIl_tShds1I1RInQWS_4cgcerOdMRNMXVTRuB3aDVydLL7sZKZXLnE-GekItxfXTJizVqRxv-67pvGCG6Y2WYn8oK57L5AtMK53cAvcQRlsVF6sELED5sFSsZ2biWVrpmd6bJAGVlfOQK7H4ry-y8vPGsp3jkdYJu7pfGRsVVcCWj5V",
+               "width" : 3771
+            }
+         ],
+         "place_id" : "ChIJYd91r-yaK4gR_-mrEkF5gh0",
+         "plus_code" : {
+            "compound_code" : "HP2W+QC Guelph, ON, Canada",
+            "global_code" : "86MXHP2W+QC"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJYd91r-yaK4gR_-mrEkF5gh0",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 74,
+         "vicinity" : "230 Arthur Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5360323,
+               "lng" : -80.2446777
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5374811302915,
+                  "lng" : -80.24346486970849
+               },
+               "southwest" : {
+                  "lat" : 43.5347831697085,
+                  "lng" : -80.24616283029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Colonel John McCrae Birthplace & Memorial Gardens",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJXajpoYdBOUMOV7BEu2Ydyo9L8GeC2KSlDdkOgNmIM3dC5vrqKhCP5Ll-uWRvpYl9HVp5TIadQO5ce48GvyeQRzcSUXQXkcXOGXMtJ-8OyEBP4c1cCBn6aOQrssd4dGajkyNkZtUi6A7CYxWGfWov_5F5DU0slAhE_Te0j6wmACDFz",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJRXFpTnGbK4gRXmjG2SPbEfE",
+         "plus_code" : {
+            "compound_code" : "GQP4+C4 Guelph, ON, Canada",
+            "global_code" : "86MXGQP4+C4"
+         },
+         "rating" : 5,
+         "reference" : "ChIJRXFpTnGbK4gRXmjG2SPbEfE",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "108 Water Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54276120000001,
+               "lng" : -80.2506789
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54420313029151,
+                  "lng" : -80.24936436970849
+               },
+               "southwest" : {
+                  "lat" : 43.54150516970851,
+                  "lng" : -80.25206233029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Garden of Grace",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118319311663308145662\"\u003eDuane Swaving\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJcrjq1lzHqpxOEVYQkSoy0z6CAizr2quS8676tjYHHq_u5pRipzZxPOE-gieU75gZCasSBKTSsYvSOw-XQbjJ9afgv3eAlNyKbpmyy-4rtrZR_QIkV7y-RFHkOtzjXiss8yT8JsOrn4z_c666z7voGaW-3Q36hIxV8RGkGC1bu0_6E",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ_9Phl32bK4gRUQHFiKGS3gw",
+         "plus_code" : {
+            "compound_code" : "GPVX+4P Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+4P"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ_9Phl32bK4gRUQHFiKGS3gw",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "26 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54390899999999,
+               "lng" : -80.24849739999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5452839302915,
+                  "lng" : -80.24717306970848
+               },
+               "southwest" : {
+                  "lat" : 43.5425859697085,
+                  "lng" : -80.2498710302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "G2G Rail Trail Experience Trailhead",
+         "place_id" : "ChIJLTKi_bubK4gRJ32twvPCI98",
+         "plus_code" : {
+            "compound_code" : "GQV2+HJ Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+HJ"
+         },
+         "reference" : "ChIJLTKi_bubK4gRJ32twvPCI98",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "1-71 Carden Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5339439,
+               "lng" : -80.252962
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.53529288029151,
+                  "lng" : -80.2516130197085
+               },
+               "southwest" : {
+                  "lat" : 43.53259491970851,
+                  "lng" : -80.25431098029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Royal Recreation Trail",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116719867247921839977\"\u003eNiroshan Udith Bandara\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKCY3ZG3-wPSNGY8OkTCoW3UJSQ59WdVBDT5DjSbp5qGE_DJyFDaEksxkQlQbD0DW7sIbKTOanmgWZndd9kEylsdWsk7hYfExoKDON_-3HnOk__8tNlBTHfkNU9iYu4wRwWHRQxVzLSctBe12aDt4ISwtVzQJzC8luxYEHkHi5hJe19",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJvw7mGnabK4gRCeIRQtOuGdk",
+         "plus_code" : {
+            "compound_code" : "GPMW+HR Guelph, ON, Canada",
+            "global_code" : "86MXGPMW+HR"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJvw7mGnabK4gRCeIRQtOuGdk",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "Edinburgh at Wellington northbound, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5333698,
+               "lng" : -80.25474779999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5347866302915,
+                  "lng" : -80.25323821970849
+               },
+               "southwest" : {
+                  "lat" : 43.5320886697085,
+                  "lng" : -80.2559361802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Silvercreek Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107701102694716779328\"\u003eChris G\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIXVSeyPWOid3kyIptjMfMX9wAqOXuskTqF0eZVdcl223WQyF46FR4de3wzTKMosidUTIp_xXwqxpHSwfK8SIceiKvXRTMvYER732fGEZE6S-s9ed255O8w0e0bWIJP0cK0-LdLBgDeylVB_FpZVjk6LS_BBBUe-JTZkKDF1brTTeNP",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJEcYsjoabK4gRqTjlqKv_-XE",
+         "plus_code" : {
+            "compound_code" : "GPMW+84 Guelph, ON, Canada",
+            "global_code" : "86MXGPMW+84"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJEcYsjoabK4gRqTjlqKv_-XE",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 23,
+         "vicinity" : "Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.53336789999999,
+               "lng" : -80.2547555
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.53478568029149,
+                  "lng" : -80.25324206970851
+               },
+               "southwest" : {
+                  "lat" : 43.53208771970849,
+                  "lng" : -80.25594003029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Silvercreek Skatepark",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106324700194307573971\"\u003eTimothy Bodfish\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIzWJZgOoIZ2y0ZMW9cxq4eqzUfCn_HBSTAbWOa1fGCkM70gSNYSVVVWxd4zF53V4iBH-nM6UaMto60swYfJjCTO2Jq5ByUaSCr86SztZkg2_FcUXCNjQtx0urev0CADfs8ts_2dWp_P6GxH63u9_5PRSqPtxIISVZbUPAd6LqSClrK",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ4zrx6MiaK4gRblSgDJLTua8",
+         "plus_code" : {
+            "compound_code" : "GPMW+83 Guelph, ON, Canada",
+            "global_code" : "86MXGPMW+83"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ4zrx6MiaK4gRblSgDJLTua8",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 227,
+         "vicinity" : "142 Edinburgh Road South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5299859,
+               "lng" : -80.2465866
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.53124828029149,
+                  "lng" : -80.24511246970849
+               },
+               "southwest" : {
+                  "lat" : 43.5285503197085,
+                  "lng" : -80.24781043029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Hugh Guthrie Park",
+         "place_id" : "ChIJJWMrTsyaK4gRB95FIisJgoc",
+         "plus_code" : {
+            "compound_code" : "GQH3+X9 Guelph, ON, Canada",
+            "global_code" : "86MXGQH3+X9"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJJWMrTsyaK4gRB95FIisJgoc",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 12,
+         "vicinity" : "117 Forest Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5392342,
+               "lng" : -80.2591389
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5403375302915,
+                  "lng" : -80.2581276197085
+               },
+               "southwest" : {
+                  "lat" : 43.5376395697085,
+                  "lng" : -80.26082558029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Sunny Acres Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLn2_iZRamTetB-9WLUwjg4ku-tb_sHdlvswUt8fuW2_tC77cbJ7lRy2LG_iSrY9q-gQ-0LuEWF7U3KrUERtt7EXA0fs8zlUZzoubEvYAFdM-6PcQkjDN_fLRO4IEk3Qnz7snuSBbh6q9_8jmMLcvgyLsjY60ixKdi2_bLsJw5Q_Q6a",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJZxLdkbmaK4gRiruCOjd04oM",
+         "plus_code" : {
+            "compound_code" : "GPQR+M8 Guelph, ON, Canada",
+            "global_code" : "86MXGPQR+M8"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJZxLdkbmaK4gRiruCOjd04oM",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 112,
+         "vicinity" : "45 Edinburgh Road North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5404098,
+               "lng" : -80.2341253
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5417587802915,
+                  "lng" : -80.23277631970849
+               },
+               "southwest" : {
+                  "lat" : 43.5390608197085,
+                  "lng" : -80.23547428029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "William's Landing",
+         "place_id" : "ChIJd8bd0k-bK4gRaHpxQ16yWXw",
+         "plus_code" : {
+            "compound_code" : "GQR8+58 Guelph, ON, Canada",
+            "global_code" : "86MXGQR8+58"
+         },
+         "reference" : "ChIJd8bd0k-bK4gRaHpxQ16yWXw",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.548066,
+               "lng" : -80.24723419999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5490671802915,
+                  "lng" : -80.24602806970849
+               },
+               "southwest" : {
+                  "lat" : 43.5463692197085,
+                  "lng" : -80.24872603029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Guelph Downtown Neighborhood Association Community Garden",
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103531202957325361413\"\u003eRyan Palmer\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIzMvE2kIw3nEnmlMoQZK8_QKf2Gh0J1-nYQt2ui9V5Ea2A5CTXvISJGnRCtBYpFp1JVEOiv7OS7qtYMESORMJynpOWfrC0w2-8gOdkkIia37rnRg7sQtVsUwxlG5OTpTRpehn-lZpYxKNxLyvafDB-B5acCO-WJmLdSuOxbKuTjBsy",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJuepLpFibK4gR3UazcqwFIY4",
+         "plus_code" : {
+            "compound_code" : "GQX3+64 Guelph, ON, Canada",
+            "global_code" : "86MXGQX3+64"
+         },
+         "rating" : 4,
+         "reference" : "ChIJuepLpFibK4gR3UazcqwFIY4",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7,
+         "vicinity" : "147 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5323608,
+               "lng" : -80.2571648
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5337669302915,
+                  "lng" : -80.25592006970849
+               },
+               "southwest" : {
+                  "lat" : 43.53106896970851,
+                  "lng" : -80.2586180302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Bristol Street Dog Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2250,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112101039995126367094\"\u003eDon\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwII7fskv_5H06dYakl7VGp1HxYtFWBiZbJqKrDUfTFA2_X6v6x4jMkjxYtT8MlcNVe_SV3vOnpH0Qf78s51KfaPK0CPmLgcdZaJD6kD62KjJsNZgFxnbJq91MNTOKbwzUMTd38js6YCmBZZAGu44hBnGyVJO_o0UBXSj7uUbOss2NLQ",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJb7qmZOSbK4gR7MTxZF0ELrg",
+         "plus_code" : {
+            "compound_code" : "GPJV+W4 Guelph, ON, Canada",
+            "global_code" : "86MXGPJV+W4"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJb7qmZOSbK4gR7MTxZF0ELrg",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 51,
+         "vicinity" : "281 Bristol Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.528343,
+               "lng" : -80.2513929
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5294847302915,
+                  "lng" : -80.24974921970849
+               },
+               "southwest" : {
+                  "lat" : 43.5267867697085,
+                  "lng" : -80.2524471802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Guelph Park Maintenance-Devmnt",
+         "place_id" : "ChIJB3uf1TSFK4gRlhPw3znBD08",
+         "plus_code" : {
+            "compound_code" : "GPHX+8C Guelph, ON, Canada",
+            "global_code" : "86MXGPHX+8C"
+         },
+         "reference" : "ChIJB3uf1TSFK4gRlhPw3znBD08",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "45 Municipal Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5421673,
+               "lng" : -80.2323782
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5435188302915,
+                  "lng" : -80.2310898197085
+               },
+               "southwest" : {
+                  "lat" : 43.5408208697085,
+                  "lng" : -80.23378778029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Hooper Street Park",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112127741211746655867\"\u003eTravis Kelly\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLmCwkMvyl_JQkN5aS753zTRbYTkcOK2BZQZ6eTExrsO5Jyt12i2BBkFRWJGRF7eJOwfOQdqr6_Fo_Q9QFIeZUsaAdYfb1LbCes2uct_QGDAyBzAIgKr4mjShdVR65l_Rosmq9oSaYBYTrIrBPpbLSNH1iKZSrVMNBAJnWUGTYYe-W5",
+               "width" : 1960
+            }
+         ],
+         "place_id" : "ChIJxzOZft-aK4gRGR26kgFM29A",
+         "plus_code" : {
+            "compound_code" : "GQR9+V2 Guelph, ON, Canada",
+            "global_code" : "86MXGQR9+V2"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJxzOZft-aK4gRGR26kgFM29A",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "47 Hooper Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5468264,
+               "lng" : -80.2353179
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5482188302915,
+                  "lng" : -80.23390856970849
+               },
+               "southwest" : {
+                  "lat" : 43.5455208697085,
+                  "lng" : -80.2366065302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Two Rivers Community Garden: Huron/Manitoba",
+         "place_id" : "ChIJ6QZHhymbK4gRzUNSOSZZ3vM",
+         "plus_code" : {
+            "compound_code" : "GQW7+PV Guelph, ON, Canada",
+            "global_code" : "86MXGQW7+PV"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ6QZHhymbK4gRzUNSOSZZ3vM",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5258449,
+               "lng" : -80.250602
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.52749878029149,
+                  "lng" : -80.24986311970848
+               },
+               "southwest" : {
+                  "lat" : 43.5248008197085,
+                  "lng" : -80.2525610802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Tobaggoning Hill on Municipal Street In Guelph",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKR-X1nlgAos7keDWm1GyqF-JykBDx1K2o7NOK7lBJ_2SjG73dHqqbCJCiyrooK17UcblUirXTuW8kdYwwMSOUdOJy0j0wZ2itApqCTdlVpOBy10UKoIzWsSEchETblg-IRqk5dnEXaaATHiH6In-brNo_s-BuGbml9SpiDem20jun0",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ9z8ZlcKFK4gRMBOJYTu_vQc",
+         "plus_code" : {
+            "compound_code" : "GPGX+8Q Guelph, ON, Canada",
+            "global_code" : "86MXGPGX+8Q"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ9z8ZlcKFK4gRMBOJYTu_vQc",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "near Centennial Park on, Municipal Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.53212029999999,
+               "lng" : -80.2300401
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.53373908029149,
+                  "lng" : -80.2291306697085
+               },
+               "southwest" : {
+                  "lat" : 43.53104111970849,
+                  "lng" : -80.23182863029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Johnston Green",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJmJFkRoFpdm8ngbMaQk6s0_3xo69rTZQ_E9ap5aHHZat3INW3wF70bjxf4SI89yFZnSW7KbRC1-vHy0yfrYFF4UIkZYEhf7TySppeoRdzDkLFFkhw85NGYTVLtV13lW-DqaLJkOKHQka5_8hk7PlWKqfy6fAxfSxI8RaayQbDzqIbt",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJRWpvuymbK4gR4VM22KPgGHM",
+         "plus_code" : {
+            "compound_code" : "GQJ9+RX Guelph, ON, Canada",
+            "global_code" : "86MXGQJ9+RX"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJRWpvuymbK4gR4VM22KPgGHM",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 44,
+         "vicinity" : "Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54826329999999,
+               "lng" : -80.26077029999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54934518029149,
+                  "lng" : -80.25979326970848
+               },
+               "southwest" : {
+                  "lat" : 43.5466472197085,
+                  "lng" : -80.26249123029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Exhibition Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 718,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112045130505577271104\"\u003eJason Fowler\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIYkfo03VYlV2BSc-MDt4c7bwRSIRuN37CXK7T99CJduiqEgmCDScwXwIf3uXxX76MOrpjzXH0OinmCs7RdG82q0NX0RSBFp7h2AROwezBNLBl1D_t2lnJ0OQq4Ir9ZaDGNC0btswyK17G93DWLXZ3bXbFk5_V8a4edZoygCwK0WwEI",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJMTFvEpaaK4gRvXkb5IdNZP0",
+         "plus_code" : {
+            "compound_code" : "GPXQ+8M Guelph, ON, Canada",
+            "global_code" : "86MXGPXQ+8M"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJMTFvEpaaK4gRvXkb5IdNZP0",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 338,
+         "vicinity" : "81 London Road West, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

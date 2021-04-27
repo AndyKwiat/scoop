@@ -1,0 +1,427 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5434284,
+               "lng" : -80.2514078
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54483688029151,
+                  "lng" : -80.25024081970848
+               },
+               "southwest" : {
+                  "lat" : 43.54213891970851,
+                  "lng" : -80.2529387802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Guelph Civic Museum",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117958407448694654825\"\u003eEmil Istrofor\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI1amu2QRkHNFilmOb8sTeI_hFra4DjvciHn4rMDJnAYgmvAqf6PVIMkHqTvc-cux7hNqcLMIe9BiTg6gQq-SwwWw8_xZNRWBIENzYIownYWE8Ay7Q0ChBgk9TZASyS7E6R0jduBki8eCkaGjYn7QaMd07k2Nt4lXbOUmYRxEH_Yj4g",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJycRczsaaK4gRPnYX4k2ePl8",
+         "plus_code" : {
+            "compound_code" : "GPVX+9C Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+9C"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJycRczsaaK4gRPnYX4k2ePl8",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 220,
+         "vicinity" : "52 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5362004,
+               "lng" : -80.2445233
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5376346802915,
+                  "lng" : -80.24329061970849
+               },
+               "southwest" : {
+                  "lat" : 43.5349367197085,
+                  "lng" : -80.2459885802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "McCrae House",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2976,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112911873826705390647\"\u003ephanlob hongcharoenthai\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLDFWzrFAwXhr8sUFtnnver97qy1RS-pmvGP0vqZ9RblBkWs4rvGY3v1e3HxNqDmwEK1iwQU5ZfNCVeBAXc_WeEHTJxWxOCnwlfNE_BrmKYxapVV7Y5BlBiQAYdnY7kAZOYhf_5mtw604zWp0tTLQmmFW-3J4cvduhMFt6e48RC-o3C",
+               "width" : 3968
+            }
+         ],
+         "place_id" : "ChIJxSHhjs-aK4gR-L8bqpYyjBI",
+         "plus_code" : {
+            "compound_code" : "GQP4+F5 Guelph, ON, Canada",
+            "global_code" : "86MXGQP4+F5"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJxSHhjs-aK4gR-L8bqpYyjBI",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 131,
+         "vicinity" : "108 Water Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5418979,
+               "lng" : -80.24881599999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54319018029149,
+                  "lng" : -80.24752256970849
+               },
+               "southwest" : {
+                  "lat" : 43.5404922197085,
+                  "lng" : -80.2502205302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "isla\"s toy arts",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJNctZIW6bK4gRJ53Qewh5OMI",
+         "plus_code" : {
+            "compound_code" : "GQR2+QF Guelph, ON, Canada",
+            "global_code" : "86MXGQR2+QF"
+         },
+         "reference" : "ChIJNctZIW6bK4gRJ53Qewh5OMI",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "1 Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54339909999999,
+               "lng" : -80.2513464
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54482223029151,
+                  "lng" : -80.2502101197085
+               },
+               "southwest" : {
+                  "lat" : 43.54212426970851,
+                  "lng" : -80.2529080802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Guelph Children Museum",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1600,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116542123704421016745\"\u003eZed Dean\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJY1Px8ugoh1ELdHs3oibO_zKBnMPk_3griX8hncA1ysUrYKJYzQZNGllJDfhffeLuPinRfy8JxPNP83LgEwjQ3o5pklvyjqHGtmVk1Agcs6yhi1MbtuvAFPiIX80HGuyD_26aklfaE6gfidRZNqFu7EhbV0f6HtuIEkim3O4WOmoCi",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJmbB1f1ybK4gRgE6jk-vZr_M",
+         "plus_code" : {
+            "compound_code" : "GPVX+9F Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+9F"
+         },
+         "rating" : 5,
+         "reference" : "ChIJmbB1f1ybK4gRgE6jk-vZr_M",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "52 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.543951,
+               "lng" : -80.25037189999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5452524802915,
+                  "lng" : -80.24911376970849
+               },
+               "southwest" : {
+                  "lat" : 43.5425545197085,
+                  "lng" : -80.25181173029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "John McCrae Statue",
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114621156131476871049\"\u003eRabin Ramah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLABswBCrqPqDp6d5NevffEwFm7EnkEZr3L2oMzzttGYzZpGNlBT_S8gKiZ4KYKErLkE1RJ0YFjRcLQQi96-G6HGTI3O3oNIhSRCIKMIM88dxWBeHQoryFAYk4UpIyW8sDgjwKPEN93OyO7dpP36DePkHh2ZmMsQ1ecUnlOiZLtTZsP",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJM9agMC2bK4gRCcNWp0M6pHI",
+         "plus_code" : {
+            "compound_code" : "GPVX+HV Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+HV"
+         },
+         "reference" : "ChIJM9agMC2bK4gRCcNWp0M6pHI",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "51 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54661299999999,
+               "lng" : -80.24704109999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54802573029149,
+                  "lng" : -80.24585096970848
+               },
+               "southwest" : {
+                  "lat" : 43.5453277697085,
+                  "lng" : -80.24854893029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Guelph Sports Hall of Fame",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103675692844235114120\"\u003eNicholas Moreau\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ9WZ3YJY6QDtuYNMPFXsZhKjvQ9HDe25japkPJX1wDwQvrkGE0li7RIbpHN2SLe8TAPzafm_0ykbUQe2RnaqhsQe8RdLGUpWqcCx_LyGf7QB3utW5WkFIxbTu3RxZXlGX_ldp1zmfAOv0alEuTwX6s6Xj2_Qw6qm9Adxj8zaug3_Pk",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJL7VB2-maK4gR8XS--0v4E3g",
+         "plus_code" : {
+            "compound_code" : "GQW3+J5 Guelph, ON, Canada",
+            "global_code" : "86MXGQW3+J5"
+         },
+         "reference" : "ChIJL7VB2-maK4gR8XS--0v4E3g",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5247594,
+               "lng" : -80.2490232
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5260395302915,
+                  "lng" : -80.24753036970849
+               },
+               "southwest" : {
+                  "lat" : 43.5233415697085,
+                  "lng" : -80.25022833029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "luxBorealis - photographs by Terry A. McDonald",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1153,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104781471519277750919\"\u003eluxBorealis - photographs by Terry A. McDonald\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKFlcovVXG3L9n8xOp9Sd_mGMgyxbMxERlhLgixcEBBSKKNiPQsWaOHYkuzEl4qcs5SIudGG1Dtfrq2VJaNPgVqluIRxEOMGDuCxiDQeYVMVfl3kLigabMgHvuN0ym-B-TEqpgG-ciSJruRSYnKM3B5BxgFL1tnBFH7a5M906D5SFzd",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJV3rggTOFK4gR5bvJZFJOp0I",
+         "plus_code" : {
+            "compound_code" : "GQF2+W9 Guelph, ON, Canada",
+            "global_code" : "86MXGQF2+W9"
+         },
+         "reference" : "ChIJV3rggTOFK4gR5bvJZFJOp0I",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "79 Vanier Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54879630000001,
+               "lng" : -80.22908319999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5501872802915,
+                  "lng" : -80.22767656970849
+               },
+               "southwest" : {
+                  "lat" : 43.5474893197085,
+                  "lng" : -80.2303745302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Stevenson South Free Library",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2576,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105879199290257726833\"\u003eMegan Bidwell\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJoc1WJimAnsOGFMu_WGl14fvqiSH5T-FPywKlASynzcfm-Lb0AVVLvPUenJIRmzRi8MFF7YPmJd5dc5ANKBMGiEJv-Co5oh9jqoa3DNWa5LYMuUyIGaaTd49CcVcMkBdztS_kX59qJEHcMV5ioCOpciSaE-JwigDpVbzEBTmt_1Nz6",
+               "width" : 1932
+            }
+         ],
+         "place_id" : "ChIJgzt4qvObK4gR98g1COCQI0E",
+         "plus_code" : {
+            "compound_code" : "GQXC+G9 Guelph, ON, Canada",
+            "global_code" : "86MXGQXC+G9"
+         },
+         "reference" : "ChIJgzt4qvObK4gR98g1COCQI0E",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "207 Stevenson Street South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5482844,
+               "lng" : -80.2232573
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5495689802915,
+                  "lng" : -80.2221088197085
+               },
+               "southwest" : {
+                  "lat" : 43.5468710197085,
+                  "lng" : -80.2248067802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Fairy Village Trail",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115949236479584155665\"\u003eRobin Foster\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKKuXeRg6_D5vacYQV2LXdVPOUmu7wofmYxIEP66ujrALfbnFfsbL6jXFhUFzp9fTg5v1hdbcoXjeuJqlYDyOQoFmIQB4M49ovxGLoCW_Z65TGXYbZbrr1nr4o0eDyejKkLsNF_mLWjcFNrpbZU8Vmk0EqO83jgwIWRR4jhH5Lz8rtm",
+               "width" : 2268
+            }
+         ],
+         "place_id" : "ChIJZSbehBmbK4gRYt4tN6E_Ybc",
+         "plus_code" : {
+            "compound_code" : "GQXG+8M Guelph, ON, Canada",
+            "global_code" : "86MXGQXG+8M"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJZSbehBmbK4gRYt4tN6E_Ybc",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4,
+         "vicinity" : "Royal Recreation Trail, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4939822,
+               "lng" : -80.21503469999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4957060302915,
+                  "lng" : -80.21316916970849
+               },
+               "southwest" : {
+                  "lat" : 43.4930080697085,
+                  "lng" : -80.2158671302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Hammond Museum Of Radio",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117047964685296492081\"\u003eRobert Weisz\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK6UJDrED3gvGMgRdnZBbowFRA3rn5lzm37jBquUkcmHoC00-3agcwEz0dVocTRwAC_sRrK6NecHfohh2PbxVPk-QBdJTGV67lrdTCncHKLrDmaBLjVBO64Yobn8NTGqM3dF5Arlx6L5y0Fq4JrxptecvM7zqB7d91r2vHUK004o4Fb",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJBUrZJfKEK4gRWURFVGFLZc4",
+         "plus_code" : {
+            "compound_code" : "FQVM+HX Guelph, ON, Canada",
+            "global_code" : "86MXFQVM+HX"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJBUrZJfKEK4gRWURFVGFLZc4",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "595 Southgate Drive, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

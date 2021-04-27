@@ -7,6 +7,7 @@ import { Switch,
 const App = () => {
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
+  const [prevIdea, setPrevIdea ] = useState(2)
   const [currentPhotoIdx, setCurrentPhotoIdx] = useState(2);
 
   const mypos = useRef(new Animated.ValueXY()).current;
@@ -39,6 +40,9 @@ const App = () => {
      //swipe animation is over
      setLoaded(false)  // this will hide the front pic until it it loaded
      setFrontIdea(nextIdea) // start loading the front pic
+     setNextIdea((nextIdea+1)%ideas.length)
+      setPrevIdea(frontIdea)
+
      setCurrentPhotoIdx(0)
      mypos.setValue({ x: 0, y: 0 });
      Image.prefetch(getPicUri(ideas[nextIdea + 1]%ideas.length,0))
@@ -102,13 +106,12 @@ const App = () => {
     <View style={{ backgroundColor: "black", height: "100%" }}>
       <View style={styles.container} >
         
-        <Image style={[styles.ideaCard]} source={{ uri: getPicUri(ideas[nextIdea],0) }} resizeMode="cover" />
-        <Animated.Text style={styles.cardText}>{ideas[nextIdea].name}</Animated.Text>
-
+   
+      
         <Animated.View
           style={[mypos.getLayout(), {
             width: "100%",
-            overflow: "hidden",
+            //overflow: "hidden",
             height: detailsModeAnim.interpolate({ inputRange: [0, 1], outputRange: ["100%", "50%"] }),
             transform: [{
               translateY: detailsModeAnim.interpolate({
@@ -118,16 +121,31 @@ const App = () => {
           }]} {...panResponder.panHandlers}>
            
           <Animated.Image 
-            style={[styles.ideaCard,loaded ? {} : { display: 'none' }]} 
+            style={[styles.ideaCard,loaded ? {} : { 
+              //display: 'none' 
+          }]} 
             source={{ uri: getPicUri(ideas[frontIdea], currentPhotoIdx) }} 
             resizeMode="cover" 
             onLoad={() => {
-             
-              if ( !loaded){
-                setNextIdea((nextIdea +1) % ideas.length)
-              }
+            
+       
+           
               setLoaded(true);
             }}
+          />
+
+          <Animated.Image 
+            style={[styles.ideaCard,{width:"100%",height:"100%",left:"100%"}]} 
+            source={{ uri: getPicUri(ideas[nextIdea], currentPhotoIdx) }} 
+            resizeMode="cover" 
+           
+          />
+
+        <Animated.Image 
+            style={[styles.ideaCard,{width:"100%",height:"100%",left:"-100%"}]} 
+            source={{ uri: getPicUri(ideas[prevIdea], currentPhotoIdx) }} 
+            resizeMode="cover" 
+           
           />
 
         <Animated.Text style={styles.cardText}>{ideas[frontIdea].name}</Animated.Text>

@@ -1,0 +1,927 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5411016,
+               "lng" : -80.2491503
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54248508029151,
+                  "lng" : -80.24783726970848
+               },
+               "southwest" : {
+                  "lat" : 43.53978711970851,
+                  "lng" : -80.25053523029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "The Round Table Board Game Café Guelph",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1728,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117987702337104875419\"\u003eThe Round Table Board Game Café Guelph\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLXcyAOsMKoVcHPIqBZPkUWJQTyBJ9eeClmAC8bdw3VnPc5xzsCx3LMdGo5TlaU5pCxymOn5sn_axl8gmpqcsmm5U6vn0lgfccoPuitk-vAiSWfaopP9I8f1f96f3o5lnEYa0N31p7F3mt8n-r2Tz6MGig_9_goamvw7S7Fh69Z6L0",
+               "width" : 3072
+            }
+         ],
+         "place_id" : "ChIJ1Q87qcaaK4gR5WYoutjCf_Y",
+         "plus_code" : {
+            "compound_code" : "GQR2+C8 Guelph, ON, Canada",
+            "global_code" : "86MXGQR2+C8"
+         },
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "ChIJ1Q87qcaaK4gR5WYoutjCf_Y",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_takeaway",
+            "cafe",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 472,
+         "vicinity" : "32 Essex Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54337189999999,
+               "lng" : -80.24944769999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54475458029149,
+                  "lng" : -80.24803221970849
+               },
+               "southwest" : {
+                  "lat" : 43.54205661970849,
+                  "lng" : -80.2507301802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Two Faces",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100853361994144669846\"\u003eTwo Faces\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKuyTK3CGpLV07DbZb03JmufzIoEeh3RMSkI23Ef2XO235xClT0Tsk6TEb8auZ0je_n_kH7W_hpU8aVlcJF7nEKUHB7MfBV7eQd8leS2D_PHyzuSsCWXMXmU54Cs3YfiefWnL2OcHOCtLhBlnBWOR4qTumqHeiljaqvo1LP0sKtCWzT",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ29EsntObK4gRdbjQ_juCxGg",
+         "plus_code" : {
+            "compound_code" : "GQV2+86 Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+86"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJ29EsntObK4gRdbjQ_juCxGg",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 80,
+         "vicinity" : "20 Wilson Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5439543,
+               "lng" : -80.24886099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54528823029149,
+                  "lng" : -80.24735196970848
+               },
+               "southwest" : {
+                  "lat" : 43.54259026970849,
+                  "lng" : -80.2500499302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Market Co.",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110052409983986791350\"\u003eKevin P\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL5RcJs7lCMBvgA1yF8RZKyB8gLbLDiUb2OQNEVwN0hDJmmTa3mii431Xojhui-OTL83RO0YFTiBPZ-YXpitLZHBuJESH-ntGqc8xdZSIQaAYEJJ0b-8zvb6S0v1YWc12V7hM6ZW8nNWAhqO1DgfYp_EHWQHM5bnmhoU-Q-IbVeKZCf",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJV79iLtWbK4gRLv_FRCC8q14",
+         "plus_code" : {
+            "compound_code" : "GQV2+HF Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+HF"
+         },
+         "rating" : 5,
+         "reference" : "ChIJV79iLtWbK4gRLv_FRCC8q14",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "bar",
+            "food",
+            "point_of_interest",
+            "clothing_store",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 5,
+         "vicinity" : "30 Carden Street, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5444762,
+               "lng" : -80.24834509999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5459237802915,
+                  "lng" : -80.2468163697085
+               },
+               "southwest" : {
+                  "lat" : 43.5432258197085,
+                  "lng" : -80.2495143302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "The Local",
+         "permanently_closed" : true,
+         "place_id" : "ChIJfTKFKH2bK4gRffN272HSXzM",
+         "plus_code" : {
+            "compound_code" : "GQV2+QM Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+QM"
+         },
+         "rating" : 5,
+         "reference" : "ChIJfTKFKH2bK4gRffN272HSXzM",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "12 Wyndham Street North 2nd FLOOR, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5445372,
+               "lng" : -80.24816679999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5459542802915,
+                  "lng" : -80.24672721970849
+               },
+               "southwest" : {
+                  "lat" : 43.5432563197085,
+                  "lng" : -80.2494251802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "La Reina",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1343,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102482633982842198714\"\u003eLa Reina\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLTatqo10F1hV-l_WXXbLl3hlkP4i2o54aazwW56NAkWL33yOQvTvlKvFs7lyqGmDkDImtY5UABBYLvnJ58hvULYUXYF9efRLV4eXVF-Kiq98uVsb0JcAl33j4jvlAwICYxsSp8jOSBhXQjS6QGyUAGKmX1y7cLVuj1VkUN_PXDJ2Tp",
+               "width" : 2000
+            }
+         ],
+         "place_id" : "ChIJO1kYXTibK4gREurIOsc3XJo",
+         "plus_code" : {
+            "compound_code" : "GQV2+RP Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+RP"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJO1kYXTibK4gREurIOsc3XJo",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "night_club",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 697,
+         "vicinity" : "10 Wyndham Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5448096,
+               "lng" : -80.2485868
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5462636802915,
+                  "lng" : -80.2471062697085
+               },
+               "southwest" : {
+                  "lat" : 43.5435657197085,
+                  "lng" : -80.2498042302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Onyx",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKNvFtf5xXv68dZtq0ubcdhEyBdQ63FQWetkSrca0MIFX4egfY2dryP4kNgphLDCLhS_x8ghRHjJ875ZU43dwuxeKRsbAMqjgwNVNcSnEsWMVOqPD_JHMyNNUYxl9qUa4qFV5voiHpyuTUUo4cQH4KSaEmtdJ1u29RCgV-XeGSPLMtA",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJRwMuFeSbK4gR4Gp-978J4h8",
+         "plus_code" : {
+            "compound_code" : "GQV2+WH Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+WH"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJRwMuFeSbK4gR4Gp-978J4h8",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 18,
+         "vicinity" : "12 Wyndham Street North 2nd Floor, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5451006,
+               "lng" : -80.24817179999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5463965302915,
+                  "lng" : -80.24687511970851
+               },
+               "southwest" : {
+                  "lat" : 43.5436985697085,
+                  "lng" : -80.24957308029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Brothers Brewing Company",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 929,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109263947715523337376\"\u003eBrothers Brewing Company\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKXfifZJagUfPP3aCRilKaGPzHQTy-jR-9W178XIwdlHb_42g6YHXr99WzBDc92ANeYjm_14uhIICVd3g117VxeiLo0S3iiRr9WWMy1QR0jZnt4jYOxjESnmcTTQGkdmTik-pE6ez9f_PvI_RDR_LXYymqmQUZa3LbJ6RhAMbhiaVdQ",
+               "width" : 1650
+            }
+         ],
+         "place_id" : "ChIJ7TW9IsKaK4gRXeQ1Vz9oPTA",
+         "plus_code" : {
+            "compound_code" : "GQW2+2P Guelph, ON, Canada",
+            "global_code" : "86MXGQW2+2P"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ7TW9IsKaK4gRXeQ1Vz9oPTA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "night_club",
+            "bar",
+            "liquor_store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 219,
+         "vicinity" : "15 Wyndham Street North Unit A, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54552479999999,
+               "lng" : -80.2505975
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54693273029149,
+                  "lng" : -80.24928396970849
+               },
+               "southwest" : {
+                  "lat" : 43.5442347697085,
+                  "lng" : -80.25198193029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "The Ebar & Greenroom",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLtdNkJZ_m7_2KFgjsXXlE_D-q_Sp0_FppdPdaaR4Gs45l5hc7vPX319MxGco3fXAgLk-R2axF-Coiti2EreBnXEshK6kTB7wdI9xxdYd2-KKWx9av8AliJH0pQ2NQXs3qH6KgeX9v8EZAkAHShBXikS2BMZsjwC0y9FdNO586kOvnf",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJv434w8GaK4gR1Cb_54VdkLs",
+         "plus_code" : {
+            "compound_code" : "GPWX+6Q Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+6Q"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJv434w8GaK4gR1Cb_54VdkLs",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 69,
+         "vicinity" : "37 Quebec Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5469062,
+               "lng" : -80.2446528
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54814998029149,
+                  "lng" : -80.24317826970849
+               },
+               "southwest" : {
+                  "lat" : 43.54545201970849,
+                  "lng" : -80.24587623029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Robusta Cafe & Lounge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3680,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116474683795771713766\"\u003eRobusta Cafe &amp; Lounge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJGroN3gGQLqHHsqVvbpf8kdOODNG-A7cbAowGwtXn5GY9zxp6MNcAPo57hp1I-M9mLxu-ZGG18VU0ttBhezzDCkUWGXCY7Vfreyw343452IVSX-Njj88_8yEz_tiMbhr2uUB15DfW-ANYmwVsoePdP720jyU70u8qkirWZ8xcYRt4O",
+               "width" : 5520
+            }
+         ],
+         "place_id" : "ChIJmYVmPOiaK4gRLNrcfJSCVc8",
+         "plus_code" : {
+            "compound_code" : "GQW4+Q4 Guelph, ON, Canada",
+            "global_code" : "86MXGQW4+Q4"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJmYVmPOiaK4gRLNrcfJSCVc8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "cafe",
+            "bar",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 322,
+         "vicinity" : "101b-160 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5466386,
+               "lng" : -80.24263049999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5481992302915,
+                  "lng" : -80.2408087197085
+               },
+               "southwest" : {
+                  "lat" : 43.5455012697085,
+                  "lng" : -80.2435066802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "The Ward Bar at Spring Mill Distillery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114621156131476871049\"\u003eRabin Ramah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJBBS3DHAJk4lvdusLR63NqzOEji3aCF_jlyLoRh2v3D81WqHiACzszJ_5QFTRnOIcPBYZx1Xqo5iuT6d1gjtAe5FaXN5tFgminzTPi2_aQr82TXOh790L2slVHtx2JhOjEv64CopvAhuqNz51dFyUEki0w8GwyJ4eO5Lr94s2n2Y0y",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJS4EJg1ibK4gRE_NuPwDLXFI",
+         "plus_code" : {
+            "compound_code" : "GQW4+MW Guelph, ON, Canada",
+            "global_code" : "86MXGQW4+MW"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJS4EJg1ibK4gRE_NuPwDLXFI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bar",
+            "tourist_attraction",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 72,
+         "vicinity" : "43 Arthur Street South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5306355,
+               "lng" : -80.226146
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.53177468029149,
+                  "lng" : -80.22500546970849
+               },
+               "southwest" : {
+                  "lat" : 43.5290767197085,
+                  "lng" : -80.2277034302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Brass Taps",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118407238648920237283\"\u003eAimee\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKZnlpnixh476tKQfQ0xkUX7SUW25NFdp28vauopXn9rPxGWJAPVTlCsBWYgHH3hLTmbnmatdhhY0mxMqXCL7Vqd3pmQf-Fms272aclOfIcKLr7d5l9pnRZxS_HuNehGjuUYrxGrXu9k4PPh2XZAqB1js0R4ZZy4ru7VgArrT7nIf6C",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJK0DvsS6bK4gR3MKixXwbH58",
+         "plus_code" : {
+            "compound_code" : "GQJF+7G Guelph, ON, Canada",
+            "global_code" : "86MXGQJF+7G"
+         },
+         "price_level" : 2,
+         "rating" : 3.9,
+         "reference" : "ChIJK0DvsS6bK4gR3MKixXwbH58",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 163,
+         "vicinity" : "50 Stone Road East, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5259829,
+               "lng" : -80.22459099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.52741948029149,
+                  "lng" : -80.22336566970849
+               },
+               "southwest" : {
+                  "lat" : 43.52472151970849,
+                  "lng" : -80.22606363029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Bar Mason",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110775400181673729108\"\u003eBar Mason\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJzL4niFrdYF3zQ5Bl52t2JxYB_DHQS3p7jwXDj39FQryfiDulWDcy9l_pBC9NIBMhv7DS4NfM8hBtyPI4BQNeYF25KQNA6KCcFmEtWGC-n5UlK35JhrE03xeBqpaXhbzKRU-TOH0nHo2NmHjf9MXVofwEq92V_ZfVTEnal8c4-1JBk",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJVVWVxCybK4gRPRsMOdsLSpo",
+         "plus_code" : {
+            "compound_code" : "GQGG+95 Guelph, ON, Canada",
+            "global_code" : "86MXGQGG+95"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJVVWVxCybK4gRPRsMOdsLSpo",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 37,
+         "vicinity" : "50 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.52464529999999,
+               "lng" : -80.2229126
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.52595883029149,
+                  "lng" : -80.2215154197085
+               },
+               "southwest" : {
+                  "lat" : 43.52326086970849,
+                  "lng" : -80.2242133802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "The Kolkata Club",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104868954933798708233\"\u003eThe Kolkata Club\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKTqGvhEoWNWaCJLgJOprEI7ooFSIbMgwW1WA1G1AB27pgWs5UzaTWo9-CXQkXeUvJTTiakGQPM7rNfGr9jG6Z27DTfO2tNnRA9uSmYeuX0g7hl2N6_SueZY9ujUdjFm5vJr9h3cu3uly5aYlo1bQlWZrA3A0CrScK1NDdYEpyXxYII",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJN73xFNObK4gR45BO_P4bAnE",
+         "plus_code" : {
+            "compound_code" : "GQFG+VR Guelph, ON, Canada",
+            "global_code" : "86MXGQFG+VR"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJN73xFNObK4gR45BO_P4bAnE",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 162,
+         "vicinity" : "35 Harvard Road #19, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.557777,
+               "lng" : -80.2296429
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5592770302915,
+                  "lng" : -80.22838761970849
+               },
+               "southwest" : {
+                  "lat" : 43.5565790697085,
+                  "lng" : -80.23108558029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Tavern On Grange",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114332089808989403886\"\u003eDoug Cerson\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJaxcgyIX8e5H77GX2Hc4VGKLwtdyDQ1soqNX0jWiElq9cDxgG9S6k8gf1ukJ7R9adE-mlAC3_IPdtTPylX23AWXGgiZhbq8tg866CxPegZbo5EfcAnfajOix3hZlDpCQXsJi2T3GBiuquEmqMzoXSOK3fplki5sONvLRv2mO23wX_x",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJL5kx4Z6bK4gRIrFFtKxqhl4",
+         "plus_code" : {
+            "compound_code" : "HQ5C+44 Guelph, ON, Canada",
+            "global_code" : "86MXHQ5C+44"
+         },
+         "price_level" : 1,
+         "rating" : 4.3,
+         "reference" : "ChIJL5kx4Z6bK4gRIrFFtKxqhl4",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 50,
+         "vicinity" : "259 Grange Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5449389,
+               "lng" : -80.2860032
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5463000802915,
+                  "lng" : -80.28473976970848
+               },
+               "southwest" : {
+                  "lat" : 43.5436021197085,
+                  "lng" : -80.2874377302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Ample Annies Roadhouse",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKZITgHMlEtg8mZLq66HUd5hAKcn8NLNeRfhlJm5hrYQ1PYB-wdQBjAbxNcfe7Ii9QKX_Bx1PmQ_Kns9VtN9v6V5TGgRtIqKx6iOgYjZdaenkLBA9egc0SaueGEZ17QkalxAe-GJOSiyQmlExIP_uRA-DVDAw6vwEFmhLKMsm0pgidE",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJvanjCQ6QK4gR1Y1rW3xDP7Y",
+         "plus_code" : {
+            "compound_code" : "GPV7+XH Guelph, ON, Canada",
+            "global_code" : "86MXGPV7+XH"
+         },
+         "price_level" : 1,
+         "rating" : 4,
+         "reference" : "ChIJvanjCQ6QK4gR1Y1rW3xDP7Y",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 206,
+         "vicinity" : "219 Silvercreek Parkway North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.55361449999999,
+               "lng" : -80.2944432
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.55493238029149,
+                  "lng" : -80.29305096970849
+               },
+               "southwest" : {
+                  "lat" : 43.5522344197085,
+                  "lng" : -80.29574893029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Rj's Sports Bar & Grill",
+         "photos" : [
+            {
+               "height" : 2976,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109202490992342403045\"\u003eUrja Verma\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKjW_NQOLkxW9Eg46g9QaGfrT8hOG6iako2h2hec-g6rEA62ggWYoS8VoMNkAxf2Im3hH_BAqRwFEI-SagiWpXYY0wnu4OGA7KToVlt_p70FYpns0BGLKA9KW3Au_WgJT3vWokwyxK32-Ab2uYCxtSfH4t9_ZCgDot4EmgiZNJKNAKX",
+               "width" : 2976
+            }
+         ],
+         "place_id" : "ChIJl3XTk2uQK4gR8MZpfMyAJT8",
+         "plus_code" : {
+            "compound_code" : "HP34+C6 Guelph, ON, Canada",
+            "global_code" : "86MXHP34+C6"
+         },
+         "reference" : "ChIJl3XTk2uQK4gR8MZpfMyAJT8",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "vicinity" : "Canada"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.552005,
+               "lng" : -80.2960799
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5534620802915,
+                  "lng" : -80.29474321970849
+               },
+               "southwest" : {
+                  "lat" : 43.5507641197085,
+                  "lng" : -80.2974411802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Chuck's Roadhouse Bar & Grill",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110589030398434645821\"\u003eChuck&#39;s Roadhouse Bar &amp; Grill\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwICH4WQbVkdSJrGCgXsup94OBiW1XHO6fQM8vaC2v_46ePyIn54TBHOElUdXvtWCx84ZNbaK_lM5ya36EtgDKaYw_ih-KOV_vOIZtxeRzRYfav7rfH7KEabShb2M-cxyrZiy36vwJ7CfnYCy9oPYocmRtLm7_QbF12CRFXMMHvJQvVU",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ2zqxlgSRK4gR5qDJJpdCDVI",
+         "plus_code" : {
+            "compound_code" : "HP23+RH Guelph, ON, Canada",
+            "global_code" : "86MXHP23+RH"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJ2zqxlgSRK4gR5qDJJpdCDVI",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 556,
+         "vicinity" : "261 Woodlawn Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.577245,
+               "lng" : -80.261275
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5785462802915,
+                  "lng" : -80.25985591970849
+               },
+               "southwest" : {
+                  "lat" : 43.5758483197085,
+                  "lng" : -80.26255388029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Kings Sports Bar and Grill",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 809,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114828525578156887588\"\u003eKings Sports Bar and Grill\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIncNOPgmx1C1JgF6a34N4pD2fAoaSAQ6Bx5lQ7pagOeXub5rNqitaUmFUWcHGupA-kb-7ji1d2su4hTu88yCR7bspK4cclz69_UvUict6k30ASWD8vXvQ4RcshxfXVhvfSZ2M0Baah-HN1V1-CpkeeeBDTK16UfdDmbU4EDDx2WQey",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJLwYZkIebK4gRStcbV1AzEzY",
+         "plus_code" : {
+            "compound_code" : "HPGQ+VF Guelph, ON, Canada",
+            "global_code" : "86MXHPGQ+VF"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJLwYZkIebK4gRStcbV1AzEzY",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 73,
+         "vicinity" : "468 Woodlawn Road East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5433774,
+               "lng" : -80.3097765
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5446548302915,
+                  "lng" : -80.30832656970848
+               },
+               "southwest" : {
+                  "lat" : 43.5419568697085,
+                  "lng" : -80.3110245302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Noody's Bar-Bq",
+         "place_id" : "ChIJlwLjyz-QK4gRzoFD4FpcCgw",
+         "plus_code" : {
+            "compound_code" : "GMVR+93 Guelph, ON, Canada",
+            "global_code" : "86MXGMVR+93"
+         },
+         "reference" : "ChIJlwLjyz-QK4gRzoFD4FpcCgw",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "565 Woodlawn Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.50174709999999,
+               "lng" : -80.1905819
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.50321798029149,
+                  "lng" : -80.18934556970849
+               },
+               "southwest" : {
+                  "lat" : 43.50052001970849,
+                  "lng" : -80.1920435302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Chuck's Roadhouse Bar & Grill",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJePX8di0B2M-facEcJocLB0e0dViJlfzm9KFPECngmLPpUVSMMKuUaaDrHrHoUub7B_rF6maUZY9NujTOFaLbzXBwD25zOSDv4ffDKV4jzH6UNrePIjiDC9b9zzMfZAjk-_U5IvvCrgd6Y3LhD1VOPzpl8eAcecXt6F-252WZU_LEv",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJhTn0u8OFK4gRsrbTUwggrDI",
+         "plus_code" : {
+            "compound_code" : "GR25+MQ Guelph, ON, Canada",
+            "global_code" : "86MXGR25+MQ"
+         },
+         "price_level" : 1,
+         "rating" : 4,
+         "reference" : "ChIJhTn0u8OFK4gRsrbTUwggrDI",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 364,
+         "vicinity" : "174 Clair Road East, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

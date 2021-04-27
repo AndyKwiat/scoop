@@ -1,0 +1,900 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54358819999999,
+               "lng" : -80.2496378
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54496433029149,
+                  "lng" : -80.24822656970851
+               },
+               "southwest" : {
+                  "lat" : 43.54226636970849,
+                  "lng" : -80.25092453029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "The Common",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJQM4RqxpZ0E1o8OlhwKVLFfUz45cdRTrAT22e35r7XVzFl8fkc5vHUejv5ucdvxnzkcmKFdtmHWkpuA6_2skdEP2ifkpc5YzLE2ddsyj7lfaMHIMrrwObsuzku5GK5gDMbg6GKd4BHivf507Ei1lfUH3Rh7bKWukNgeAj9aqq40Vnv",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJKUrddsGaK4gRxf1ywkRMlus",
+         "plus_code" : {
+            "compound_code" : "GQV2+C4 Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+C4"
+         },
+         "price_level" : 1,
+         "rating" : 4.5,
+         "reference" : "ChIJKUrddsGaK4gRxf1ywkRMlus",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "cafe",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 135,
+         "vicinity" : "28 Wilson Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5439543,
+               "lng" : -80.24886099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54528823029149,
+                  "lng" : -80.24735196970848
+               },
+               "southwest" : {
+                  "lat" : 43.54259026970849,
+                  "lng" : -80.2500499302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Market Co.",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110052409983986791350\"\u003eKevin P\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIoEoFXpcV4oVdkRK2_8kmi0MgmMu0jOtit2HldtitHXuY0IsQ-nz8BshJSbhjnB9aKjCVNlSad5sRHCTiQ_Wd9JkuNTY3iUMjVlAFzTgqiTXH2AQ9z0CoEpuC3jHbkttN3CyUlwY9FMu-pD3Gsrx7gjOC_h1Vtg0MCzT_f0jpnLiyv",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJV79iLtWbK4gRLv_FRCC8q14",
+         "plus_code" : {
+            "compound_code" : "GQV2+HF Guelph, ON, Canada",
+            "global_code" : "86MXGQV2+HF"
+         },
+         "rating" : 5,
+         "reference" : "ChIJV79iLtWbK4gRLv_FRCC8q14",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "bar",
+            "food",
+            "point_of_interest",
+            "clothing_store",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 5,
+         "vicinity" : "30 Carden Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54577279999999,
+               "lng" : -80.25053659999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54706823029149,
+                  "lng" : -80.2491901697085
+               },
+               "southwest" : {
+                  "lat" : 43.54437026970849,
+                  "lng" : -80.2518881302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Lady Glaze Doughnuts",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114892533525642196870\"\u003eWendy Xie\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI6WQgLnNWbzoGBbOv75mm9KzdBMFRl2Asm_MFnc-ZyL0dn8NfZHzth1tpw5ej0OIXYcSljtWfN-lBLgOCrJCPpRMsgLDIDKeTgVGRMW1fLB63zCz3R6I5OsLnPj43SwVC0Mc1U2H3OfE_mQYRdMkIvqmyWxALEZCa95Cz8Oa0HPpxC",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJcV1XRhubK4gR8_NBSSjfr90",
+         "plus_code" : {
+            "compound_code" : "GPWX+8Q Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+8Q"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJcV1XRhubK4gR8_NBSSjfr90",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bakery",
+            "cafe",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 99,
+         "vicinity" : "46 Quebec Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5465195,
+               "lng" : -80.25023999999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54795268029151,
+                  "lng" : -80.2487229697085
+               },
+               "southwest" : {
+                  "lat" : 43.54525471970851,
+                  "lng" : -80.2514209302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "HEAL - Wellness Café",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115904225724974402750\"\u003eHEAL - Wellness Café\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKZBsOIEStv8LjjVWe_GCDKXKM2t4jkSawD7scVJaqhEgBSAXAVe8gHUFev9yDb7uyEqHRlxg84urD-y9NfQji1-t1ZdJqKYYmecTGD83_V9ZyHrRpSJfdTGmydTBmET1FhdwRC1p73piTW3A4D_m2wL_CGgzBbilRjt6v3FXrIoSWn",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJL6GedkabK4gRhn7S0-h2EUc",
+         "plus_code" : {
+            "compound_code" : "GPWX+JW Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+JW"
+         },
+         "rating" : 5,
+         "reference" : "ChIJL6GedkabK4gRhn7S0-h2EUc",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5,
+         "vicinity" : "118 Wyndham Street North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5469062,
+               "lng" : -80.2446528
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54814998029149,
+                  "lng" : -80.24317826970849
+               },
+               "southwest" : {
+                  "lat" : 43.54545201970849,
+                  "lng" : -80.24587623029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Robusta Cafe & Lounge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3680,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116474683795771713766\"\u003eRobusta Cafe &amp; Lounge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLOeGs9B0Z66IaATl47FY_SIrSrlKGQDdU2gAH7lTOa21KKdjV644pFR2n4BpnMClNMPTpjHWYIXcmxrI-MrcxPyCWOkLRMiFlj6snfbM15Md-OBrdqQgtcF9vgM7qKNQBMvD-w19xIcNpBTzCEMV-I-2hVR3jn8IXVG7yZBbq2j5iB",
+               "width" : 5520
+            }
+         ],
+         "place_id" : "ChIJmYVmPOiaK4gRLNrcfJSCVc8",
+         "plus_code" : {
+            "compound_code" : "GQW4+Q4 Guelph, ON, Canada",
+            "global_code" : "86MXGQW4+Q4"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJmYVmPOiaK4gRLNrcfJSCVc8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "cafe",
+            "bar",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 322,
+         "vicinity" : "101b-160 Macdonell Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5474321,
+               "lng" : -80.2501489
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54871058029149,
+                  "lng" : -80.2489651197085
+               },
+               "southwest" : {
+                  "lat" : 43.54601261970849,
+                  "lng" : -80.25166308029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "Grosche coffee & tea boutique",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJ89awauqaK4gR3GEnEZdarxs",
+         "plus_code" : {
+            "compound_code" : "GPWX+XW Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+XW"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJ89awauqaK4gR3GEnEZdarxs",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "137 Wyndham Street North, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.532295,
+               "lng" : -80.2331552
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.53368443029149,
+                  "lng" : -80.2317050697085
+               },
+               "southwest" : {
+                  "lat" : 43.53098646970849,
+                  "lng" : -80.2344030302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "Second Cup Coffee Co.",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJtXy5Vgd8ey9XI2pmLOokunJ4QeUk8A-PcFZjnb8juqkQNrxizgLXlc7ChDc-PW8HNfX2VQsb9Dv0OaNyvAUc_oWCdXQdO-C9ZFqbtso19hHx7S8_m1UmAJkfFcKb8EThl-38QKdLB9CWW8zn6-Kg2-5fLazVBa1876Qc-x0UotL4w",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJD24beZ-bK4gRnHWN1LuEwoA",
+         "plus_code" : {
+            "compound_code" : "GQJ8+WP Guelph, ON, Canada",
+            "global_code" : "86MXGQJ8+WP"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJD24beZ-bK4gRnHWN1LuEwoA",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 268,
+         "vicinity" : "369 Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.53326619999999,
+               "lng" : -80.22700069999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.53457378029149,
+                  "lng" : -80.2257105697085
+               },
+               "southwest" : {
+                  "lat" : 43.53187581970849,
+                  "lng" : -80.2284085302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Starbucks",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL4L2nIUd_goUjoOxB7C8CqqPKHki9jCN2FLVR2EYD78tIb0zXTuPowoZOjl_WESLI0oBeN7FG1RsiXL4hSoodw-uY5Z-mxVjQjhwKFL9s1vxCLmGtxY9TuuLko4YwUveTZsCy6u-VrUEmR5cMaz_jfvbsjK8iNI73P-CxoO5cDBVxr",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJAQAw5teaK4gRqo1ZnHc-h98",
+         "plus_code" : {
+            "compound_code" : "GQMF+85 Guelph, ON, Canada",
+            "global_code" : "86MXGQMF+85"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJAQAw5teaK4gRqo1ZnHc-h98",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 29,
+         "vicinity" : "50 Stone Road East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5322721,
+               "lng" : -80.22676059999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5336210802915,
+                  "lng" : -80.2254116197085
+               },
+               "southwest" : {
+                  "lat" : 43.5309231197085,
+                  "lng" : -80.2281095802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "Mack's Coffee Shop",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJucOOMbqbK4gRQl9iig1vlSE",
+         "plus_code" : {
+            "compound_code" : "GQJF+W7 Guelph, ON, Canada",
+            "global_code" : "86MXGQJF+W7"
+         },
+         "rating" : 4,
+         "reference" : "ChIJucOOMbqbK4gRQl9iig1vlSE",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 3,
+         "vicinity" : "2W1, 50 Stone Road East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5306492,
+               "lng" : -80.2265889
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5317815302915,
+                  "lng" : -80.22519601970848
+               },
+               "southwest" : {
+                  "lat" : 43.5290835697085,
+                  "lng" : -80.2278939802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "Starbucks",
+         "place_id" : "ChIJw_-q_dmbK4gR0nGv7-wYLQ4",
+         "plus_code" : {
+            "compound_code" : "GQJF+79 Guelph, ON, Canada",
+            "global_code" : "86MXGQJF+79"
+         },
+         "reference" : "ChIJw_-q_dmbK4gR0nGv7-wYLQ4",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "University Centre, 150 Research Lane, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5563942,
+               "lng" : -80.24905889999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5577595802915,
+                  "lng" : -80.2479303697085
+               },
+               "southwest" : {
+                  "lat" : 43.5550616197085,
+                  "lng" : -80.25062833029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "M.E Cafe",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 825,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102954613872450393818\"\u003eM.E Cafe\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIyQcaZdlTKeRLXSdYO1eKdz7SazgNvs0iCmZ_mKMClfkOUA6WSvu8NzFEmRjq8eWQpreqEk0CsY5njK_Ouh6VSFmUHMtrGII6YBuuNdw8SZLUQhZ8ibEMC4Ss5D0uO1VpThhemm-_Fs7SpH6QxCYj_sZ1Bgt-D_8dPRrfZvb9-rEwg",
+               "width" : 621
+            }
+         ],
+         "place_id" : "ChIJfR2HUY2bK4gRFaWlmegAP-E",
+         "plus_code" : {
+            "compound_code" : "HQ42+H9 Guelph, ON, Canada",
+            "global_code" : "86MXHQ42+H9"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJfR2HUY2bK4gRFaWlmegAP-E",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10,
+         "vicinity" : "247 Eramosa Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.52327719999999,
+               "lng" : -80.23451229999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.52469798029149,
+                  "lng" : -80.23332076970848
+               },
+               "southwest" : {
+                  "lat" : 43.52200001970849,
+                  "lng" : -80.23601873029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "name" : "Chancellors Way Medical Arts Centre",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115600828094365028980\"\u003eChancellors Way Medical Arts Centre\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJR0zfElDHfX1LdDLBJpxpZUJ63gBw3-lBHmepzVEoYBwZnm6mGyUXcVBWLYFhqOPqxIIOCymLpYNCtF_LDtGJHgMYbp5zWLRB2c-Bxg0aCTTcspyo854NlaFdR6qmQrjU4QlOYNeQhglZOgwrzSqJxLrSThiVSJDmQy9pKThPlbjmL",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJjUxk9yqFK4gREpkpan7pjV4",
+         "plus_code" : {
+            "compound_code" : "GQF8+85 Guelph, ON, Canada",
+            "global_code" : "86MXGQF8+85"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJjUxk9yqFK4gREpkpan7pjV4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "pharmacy",
+            "physiotherapist",
+            "cafe",
+            "dentist",
+            "doctor",
+            "food",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 24,
+         "vicinity" : "175 Chancellors Way, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5258919,
+               "lng" : -80.22738749999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5273818302915,
+                  "lng" : -80.22606366970849
+               },
+               "southwest" : {
+                  "lat" : 43.5246838697085,
+                  "lng" : -80.22876163029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "Tim Hortons",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100622034433032140489\"\u003eKiki Min\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIKXLo_i20QH8iKFeLmXY9Hl05BX7pqo1sz2weLiT5GOibDaUn1OFHp198XU2DLPwAkfBmIvcUP1qUjffLu7525VILklDhC4M_K_Xlq_IYRNRVDjKN6X0OTa03_XKxtdFYTpEw7WDV_EoGObneIONlYrUr1nevPHrFoSm16npxwt7hj",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJI86cWyubK4gRBmkVfnuHwQc",
+         "plus_code" : {
+            "compound_code" : "GQGF+92 Guelph, ON, Canada",
+            "global_code" : "86MXGQGF+92"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJI86cWyubK4gRBmkVfnuHwQc",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 17,
+         "vicinity" : "1 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5499057,
+               "lng" : -80.2689139
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5513138302915,
+                  "lng" : -80.26748541970849
+               },
+               "southwest" : {
+                  "lat" : 43.5486158697085,
+                  "lng" : -80.2701833802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "Roobarb Cafe",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106858349060947853277\"\u003eGary Lawrence Murphy\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJzcilMoTTK0zTZPYSYiNNT6r7rAsfYuktuYYdZNwF7LnhQopFD3-YziX5WLqbx5ejIeThleckXFZlpaqF_88uibLkEzq3qVbWbSnzehcXyTdD7Rp02SHMav5DLvSWZGtWG2mnVAg8L116xa4PfV6yHBAcIFSC22DTpIhoKUBUJtJaX",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJbYMB-5iaK4gRTjopMSlx1Yw",
+         "plus_code" : {
+            "compound_code" : "GPXJ+XC Guelph, ON, Canada",
+            "global_code" : "86MXGPXJ+XC"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJbYMB-5iaK4gRTjopMSlx1Yw",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 63,
+         "vicinity" : "77 Westmount Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5552158,
+               "lng" : -80.2280413
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.55649933029149,
+                  "lng" : -80.2267963697085
+               },
+               "southwest" : {
+                  "lat" : 43.55380136970849,
+                  "lng" : -80.2294943302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Queen's Cafe",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLrZfwNUk4HK1dfSs3aSv3BEhoqxLPJ7Dx9ka8qme0T6K1LiyTvZuAPQZ_fXtkrkWfYCiyzXA182JFqokmcJUmtan-dcbsbdRPmhhWfFxQmDIcopAv_M3FiQDgJgzVTjxnxMm4lZum9khwxdfERfdx--FOMW7Le0eaJTKgOIs6W6u2b",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJmc0iN4SbK4gRlrkTBumJJnA",
+         "plus_code" : {
+            "compound_code" : "HQ4C+3Q Guelph, ON, Canada",
+            "global_code" : "86MXHQ4C+3Q"
+         },
+         "price_level" : 2,
+         "rating" : 4.7,
+         "reference" : "ChIJmc0iN4SbK4gRlrkTBumJJnA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "cafe",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 204,
+         "vicinity" : "48 Victoria Road South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5176229,
+               "lng" : -80.2387933
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.51889113029149,
+                  "lng" : -80.23729031970848
+               },
+               "southwest" : {
+                  "lat" : 43.51619316970849,
+                  "lng" : -80.2399882802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "T. Kettle",
+         "photos" : [
+            {
+               "height" : 1854,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104230315002359754340\"\u003eColeen Thompson\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ_tEkDbVDqb7c_cyKoohp7IIXmfQSGmiHbPIIMgZBEfjOQTgZaOBVQZjMnLoZK75yYSIoXrgTWhM7LsL81QAnNsdvWsOwql6f7Gm7Ck2BBVJGfnF5vVNTP_iZlf7S7Qq-C2CDWKuOrVyf_SZCzkiyF7DYeorJTX7AAfO-Ui6JEom9T",
+               "width" : 3073
+            }
+         ],
+         "place_id" : "ChIJoRqztaaFK4gRDwDgWTkCm7U",
+         "plus_code" : {
+            "compound_code" : "GQ96+2F Guelph, ON, Canada",
+            "global_code" : "86MXGQ96+2F"
+         },
+         "rating" : 5,
+         "reference" : "ChIJoRqztaaFK4gRDwDgWTkCm7U",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "435 Stone Road West, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5243555,
+               "lng" : -80.22330319999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.52567173029149,
+                  "lng" : -80.22190966970848
+               },
+               "southwest" : {
+                  "lat" : 43.5229737697085,
+                  "lng" : -80.2246076302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "Chatime",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1702,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110408842045410455406\"\u003eChatime\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLbCdZ4bFAMmau0LF_1MY0xLICvIsckbrbAWchGyrOZ4z0T6dPIo-yXmf2scJ54wHEWyJJMrozAQfcmFl28PfzShhGG2bZsD9M4DZp-VFclZML_bLCyoAf17-3obDGfcXtrat2-O8sHXcx3kPLw2Yep0Z_ugk0LgVMkCtRnXd5pWDSV",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ0QhvLa2RK4gRPA41eEEni14",
+         "plus_code" : {
+            "compound_code" : "GQFG+PM Guelph, ON, Canada",
+            "global_code" : "86MXGQFG+PM"
+         },
+         "price_level" : 1,
+         "rating" : 4.4,
+         "reference" : "ChIJ0QhvLa2RK4gRPA41eEEni14",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 240,
+         "vicinity" : "24-35 Harvard Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.538915,
+               "lng" : -80.27954679999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5403565802915,
+                  "lng" : -80.27806126970847
+               },
+               "southwest" : {
+                  "lat" : 43.5376586197085,
+                  "lng" : -80.28075923029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "Tim Hortons",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110558290519337809585\"\u003eJugraj Singh\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIrbGCOoohdidsPaJz_N8Dt7jlLFhNswvKTKUU-kowFo_bNh8X-_3amJPA_rusw7WPbdjsOtYEnKMC2vt41Ys7rikQYwOVnYFeBPY304ojN4d9Zh_pCrg5PmhxfOrnOvjTyHfxRfv7IU99XrFjxM2sDQb9L7O1Xo0Ji7H3My1DjljX8",
+               "width" : 3456
+            }
+         ],
+         "place_id" : "ChIJqQlJMgaQK4gR1q61u2uakuQ",
+         "plus_code" : {
+            "compound_code" : "GPQC+H5 Guelph, ON, Canada",
+            "global_code" : "86MXGPQC+H5"
+         },
+         "price_level" : 1,
+         "rating" : 3.7,
+         "reference" : "ChIJqQlJMgaQK4gR1q61u2uakuQ",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 75,
+         "vicinity" : "110 Silvercreek Parkway North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5431298,
+               "lng" : -80.286444
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5444436302915,
+                  "lng" : -80.28496691970849
+               },
+               "southwest" : {
+                  "lat" : 43.5417456697085,
+                  "lng" : -80.2876648802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "pandoras cafe",
+         "place_id" : "ChIJcWTEZg6QK4gRXngGDHK04K0",
+         "plus_code" : {
+            "compound_code" : "GPV7+7C Guelph, ON, Canada",
+            "global_code" : "86MXGPV7+7C"
+         },
+         "reference" : "ChIJcWTEZg6QK4gRXngGDHK04K0",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "218 Silvercreek Parkway North, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.544768,
+               "lng" : -80.28622349999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5461583302915,
+                  "lng" : -80.2849335697085
+               },
+               "southwest" : {
+                  "lat" : 43.5434603697085,
+                  "lng" : -80.28763153029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "name" : "Puffle Cafe",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2269,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106591527415113774513\"\u003ePuffle Cafe\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJT963zZ0gsf6tZsR4rlJVH1ao7ai8RJ7DJv0yfM2Zy1KHo_-jkgbM3M_oWTfH6GHtRQ0-oKjQAwVvcmlZgvFg1I-yXhW6xenY1Qa9W6vySBR4VrH0P1Nv_5N8ekAGu1MH7-8BgPosVYG1EfBZT2ZOkXUGI2q1wIGiXC9rBoerXrS0-",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJyVtfvd2RK4gRQwHio6cXTBM",
+         "plus_code" : {
+            "compound_code" : "GPV7+WG Guelph, ON, Canada",
+            "global_code" : "86MXGPV7+WG"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJyVtfvd2RK4gRQwHio6cXTBM",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 132,
+         "vicinity" : "219 Silvercreek Parkway North Unit 7, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

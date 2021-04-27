@@ -1,0 +1,927 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwJG148RfgmvGQtdJNZViExFIm41zqc_tlCGrcUa8t0u4JgiqEwprmuBTJ6K31ue_akpPFdP0IKQjV4jfNfw8WMphKsxQwJ8Zeu1nYIvqmElWrs6HxANTk-ccZlrup4dcOhsWtgEyYf_hSyQJ7wazG8s93wCUwNrNc5WyQ45yHME_ytwGgoXcuRsR7Q7DK4rOeFypY1lKqZboltvRysBorpYyGnCz6FNGy7oPQqyVdDvBEaN2tCm3DfXNg6dXajRidbUVcnYcFq12IpRnRidB6FSWtgdSW3b3BuP7EjFvROn7HuG66AciOMcGHr8bQmz8dId2syGXDcS860RS4mokX1PLLu6OpKDnBQqA6bjcBxlTWY_5PwkhiZh3CaEc751wK3ZaZp2QVlcuiN7or4i61s1eBLBWHUKe6eG8gII3lcXAq0uNx94qmKStRL1WAAG-xBXZCQ",
+   "results" : [
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.4964062,
+               "lng" : -80.29222179999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.4978715302915,
+                  "lng" : -80.29111521970849
+               },
+               "southwest" : {
+                  "lat" : 43.4951735697085,
+                  "lng" : -80.29381318029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Strom's Farm & Bakery",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105125219710053513421\"\u003eAdam\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJL5BjePSgBSUPgUwj04WxF2UEe7YlwNlwGXIDxvFT43I1S7OMyEO_aQyZa-R_v88h-z90IiTPzL79Yr6jByCeU9QrEkTonWU2XjO6g8wgd9IR42CjPlQBe_x54zssROvphpm7GYgN_2ZButyE4OXgtoAWaJqI_gBK-kpnLr59bHGGT",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJMU35QpyPK4gRP3XUi-M8DCo",
+         "plus_code" : {
+            "compound_code" : "FPW5+H4 Guelph, ON, Canada",
+            "global_code" : "86MXFPW5+H4"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJMU35QpyPK4gRP3XUi-M8DCo",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bakery",
+            "tourist_attraction",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 542,
+         "vicinity" : "5089 Wellington Road 32, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5503538,
+               "lng" : -80.2533516
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5515387302915,
+                  "lng" : -80.25218546970849
+               },
+               "southwest" : {
+                  "lat" : 43.5488407697085,
+                  "lng" : -80.25488343029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Goldie Mill Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ6_G6NtTHPqElGCNyaRt_aGq5JdnYr_ULH7JrZ7Hm7saSCwrouvQ3WW8Lp6nLVGcSuKJYSFtUyIERC4arhOTuvUszf2H9h0w47Ae4HezRD8oj6mcToziB5AnOc0N3YY6-dF0xfMBTYFHmF9fPk_Bg9knp_dEiPs3RG8Ak5AvwI6Yoo",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJa4ttQeuaK4gRDTvRB1BhzcU",
+         "plus_code" : {
+            "compound_code" : "HP2W+4M Guelph, ON, Canada",
+            "global_code" : "86MXHP2W+4M"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJa4ttQeuaK4gRDTvRB1BhzcU",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 42,
+         "vicinity" : "75 Cardigan Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.536842,
+               "lng" : -80.2889601
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5385929302915,
+                  "lng" : -80.28730726970849
+               },
+               "southwest" : {
+                  "lat" : 43.5358949697085,
+                  "lng" : -80.29000523029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Marksam Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1440,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102134275859615659911\"\u003eMichael Lemieux\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIASBZKxphBgFStaPPJhZy2DpYDJPUVrsr3kX3Zeqsfyy9OqtUY3fmwH-YcPyLfeYbwvcs5hKMoaGYVp2ONxrGshnmUM_nX5k9jJuXlQ4w0sCi-eSjDifn5oqCdKBg0Fpbl3ANvKabe3EU1tbMoFf-GZH7IcLhCnWkoqZsST4HABaB5",
+               "width" : 2560
+            }
+         ],
+         "place_id" : "ChIJQZ--QRuQK4gRgDMHioB2oDU",
+         "plus_code" : {
+            "compound_code" : "GPP6+PC Guelph, ON, Canada",
+            "global_code" : "86MXGPP6+PC"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJQZ--QRuQK4gRgDMHioB2oDU",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 57,
+         "vicinity" : "146 Marksam Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5183982,
+               "lng" : -80.2420321
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5199472802915,
+                  "lng" : -80.24019836970849
+               },
+               "southwest" : {
+                  "lat" : 43.5172493197085,
+                  "lng" : -80.2428963302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "W.E. Hamilton Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100268218320402775203\"\u003eJames McGarry\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIe2D5Zas-YrTfoM6vdMCSvOyv_p2FdffBNMcIuYi9UXY8eWRRABbVYG9fZ_52bNXZ_xiDwE3P_gkRkQsiwV3TsxSI_3XLssNVc2EMmofa9xxUXZzGbUADR3xCP9HAU33ZnNPOMlJ9dEpU89Ce0azZyrOPXreLeytNB7hXCGUeB_xAr",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJvywylS-FK4gRbtfNTfdAxMU",
+         "plus_code" : {
+            "compound_code" : "GQ95+95 Guelph, ON, Canada",
+            "global_code" : "86MXGQ95+95"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJvywylS-FK4gRbtfNTfdAxMU",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 103,
+         "vicinity" : "565 Scottsdale Drive, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.549529,
+               "lng" : -80.221863
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5510790302915,
+                  "lng" : -80.22077611970849
+               },
+               "southwest" : {
+                  "lat" : 43.5483810697085,
+                  "lng" : -80.22347408029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Eramosa River Park",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114621156131476871049\"\u003eRabin Ramah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKmq3vmRfwK08Njb41MN8vMAKleAmNyMz3fcDxb0wRUZWviw4LYJR81Abxr4_SJ_rRE1VGx-oR1T_9X3k9P-4cyNTUmRNv1DoL8R9RzxrCrAt7seHEBJLx2raPd8BCNzedXE5knijT4tivmHw_9EGJ7Yz8bW7ijGYp7YkpAXk9Haeml",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJvXzhLxmbK4gROPmr0H65w3k",
+         "plus_code" : {
+            "compound_code" : "GQXH+R7 Guelph, ON, Canada",
+            "global_code" : "86MXGQXH+R7"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJvXzhLxmbK4gROPmr0H65w3k",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 286,
+         "vicinity" : "259 Victoria Road South, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5458885,
+               "lng" : -80.2524186
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5471956802915,
+                  "lng" : -80.25114646970849
+               },
+               "southwest" : {
+                  "lat" : 43.5444977197085,
+                  "lng" : -80.25384443029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "I.O.D.E. Fountain",
+         "photos" : [
+            {
+               "height" : 3784,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104186648854492282688\"\u003eRostyslav Tverdostup\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLQNl8D6VjYPD0g4_TAecR1lg0QYAD3FFK36cDef0AEXGAfCel6Rl2cW9iJ1nGsSAN0h5OzDxhMkqr9qTj6ki3qYFC1DAdr2TS4fJ9wXqjcQ9mk3bQ0BR7m_t-oRmXU_au2ultMke-VK2hHu5hcebdtkqaMOMn-fwGdbKMS8983pV7s",
+               "width" : 3857
+            }
+         ],
+         "place_id" : "ChIJTURwMMCaK4gRSDzixwygFpU",
+         "plus_code" : {
+            "compound_code" : "GPWX+92 Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+92"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJTURwMMCaK4gRSDzixwygFpU",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 12,
+         "vicinity" : "105 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5330895,
+               "lng" : -80.23265409999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5344356302915,
+                  "lng" : -80.2312926197085
+               },
+               "southwest" : {
+                  "lat" : 43.5317376697085,
+                  "lng" : -80.23399058029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Donald Forster Sculpture Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4096,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114621156131476871049\"\u003eRabin Ramah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKpmmvr7lUHjbpTZcEe13621S5D3MUMOAOMYOehXtPELETx81MsCVOgOZnWfNq2L6cpTxXdM-QIOvnFtlEM1XG25aclN_c2Yc2pXRj-APXchvVMGGRJh8_iq5IFGfiGaqbMwqPObjbCirRcdigisGjfDchVTCja6JhunMigeM2ZAQ2I",
+               "width" : 2304
+            }
+         ],
+         "place_id" : "ChIJP8ZVzdeaK4gRJ9m9oLgJ2T0",
+         "plus_code" : {
+            "compound_code" : "GQM8+6W Guelph, ON, Canada",
+            "global_code" : "86MXGQM8+6W"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJP8ZVzdeaK4gRJ9m9oLgJ2T0",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 31,
+         "vicinity" : "358 Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54756639999999,
+               "lng" : -80.24520059999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5487928302915,
+                  "lng" : -80.24386481970849
+               },
+               "southwest" : {
+                  "lat" : 43.5460948697085,
+                  "lng" : -80.2465627802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Locomotive 6167",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113664309233820834071\"\u003eRon Dutton\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKDWUk99QxUEtPrAGgNFWoze9YNQjuuCAmocs_Z10O27NeNRkZ8zVDmTtN6UGuRbvEaIkQYtLBD9xvH1m-1XJXdmU_000s9IxIJA1gRwwSB4IswsRTgElNLdvAbCrshmN1mPY--CZkM2etMxnFoFauXYIZqyDgSIfB9amNVjqO8sqYO",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJCaUZ9cKaK4gRnrLGHmnXkJg",
+         "plus_code" : {
+            "compound_code" : "GQX3+2W Guelph, ON, Canada",
+            "global_code" : "86MXGQX3+2W"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJCaUZ9cKaK4gRnrLGHmnXkJg",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 16,
+         "vicinity" : "John Galt Park, Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5452619,
+               "lng" : -80.249431
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54656258029149,
+                  "lng" : -80.2480354697085
+               },
+               "southwest" : {
+                  "lat" : 43.5438646197085,
+                  "lng" : -80.2507334302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Khronos Gauntlet Escape Rooms Guelph",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 476,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115445954428594621833\"\u003eKhronos Gauntlet Escape Rooms Guelph\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIsdGm7hLOUbd7nvhjtEe1eU-WCWwxTU1qg1mGqyZe-6RS17gQ3ruWMzvdQ86JleO84uKjeVNqrIpSyZ5_3eTD_AggbuPaAsBBd4ilSmKGMu7Oiba12qmdlT2uay0M24MLE3C90_JnPDza3mSgZyFs1jxeC4XP7lc8tTaKO8CJJdRni",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJN1M48sGaK4gRNvUJJ0A7cTU",
+         "plus_code" : {
+            "compound_code" : "GQW2+46 Guelph, ON, Canada",
+            "global_code" : "86MXGQW2+46"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJN1M48sGaK4gRNvUJJ0A7cTU",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 272,
+         "vicinity" : "50 Cork Street East, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5329426,
+               "lng" : -80.2329196
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5343427302915,
+                  "lng" : -80.23150746970849
+               },
+               "southwest" : {
+                  "lat" : 43.5316447697085,
+                  "lng" : -80.2342054302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Art Gallery of Guelph",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1119,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115561404951301215064\"\u003eArt Gallery of Guelph\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJjBn5AqNqSiaHTXPt-eu0i_6nmMyEM-gH3F9HjpkzT10mwm4UCVgne6rabB9qxCH9flQNdORvCqEN-BxHWP1qki90gVOusVrBzdgXInMnMjbg4R8hzoTbX0ohgaWXRf424ajTHGVr3MTZObv0DykKcx1sPrjn4iuCBdpt0ZM7mfQAZ",
+               "width" : 2438
+            }
+         ],
+         "place_id" : "ChIJ_yHsStaaK4gRGHO3fJz-1jA",
+         "plus_code" : {
+            "compound_code" : "GQM8+5R Guelph, ON, Canada",
+            "global_code" : "86MXGQM8+5R"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ_yHsStaaK4gRGHO3fJz-1jA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 74,
+         "vicinity" : "358 Gordon Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.54090590000001,
+               "lng" : -80.21504689999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54232633029149,
+                  "lng" : -80.21340826970848
+               },
+               "southwest" : {
+                  "lat" : 43.5396283697085,
+                  "lng" : -80.21610623029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "The Arboretum",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115154061073215394473\"\u003eValentina Dumitrascu\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJA8PeoZ5HAj-4G7I_EVzzAhRU7uJwd0UJ8OG-bfwKfmdMX8Ey77Q1EakSa5s5y59xy-xkvRx9F7rnO4RbZc5EWfR3oVTWcQ8vlZXvByepN9CHulKVMwiph_5HIZ67Fwlovppo5xsXDlGyX9BWqfsCak5sIOADvege57o_byqT6GPjT",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJW08n_T2bK4gRxsH0JdR0aX8",
+         "plus_code" : {
+            "compound_code" : "GQRM+9X Guelph, ON, Canada",
+            "global_code" : "86MXGQRM+9X"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJW08n_T2bK4gRxsH0JdR0aX8",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 172,
+         "vicinity" : "Arboretum Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.548326,
+               "lng" : -80.29841519999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5496956302915,
+                  "lng" : -80.29689966970849
+               },
+               "southwest" : {
+                  "lat" : 43.5469976697085,
+                  "lng" : -80.2995976302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Exitus Escape Rooms",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 788,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100558128237283441857\"\u003eExitus Escape Rooms\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJ4wErAKJOZ-vUAZcPe36y4lKJ5mrLlRhOQlvejzTyzzx4wZx3Hzvx07TtTHTcHIc1mocHzcLTDz8UOLIOVudI4g8aF8CpgHU__-Tc93yyy9XUFj-7-cYcbEsRt3Rphoum6vkSOaIrVdqu1RaK0cOYs1OVcompht8wWm-oVpbogxbGw",
+               "width" : 940
+            }
+         ],
+         "place_id" : "ChIJsy7XlsKaK4gRN0zG6KijREs",
+         "plus_code" : {
+            "compound_code" : "GPX2+8J Guelph, ON, Canada",
+            "global_code" : "86MXGPX2+8J"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJsy7XlsKaK4gRN0zG6KijREs",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 161,
+         "vicinity" : "340 Woodlawn Road West Units 18, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5810549,
+               "lng" : -80.3074817
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5821347802915,
+                  "lng" : -80.30576166970849
+               },
+               "southwest" : {
+                  "lat" : 43.5794368197085,
+                  "lng" : -80.30845963029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Marden Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1920,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110246128941002118615\"\u003eAdam Kader\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKMhz3FjvCeVceMXhs-p-kLpVRtsQ6-7f1CnX5vksg4WsjoMTAwMWK8Wx77vNddMAHGtBg1PV50jmFJo0sk1w72uJa5QYQ285W9KCqOmYgp3Te-V8Nxx4Isd8ZrsmiqAcqhjbhMjpsyhHG8Qi0hY9aRpN4rLcumxGR6sHENi8WZpl7X",
+               "width" : 2560
+            }
+         ],
+         "place_id" : "ChIJGQAz-F6eK4gRIA-1XtBM_cQ",
+         "plus_code" : {
+            "compound_code" : "HMJV+C2 Guelph, ON, Canada",
+            "global_code" : "86MXHMJV+C2"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJGQAz-F6eK4gRIA-1XtBM_cQ",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 28,
+         "vicinity" : "7391 Marden Road, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.545238,
+               "lng" : -80.15646
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5467007802915,
+                  "lng" : -80.15527286970848
+               },
+               "southwest" : {
+                  "lat" : 43.5440028197085,
+                  "lng" : -80.1579708302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+         "name" : "Starkey Hill Conservation Area",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1200,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108983836856467378331\"\u003eJohn Habart\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIZc_qZc3tM1nRFjFyVnVw4ExIk_no12WS0Mf5oNwp25Y2quI-YwbNu4_iku9wq68mJYGcvFpLUurYWNvl-Np5oU0JPgUIaeQN3ocVcLCD1lJ064iyp2Gj3igASfe_p8f_9XYV8BpYE_Gr23uWRCpkh5c_WDxlMM6Gy4SPM5AWuqekb",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJ2b3SBu-cK4gRt9KJMoUB0_Q",
+         "plus_code" : {
+            "compound_code" : "GRWV+3C Puslinch, ON, Canada",
+            "global_code" : "86MXGRWV+3C"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJ2b3SBu-cK4gRt9KJMoUB0_Q",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "park", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 436,
+         "vicinity" : "735 Arkell Road, Puslinch"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5430194,
+               "lng" : -80.2516308
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5444796302915,
+                  "lng" : -80.2502500197085
+               },
+               "southwest" : {
+                  "lat" : 43.5417816697085,
+                  "lng" : -80.25294798029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png",
+         "name" : "Basilica of Our Lady Immaculate",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103985862680119765690\"\u003eAndré Galvão Duarte\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwImZj10Vwg2_bKsrMop--KZ6TeLCDfHiQbV_j_zd816VpDuHpaxxzSXTLT1NpAbEqfR9wcDjj3hsIv3jIBvmHTPaQTNJ3BNndgJIVuXpKUFJ3tL04o7qhXJRfkeU_LGFjaol8TSCf0tUVAezOHW4yEIQh4sFsVebARmeJKkb9zvMaco",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJKUNWacGaK4gRmwQruOP1czM",
+         "plus_code" : {
+            "compound_code" : "GPVX+68 Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+68"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJKUNWacGaK4gRmwQruOP1czM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "tourist_attraction",
+            "church",
+            "place_of_worship",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 535,
+         "vicinity" : "28 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5434284,
+               "lng" : -80.2514078
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54483688029151,
+                  "lng" : -80.25024081970848
+               },
+               "southwest" : {
+                  "lat" : 43.54213891970851,
+                  "lng" : -80.2529387802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "Guelph Civic Museum",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117958407448694654825\"\u003eEmil Istrofor\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLf7N4G8aF0MkZxnhupmBENUye01Yy9L078F6uQ3uQr5q3bYzwiiMGFuhL-0ZzPAZzwlIaqjBKneK4eXKxwGKsvf4Kfv12AY-S4iCPwgUfoTmTkxDuMBTPyCda_K2X9Jn1jg4qVCTY_2QQRhYsmBnr6lSj_E_yEmIeTBIRpBOTqHPnd",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJycRczsaaK4gRPnYX4k2ePl8",
+         "plus_code" : {
+            "compound_code" : "GPVX+9C Guelph, ON, Canada",
+            "global_code" : "86MXGPVX+9C"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJycRczsaaK4gRPnYX4k2ePl8",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 220,
+         "vicinity" : "52 Norfolk Street, Guelph"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5480064,
+               "lng" : -80.3076318
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5492330302915,
+                  "lng" : -80.30634251970849
+               },
+               "southwest" : {
+                  "lat" : 43.5465350697085,
+                  "lng" : -80.3090404802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "Funmazing Playcentre",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 2376,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107839975110046763425\"\u003ePlayplace Dad\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLQ9OmR3tTF1a5V1kRYH3Gog5jUCMfiWzs61p0Wy5az0Eb55Qf53pZTxhSyPXYEfu_kd0AQsgYFfnKfGgn9PJaKnkIYfECn_v29v1KMz-22WFr1_c9BLUR6b3ABfK6vtVDPglV__z5uE-JM9cu3ACxzQM8NwrlilKt4pTGcGt1n5fyK",
+               "width" : 3169
+            }
+         ],
+         "place_id" : "ChIJW_9aoTmQK4gRE9xdeubOwVs",
+         "plus_code" : {
+            "compound_code" : "GMXR+6W Guelph, ON, Canada",
+            "global_code" : "86MXGMXR+6W"
+         },
+         "rating" : 4,
+         "reference" : "ChIJW_9aoTmQK4gRE9xdeubOwVs",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 277,
+         "vicinity" : "785 Imperial Road North B, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5362004,
+               "lng" : -80.2445233
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5376346802915,
+                  "lng" : -80.24329061970849
+               },
+               "southwest" : {
+                  "lat" : 43.5349367197085,
+                  "lng" : -80.2459885802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "name" : "McCrae House",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2976,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112911873826705390647\"\u003ephanlob hongcharoenthai\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIaZzlWi_kFrvAMcq4hXkTKMHU9PKwIPoh2dO9djYJCqf1G-dcRkc0jXyfnmdwPiLFkbXDZ2qK1r50n9FO2MS3oP71IfN_a3v2k2pMcXaafgbODMoN-elK77K25mjGuqbPUDkOYRCxin6pglGAUweoL4gqXM8lizvV2LYCwJr3T90lc",
+               "width" : 3968
+            }
+         ],
+         "place_id" : "ChIJxSHhjs-aK4gR-L8bqpYyjBI",
+         "plus_code" : {
+            "compound_code" : "GQP4+F5 Guelph, ON, Canada",
+            "global_code" : "86MXGQP4+F5"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJxSHhjs-aK4gR-L8bqpYyjBI",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 131,
+         "vicinity" : "108 Water Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.56238459999999,
+               "lng" : -80.27742940000002
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.5637339302915,
+                  "lng" : -80.27611806970849
+               },
+               "southwest" : {
+                  "lat" : 43.5610359697085,
+                  "lng" : -80.27881603029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cemetery_grave-71.png",
+         "name" : "Woodlawn Memorial Park",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 606,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112016543279733767872\"\u003eWoodlawn Memorial Park\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJzRqPhP5Uww-5wnMSzR9wQAcYjtLWE0rfoFJpeRVwuTK5xiKaDws4raMcDKDAheYWbJ0udGFe5teh57jKVSw5bK1OHGOHeJqLeAQWROc1Xq5FZbFG45Is-p7rg3tHGWj6J9F6fEYa9Ps-huR_VBLvsAMTvGRE5oAYn3q9nYONAL179",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJL6P_sHiQK4gRACVX-LcH5lE",
+         "plus_code" : {
+            "compound_code" : "HP6F+X2 Guelph, ON, Canada",
+            "global_code" : "86MXHP6F+X2"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJL6P_sHiQK4gRACVX-LcH5lE",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cemetery",
+            "tourist_attraction",
+            "park",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 60,
+         "vicinity" : "762 Woolwich Street, Guelph"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.5459271,
+               "lng" : -80.2503694
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.54716528029149,
+                  "lng" : -80.24898246970849
+               },
+               "southwest" : {
+                  "lat" : 43.5444673197085,
+                  "lng" : -80.2516804302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png",
+         "name" : "Royal City Mission",
+         "photos" : [
+            {
+               "height" : 2146,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114621156131476871049\"\u003eRabin Ramah\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLMaHhgoSsQGL-c49IZQIC2rJXRfXCnR41rrN4oGX4KjgvjIICNcWKswzbiHb3UepRhHMDSot5LY70kiyQTVBbbYDvUOqGpdVqlJbn_ChOVaTNRZfoDzO3RFoTT016GPGg95XFCGYN5P0UrC2J9N5Q9hwsliRktt4Foc-k9FrKq6J_o",
+               "width" : 2128
+            }
+         ],
+         "place_id" : "ChIJ6wO-wsGaK4gRgssBMPL4GJQ",
+         "plus_code" : {
+            "compound_code" : "GPWX+9V Guelph, ON, Canada",
+            "global_code" : "86MXGPWX+9V"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJ6wO-wsGaK4gRgssBMPL4GJQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "church",
+            "tourist_attraction",
+            "place_of_worship",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 64,
+         "vicinity" : "50 Quebec Street, Guelph"
+      }
+   ],
+   "status" : "OK"
+}

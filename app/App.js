@@ -3,12 +3,14 @@ import React, { useRef, useState } from "react";
 import { Switch,
   Pressable, Button, Animated, View, StyleSheet, PanResponder, Text, Image, Easing, Dimensions } from "react-native";
 
-
+function log ( ...str ){
+  console.log(...str)
+}
 const App = () => {
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
   const [prevIdea, setPrevIdea ] = useState(2)
-  const [currentPhotoIdx, setCurrentPhotoIdx] = useState(2);
+  const [currentPhotoIdx, setCurrentPhotoIdx] = useState(0);
 
   const mypos = useRef(new Animated.ValueXY()).current;
   const detailsModeAnim = useRef(new Animated.Value(0)).current
@@ -28,24 +30,46 @@ const App = () => {
   }
 
   if (ideas == null){
-    setIdeas(allIdeas.filter(x=>distanceToMe(x) < 20))
+    let filteredIdeas = allIdeas.filter(x=>distanceToMe(x) < 20)
+    setIdeas(filteredIdeas)
+    setPrevIdea(filteredIdeas.length-1) // frontIdea = 0, nextIdea=1 by default
+    setNextIdea(1) // frontIdea = 0, nextIdea=1 by default
+    setFrontIdea(0)
     return
   }
 
   function currentIdea(){
     return ideas[frontIdea]
   }
+
     
-  const onSwipeAnimEnded = ()=>{
+  const onSwipeAnimEnded = (delta)=>{
      //swipe animation is over
      setLoaded(false)  // this will hide the front pic until it it loaded
-     setFrontIdea(nextIdea) // start loading the front pic
-     setNextIdea((nextIdea+1)%ideas.length)
-      setPrevIdea(frontIdea)
+     
+     let wrap = (num)=>{
+        if ( num < 0 ){
+          num+= ideas.length
+        }
+        if ( num >= ideas.length ){
+          num -= ideas.length;
+        }
+        return num;
+     }
+     
+     let curIdea = frontIdea + delta
+
+     setFrontIdea( wrap(curIdea) )
+     let next = wrap(curIdea+1)
+     setNextIdea( next)
+     let prev = wrap(curIdea-1)
+     setPrevIdea( prev)
 
      setCurrentPhotoIdx(0)
      mypos.setValue({ x: 0, y: 0 });
-     Image.prefetch(getPicUri(ideas[nextIdea + 1]%ideas.length,0))
+     log( "NEXT",next," LEN", ideas.length )
+     Image.prefetch(getPicUri(ideas[next],0))
+     Image.prefetch(getPicUri(ideas[prev],0))
   }
 
   function onGearPressed(){
@@ -93,7 +117,7 @@ const App = () => {
         }
 
         Animated.timing(mypos, { toValue: { x: target, y: 0 }, duration: 100,  useNativeDriver: false, easing: Easing.linear})
-          .start( onSwipeAnimEnded )
+          .start( ()=>{ onSwipeAnimEnded( -Math.sign(target))} )
 
       } else {
         // no swipe occured, lets animated back to center all the time
@@ -165,13 +189,13 @@ const App = () => {
     textAlign:"right",
     fontSize:38}}>&#9881;</Text></Pressable>
 
-    <SettingsPage showingSettings={showingSettings} setFrontIdea={setFrontIdea} setNextIdea={setNextIdea} setShowingSettings={setShowingSettings} setIdeas={setIdeas} allIdeas={allIdeas}/>
+    <SettingsPage showingSettings={showingSettings} setFrontIdea={setFrontIdea} setNextIdea={setNextIdea} setPrevIdea={setPrevIdea} setShowingSettings={setShowingSettings} setIdeas={setIdeas} allIdeas={allIdeas}/>
 
     </View>
   );
 }
 
-function SettingsPage({showingSettings, setShowingSettings, allIdeas, setIdeas,setFrontIdea, setNextIdea } ){
+function SettingsPage({showingSettings, setShowingSettings, allIdeas, setIdeas,setFrontIdea, setNextIdea,setPrevIdea } ){
   const [filters,setFilters] = useState({bar:true, gym:true, library:true , museum:true, park:true, art_gallery:true, other:true})
   if (!showingSettings )  return null
   let isEnabled = true
@@ -191,6 +215,7 @@ function SettingsPage({showingSettings, setShowingSettings, allIdeas, setIdeas,s
       setIdeas(ideas)
       setFrontIdea(0)
       setNextIdea(1)
+      setPrevIdea(ideas.length-1)
   }
   function toggleSwitch(key){
     let f ={}

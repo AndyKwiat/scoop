@@ -6,6 +6,8 @@ import { Switch,
 function log ( ...str ){
   console.log(...str)
 }
+let likedList = {}
+
 const App = () => {
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
@@ -172,22 +174,30 @@ const App = () => {
            
           />
 
+        
+
         <Animated.Text style={styles.cardText}>{ideas[frontIdea].name}</Animated.Text>
        
-        
         </Animated.View>
+        
         <PhotoDots idea={ideas[frontIdea]} currentPhotoIdx={currentPhotoIdx}/>
 
         { renderDetailsMode(ideas[frontIdea], detailsModeAnim)}
- 
+
+       
       </View>
 
       <Pressable onPress={()=>{setShowingSettings(!showingSettings)}}>
-      <Text style={{ // position:"absolute",
-    color:"white",
-    right:0,
-    textAlign:"right",
-    fontSize:38}}>&#9881;</Text></Pressable>
+        <Text style={styles.gearButton}>&#9881;</Text>
+    </Pressable>
+
+<Pressable onPress={()=>{setShowingSettings(!showingSettings)}}>
+          <Text style={styles.likeButton}>	
+          {likedList[ideas[frontIdea].id]?String.fromCharCode(10084):String.fromCharCode(9825)}
+          PRESSME
+          </Text>
+        </Pressable>
+
 
     <SettingsPage showingSettings={showingSettings} setFrontIdea={setFrontIdea} setNextIdea={setNextIdea} setPrevIdea={setPrevIdea} setShowingSettings={setShowingSettings} setIdeas={setIdeas} allIdeas={allIdeas}/>
 
@@ -318,6 +328,23 @@ const styles = StyleSheet.create({
     paddingTop:"20%",
     paddingLeft:10,
     fontSize:18,
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+  textShadowOffset: {width: -1, height: 1},
+  textShadowRadius: 2
+  },
+  gearButton:{ // position:"absolute",
+    color:"white",
+    right:0,
+    textAlign:"right",
+    fontSize:38},
+  likeButton:{
+    position:"absolute",
+    top:"-50%",
+    textAlign:"center",
+    color:"white",
+    fontWeight:"bold",
+    //paddingTop:"20%",
+    fontSize:28,
     textShadowColor: 'rgba(0, 0, 0, 0.75)',
   textShadowOffset: {width: -1, height: 1},
   textShadowRadius: 2

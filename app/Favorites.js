@@ -11,10 +11,13 @@ export const FavoriteButton = ({ideaId})=>{
     },[])   // empty array means no dependencies so it'll run once
 
     function onLikeButtonPress( id ){
- 
+        
         if (  likedList[id] ){
-          likedList[id]=false;
+            likedList[id]=false
+            delete likedList[id]
+         
         }else{
+         
         likedList[id]=true;
         }
         let target = {}
@@ -41,7 +44,9 @@ export const FavoriteButton = ({ideaId})=>{
         <Pressable onPress={()=>{onLikeButtonPress(ideaId)}}>
           <Text style={likeButtonStyle}>	
           {likedList[ideaId]?String.fromCharCode(10084):String.fromCharCode(9825)}
+          {Object.keys(likedList).length}
              </Text>
+            
         </Pressable>
     )
 }

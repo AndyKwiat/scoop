@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import { Switch,
   Pressable, Button, Animated, View, StyleSheet, PanResponder, Text, Image, Easing, Dimensions } from "react-native";
 
+import { FavoriteButton } from "./Favorites"
 function log ( ...str ){
   console.log(...str)
 }
@@ -12,7 +13,7 @@ const App = () => {
   const [nextIdea, setNextIdea] = useState(1);
   const [prevIdea, setPrevIdea ] = useState(2)
   const [currentPhotoIdx, setCurrentPhotoIdx] = useState(0);
-  const [likedList, setLikedList] = useState({})
+  
   
 
   const mypos = useRef(new Animated.ValueXY()).current;
@@ -191,14 +192,8 @@ const App = () => {
       <Pressable onPress={()=>{setShowingSettings(!showingSettings)}}>
         <Text style={styles.gearButton}>&#9881;</Text>
     </Pressable>
+<FavoriteButton ideaId={ideas[frontIdea].id}/>
 
-<Pressable onPress={()=>{onLikeButtonPress(ideas[frontIdea].id,setLikedList,likedList)}}>
-          <Text style={styles.likeButton}>	
-          {likedList[ideas[frontIdea].id]?String.fromCharCode(10084):String.fromCharCode(9825)}
-    
-          
-          </Text>
-        </Pressable>
 
 
     <SettingsPage showingSettings={showingSettings} setFrontIdea={setFrontIdea} setNextIdea={setNextIdea} setPrevIdea={setPrevIdea} setShowingSettings={setShowingSettings} setIdeas={setIdeas} allIdeas={allIdeas}/>
@@ -206,17 +201,7 @@ const App = () => {
     </View>
   );
 }
-function onLikeButtonPress( id ,setLikedList,likedList){
- 
-  if (  likedList[id] ){
-    likedList[id]=false;
-  }else{
-  likedList[id]=true;
-  }
-  let target = {}
-  target = Object.assign(target, likedList)
-  setLikedList(target)
-}
+
 function SettingsPage({showingSettings, setShowingSettings, allIdeas, setIdeas,setFrontIdea, setNextIdea,setPrevIdea } ){
   const [filters,setFilters] = useState({bar:true, gym:true, library:true , museum:true, park:true, art_gallery:true, other:true})
   if (!showingSettings )  return null
@@ -349,19 +334,7 @@ const styles = StyleSheet.create({
     right:0,
     textAlign:"right",
     fontSize:38},
-  likeButton:{
-    cursor: "pointer" ,
-    position:"absolute",
-    top:"-50%",
-    textAlign:"center",
-    color:"white",
-    fontWeight:"bold",
-    //paddingTop:"20%",
-    fontSize:28,
-    textShadowColor: 'rgba(0, 0, 0, 0.75)',
-  textShadowOffset: {width: -1, height: 1},
-  textShadowRadius: 2
-  },
+ 
   ideaCard: {
     position: "absolute",
     height: "100%",

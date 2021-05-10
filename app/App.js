@@ -6,13 +6,14 @@ import { Switch,
 function log ( ...str ){
   console.log(...str)
 }
-let likedList = {}
 
 const App = () => {
   const [frontIdea, setFrontIdea] = useState(0);
   const [nextIdea, setNextIdea] = useState(1);
   const [prevIdea, setPrevIdea ] = useState(2)
   const [currentPhotoIdx, setCurrentPhotoIdx] = useState(0);
+  const [likedList, setLikedList] = useState({})
+  
 
   const mypos = useRef(new Animated.ValueXY()).current;
   const detailsModeAnim = useRef(new Animated.Value(0)).current
@@ -191,10 +192,11 @@ const App = () => {
         <Text style={styles.gearButton}>&#9881;</Text>
     </Pressable>
 
-<Pressable onPress={()=>{setShowingSettings(!showingSettings)}}>
+<Pressable onPress={()=>{onLikeButtonPress(ideas[frontIdea].id,setLikedList,likedList)}}>
           <Text style={styles.likeButton}>	
           {likedList[ideas[frontIdea].id]?String.fromCharCode(10084):String.fromCharCode(9825)}
-          PRESSME
+    
+          
           </Text>
         </Pressable>
 
@@ -204,7 +206,17 @@ const App = () => {
     </View>
   );
 }
-
+function onLikeButtonPress( id ,setLikedList,likedList){
+ 
+  if (  likedList[id] ){
+    likedList[id]=false;
+  }else{
+  likedList[id]=true;
+  }
+  let target = {}
+  target = Object.assign(target, likedList)
+  setLikedList(target)
+}
 function SettingsPage({showingSettings, setShowingSettings, allIdeas, setIdeas,setFrontIdea, setNextIdea,setPrevIdea } ){
   const [filters,setFilters] = useState({bar:true, gym:true, library:true , museum:true, park:true, art_gallery:true, other:true})
   if (!showingSettings )  return null
@@ -338,6 +350,7 @@ const styles = StyleSheet.create({
     textAlign:"right",
     fontSize:38},
   likeButton:{
+    cursor: "pointer" ,
     position:"absolute",
     top:"-50%",
     textAlign:"center",

@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import { Switch,
   Pressable, Button, Animated, View, StyleSheet, PanResponder, Text, Image, Easing, Dimensions } from "react-native";
 
-import { FavoriteButton } from "./Favorites"
+import { FavoriteButton ,FavoritesList} from "./Favorites"
 function log ( ...str ){
   console.log(...str)
 }
@@ -193,7 +193,7 @@ const App = () => {
         <Text style={styles.gearButton}>&#9881;</Text>
     </Pressable>
 <FavoriteButton ideaId={ideas[frontIdea].id}/>
-
+<FavoritesList/>
 
 
     <SettingsPage showingSettings={showingSettings} setFrontIdea={setFrontIdea} setNextIdea={setNextIdea} setPrevIdea={setPrevIdea} setShowingSettings={setShowingSettings} setIdeas={setIdeas} allIdeas={allIdeas}/>

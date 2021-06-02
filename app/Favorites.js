@@ -1,5 +1,5 @@
 import React, {  useState ,useEffect} from "react";
-import { Pressable, Text } from "react-native";
+import { Pressable, Text, View } from "react-native";
   
 
 export const FavoriteButton = ({ideaId})=>{
@@ -65,6 +65,24 @@ function loadList(){
         "autoSync":false
     })
 }
+
+export const FavoritesList=()=>{
+    const [likedList, setLikedList] = useState({})
+    useEffect(()=>{
+        loadList().then((l)=>{
+            setLikedList(l);
+        }).catch(e=>{})
+    },[])   // empty array means no dependencies so it'll run once
+    
+    return (
+        <ul>
+        {Object.keys(likedList).map((value, index) => {
+          return <li key={index}>{value}</li>
+        })}
+      </ul>
+    )
+}
+
 
 import Storage from 'react-native-storage';
 import AsyncStorage from '@react-native-community/async-storage';

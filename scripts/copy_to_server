@@ -1,2 +1,5 @@
 #!/bin/bash
-rsync -avzh -e "ssh -i ~/.ssh/your-key.pem" ~/ark/scoop/server user@your-server:~/projects
+# Usage: SCOOP_SERVER=user@host [SCOOP_SSH_KEY=~/.ssh/key.pem] scripts/copy_to_server
+: "${SCOOP_SERVER:?set SCOOP_SERVER, e.g. user@host}"
+cd "$(dirname "$0")/.."
+rsync -avzh ${SCOOP_SSH_KEY:+-e "ssh -i $SCOOP_SSH_KEY"} server "$SCOOP_SERVER":~/projects

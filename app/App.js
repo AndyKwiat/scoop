@@ -395,10 +395,10 @@ function fetchIdeas(setIdeas, fetchStarted, setFetchStarted, msg, setMsg){
   
   if ( !fetchStarted){
     setFetchStarted(true)
-    fetch('https://your-server.example.com/places', { 
+    fetch(process.env.EXPO_PUBLIC_API_URL + '/places', { 
       method: 'get', 
       headers: new Headers({
-        'Authorization': 'CHANGE_ME_APP_KEY'
+        'Authorization': process.env.EXPO_PUBLIC_API_KEY
        })})
     .then((response) => {
       if ( response.status != 200 ){

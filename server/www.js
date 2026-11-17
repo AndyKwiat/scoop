@@ -246,7 +246,7 @@ function checkAuth(req,res,next){
       next();
       return;
    }
-   if ( req.headers.authorization == "CHANGE_ME_APP_KEY" // the app
+   if ( (process.env.SCOOP_API_KEY && req.headers.authorization == process.env.SCOOP_API_KEY) // the app
       || req.headers.authorization == authKeyEditor
    ) 
       next()

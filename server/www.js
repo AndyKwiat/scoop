@@ -24,7 +24,7 @@ function log ( str ){
 app.use(cors());
 app.use(checkAuth)
 app.get( '/editor/login', function(req,res ) {
-   if ( req.headers.authorization == "Basic +CHANGE_ME_EDITOR_LOGIN" ){
+   if ( (process.env.SCOOP_EDITOR_LOGIN && req.headers.authorization == "Basic +" + process.env.SCOOP_EDITOR_LOGIN) ){
       log("logged in noice")
       res.send(authKeyEditor)
    }else{
@@ -236,7 +236,7 @@ async function onScanWrapper( params, dc=docClient ){
    })
 }
 
-let authKeyEditor = "CHANGE_ME_EDITOR_KEY" ; // uuid()
+let authKeyEditor = process.env.SCOOP_EDITOR_KEY || uuid() // random per run if unset
 
 function checkAuth(req,res,next){
  
